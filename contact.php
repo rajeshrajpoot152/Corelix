@@ -43,42 +43,49 @@ $metaKeywords = "Contact Us, Corelix Contact Us, Contact Us Agency, Best Contact
                     <p class="text-gray-600 text-base md:text-lg">We'd love to hear from you. Choose your preferred method of communication.</p>
                 </div>
                 
-                <div class="space-y-5 md:space-y-6">
-                    <!-- Email Card -->
-                    <div class="group p-5 md:p-6 rounded-2xl md:rounded-3xl bg-white border border-gray-100 shadow-[0_8px_30px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgba(0,0,0,0.08)] hover:border-brand-blue/30 transition-all duration-300">
-                        <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-brand-blue/10 flex items-center justify-center text-brand-blue mb-4 md:mb-6 group-hover:scale-110 transition-transform">
+                <div class="p-6 md:p-8 rounded-2xl md:rounded-3xl bg-white border border-gray-100 shadow-[0_8px_30px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgba(0,0,0,0.08)] hover:border-brand-blue/20 transition-all duration-300 space-y-6 md:space-y-8">
+                    <!-- Email Section -->
+                    <div class="flex items-start gap-4 md:gap-5 group">
+                        <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-brand-blue/10 flex shrink-0 items-center justify-center text-brand-blue group-hover:scale-110 transition-transform">
                             <svg class="w-6 h-6 md:w-7 md:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                         </div>
-                        <h4 class="text-brand-black text-lg md:text-xl font-bold mb-1 md:mb-2">Email Us</h4>
-                        <p class="text-gray-500 text-xs md:text-sm mb-3 md:mb-4">For general inquiries & project discussions</p>
-                        <a href="mailto:info@corelix.com" class="text-brand-blue font-bold text-base md:text-lg hover:text-blue-800 transition-colors">info@corelix.com</a>
+                        <div>
+                            <h4 class="text-brand-black text-lg md:text-xl font-bold mb-1">Email Us</h4>
+                            <p class="text-gray-500 text-xs md:text-sm mb-2">For general inquiries & project discussions</p>
+                            <a href="mailto:info@corelix.com" class="text-brand-blue font-bold text-base md:text-lg hover:text-blue-800 transition-colors">info@corelix.com</a>
+                        </div>
                     </div>
 
-                    <!-- Phone Card -->
-                    <div class="group p-5 md:p-6 rounded-2xl md:rounded-3xl bg-white border border-gray-100 shadow-[0_8px_30px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgba(0,0,0,0.08)] hover:border-brand-green/30 transition-all duration-300">
-                        <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-brand-green/10 flex items-center justify-center text-brand-green mb-4 md:mb-6 group-hover:scale-110 transition-transform">
+                    <!-- Divider -->
+                    <div class="w-full h-px bg-gray-100 group-hover:bg-brand-blue/10 transition-colors duration-300"></div>
+
+                    <!-- Phone Section -->
+                    <div class="flex items-start gap-4 md:gap-5 group">
+                        <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-brand-green/10 flex shrink-0 items-center justify-center text-brand-green group-hover:scale-110 transition-transform">
                             <svg class="w-6 h-6 md:w-7 md:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                         </div>
-                        <h4 class="text-brand-black text-lg md:text-xl font-bold mb-1 md:mb-2">Call Us</h4>
-                        <p class="text-gray-500 text-xs md:text-sm mb-3 md:mb-4">Mon-Sat from 10:00 AM to 7:00 PM</p>
-                        <a href="tel:+918488075196" class="text-brand-green font-bold text-base md:text-lg hover:text-green-700 transition-colors">+91-8488075196</a>
-                    </div>
-                </div>
-
-                <!-- WhatsApp Automation CTA -->
-                <div class="relative overflow-hidden p-6 md:p-8 rounded-2xl md:rounded-3xl bg-gradient-to-r from-[#25D366]/10 to-transparent border border-[#25D366]/20 group">
-                    <div class="absolute inset-0 bg-[#25D366]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                    <div class="relative z-10">
-                        <div class="flex items-center gap-3 md:gap-4 mb-3 md:mb-4">
-                            <div class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#25D366] flex items-center justify-center text-white shadow-[0_0_15px_rgba(37,211,102,0.3)]">
-                                <svg class="w-5 h-5 md:w-6 md:h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.391.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.082 21.083c-1.858 0-3.681-.483-5.284-1.397l-5.834 1.531 1.564-5.688c-1.004-1.637-1.533-3.51-1.533-5.441 0-5.659 4.606-10.264 10.266-10.264 5.658 0 10.264 4.605 10.264 10.264 0 5.659-4.606 10.264-10.264 10.264z"/></svg>
-                            </div>
-                            <h4 class="text-brand-black font-bold text-lg md:text-xl">WhatsApp Support</h4>
+                        <div>
+                            <h4 class="text-brand-black text-lg md:text-xl font-bold mb-1">Call Us</h4>
+                            <p class="text-gray-500 text-xs md:text-sm mb-2">Mon-Sat from 10:00 AM to 7:00 PM</p>
+                            <a href="tel:+918488075196" class="text-brand-green font-bold text-base md:text-lg hover:text-green-700 transition-colors">+91-8488075196</a>
                         </div>
-                        <p class="text-xs md:text-sm text-gray-600 mb-5 md:mb-6 font-medium">Chat instantly with our AI bot or human representative.</p>
-                        <a href="https://wa.me/918488075196" target="_blank" class="inline-flex items-center px-5 md:px-6 py-2.5 md:py-3 rounded-full bg-[#25D366] text-white font-bold text-xs md:text-sm hover:shadow-lg hover:-translate-y-0.5 transition-all">
-                            Start Chatting &rarr;
-                        </a>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="w-full h-px bg-gray-100 group-hover:bg-brand-blue/10 transition-colors duration-300"></div>
+
+                    <!-- WhatsApp Section -->
+                    <div class="flex items-start gap-4 md:gap-5 group">
+                        <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-[#25D366]/10 flex shrink-0 items-center justify-center text-[#25D366] group-hover:scale-110 transition-transform">
+                            <svg class="w-6 h-6 md:w-7 md:h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.391.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.082 21.083c-1.858 0-3.681-.483-5.284-1.397l-5.834 1.531 1.564-5.688c-1.004-1.637-1.533-3.51-1.533-5.441 0-5.659 4.606-10.264 10.266-10.264 5.658 0 10.264 4.605 10.264 10.264 0 5.659-4.606 10.264-10.264 10.264z"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="text-brand-black text-lg md:text-xl font-bold mb-1">WhatsApp Support</h4>
+                            <p class="text-gray-500 text-xs md:text-sm mb-3">Chat instantly with our AI bot or human representative.</p>
+                            <a href="https://wa.me/918488075196" target="_blank" class="inline-flex items-center px-5 py-2 md:py-2.5 rounded-full bg-[#25D366] text-white font-bold text-xs md:text-sm hover:shadow-lg hover:-translate-y-0.5 transition-all">
+                                Start Chatting &rarr;
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -202,5 +209,5 @@ $metaKeywords = "Contact Us, Corelix Contact Us, Contact Us Agency, Best Contact
     </div>
 </section>
 
-<?php include 'cta.php'; ?>
+<!-- CTA removed from contact page -->
 <?php include 'footer.php'; ?>
