@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow access to include files or temporary dirs if any
+Disallow: /assets/videos/
+Disallow: /vendor/
+
+Sitemap: https://www.corelix.com/sitemap.xml
