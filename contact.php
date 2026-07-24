@@ -101,27 +101,27 @@ $metaKeywords = "Contact Us, Corelix Contact Us, Contact Us Agency, Best Contact
                         <p class="text-sm md:text-base text-gray-600">Fill out the form below and we'll get back to you shortly.</p>
                     </div>
 
-                    <form action="process_contact.php" method="POST" class="space-y-5 md:space-y-6 relative z-10">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-6">
+                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
                             <div class="space-y-1.5 md:space-y-2">
                                 <label class="text-xs md:text-sm font-semibold text-gray-700">First Name <span class="text-red-500">*</span></label>
-                                <input type="text" name="first_name" required class="w-full bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl px-4 md:px-5 py-3 md:py-4 text-sm md:text-base text-brand-black placeholder-gray-400 focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all" placeholder="John">
+                                <input type="text" name="first_name" required class="w-full bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl px-4 md:px-5 py-2.5 md:py-3 text-sm md:text-base text-brand-black placeholder-gray-400 focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all" placeholder="John">
                             </div>
                             <div class="space-y-1.5 md:space-y-2">
                                 <label class="text-xs md:text-sm font-semibold text-gray-700">Last Name <span class="text-red-500">*</span></label>
-                                <input type="text" name="last_name" required class="w-full bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl px-4 md:px-5 py-3 md:py-4 text-sm md:text-base text-brand-black placeholder-gray-400 focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all" placeholder="Doe">
+                                <input type="text" name="last_name" required class="w-full bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl px-4 md:px-5 py-2.5 md:py-3 text-sm md:text-base text-brand-black placeholder-gray-400 focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all" placeholder="Doe">
                             </div>
                         </div>
                         
                         <div class="space-y-1.5 md:space-y-2">
                             <label class="text-xs md:text-sm font-semibold text-gray-700">Email Address <span class="text-red-500">*</span></label>
-                            <input type="email" name="email" required class="w-full bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl px-4 md:px-5 py-3 md:py-4 text-sm md:text-base text-brand-black placeholder-gray-400 focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all" placeholder="john@example.com">
+                            <input type="email" name="email" required class="w-full bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl px-4 md:px-5 py-2.5 md:py-3 text-sm md:text-base text-brand-black placeholder-gray-400 focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all" placeholder="john@example.com">
                         </div>
                         
                         <div class="space-y-1.5 md:space-y-2">
                             <label class="text-xs md:text-sm font-semibold text-gray-700">Service of Interest</label>
                             <div class="relative">
-                                <select name="service" class="w-full bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl px-4 md:px-5 py-3 md:py-4 text-sm md:text-base text-brand-black appearance-none focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all cursor-pointer">
+                                <select name="service" class="w-full bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl px-4 md:px-5 py-2.5 md:py-3 text-sm md:text-base text-brand-black appearance-none focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all cursor-pointer">
                                     <option value="web">Web & Mobile Development</option>
                                     <option value="design">UI/UX Design & Branding</option>
                                     <option value="marketing">Digital Marketing & SEO</option>
@@ -136,10 +136,10 @@ $metaKeywords = "Contact Us, Corelix Contact Us, Contact Us Agency, Best Contact
                         
                         <div class="space-y-1.5 md:space-y-2">
                             <label class="text-xs md:text-sm font-semibold text-gray-700">Project Details <span class="text-red-500">*</span></label>
-                            <textarea name="message" required rows="4" class="w-full bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl px-4 md:px-5 py-3 md:py-4 text-sm md:text-base text-brand-black placeholder-gray-400 focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all resize-none" placeholder="Tell us about your goals, timeline, and budget..."></textarea>
+                            <textarea name="message" required rows="3" class="w-full bg-gray-50 border border-gray-200 rounded-xl md:rounded-2xl px-4 md:px-5 py-2.5 md:py-3 text-sm md:text-base text-brand-black placeholder-gray-400 focus:bg-white focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all resize-none" placeholder="Tell us about your goals, timeline, and budget..."></textarea>
                         </div>
                         
-                        <button type="submit" class="w-full py-4 md:py-5 rounded-xl md:rounded-2xl bg-gradient-to-r from-brand-blue to-brand-green text-white font-bold text-base md:text-lg hover:shadow-[0_10px_30px_rgba(30,58,138,0.3)] hover:-translate-y-1 transition-all duration-300 flex justify-center items-center gap-3 group mt-4 md:mt-6">
+                        <button type="submit" class="w-full py-3 md:py-4 rounded-xl md:rounded-2xl bg-gradient-to-r from-brand-blue to-brand-green text-white font-bold text-base md:text-lg hover:shadow-[0_10px_30px_rgba(30,58,138,0.3)] hover:-translate-y-1 transition-all duration-300 flex justify-center items-center gap-3 group mt-4 md:mt-5">
                             Send Message
                             <svg class="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                         </button>
