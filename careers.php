@@ -66,271 +66,283 @@ include 'header.php';
                 Explore our open roles below. Click on any position to apply directly via our contact form. We review applications daily.
             </p>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10 text-left">
+            <div class="flex flex-col gap-4 relative z-10 text-left">
                 
                 <!-- Job 1 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">Business Development Executive</h3>
-                            <p class="text-sm text-gray-500">2+ Years Experience • B2B Sales, Lead Generation, Client Relations.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Business Development Executive</h3>
+        <p class="text-sm text-gray-500 truncate">2+ Years Experience • B2B Sales, Lead Generation, Client Relations.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
                         <span class="bg-gray-50 text-gray-600 border border-gray-200 px-2.5 py-1 rounded-full font-medium">Full Time</span>
                         <span class="flex items-center text-orange-600 bg-orange-50 border border-orange-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                             Hybrid
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
                 <!-- Job 2 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">Graphic Designer</h3>
-                            <p class="text-sm text-gray-500">1-3 Years Exp • UI/UX, Branding, Adobe Creative Suite, Figma.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">1 Position</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Graphic Designer</h3>
+        <p class="text-sm text-gray-500 truncate">1-3 Years Exp • UI/UX, Branding, Adobe Creative Suite, Figma.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">1 Position</span>
                         <span class="bg-gray-50 text-gray-600 border border-gray-200 px-2.5 py-1 rounded-full font-medium">Full Time</span>
                         <span class="flex items-center text-blue-600 bg-blue-50 border border-blue-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                             Office
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
                 <!-- Job 3 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">Full Stack Developer</h3>
-                            <p class="text-sm text-gray-500">2-4 Years Exp • React, Node.js, MongoDB, scalable architecture.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Full Stack Developer</h3>
+        <p class="text-sm text-gray-500 truncate">2-4 Years Exp • React, Node.js, MongoDB, scalable architecture.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
                         <span class="bg-gray-50 text-gray-600 border border-gray-200 px-2.5 py-1 rounded-full font-medium">Full Time</span>
                         <span class="flex items-center text-orange-600 bg-orange-50 border border-orange-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                             Hybrid
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
                 <!-- Job 4 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">Front End Developer</h3>
-                            <p class="text-sm text-gray-500">1-3 Years Exp • ReactJS, VueJS, TailwindCSS, pixel-perfect UI.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Front End Developer</h3>
+        <p class="text-sm text-gray-500 truncate">1-3 Years Exp • ReactJS, VueJS, TailwindCSS, pixel-perfect UI.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
                         <span class="bg-gray-50 text-gray-600 border border-gray-200 px-2.5 py-1 rounded-full font-medium">Full Time</span>
                         <span class="flex items-center text-blue-600 bg-blue-50 border border-blue-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                             Ahmedabad
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
                 <!-- Job 5 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">Junior SEO Executive</h3>
-                            <p class="text-sm text-gray-500">Fresher • Off-page/On-page SEO, link building, keyword tracking.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">4 Positions</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Junior SEO Executive</h3>
+        <p class="text-sm text-gray-500 truncate">Fresher • Off-page/On-page SEO, link building, keyword tracking.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">4 Positions</span>
                         <span class="bg-gray-50 text-gray-600 border border-gray-200 px-2.5 py-1 rounded-full font-medium">Full Time</span>
                         <span class="flex items-center text-blue-600 bg-blue-50 border border-blue-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                             Office
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
                 <!-- Job 6 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">Freelance Job For Freshers</h3>
-                            <p class="text-sm text-gray-500">Students & Freshers • Flexible tasks, data entry, social media tasks.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">10+ Positions</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Freelance Job For Freshers</h3>
+        <p class="text-sm text-gray-500 truncate">Students & Freshers • Flexible tasks, data entry, social media tasks.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">10+ Positions</span>
                         <span class="bg-blue-50 text-brand-blue border border-brand-blue/20 px-2.5 py-1 rounded-full font-medium">Freelance</span>
                         <span class="flex items-center text-emerald-600 bg-emerald-50 border border-emerald-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             Gujarat
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
                 <!-- Job 7 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">Int. Business Development</h3>
-                            <p class="text-sm text-gray-500">3+ Years Exp • IT Sales, Upwork/Fiverr/LinkedIn, Global Markets.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">1 Position</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Int. Business Development</h3>
+        <p class="text-sm text-gray-500 truncate">3+ Years Exp • IT Sales, Upwork/Fiverr/LinkedIn, Global Markets.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">1 Position</span>
                         <span class="bg-gray-50 text-gray-600 border border-gray-200 px-2.5 py-1 rounded-full font-medium">Full Time</span>
                         <span class="flex items-center text-emerald-600 bg-emerald-50 border border-emerald-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             Remote
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
                 <!-- Job 8 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">Video Editor</h3>
-                            <p class="text-sm text-gray-500">1-4 Years Exp • Premiere Pro, After Effects, Motion Graphics.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Video Editor</h3>
+        <p class="text-sm text-gray-500 truncate">1-4 Years Exp • Premiere Pro, After Effects, Motion Graphics.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
                         <span class="bg-gray-50 text-gray-600 border border-gray-200 px-2.5 py-1 rounded-full font-medium">Full Time</span>
                         <span class="flex items-center text-orange-600 bg-orange-50 border border-orange-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                             Hybrid
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
                 <!-- Job 9 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">HTML Developer</h3>
-                            <p class="text-sm text-gray-500">1–2 Years Exp • Proficient in HTML5, CSS3, JS & UI frameworks.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">1 Position</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">HTML Developer</h3>
+        <p class="text-sm text-gray-500 truncate">1–2 Years Exp • Proficient in HTML5, CSS3, JS & UI frameworks.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">1 Position</span>
                         <span class="bg-gray-50 text-gray-600 border border-gray-200 px-2.5 py-1 rounded-full font-medium">Full Time</span>
                         <span class="flex items-center text-emerald-600 bg-emerald-50 border border-emerald-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             Remote
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
                 <!-- Job 10 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">Intern Video & Reels Editor</h3>
-                            <p class="text-sm text-gray-500">Grasp of TikTok/Reels trends, transitions & fast-paced cuts.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Intern Video & Reels Editor</h3>
+        <p class="text-sm text-gray-500 truncate">Grasp of TikTok/Reels trends, transitions & fast-paced cuts.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
                         <span class="bg-blue-50 text-brand-blue border border-brand-blue/20 px-2.5 py-1 rounded-full font-medium">Internship</span>
                         <span class="flex items-center text-blue-600 bg-blue-50 border border-blue-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                             Office
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
                 <!-- Job 11 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">Intern Social Media Marketing</h3>
-                            <p class="text-sm text-gray-500">Brainstorm campaign ideas and engage with online communities.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">3 Positions</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Intern Social Media Marketing</h3>
+        <p class="text-sm text-gray-500 truncate">Brainstorm campaign ideas and engage with online communities.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">3 Positions</span>
                         <span class="bg-blue-50 text-brand-blue border border-brand-blue/20 px-2.5 py-1 rounded-full font-medium">Internship</span>
                         <span class="flex items-center text-orange-600 bg-orange-50 border border-orange-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                             Hybrid
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
                 <!-- Job 12 -->
-                <a href="#apply-form" class="block bg-white p-6 sm:p-8 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col h-full" title="Corelix Link">
-                    <div class="flex justify-between items-start mb-4 gap-4">
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-2">Intern Content Writer</h3>
-                            <p class="text-sm text-gray-500">Draft engaging blogs, website copy. Strong English is a must.</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm mb-6 mt-2">
-                        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
+                
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+    <div class="flex-1 min-w-0">
+        <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Intern Content Writer</h3>
+        <p class="text-sm text-gray-500 truncate">Draft engaging blogs, website copy. Strong English is a must.</p>
+    </div>
+    
+    <div class="flex flex-wrap gap-2 items-center text-xs sm:text-sm shrink-0">
+        <span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-bold">2 Positions</span>
                         <span class="bg-blue-50 text-brand-blue border border-brand-blue/20 px-2.5 py-1 rounded-full font-medium">Internship</span>
                         <span class="flex items-center text-emerald-600 bg-emerald-50 border border-emerald-100 px-2.5 py-1 rounded-full font-medium">
                             <svg class="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             Remote
                         </span>
-                    </div>
-                    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors mt-auto pt-4 border-t border-gray-50">
-                        Apply Now 
-                        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                    </div>
-                </a>
+    </div>
+    
+    <div class="text-brand-blue font-bold flex items-center group-hover:text-brand-black transition-colors shrink-0">
+        Apply Now
+        <svg class="w-5 h-5 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </div>
+</a>
 
             </div>
         </div>
@@ -404,7 +416,7 @@ include 'header.php';
                     </div>
 
                     <div>
-                        <label for="message" class="block text-xs font-semibold text-gray-700 mb-1.5">Cover Letter / Message</label>
+                        <label for="message" class="block text-xs font-semibold text-gray-700 mb-1.5">About your experience</label>
                         <textarea id="message" name="message" rows="3" class="w-full px-4 py-3 text-sm rounded-lg bg-gray-50 text-gray-900 border border-gray-200 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all resize-none"></textarea>
                     </div>
 
