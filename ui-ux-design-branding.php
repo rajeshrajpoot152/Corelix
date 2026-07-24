@@ -49,15 +49,7 @@ $metaKeywords = "Ui Ux Design Branding, Corelix Ui Ux Design Branding, Ui Ux Des
 </section>
 
 <!-- CTA Section -->
-<section class="py-24 relative overflow-hidden bg-[#000000]">
-    <div class="max-w-4xl mx-auto px-4 text-center relative z-10" data-aos="zoom-in">
-        <h2 class="text-4xl font-black font-heading text-white mb-6">Ready to discuss your project?</h2>
-        <a href="/contact" class="inline-flex items-center px-8 py-4 rounded-full bg-brand-blue text-white font-bold hover:bg-blue-700 transition-all shadow-[0_0_20px_rgba(30,58,138,0.4)]" title="Contact">
-            Get in Touch
-            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-        </a>
-    </div>
-</section>
+
 
 <?php include 'cta.php'; ?>
 <?php include 'footer.php'; ?>
