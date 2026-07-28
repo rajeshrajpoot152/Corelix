@@ -1,5 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: /
 
 # Disallow access to include files or temporary dirs if any
 Disallow: /assets/videos/
