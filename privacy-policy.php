@@ -1,5 +1,7 @@
 <?php 
-$pageTitle = "Privacy Policy - Corelix";
+$pageTitle = "Privacy Policy | Data Security & Protection - Corelix";
+$metaDesc = "Corelix's Privacy Policy explains how we collect, safeguard, and use client and user data in compliance with global data protection standards (GDPR, CCPA).";
+$metaKeywords = "Corelix Privacy Policy, GDPR Compliance, Data Security, Personal Data Protection, Privacy Practices, Cookie Policy";
 include 'header.php'; 
 ?>
 <!-- Inner Page Hero Banner -->

@@ -1,5 +1,7 @@
 <?php 
-$pageTitle = "Sitemap - Corelix";
+$pageTitle = "Sitemap | Corelix Navigation Overview";
+$metaDesc = "Browse the complete sitemap of Corelix to quickly find our company information, legal documents, and digital services.";
+$metaKeywords = "Corelix Sitemap, Site Navigation, All Pages, Corelix Directory, Digital Ecosystem";
 include 'header.php'; 
 ?>
 <!-- Inner Page Hero Banner -->

@@ -1,9 +1,10 @@
 <?php 
-$pageTitle = "SEO Services | Corelix";
-$metaDesc = "Corelix offers Technical SEO, Global SEO, Local SEO Services, eCommerce SEO, and AI SEO Services to maximize your organic rankings.";
-$metaKeywords = "SEO Services, Corelix SEO Services, Best SEO Services Agency, Custom Digital Services";
+$pageTitle = "SEO Services | Technical, Global & AI SEO - Corelix";
+$metaDesc = "Data-driven SEO strategies, technical SEO audits, global authority, local search rankings, and AI-powered SEO solutions to scale organic growth.";
+$metaKeywords = "Technical SEO, Global SEO, Local SEO Services, eCommerce SEO, AI SEO, Search Engine Optimization, Organic Traffic Growth, Corelix SEO Agency";
+include __DIR__ . '/../header.php'; 
 ?>
-<?php include __DIR__ . '/../header.php'; ?>
+
 
 <!-- Premium Inner Page Hero Section -->
 <section class="pt-28 pb-16 md:pt-36 md:pb-20 relative overflow-hidden bg-slate-950">

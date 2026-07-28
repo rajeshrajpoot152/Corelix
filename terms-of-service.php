@@ -1,5 +1,7 @@
 <?php 
-$pageTitle = "Terms of Service - Corelix";
+$pageTitle = "Terms of Use | Legal Policies & Conditions - Corelix";
+$metaDesc = "Read the Official Terms of Use and service agreements governing your interaction with Corelix websites, software products, and consulting services.";
+$metaKeywords = "Corelix Terms of Use, Service Agreement, Legal Terms, IT Agency Policies, Copyright and Licensing, Website Terms";
 include 'header.php'; 
 ?>
 <!-- Inner Page Hero Banner -->

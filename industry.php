@@ -1,9 +1,10 @@
 <?php 
-$pageTitle = "Industries We Serve";
-$metaDesc = "Corelix provides premium Industries We Serve. Partner with our expert team for cutting-edge digital transformation and business growth.";
-$metaKeywords = "Industries We Serve, Corelix Industries We Serve, Industries We Serve Agency, Best Industries We Serve, Industries We Serve Services";
+$pageTitle = "Industries We Serve | Enterprise IT & Marketing - Corelix";
+$metaDesc = "Corelix delivers tailored digital transformation, custom software, and marketing strategies across 20+ industries including Healthcare, Finance, Retail, Logistics, and Real Estate.";
+$metaKeywords = "Healthcare IT Solutions, Legal Tech, FinTech Software, Retail eCommerce, Manufacturing Automation, Enterprise IT Industries, Corelix Industries";
+include 'header.php'; 
 ?>
-<?php include 'header.php'; ?>
+
 
 <!-- Page Header -->
 <!-- Premium Inner Page Hero Template -->

@@ -1,9 +1,10 @@
 <?php 
-$pageTitle = "AI & Business Automation | Corelix";
-$metaDesc = "Corelix provides AI Consulting & Development, Custom CRM Development, WhatsApp Automation & Chatbots, and Workflow Automation.";
-$metaKeywords = "Automation, Corelix Automation, Best Automation Agency, Custom Digital Services";
+$pageTitle = "AI & Business Automation Services | Corelix";
+$metaDesc = "Intelligent WhatsApp chatbots, custom GPT & Claude agents, CRM development, and workflow automation to streamline enterprise operations.";
+$metaKeywords = "AI Business Automation, Custom CRM Development, WhatsApp Chatbots, Workflow Automation, AI Consulting, ChatGPT Integration, Business Process Automation";
+include __DIR__ . '/../header.php'; 
 ?>
-<?php include __DIR__ . '/../header.php'; ?>
+
 
 <!-- Premium Inner Page Hero Section -->
 <section class="pt-28 pb-16 md:pt-36 md:pb-20 relative overflow-hidden bg-slate-950">

@@ -1,9 +1,10 @@
 <?php 
-$pageTitle = "Contact Us - Corelix";
-$metaDesc = "Get in touch with Corelix. Partner with our expert team for cutting-edge digital transformation and business growth.";
-$metaKeywords = "Contact Us, Corelix Contact Us, Contact Us Agency, Best Contact Us, Contact Us Services";
+$pageTitle = "Contact Us | Get a Free Consultation - Corelix";
+$metaDesc = "Contact the Corelix team for project inquiries, RFP submissions, or IT & marketing consultations. Reach out via email, phone, or WhatsApp.";
+$metaKeywords = "Contact Corelix, IT Consultation, Hire Web Developers, Digital Agency Inquiry, Support Channels, Global IT Agency Contact";
+include 'header.php'; 
 ?>
-<?php include 'header.php'; ?>
+
 
 <!-- Premium Inner Page Hero Template -->
 <section class="pt-28 pb-12 md:pt-32 md:pb-16 relative overflow-hidden bg-slate-950">

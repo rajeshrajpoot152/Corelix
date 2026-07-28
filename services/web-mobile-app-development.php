@@ -1,9 +1,10 @@
 <?php 
-$pageTitle = "Web & Mobile App Development | Corelix";
-$metaDesc = "Corelix provides custom web development, eCommerce development, mobile app development, API integration, and WordPress development.";
-$metaKeywords = "Development, Corelix Development, Best Development Agency, Custom Digital Services";
+$pageTitle = "Web & Mobile App Development Services | Corelix";
+$metaDesc = "Custom web applications, native & cross-platform mobile apps, enterprise portals, API architectures, and WordPress development by Corelix.";
+$metaKeywords = "Custom Web Development, Mobile App Development, eCommerce Development, API Development, WordPress Support, React, Node.js, Cloud Software, IT Agency";
+include __DIR__ . '/../header.php'; 
 ?>
-<?php include __DIR__ . '/../header.php'; ?>
+
 
 <!-- Premium Inner Page Hero Section -->
 <section class="pt-28 pb-16 md:pt-36 md:pb-20 relative overflow-hidden bg-slate-950">

@@ -1,9 +1,10 @@
 <?php 
-$pageTitle = "UI/UX & Branding | Corelix";
-$metaDesc = "Corelix provides UI/UX Design Services, Corporate Branding, and Video Production Services to elevate your brand identity.";
-$metaKeywords = "Branding, Corelix Branding, Best Branding Agency, Custom Digital Services";
+$pageTitle = "UI/UX Design & Corporate Branding Services | Corelix";
+$metaDesc = "Human-centric UI/UX design, brand identity systems, corporate branding, and professional video production services by Corelix.";
+$metaKeywords = "UI/UX Design Services, Corporate Branding, Video Production, Brand Identity, Product Design, Web Design Agency, Corelix Creative Studio";
+include __DIR__ . '/../header.php'; 
 ?>
-<?php include __DIR__ . '/../header.php'; ?>
+
 
 <!-- Premium Inner Page Hero Section -->
 <section class="pt-28 pb-16 md:pt-36 md:pb-20 relative overflow-hidden bg-slate-950">

@@ -1,4 +1,10 @@
-<?php include 'header.php'; ?>
+<?php 
+$pageTitle = "Corelix | Creative Marketing & Tech Solutions Agency";
+$metaDesc = "Corelix is a leading global IT & Digital Marketing agency delivering Web Development, UI/UX Design, AI Business Automation, SEO, and Performance Marketing.";
+$metaKeywords = "Corelix, IT Agency, Web Development, Digital Marketing Agency, Mobile App Development, AI Business Automation, UI/UX Design, Technical SEO, Custom CRM Development";
+include 'header.php'; 
+?>
+
 
 <!-- Hero Section -->
 <section class="relative w-full h-screen bg-brand-black overflow-hidden">

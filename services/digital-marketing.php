@@ -1,9 +1,10 @@
 <?php 
-$pageTitle = "Digital Marketing | Corelix";
-$metaDesc = "Corelix provides PPC & Performance Marketing, Conversion Rate Optimization (CRO), Social Media Marketing, and Email Marketing.";
-$metaKeywords = "Digital Marketing, Corelix Digital Marketing, Best Digital Marketing Agency, Custom Digital Services";
+$pageTitle = "Digital Marketing Services | PPC, CRO & Email - Corelix";
+$metaDesc = "High-ROI performance marketing, conversion rate optimization (CRO), social media advertising, and automated email marketing campaigns.";
+$metaKeywords = "PPC Marketing, Conversion Rate Optimization, CRO, Social Media Marketing, Email Marketing, Paid Advertising, Digital Marketing Agency, Corelix";
+include __DIR__ . '/../header.php'; 
 ?>
-<?php include __DIR__ . '/../header.php'; ?>
+
 
 <!-- Premium Inner Page Hero Section -->
 <section class="pt-28 pb-16 md:pt-36 md:pb-20 relative overflow-hidden bg-slate-950">

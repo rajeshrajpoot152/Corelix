@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "Careers at Corelix | IT, Marketing & Design Jobs";
-$metaDesc = "Explore exciting career opportunities at Corelix. We are hiring for IT, Design, and Digital Marketing roles. Check out our remote and work-from-office openings.";
-$metaKeywords = "Careers at Corelix, Corelix Careers at Corelix, Careers at Corelix Agency, Best Careers at Corelix, Careers at Corelix Services";
+$pageTitle = "Careers at Corelix | IT, Design & Marketing Job Openings";
+$metaDesc = "Join Corelix! Explore remote and on-site job openings in Software Engineering, UI/UX Design, SEO, AI Engineering, and Digital Marketing. Build the future with us.";
+$metaKeywords = "Corelix Careers, IT Jobs, Remote Tech Jobs, Software Engineering Careers, UI UX Design Jobs, Digital Marketing Jobs, Hiring IT Professionals";
 include 'header.php'; 
 ?>
 <!-- Premium Inner Page Hero Template -->

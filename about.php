@@ -1,9 +1,10 @@
 <?php 
-$pageTitle = "About IT Solutions & Services | Corelix";
-$metaDesc = "Corelix provides premium About IT Solutions & Services. Partner with our expert team for cutting-edge digital transformation and business growth.";
-$metaKeywords = "About IT Solutions & Services, Corelix About IT Solutions & Services, About IT Solutions & Services Agency, Best About IT Solutions & Services, About IT Solutions & Services Services";
+$pageTitle = "About Us | Who We Are, Leadership & Mission - Corelix";
+$metaDesc = "Learn about Corelix, our mission, vision, leadership team, and our commitment to innovating high-growth IT and marketing solutions for global enterprises.";
+$metaKeywords = "About Corelix, IT Agency Leadership, Software Development Team, Digital Agency History, Our Mission, Tech Innovators, Corelix Team";
+include 'header.php'; 
 ?>
-<?php include 'header.php'; ?>
+
 
 <!-- About Hero Section -->
 <!-- Premium Inner Page Hero Template -->

@@ -1,5 +1,7 @@
 <?php 
-$pageTitle = "Services - Corelix";
+$pageTitle = "Our Services | Digital Marketing, Web Dev & AI Automation - Corelix";
+$metaDesc = "Explore Corelix's comprehensive suite of digital services: Web & Mobile App Development, SEO Services, Digital Marketing, AI & Business Automation, and UI/UX Branding.";
+$metaKeywords = "Corelix Services, Web & Mobile App Development, SEO Services, Digital Marketing, AI & Business Automation, UI/UX & Branding, IT Solutions, Custom Software";
 include 'header.php'; 
 ?>
 <!-- Inner Page Hero Banner -->

@@ -1,16 +1,8 @@
-<?php
+<?php 
 $pageTitle = "Blog - Insights on AI, Web Dev & Marketing | Corelix";
 $metaDesc = "Read the latest insights, strategies, and news on Artificial Intelligence, Web Development, SEO, and Digital Marketing from the Corelix experts.";
-$metaKeywords = "Corelix Blog, Tech Insights, AI News, Web Development Trends, Digital Marketing Tips, IT Agency Blog";
-include 'header.php';
-
-// Fetch Blog Data
-$jsonFile = 'assets/data/blogs.json';
-$blogs = [];
-if (file_exists($jsonFile)) {
-    $jsonData = file_get_contents($jsonFile);
-    $blogs = json_decode($jsonData, true);
-}
+$metaKeywords = "Corelix Blog, Tech Insights, AI News, Web Development Trends, Digital Marketing Tips, IT Agency Blog, Software Strategy Articles";
+include 'header.php'; 
 ?>
 
 <!-- Premium Inner Page Hero Template -->
