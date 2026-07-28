@@ -1255,7 +1255,7 @@ include 'header.php';
 
         <div class="flex flex-col lg:flex-row gap-4 lg:gap-6 h-auto lg:h-[600px] w-full">
             <!-- Card 1 -->
-            <a href="/about" class="group relative flex-1 lg:hover:flex-[2.5] transition-all duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="0">
+            <a href="/about" class="group relative flex-1 lg:hover:flex-[4.3] transition-all duration-300 ease-in-out bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="0">
                 <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50 shrink-0 relative z-10">
                     <div class="w-10 h-10 rounded-xl bg-brand-blue/10 flex items-center justify-center shrink-0">
                         <svg class="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
@@ -1276,7 +1276,7 @@ include 'header.php';
             </a>
 
             <!-- Card 2 -->
-            <a href="/services" class="group relative flex-1 lg:hover:flex-[2.5] transition-all duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="100">
+            <a href="/services" class="group relative flex-1 lg:hover:flex-[4.3] transition-all duration-300 ease-in-out bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="100">
                 <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50 shrink-0 relative z-10">
                     <div class="w-10 h-10 rounded-xl bg-brand-green/10 flex items-center justify-center shrink-0">
                         <svg class="w-5 h-5 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
@@ -1297,7 +1297,7 @@ include 'header.php';
             </a>
 
             <!-- Card 3 -->
-            <a href="/services" class="group relative flex-1 lg:hover:flex-[2.5] transition-all duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="200">
+            <a href="/services" class="group relative flex-1 lg:hover:flex-[4.3] transition-all duration-300 ease-in-out bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="200">
                 <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50 shrink-0 relative z-10">
                     <div class="w-10 h-10 rounded-xl bg-brand-orange/10 flex items-center justify-center shrink-0">
                         <svg class="w-5 h-5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
@@ -1318,7 +1318,7 @@ include 'header.php';
             </a>
 
             <!-- Card 4 -->
-            <a href="/contact" class="group relative flex-1 lg:hover:flex-[2.5] transition-all duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="300">
+            <a href="/contact" class="group relative flex-1 lg:hover:flex-[4.3] transition-all duration-300 ease-in-out bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="300">
                 <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50 shrink-0 relative z-10">
                     <div class="w-10 h-10 rounded-xl bg-brand-red/10 flex items-center justify-center shrink-0">
                         <svg class="w-5 h-5 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
