@@ -27,7 +27,7 @@ include 'header.php';
 </section>
 
 <main class="bg-gray-50 min-h-screen py-16 md:py-24">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1536px]">
         
         <div class="bg-white rounded-3xl shadow-xl border border-gray-100 p-8 md:p-14 lg:p-16">
             

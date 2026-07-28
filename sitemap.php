@@ -27,7 +27,7 @@ include 'header.php';
 </section>
 
 <main class="bg-gray-50 min-h-screen py-16 md:py-24">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1536px]">
         
         <!-- Section 01: Company & Legal -->
         <div class="bg-white rounded-3xl shadow-xl border border-gray-100 p-8 md:p-12 mb-12 relative overflow-hidden">
