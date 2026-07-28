@@ -1,54 +1,373 @@
 <?php 
-$pageTitle = "Ai Consulting Integration IT Solutions & Services | Corelix";
-$metaDesc = "Corelix provides premium Ai Consulting Integration IT Solutions & Services. Partner with our expert team for cutting-edge digital transformation and business growth.";
-$metaKeywords = "Ai Consulting Integration IT Solutions & Services, Corelix Ai Consulting Integration IT Solutions & Services, Ai Consulting Integration IT Solutions & Services Agency, Best Ai Consulting Integration IT Solutions & Services, Ai Consulting Integration IT Solutions & Services Services";
+$pageTitle = "AI & Business Automation | Corelix";
+$metaDesc = "Corelix provides AI Consulting & Development, Custom CRM Development, WhatsApp Automation & Chatbots, and Workflow Automation.";
+$metaKeywords = "Automation, Corelix Automation, Best Automation Agency, Custom Digital Services";
 ?>
 <?php include __DIR__ . '/../header.php'; ?>
 
-<!-- Hero Section -->
-<!-- Premium Inner Page Hero Template -->
-<section class="pt-28 pb-12 md:pt-32 md:pb-16 relative overflow-hidden bg-slate-950">
-    <!-- Grid & Glow (Standard Inner Page Background) -->
+<!-- Premium Inner Page Hero Section -->
+<section class="pt-28 pb-16 md:pt-36 md:pb-20 relative overflow-hidden bg-slate-950">
     <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-brand-blue/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
     
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center" data-aos="zoom-out-up">
-        
-        <!-- SEO Page Title (Reusable for all inner pages) -->
+        <!-- SEO Page Badge -->
         <h1 class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-4 md:mb-6 text-white text-xs font-bold tracking-widest uppercase shadow-sm">
-            Ai Consulting Integration
+            INTELLIGENT WORKFLOWS
         </h1>
         
-        <!-- Main Visual Heading -->
-        <h2 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white mb-4 tracking-tight leading-tight md:leading-none">
-            AI Consulting & <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Integration</span>
+        <!-- Main Heading -->
+        <h2 class="text-4xl md:text-6xl lg:text-7xl font-black font-heading text-white mb-6 tracking-tight leading-tight md:leading-none">
+            AI & Business <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-rose-400">Automation</span>
         </h2>
         
-        <!-- Page Subtitle -->
-        <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium">
-            Premium, scalable solutions engineered for your business needs and designed to drive growth.
+        <!-- Subtitle -->
+        <p class="text-base md:text-xl text-gray-300 max-w-3xl mx-auto font-medium leading-relaxed mb-10">
+            Eliminate manual tasks and supercharge productivity with custom AI agents, CRM workflows, WhatsApp bots, and enterprise automation.
         </p>
-    </div>
-</section>
 
-
-<!-- Content Section -->
-<section class="py-24 bg-white relative">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8" data-aos="fade-up">
-        <div class="prose prose-lg max-w-none text-gray-600">
-            <h2 class="text-3xl font-heading font-bold text-gray-900 mb-6">Transform Your Business with AI & Business Automation</h2>
-            <p class="mb-6">Our expert team delivers top-tier solutions designed to scale your operations, enhance your digital presence, and drive sustainable growth in today's competitive landscape.</p>
-            <ul class="space-y-4 mb-8">
-                <li class="flex items-start"><span class="w-2 h-2 mt-2 mr-3 rounded-full bg-brand-blue flex-shrink-0"></span> Customized strategies tailored for your specific business goals.</li>
-                <li class="flex items-start"><span class="w-2 h-2 mt-2 mr-3 rounded-full bg-brand-blue flex-shrink-0"></span> Built using industry-leading technologies and modern frameworks.</li>
-                <li class="flex items-start"><span class="w-2 h-2 mt-2 mr-3 rounded-full bg-brand-blue flex-shrink-0"></span> Comprehensive support, maintenance, and scalable architecture.</li>
-            </ul>
-            <p>Ready to get started? <a href="/contact" class="text-brand-blue font-semibold hover:underline" title="Contact">Contact us today</a> for a free consultation and project estimate.</p>
+        <!-- Quick Anchor Jump Bar -->
+        <div class="flex flex-wrap items-center justify-center gap-2 max-w-4xl mx-auto pt-4 border-t border-white/10">
+            <a href="#ai-consulting" class="px-5 py-2.5 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 text-gray-300 hover:text-white text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-sm whitespace-nowrap">
+                AI Consulting & Development
+            </a>
+            <a href="#crm-development" class="px-5 py-2.5 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 text-gray-300 hover:text-white text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-sm whitespace-nowrap">
+                Custom CRM Development
+            </a>
+            <a href="#whatsapp-automation" class="px-5 py-2.5 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 text-gray-300 hover:text-white text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-sm whitespace-nowrap">
+                WhatsApp Automation & Chatbots
+            </a>
+            <a href="#workflow-automation" class="px-5 py-2.5 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 text-gray-300 hover:text-white text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-sm whitespace-nowrap">
+                Workflow Automation
+            </a>
         </div>
     </div>
 </section>
 
-<!-- CTA Section -->
+
+<!-- Section 01: AI Consulting & Development -->
+<section id="ai-consulting" class="py-20 md:py-28 bg-white relative border-b border-gray-100 scroll-mt-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-start justify-between gap-8 mb-12">
+                <div class="md:max-w-2xl">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 bg-gray-900 text-white rounded-full text-xs font-bold tracking-widest uppercase mb-4 shadow-sm">
+                        SECTION 01
+                    </div>
+                    <h2 class="text-3xl md:text-5xl font-black font-heading text-[#1a1a2e] tracking-tight mb-6">
+                        AI Consulting & Development
+                    </h2>
+                    <p class="text-gray-600 text-lg md:text-xl leading-relaxed">
+                        Custom Generative AI integration, LLM fine-tuning, and enterprise AI roadmaps that transform how your organization works.
+                    </p>
+                </div>
+                <div class="flex-shrink-0">
+                    <a href="/contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#1a1a2e] text-white hover:bg-brand-blue font-bold text-sm transition-all duration-300 shadow-md group" title="Contact Us">
+                        <span>Get Consultation</span>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 bg-white rounded-3xl p-8 md:p-10 border border-gray-200/80 shadow-sm">
+                <div class="md:col-span-7">
+                    <h3 class="text-lg font-bold font-heading text-gray-900 mb-6 uppercase tracking-wider text-xs">
+                        Key Capabilities & Deliverables
+                    </h3>
+                    <ul class="space-y-4">
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Custom Generative AI & LLM Integration (OpenAI / Claude)
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Enterprise AI Readiness Audits & Strategic Roadmaps
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Fine-Tuned AI Assistants & Internal Knowledge Bases
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Automated Data Extraction & Insight Summarization
+                            </li>
+                    </ul>
+                </div>
+
+                <div class="md:col-span-5 md:border-l md:border-gray-100 md:pl-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold font-heading text-gray-900 mb-4 uppercase tracking-wider text-xs">
+                            Technologies & Tools
+                        </h3>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">OpenAI API</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">LangChain</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">Python</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">Vector DB (Pinecone)</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">Claude API</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100">
+                        <div class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">Why Corelix</div>
+                        <p class="text-sm text-gray-700 font-medium">We assign dedicated engineering & domain specialists to ensure scalable architecture and on-time delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 02: Custom CRM Development -->
+<section id="crm-development" class="py-20 md:py-28 bg-gray-50/80 relative border-b border-gray-100 scroll-mt-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-start justify-between gap-8 mb-12">
+                <div class="md:max-w-2xl">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 bg-gray-900 text-white rounded-full text-xs font-bold tracking-widest uppercase mb-4 shadow-sm">
+                        SECTION 02
+                    </div>
+                    <h2 class="text-3xl md:text-5xl font-black font-heading text-[#1a1a2e] tracking-tight mb-6">
+                        Custom CRM Development
+                    </h2>
+                    <p class="text-gray-600 text-lg md:text-xl leading-relaxed">
+                        Tailored customer relationship management systems and sales pipeline dashboards built around your exact operational needs.
+                    </p>
+                </div>
+                <div class="flex-shrink-0">
+                    <a href="/contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#1a1a2e] text-white hover:bg-brand-blue font-bold text-sm transition-all duration-300 shadow-md group" title="Contact Us">
+                        <span>Get Consultation</span>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 bg-white rounded-3xl p-8 md:p-10 border border-gray-200/80 shadow-sm">
+                <div class="md:col-span-7">
+                    <h3 class="text-lg font-bold font-heading text-gray-900 mb-6 uppercase tracking-wider text-xs">
+                        Key Capabilities & Deliverables
+                    </h3>
+                    <ul class="space-y-4">
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Tailored CRM Software & Sales Pipeline Architectures
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Custom Executive Reporting & Sales Performance Dashboards
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Automated Lead Scoring, Assignment & Routing Logic
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Seamless ERP, Accounting & Multi-Channel Synchronization
+                            </li>
+                    </ul>
+                </div>
+
+                <div class="md:col-span-5 md:border-l md:border-gray-100 md:pl-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold font-heading text-gray-900 mb-4 uppercase tracking-wider text-xs">
+                            Technologies & Tools
+                        </h3>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">Salesforce API</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">HubSpot Custom API</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">Node.js</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">React</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">PostgreSQL</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100">
+                        <div class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">Why Corelix</div>
+                        <p class="text-sm text-gray-700 font-medium">We assign dedicated engineering & domain specialists to ensure scalable architecture and on-time delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 03: WhatsApp Automation & Chatbots -->
+<section id="whatsapp-automation" class="py-20 md:py-28 bg-white relative border-b border-gray-100 scroll-mt-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-start justify-between gap-8 mb-12">
+                <div class="md:max-w-2xl">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 bg-gray-900 text-white rounded-full text-xs font-bold tracking-widest uppercase mb-4 shadow-sm">
+                        SECTION 03
+                    </div>
+                    <h2 class="text-3xl md:text-5xl font-black font-heading text-[#1a1a2e] tracking-tight mb-6">
+                        WhatsApp Automation & Chatbots
+                    </h2>
+                    <p class="text-gray-600 text-lg md:text-xl leading-relaxed">
+                        24/7 intelligent conversational AI bots and WhatsApp API integrations for instant customer support, lead capture, and bookings.
+                    </p>
+                </div>
+                <div class="flex-shrink-0">
+                    <a href="/contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#1a1a2e] text-white hover:bg-brand-blue font-bold text-sm transition-all duration-300 shadow-md group" title="Contact Us">
+                        <span>Get Consultation</span>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 bg-white rounded-3xl p-8 md:p-10 border border-gray-200/80 shadow-sm">
+                <div class="md:col-span-7">
+                    <h3 class="text-lg font-bold font-heading text-gray-900 mb-6 uppercase tracking-wider text-xs">
+                        Key Capabilities & Deliverables
+                    </h3>
+                    <ul class="space-y-4">
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                24/7 Intelligent Customer Support AI Chatbots
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Official WhatsApp Cloud API & Messaging Integration
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Interactive Product Catalogs & Order Tracking Workflows
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Automated Lead Capture & Meeting Booking Systems
+                            </li>
+                    </ul>
+                </div>
+
+                <div class="md:col-span-5 md:border-l md:border-gray-100 md:pl-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold font-heading text-gray-900 mb-4 uppercase tracking-wider text-xs">
+                            Technologies & Tools
+                        </h3>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">WhatsApp Cloud API</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">Twilio</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">ManyChat</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">Custom Webhooks</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">Node.js</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100">
+                        <div class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">Why Corelix</div>
+                        <p class="text-sm text-gray-700 font-medium">We assign dedicated engineering & domain specialists to ensure scalable architecture and on-time delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 04: Workflow Automation -->
+<section id="workflow-automation" class="py-20 md:py-28 bg-gray-50/80 relative border-b border-gray-100 scroll-mt-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-start justify-between gap-8 mb-12">
+                <div class="md:max-w-2xl">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 bg-gray-900 text-white rounded-full text-xs font-bold tracking-widest uppercase mb-4 shadow-sm">
+                        SECTION 04
+                    </div>
+                    <h2 class="text-3xl md:text-5xl font-black font-heading text-[#1a1a2e] tracking-tight mb-6">
+                        Workflow Automation
+                    </h2>
+                    <p class="text-gray-600 text-lg md:text-xl leading-relaxed">
+                        Multi-app integration and complex scenario automation that eliminate repetitive data entry and synchronize business tools.
+                    </p>
+                </div>
+                <div class="flex-shrink-0">
+                    <a href="/contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#1a1a2e] text-white hover:bg-brand-blue font-bold text-sm transition-all duration-300 shadow-md group" title="Contact Us">
+                        <span>Get Consultation</span>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 bg-white rounded-3xl p-8 md:p-10 border border-gray-200/80 shadow-sm">
+                <div class="md:col-span-7">
+                    <h3 class="text-lg font-bold font-heading text-gray-900 mb-6 uppercase tracking-wider text-xs">
+                        Key Capabilities & Deliverables
+                    </h3>
+                    <ul class="space-y-4">
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Multi-App Synchronization & Business Process Automation
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Make.com / Zapier Complex Enterprise Scenario Engineering
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Automated Invoicing, Document Generation & Approvals
+                            </li>
+                            <li class="flex items-start text-gray-700 text-base font-medium">
+                                <span class="w-6 h-6 rounded-full bg-brand-blue/10 text-brand-blue flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                Real-Time Error Alerting, Logging & Webhook Management
+                            </li>
+                    </ul>
+                </div>
+
+                <div class="md:col-span-5 md:border-l md:border-gray-100 md:pl-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold font-heading text-gray-900 mb-4 uppercase tracking-wider text-xs">
+                            Technologies & Tools
+                        </h3>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">Make.com</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">Zapier</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">n8n</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">REST Webhooks</span>
+                            <span class="px-4 py-1.5 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-700 shadow-sm">API Integration</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100">
+                        <div class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">Why Corelix</div>
+                        <p class="text-sm text-gray-700 font-medium">We assign dedicated engineering & domain specialists to ensure scalable architecture and on-time delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php include __DIR__ . '/../cta.php'; ?>
