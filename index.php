@@ -1253,42 +1253,74 @@ include 'header.php';
             <p class="text-gray-500 text-lg md:text-xl leading-relaxed">We combine industry expertise with cutting-edge technology to deliver solutions that drive real business growth and digital transformation.</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             <!-- Card 1 -->
-            <div class="bg-gray-50 rounded-3xl p-8 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 group" data-aos="fade-up" data-aos-delay="0">
-                <div class="w-16 h-16 rounded-2xl bg-brand-blue/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                    <svg class="w-8 h-8 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            <a href="/about" class="group block bg-gray-50 rounded-[2rem] overflow-hidden hover:scale-105 transition-transform duration-500 border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col h-full" data-aos="fade-up" data-aos-delay="0">
+                <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50">
+                    <div class="w-10 h-10 rounded-xl bg-brand-blue/10 flex items-center justify-center shrink-0">
+                        <svg class="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <p class="text-[13px] font-bold text-gray-900 uppercase tracking-wide">Expert Team</p>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-brand-black mb-3">Expert Team</h3>
-                <p class="text-gray-500 text-sm leading-relaxed">Our elite team of developers and designers bring years of experience to build scalable, secure, and high-performance solutions.</p>
-            </div>
+                <div class="w-full h-64 sm:h-72 lg:h-80 relative overflow-hidden bg-gray-200">
+                    <img src="/assets/images/our-mission.jpg" class="w-full h-full object-cover" alt="Expert Team" loading="lazy">
+                </div>
+                <div class="p-6 md:p-8 flex flex-col flex-grow bg-white border-t border-gray-100">
+                    <h3 class="text-xl md:text-2xl font-black font-heading text-brand-black mb-3">Build scalable solutions.</h3>
+                    <p class="text-gray-500 text-sm md:text-base leading-relaxed">Our elite team of developers and designers bring years of experience to build secure and high-performance solutions.</p>
+                </div>
+            </a>
 
             <!-- Card 2 -->
-            <div class="bg-gray-50 rounded-3xl p-8 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 group" data-aos="fade-up" data-aos-delay="100">
-                <div class="w-16 h-16 rounded-2xl bg-brand-green/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                    <svg class="w-8 h-8 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+            <a href="/services" class="group block bg-gray-50 rounded-[2rem] overflow-hidden hover:scale-105 transition-transform duration-500 border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col h-full" data-aos="fade-up" data-aos-delay="100">
+                <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50">
+                    <div class="w-10 h-10 rounded-xl bg-brand-green/10 flex items-center justify-center shrink-0">
+                        <svg class="w-5 h-5 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                    </div>
+                    <p class="text-[13px] font-bold text-gray-900 uppercase tracking-wide">Innovative Solutions</p>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-brand-black mb-3">Innovative Solutions</h3>
-                <p class="text-gray-500 text-sm leading-relaxed">We leverage the latest technologies in AI, Web3, and cloud computing to future-proof your digital infrastructure.</p>
-            </div>
+                <div class="w-full h-64 sm:h-72 lg:h-80 relative overflow-hidden bg-gray-200">
+                    <img src="/assets/images/UIUX-Design-Creative.jpg" class="w-full h-full object-cover" alt="Innovative Solutions" loading="lazy">
+                </div>
+                <div class="p-6 md:p-8 flex flex-col flex-grow bg-white border-t border-gray-100">
+                    <h3 class="text-xl md:text-2xl font-black font-heading text-brand-black mb-3">Future-proof your business.</h3>
+                    <p class="text-gray-500 text-sm md:text-base leading-relaxed">We leverage the latest technologies in AI, Web3, and cloud computing to future-proof your digital infrastructure.</p>
+                </div>
+            </a>
 
             <!-- Card 3 -->
-            <div class="bg-gray-50 rounded-3xl p-8 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 group" data-aos="fade-up" data-aos-delay="200">
-                <div class="w-16 h-16 rounded-2xl bg-brand-orange/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                    <svg class="w-8 h-8 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+            <a href="/services" class="group block bg-gray-50 rounded-[2rem] overflow-hidden hover:scale-105 transition-transform duration-500 border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col h-full" data-aos="fade-up" data-aos-delay="200">
+                <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50">
+                    <div class="w-10 h-10 rounded-xl bg-brand-orange/10 flex items-center justify-center shrink-0">
+                        <svg class="w-5 h-5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                    </div>
+                    <p class="text-[13px] font-bold text-gray-900 uppercase tracking-wide">Agile Methodology</p>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-brand-black mb-3">Agile Methodology</h3>
-                <p class="text-gray-500 text-sm leading-relaxed">Our flexible and iterative approach ensures rapid deployment, continuous feedback, and perfect alignment with your goals.</p>
-            </div>
+                <div class="w-full h-64 sm:h-72 lg:h-80 relative overflow-hidden bg-gray-200">
+                    <img src="/assets/images/Web-Mobile-Development.jpg" class="w-full h-full object-cover" alt="Agile Methodology" loading="lazy">
+                </div>
+                <div class="p-6 md:p-8 flex flex-col flex-grow bg-white border-t border-gray-100">
+                    <h3 class="text-xl md:text-2xl font-black font-heading text-brand-black mb-3">Deploy faster.</h3>
+                    <p class="text-gray-500 text-sm md:text-base leading-relaxed">Our flexible and iterative approach ensures rapid deployment, continuous feedback, and perfect alignment with goals.</p>
+                </div>
+            </a>
 
             <!-- Card 4 -->
-            <div class="bg-gray-50 rounded-3xl p-8 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 group" data-aos="fade-up" data-aos-delay="300">
-                <div class="w-16 h-16 rounded-2xl bg-brand-red/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                    <svg class="w-8 h-8 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+            <a href="/contact" class="group block bg-gray-50 rounded-[2rem] overflow-hidden hover:scale-105 transition-transform duration-500 border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col h-full" data-aos="fade-up" data-aos-delay="300">
+                <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50">
+                    <div class="w-10 h-10 rounded-xl bg-brand-red/10 flex items-center justify-center shrink-0">
+                        <svg class="w-5 h-5 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                    </div>
+                    <p class="text-[13px] font-bold text-gray-900 uppercase tracking-wide">Result Driven</p>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-brand-black mb-3">Result Driven</h3>
-                <p class="text-gray-500 text-sm leading-relaxed">We don't just build software; we build solutions that increase efficiency, boost sales, and deliver measurable ROI.</p>
-            </div>
+                <div class="w-full h-64 sm:h-72 lg:h-80 relative overflow-hidden bg-gray-200">
+                    <img src="/assets/images/Digital-Marketing-SEO.jpg" class="w-full h-full object-cover" alt="Result Driven" loading="lazy">
+                </div>
+                <div class="p-6 md:p-8 flex flex-col flex-grow bg-white border-t border-gray-100">
+                    <h3 class="text-xl md:text-2xl font-black font-heading text-brand-black mb-3">Deliver measurable ROI.</h3>
+                    <p class="text-gray-500 text-sm md:text-base leading-relaxed">We don't just build software; we build solutions that increase efficiency, boost sales, and drive growth.</p>
+                </div>
+            </a>
         </div>
     </div>
 </section>
