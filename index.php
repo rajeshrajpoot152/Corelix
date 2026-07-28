@@ -129,190 +129,163 @@
             <p class="relative z-10 text-gray-600 text-xl max-w-2xl">We design and build digital platforms that look great, perform smoothly, and turn visitors into customers. Scroll to explore our stack.</p>
         </div>
 
-        <!-- Stacking Cards -->
         <div class="flex flex-col gap-10">
-            <!-- Card 1: Web & Mobile Dev -->
+            <!-- Card 1: Web & Mobile App Dev -->
             <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-blue/5 top-[100px]">
-                <!-- Left Image Area -->
                 <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px]">
-                    <img src="/assets/images/Web-Mobile-Development.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Web & Mobile Dev" title="Web Mobile Development">
-                    
-                    
+                    <img src="/assets/images/Web-Mobile-Development.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Web and Mobile App Development" title="Web Mobile Development">
                 </div>
-                
-                <!-- Right Content Area -->
                 <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-6 min-w-0 p-8 md:p-12 overflow-hidden">
-                    <!-- Subtle ambient glow matching the card's brand color -->
                     <div class="absolute -top-32 -right-32 w-96 h-96 bg-brand-blue/10 rounded-full blur-[100px] pointer-events-none z-0"></div>
                     <div class="absolute bottom-0 left-0 w-72 h-72 bg-brand-blue/5 rounded-full blur-[80px] pointer-events-none z-0"></div>
 
                     <div class="flex items-center gap-3 relative z-10">
                         <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-blue/10 text-brand-blue border border-brand-blue/20 rounded-full text-xs font-bold uppercase tracking-wider">
-                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
-                            WEBSITE / APPS
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                            ENGINEERING & APP DEV
                         </span>
                     </div>
-                    <h3 class="relative z-10 text-4xl md:text-6xl lg:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">Web & Mobile <span class="text-brand-blue">Development</span></h3>
-                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Create fast, modern, and user-friendly websites or apps. We design and build digital platforms that look great, perform smoothly, and turn visitors into customers.</p>
+                    <h3 class="relative z-10 text-4xl md:text-6xl lg:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">Web & Mobile App <span class="text-brand-blue">Development</span></h3>
+                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">High-performance custom web applications, native & cross-platform iOS/Android apps, and scalable cloud architectures built for speed and security.</p>
                     
                     <div class="mt-2 relative z-10">
                         <div class="flex items-center gap-2 mb-4">
-                            <svg class="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                            <svg class="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Custom Web & Portal</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Mobile App Development</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">eCommerce Website</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">SaaS & API Development</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Progressive Web Apps</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Cloud Architecture</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Custom Web Apps</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">iOS & Android Apps</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Enterprise SaaS</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">API Development</span>
                         </div>
                     </div>
 
                     <div class="mt-4">
                         <div class="flex items-center gap-2 mb-4">
-                            <svg class="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            <svg class="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Key Technologies</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">PHP</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">React.js</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">React / Next.js</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">React Native / Flutter</span>
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Node.js</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Next.js</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Flutter</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">AWS</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">AWS / GCP</span>
                         </div>
                     </div>
 
                     <div class="mt-6 relative z-10">
-                        <a href="/custom-web-development" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-blue/30 transition-all duration-300 group" title="Custom Web Development">
+                        <a href="/services/web-mobile-app-development" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-blue/30 transition-all duration-300 group" title="Web & Mobile App Development">
                             <div class="w-10 h-10 rounded-full bg-brand-blue text-white flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-blue/50">
                                 <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                             </div>
-                            <span class="font-bold text-sm">Explore Website & App Solutions</span>
+                            <span class="font-bold text-sm">Explore Development Solutions</span>
                         </a>
                     </div>
                 </div>
             </article>
 
-            <!-- Card 2: UI/UX Design -->
-            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-blue/5 top-[125px]">
+            <!-- Card 2: SEO Services -->
+            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-green/5 top-[125px]">
                 <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px]">
-                    <img src="/assets/images/UIUX-Design-Creative.jpg" class="absolute inset-0 w-full h-full object-cover" alt="UI/UX Design" title="Uiux Design Creative">
-                    
-                    
+                    <img src="/assets/images/Digital-Marketing-SEO.jpg" class="absolute inset-0 w-full h-full object-cover" alt="SEO Services" title="SEO Services">
                 </div>
-                
                 <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-6 min-w-0 p-8 md:p-12 overflow-hidden">
-                    <!-- Subtle ambient glow matching the card's brand color -->
                     <div class="absolute -top-32 -right-32 w-96 h-96 bg-brand-green/10 rounded-full blur-[100px] pointer-events-none z-0"></div>
                     <div class="absolute bottom-0 left-0 w-72 h-72 bg-brand-green/5 rounded-full blur-[80px] pointer-events-none z-0"></div>
 
                     <div class="flex items-center gap-3 relative z-10">
                         <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-green/10 text-brand-green border border-brand-green/20 rounded-full text-xs font-bold uppercase tracking-wider">
-                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
-                            DESIGN / BRANDING
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                            SEARCH ENGINE OPTIMIZATION
                         </span>
                     </div>
-                    <h3 class="relative z-10 text-4xl md:text-6xl lg:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">UI/UX <span class="text-brand-green">Design</span></h3>
-                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Premium corporate identities, intuitive user interfaces, and stunning branding that captivates audiences. We make sure every pixel serves a purpose.</p>
+                    <h3 class="relative z-10 text-4xl md:text-6xl lg:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">SEO <span class="text-brand-green">Services</span></h3>
+                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Data-driven SEO strategies, advanced technical SEO audits, and high-authority link building to dominate organic rankings and drive qualified traffic.</p>
                     
                     <div class="mt-2 relative z-10">
                         <div class="flex items-center gap-2 mb-4">
-                            <svg class="w-5 h-5 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                            <svg class="w-5 h-5 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">UI/UX Design</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Corporate Identity</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Video Production</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Wireframing</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">User Research</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">3D & Motion Graphics</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Technical SEO</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">On-Page Optimization</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Link Building</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Local & E-commerce SEO</span>
                         </div>
                     </div>
 
                     <div class="mt-4">
                         <div class="flex items-center gap-2 mb-4">
-                            <svg class="w-5 h-5 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                            <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Key Technologies</h4>
+                            <svg class="w-5 h-5 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg>
+                            <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Key Tools</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Figma</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Adobe XD</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Illustrator</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">After Effects</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Spline</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Framer</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Google Analytics 4</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Semrush</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Ahrefs</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Search Console</span>
                         </div>
                     </div>
 
                     <div class="mt-6 relative z-10">
-                        <a href="/ui-ux-design-branding" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-green/30 transition-all duration-300 group" title="Ui Ux Design Branding">
+                        <a href="/services/seo-services" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-green/30 transition-all duration-300 group" title="SEO Services">
                             <div class="w-10 h-10 rounded-full bg-brand-green text-white flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-green/50">
                                 <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                             </div>
-                            <span class="font-bold text-sm">Explore Design Solutions</span>
+                            <span class="font-bold text-sm">Explore SEO Solutions</span>
                         </a>
                     </div>
                 </div>
             </article>
 
             <!-- Card 3: Digital Marketing -->
-            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-blue/5 top-[150px]">
+            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-orange/5 top-[150px]">
                 <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px]">
-                    <img src="/assets/images/Digital-Marketing-SEO.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Digital Marketing" title="Digital Marketing Seo">
-                    
-                    
+                    <img src="/assets/images/Social-Media.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Digital Marketing" title="Digital Marketing">
                 </div>
-                
                 <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-6 min-w-0 p-8 md:p-12 overflow-hidden">
-                    <!-- Subtle ambient glow matching the card's brand color -->
                     <div class="absolute -top-32 -right-32 w-96 h-96 bg-brand-orange/10 rounded-full blur-[100px] pointer-events-none z-0"></div>
                     <div class="absolute bottom-0 left-0 w-72 h-72 bg-brand-orange/5 rounded-full blur-[80px] pointer-events-none z-0"></div>
 
                     <div class="flex items-center gap-3 relative z-10">
                         <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-orange/10 text-brand-orange border border-brand-orange/20 rounded-full text-xs font-bold uppercase tracking-wider">
-                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
-                            MARKETING / SEO
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg>
+                            PERFORMANCE & ADS
                         </span>
                     </div>
                     <h3 class="relative z-10 text-4xl md:text-6xl lg:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">Digital <span class="text-brand-orange">Marketing</span></h3>
-                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Advanced SEO, high-ROI performance marketing, and conversion rate optimization designed to scale revenue and build your audience.</p>
+                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">High-ROI performance marketing, conversion rate optimization, and omnichannel social media advertising designed to scale acquisition and revenue.</p>
                     
                     <div class="mt-2 relative z-10">
                         <div class="flex items-center gap-2 mb-4">
-                            <svg class="w-5 h-5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                            <svg class="w-5 h-5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">SEO Services</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Local SEO</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Ecommerce SEO</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Amazon SEO</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Google Map Marketing</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Social Media Marketing</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Google & PPC Ads</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Meta & Social Ads</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Conversion Optimization</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Content Marketing</span>
                         </div>
                     </div>
 
                     <div class="mt-4">
                         <div class="flex items-center gap-2 mb-4">
-                            <svg class="w-5 h-5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                            <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Key Technologies</h4>
+                            <svg class="w-5 h-5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path></svg>
+                            <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Key Platforms</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Google Analytics 4</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Semrush</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Ahrefs</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Meta Business Suite</span>
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Google Ads</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Meta Ads Manager</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">LinkedIn Ads</span>
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">HubSpot</span>
                         </div>
                     </div>
 
                     <div class="mt-6 relative z-10">
-                        <a href="/performance-marketing-ads" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-orange/30 transition-all duration-300 group" title="Performance Marketing Ads">
+                        <a href="/services/digital-marketing" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-orange/30 transition-all duration-300 group" title="Digital Marketing">
                             <div class="w-10 h-10 rounded-full bg-brand-orange text-white flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-orange/50">
                                 <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                             </div>
@@ -323,15 +296,11 @@
             </article>
 
             <!-- Card 4: AI & Business Automation -->
-            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-blue/5 top-[175px]">
+            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-red/5 top-[175px]">
                 <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px]">
-                    <img src="/assets/images/AI-Business-Automation.jpg" class="absolute inset-0 w-full h-full object-cover" alt="AI & Automation" title="Ai Business Automation">
-                    
-                    
+                    <img src="/assets/images/AI-Business-Automation.jpg" class="absolute inset-0 w-full h-full object-cover" alt="AI and Business Automation" title="AI Business Automation">
                 </div>
-                
                 <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-6 min-w-0 p-8 md:p-12 overflow-hidden">
-                    <!-- Subtle ambient glow matching the card's brand color -->
                     <div class="absolute -top-32 -right-32 w-96 h-96 bg-brand-red/10 rounded-full blur-[100px] pointer-events-none z-0"></div>
                     <div class="absolute bottom-0 left-0 w-72 h-72 bg-brand-red/5 rounded-full blur-[80px] pointer-events-none z-0"></div>
 
@@ -350,32 +319,28 @@
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">AI Consulting & Integration</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">AI Consulting</span>
                             <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">WhatsApp Automation</span>
                             <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">CRM Integration</span>
                             <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">Custom Chatbots</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">Workflow Automation</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">Voice AI Agents</span>
                         </div>
                     </div>
 
                     <div class="mt-4">
                         <div class="flex items-center gap-2 mb-4">
-                            <svg class="w-5 h-5 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            <svg class="w-5 h-5 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Key Technologies</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">OpenAI</span>
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Make.com</span>
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Zapier</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Twilio</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">LangChain</span>
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Python</span>
                         </div>
                     </div>
 
                     <div class="mt-6 relative z-10">
-                        <a href="/ai-consulting-integration" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-red/30 transition-all duration-300 group" title="Ai Consulting Integration">
+                        <a href="/services/ai-automation" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-red/30 transition-all duration-300 group" title="AI & Business Automation">
                             <div class="w-10 h-10 rounded-full bg-brand-red text-white flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-red/50">
                                 <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                             </div>
@@ -384,8 +349,63 @@
                     </div>
                 </div>
             </article>
+
+            <!-- Card 5: UI/UX & Branding -->
+            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-purple-500/5 top-[200px]">
+                <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px]">
+                    <img src="/assets/images/UIUX-Design-Creative.jpg" class="absolute inset-0 w-full h-full object-cover" alt="UI/UX and Branding" title="UI/UX Branding">
+                </div>
+                <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-6 min-w-0 p-8 md:p-12 overflow-hidden">
+                    <div class="absolute -top-32 -right-32 w-96 h-96 bg-purple-500/10 rounded-full blur-[100px] pointer-events-none z-0"></div>
+                    <div class="absolute bottom-0 left-0 w-72 h-72 bg-purple-500/5 rounded-full blur-[80px] pointer-events-none z-0"></div>
+
+                    <div class="flex items-center gap-3 relative z-10">
+                        <span class="inline-flex items-center gap-2 px-3 py-1.5 bg-purple-500/10 text-purple-600 border border-purple-500/20 rounded-full text-xs font-bold uppercase tracking-wider">
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+                            DESIGN & BRANDING
+                        </span>
+                    </div>
+                    <h3 class="relative z-10 text-4xl md:text-6xl lg:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">UI/UX & <span class="text-purple-600">Branding</span></h3>
+                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Human-centric UI/UX design, brand identity systems, interactive wireframes, and motion design that elevate your brand and maximize user engagement.</p>
+                    
+                    <div class="mt-2 relative z-10">
+                        <div class="flex items-center gap-2 mb-4">
+                            <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">UI/UX Design</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">Corporate Identity</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">Brand Strategy</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">Wireframing & Prototyping</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <div class="flex items-center gap-2 mb-4">
+                            <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path></svg>
+                            <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Key Design Tools</h4>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Figma</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Adobe XD</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Illustrator</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Framer</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 relative z-10">
+                        <a href="/services/ui-ux-branding" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-purple-500/30 transition-all duration-300 group" title="UI/UX & Branding">
+                            <div class="w-10 h-10 rounded-full bg-purple-600 text-white flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-purple-500/50">
+                                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                            </div>
+                            <span class="font-bold text-sm">Explore Design & Branding</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
         </div>
-        
+
         <!-- View All Services Link -->
         <div class="mt-16 flex justify-center w-full" data-aos="fade-up">
             <a href="/services" class="group inline-flex items-center gap-2 text-brand-blue font-bold text-xl hover:text-brand-blue/80 transition-colors border-b-2 border-brand-blue pb-1" title="Services">

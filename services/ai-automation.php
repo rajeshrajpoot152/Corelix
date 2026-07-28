@@ -1,9 +1,9 @@
 <?php 
-$pageTitle = "Ecommerce Development | Corelix";
-$metaDesc = "Corelix provides premium Ecommerce Development. Partner with our expert team for cutting-edge digital transformation and business growth.";
-$metaKeywords = "Ecommerce Development, Corelix Ecommerce Development, Ecommerce Development Agency, Best Ecommerce Development, Ecommerce Development Services";
+$pageTitle = "Ai Consulting Integration IT Solutions & Services | Corelix";
+$metaDesc = "Corelix provides premium Ai Consulting Integration IT Solutions & Services. Partner with our expert team for cutting-edge digital transformation and business growth.";
+$metaKeywords = "Ai Consulting Integration IT Solutions & Services, Corelix Ai Consulting Integration IT Solutions & Services, Ai Consulting Integration IT Solutions & Services Agency, Best Ai Consulting Integration IT Solutions & Services, Ai Consulting Integration IT Solutions & Services Services";
 ?>
-<?php include 'header.php'; ?>
+<?php include __DIR__ . '/../header.php'; ?>
 
 <!-- Hero Section -->
 <!-- Premium Inner Page Hero Template -->
@@ -16,12 +16,12 @@ $metaKeywords = "Ecommerce Development, Corelix Ecommerce Development, Ecommerce
         
         <!-- SEO Page Title (Reusable for all inner pages) -->
         <h1 class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-4 md:mb-6 text-white text-xs font-bold tracking-widest uppercase shadow-sm">
-            Ecommerce Development
+            Ai Consulting Integration
         </h1>
         
         <!-- Main Visual Heading -->
         <h2 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white mb-4 tracking-tight leading-tight md:leading-none">
-            eCommerce Website <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Development</span>
+            AI Consulting & <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Integration</span>
         </h2>
         
         <!-- Page Subtitle -->
@@ -36,7 +36,7 @@ $metaKeywords = "Ecommerce Development, Corelix Ecommerce Development, Ecommerce
 <section class="py-24 bg-white relative">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8" data-aos="fade-up">
         <div class="prose prose-lg max-w-none text-gray-600">
-            <h2 class="text-3xl font-heading font-bold text-gray-900 mb-6">Transform Your Business with eCommerce Website Development</h2>
+            <h2 class="text-3xl font-heading font-bold text-gray-900 mb-6">Transform Your Business with AI & Business Automation</h2>
             <p class="mb-6">Our expert team delivers top-tier solutions designed to scale your operations, enhance your digital presence, and drive sustainable growth in today's competitive landscape.</p>
             <ul class="space-y-4 mb-8">
                 <li class="flex items-start"><span class="w-2 h-2 mt-2 mr-3 rounded-full bg-brand-blue flex-shrink-0"></span> Customized strategies tailored for your specific business goals.</li>
@@ -51,5 +51,5 @@ $metaKeywords = "Ecommerce Development, Corelix Ecommerce Development, Ecommerce
 <!-- CTA Section -->
 
 
-<?php include 'cta.php'; ?>
-<?php include 'footer.php'; ?>
+<?php include __DIR__ . '/../cta.php'; ?>
+<?php include __DIR__ . '/../footer.php'; ?>

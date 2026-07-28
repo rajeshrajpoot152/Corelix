@@ -35,10 +35,11 @@
                 <div>
                     <h3 class="text-gray-900 font-semibold mb-4 font-heading">Services</h3>
                     <ul class="space-y-3">
-                        <li><a href="/custom-web-development" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="Custom Web Development"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>Web & Mobile Development</a></li>
-                        <li><a href="/ui-ux-design-branding" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="Ui Ux Design Branding"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>UI/UX Design & Creative</a></li>
-                        <li><a href="/performance-marketing-ads" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="Performance Marketing Ads"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>Digital Marketing & SEO</a></li>
-                        <li><a href="/ai-consulting-integration" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="Ai Consulting Integration"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>AI & Business Automation</a></li>
+                        <li><a href="/services/web-mobile-app-development" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="Web & Mobile App Development"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>Web & Mobile App Development</a></li>
+                        <li><a href="/services/seo-services" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="SEO Services"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>SEO Services</a></li>
+                        <li><a href="/services/digital-marketing" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="Digital Marketing"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>Digital Marketing</a></li>
+                        <li><a href="/services/ai-automation" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="AI & Business Automation"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>AI & Business Automation</a></li>
+                        <li><a href="/services/ui-ux-branding" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="UI/UX & Branding"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>UI/UX & Branding</a></li>
                     </ul>
                 </div>
 

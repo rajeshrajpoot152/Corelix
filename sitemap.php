@@ -48,27 +48,13 @@ include 'header.php';
                 <h2 class="relative text-3xl sm:text-4xl font-bold text-[#1a1a2e] mb-12 z-10 font-heading pl-2 sm:pl-4">Services</h2>
                 
                 <div class="relative z-10 px-2 sm:px-4">
-                    <h3 class="text-lg font-bold text-gray-900 mb-6 font-heading border-b border-gray-100 pb-3">Development & Design</h3>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-8 mb-12">
-                        <a href="/custom-web-development" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Custom Web Development">Custom Web Development</a>
-                        <a href="/mobile-app-development" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Mobile App Development">Mobile App Development</a>
-                        <a href="/ecommerce-development" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Ecommerce Development">eCommerce Development</a>
-                        <a href="/saas-api-development" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Saas Api Development">SaaS & API Development</a>
-                        <a href="/wordpress-maintenance" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Wordpress Maintenance">WordPress Maintenance</a>
-                        <a href="/ui-ux-design-branding" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Ui Ux Design Branding">UI/UX Design & Branding</a>
-                        <a href="/corporate-identity-design" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Corporate Identity Design">Corporate Identity Design</a>
-                    </div>
-
-                    <h3 class="text-lg font-bold text-gray-900 mb-6 font-heading border-b border-gray-100 pb-3">Digital Marketing & AI Automation</h3>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-8">
-                        <a href="/performance-marketing-ads" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Performance Marketing Ads">Performance Marketing</a>
-                        <a href="/advanced-seo-services" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Advanced Seo Services">Advanced SEO Services</a>
-                        <a href="/social-media-management" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Social Media Management">Social Media Management</a>
-                        <a href="/conversion-rate-optimization" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Conversion Rate Optimization">Conversion Rate Optimization</a>
-                        <a href="/video-production-content" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Video Production Content">Video Production & Content</a>
-                        <a href="/ai-consulting-integration" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Ai Consulting Integration">AI Consulting</a>
-                        <a href="/workflow-automation-crm" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Workflow Automation Crm">Workflow Automation & CRM</a>
-                        <a href="/whatsapp-automation-chatbots" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Whatsapp Automation Chatbots">WhatsApp Automation & Chatbots</a>
+                    <h3 class="text-lg font-bold text-gray-900 mb-6 font-heading border-b border-gray-100 pb-3">Core Services</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-6 gap-x-8">
+                        <a href="/services/web-mobile-app-development" class="text-gray-700 hover:text-brand-blue transition-colors text-sm font-medium" title="Web & Mobile App Development">Web & Mobile App Development</a>
+                        <a href="/services/seo-services" class="text-gray-700 hover:text-brand-green transition-colors text-sm font-medium" title="SEO Services">SEO Services</a>
+                        <a href="/services/digital-marketing" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Digital Marketing">Digital Marketing</a>
+                        <a href="/services/ai-automation" class="text-gray-700 hover:text-brand-red transition-colors text-sm font-medium" title="AI & Business Automation">AI & Business Automation</a>
+                        <a href="/services/ui-ux-branding" class="text-gray-700 hover:text-purple-600 transition-colors text-sm font-medium" title="UI/UX & Branding">UI/UX & Branding</a>
                     </div>
                 </div>
             </div>

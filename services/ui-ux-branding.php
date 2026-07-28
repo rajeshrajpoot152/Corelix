@@ -1,9 +1,9 @@
 <?php 
-$pageTitle = "Social Media Management IT Solutions & Services | Corelix";
-$metaDesc = "Corelix provides premium Social Media Management IT Solutions & Services. Partner with our expert team for cutting-edge digital transformation and business growth.";
-$metaKeywords = "Social Media Management IT Solutions & Services, Corelix Social Media Management IT Solutions & Services, Social Media Management IT Solutions & Services Agency, Best Social Media Management IT Solutions & Services, Social Media Management IT Solutions & Services Services";
+$pageTitle = "Ui Ux Design Branding | Corelix";
+$metaDesc = "Corelix provides premium Ui Ux Design Branding. Partner with our expert team for cutting-edge digital transformation and business growth.";
+$metaKeywords = "Ui Ux Design Branding, Corelix Ui Ux Design Branding, Ui Ux Design Branding Agency, Best Ui Ux Design Branding, Ui Ux Design Branding Services";
 ?>
-<?php include 'header.php'; ?>
+<?php include __DIR__ . '/../header.php'; ?>
 
 <!-- Hero Section -->
 <!-- Premium Inner Page Hero Template -->
@@ -16,12 +16,12 @@ $metaKeywords = "Social Media Management IT Solutions & Services, Corelix Social
         
         <!-- SEO Page Title (Reusable for all inner pages) -->
         <h1 class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-4 md:mb-6 text-white text-xs font-bold tracking-widest uppercase shadow-sm">
-            Social Media Management
+            Ui Ux Design Branding
         </h1>
         
         <!-- Main Visual Heading -->
         <h2 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white mb-4 tracking-tight leading-tight md:leading-none">
-            Social Media <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Management</span>
+            UI/UX Design & <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Branding</span>
         </h2>
         
         <!-- Page Subtitle -->
@@ -36,7 +36,7 @@ $metaKeywords = "Social Media Management IT Solutions & Services, Corelix Social
 <section class="py-24 bg-white relative">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8" data-aos="fade-up">
         <div class="prose prose-lg max-w-none text-gray-600">
-            <h2 class="text-3xl font-heading font-bold text-gray-900 mb-6">Transform Your Business with Social Media Management</h2>
+            <h2 class="text-3xl font-heading font-bold text-gray-900 mb-6">Transform Your Business with UI/UX & Branding</h2>
             <p class="mb-6">Our expert team delivers top-tier solutions designed to scale your operations, enhance your digital presence, and drive sustainable growth in today's competitive landscape.</p>
             <ul class="space-y-4 mb-8">
                 <li class="flex items-start"><span class="w-2 h-2 mt-2 mr-3 rounded-full bg-brand-blue flex-shrink-0"></span> Customized strategies tailored for your specific business goals.</li>
@@ -51,5 +51,5 @@ $metaKeywords = "Social Media Management IT Solutions & Services, Corelix Social
 <!-- CTA Section -->
 
 
-<?php include 'cta.php'; ?>
-<?php include 'footer.php'; ?>
+<?php include __DIR__ . '/../cta.php'; ?>
+<?php include __DIR__ . '/../footer.php'; ?>

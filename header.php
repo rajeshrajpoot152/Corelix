@@ -265,10 +265,11 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
                         <!-- Dropdown Menu -->
                         <div class="absolute left-0 mt-0 w-64 rounded-xl bg-white shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 overflow-hidden">
                             <div class="py-2">
-                                <a href="/custom-web-development" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="Services">Web & Mobile Development</a>
-                                <a href="/ui-ux-design-branding" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="Services">UI/UX Design & Creative</a>
-                                <a href="/performance-marketing-ads" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="Services">Digital Marketing & SEO</a>
-                                <a href="/ai-consulting-integration" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="Services">AI & Business Automation</a>
+                                <a href="/services/web-mobile-app-development" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="Web & Mobile App Development">Web & Mobile App Development</a>
+                                <a href="/services/seo-services" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="SEO Services">SEO Services</a>
+                                <a href="/services/digital-marketing" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="Digital Marketing">Digital Marketing</a>
+                                <a href="/services/ai-automation" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="AI & Business Automation">AI & Business Automation</a>
+                                <a href="/services/ui-ux-branding" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="UI/UX & Branding">UI/UX & Branding</a>
                             </div>
                         </div>
                     </div>
@@ -316,10 +317,11 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                     </button>
                     <div id="mobile-services-menu" class="hidden pl-6 py-2 space-y-2 border-l-2 border-brand-blue/30 ml-3">
-                        <a href="/custom-web-development" class="block px-3 py-2 text-sm font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="Services">Web & Mobile Development</a>
-                        <a href="/ui-ux-design-branding" class="block px-3 py-2 text-sm font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="Services">UI/UX Design & Creative</a>
-                        <a href="/performance-marketing-ads" class="block px-3 py-2 text-sm font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="Services">Digital Marketing & SEO</a>
-                        <a href="/ai-consulting-integration" class="block px-3 py-2 text-sm font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="Services">AI & Business Automation</a>
+                        <a href="/services/web-mobile-app-development" class="block px-3 py-2 text-sm font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="Web & Mobile App Development">Web & Mobile App Development</a>
+                        <a href="/services/seo-services" class="block px-3 py-2 text-sm font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="SEO Services">SEO Services</a>
+                        <a href="/services/digital-marketing" class="block px-3 py-2 text-sm font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="Digital Marketing">Digital Marketing</a>
+                        <a href="/services/ai-automation" class="block px-3 py-2 text-sm font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="AI & Business Automation">AI & Business Automation</a>
+                        <a href="/services/ui-ux-branding" class="block px-3 py-2 text-sm font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="UI/UX & Branding">UI/UX & Branding</a>
                         <a href="/services" class="block px-3 py-2 text-sm font-medium text-brand-blue hover:text-brand-blue hover:bg-white/5 rounded-md" title="Services">View All Services &rarr;</a>
                     </div>
                 </div>
