@@ -39,37 +39,37 @@ $metaKeywords = "Industries We Serve, Corelix Industries We Serve, Industries We
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <?php
             $industries = [
-                ['title' => 'Healthcare', 'url' => '/healthcare.php'],
-                ['title' => 'Legal', 'url' => '/legal.php'],
-                ['title' => 'Logistics', 'url' => '/logistics.php'],
-                ['title' => 'Finance', 'url' => '/finance.php'],
-                ['title' => 'Education', 'url' => '/education.php'],
-                ['title' => 'Social Media', 'url' => '/social-media.php'],
-                ['title' => 'Media & OTT', 'url' => '/media-ott.php'],
-                ['title' => 'Insurance', 'url' => '/insurance.php'],
-                ['title' => 'Travel', 'url' => '/travel.php'],
-                ['title' => 'Retail', 'url' => '/retail.php'],
-                ['title' => 'Manufacturing', 'url' => '/manufacturing.php'],
-                ['title' => 'Construction', 'url' => '/construction.php'],
-                ['title' => 'Beauty & Lifestyle', 'url' => '/beauty-lifestyle.php'],
-                ['title' => 'Sports', 'url' => '/sports.php'],
-                ['title' => 'On Demand', 'url' => '/on-demand.php'],
-                ['title' => 'Marketplace', 'url' => '/marketplace.php'],
-                ['title' => 'IT & Telecom', 'url' => '/it-telecom.php'],
-                ['title' => 'Automotive', 'url' => '/automotive.php'],
-                ['title' => 'Real Estate', 'url' => '/real-estate.php'],
-                ['title' => 'Energy & Utilities', 'url' => '/energy-utilities.php'],
+                'Healthcare',
+                'Legal',
+                'Logistics',
+                'Finance',
+                'Education',
+                'Social Media',
+                'Media & OTT',
+                'Insurance',
+                'Travel',
+                'Retail',
+                'Manufacturing',
+                'Construction',
+                'Beauty & Lifestyle',
+                'Sports',
+                'On Demand',
+                'Marketplace',
+                'IT & Telecom',
+                'Automotive',
+                'Real Estate',
+                'Energy & Utilities',
             ];
 
             foreach ($industries as $sol) {
-                echo '<a href="'.$sol['url'].'" class="group block p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:border-brand-blue hover:shadow-xl transition-all hover:-translate-y-1" title="Corelix Link">
+                echo '<div class="group block p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:border-brand-blue hover:shadow-xl transition-all hover:-translate-y-1">
                         <div class="flex items-center gap-4">
                             <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-brand-blue group-hover:bg-brand-blue group-hover:text-white transition-colors">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                             </div>
-                            <h3 class="font-bold text-gray-900 group-hover:text-brand-blue transition-colors">'.$sol['title'].'</h3>
+                            <h3 class="font-bold text-gray-900 group-hover:text-brand-blue transition-colors">'.$sol.'</h3>
                         </div>
-                      </a>';
+                      </div>';
             }
             ?>
         </div>

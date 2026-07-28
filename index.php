@@ -525,7 +525,7 @@
                             <h3 class="text-2xl md:text-3xl lg:text-[40px] font-bold text-white mb-6 md:mb-8 font-heading leading-tight">"Secure patient portals, telemedicine apps, and comprehensive management systems."</h3>
                             <p class="text-white font-bold text-sm md:text-base mb-1">Healthcare</p>
                             <p class="text-gray-300 text-xs md:text-sm mb-6 md:mb-8">Industry Solutions</p>
-                            <a href="/healthcare" class="inline-flex items-center px-6 py-2.5 rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-colors text-sm group" title="Healthcare">
+                            <a href="/industry" class="inline-flex items-center px-6 py-2.5 rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-colors text-sm group" title="Healthcare">
                                 See all plans
                                 <svg class="w-4 h-4 ml-1.5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </a>
@@ -541,7 +541,7 @@
                             <h3 class="text-2xl md:text-3xl lg:text-[40px] font-bold text-white mb-6 md:mb-8 font-heading leading-tight">"Advanced Learning Management Systems and eLearning portals for modern education."</h3>
                             <p class="text-white font-bold text-sm md:text-base mb-1">Education</p>
                             <p class="text-gray-300 text-xs md:text-sm mb-6 md:mb-8">Industry Solutions</p>
-                            <a href="/education" class="inline-flex items-center px-6 py-2.5 rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-colors text-sm group" title="Education">
+                            <a href="/industry" class="inline-flex items-center px-6 py-2.5 rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-colors text-sm group" title="Education">
                                 See all plans
                                 <svg class="w-4 h-4 ml-1.5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </a>
@@ -557,7 +557,7 @@
                             <h3 class="text-2xl md:text-3xl lg:text-[40px] font-bold text-white mb-6 md:mb-8 font-heading leading-tight">"Scalable community platforms, social networking apps, and engagement tools."</h3>
                             <p class="text-white font-bold text-sm md:text-base mb-1">Social Media</p>
                             <p class="text-gray-300 text-xs md:text-sm mb-6 md:mb-8">Industry Solutions</p>
-                            <a href="/social-media" class="inline-flex items-center px-6 py-2.5 rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-colors text-sm group" title="Social Media">
+                            <a href="/industry" class="inline-flex items-center px-6 py-2.5 rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-colors text-sm group" title="Social Media">
                                 See all plans
                                 <svg class="w-4 h-4 ml-1.5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </a>
@@ -573,7 +573,7 @@
                             <h3 class="text-2xl md:text-3xl lg:text-[40px] font-bold text-white mb-6 md:mb-8 font-heading leading-tight">"Industrial automation, custom ERP solutions, and supply chain management."</h3>
                             <p class="text-white font-bold text-sm md:text-base mb-1">Manufacturing</p>
                             <p class="text-gray-300 text-xs md:text-sm mb-6 md:mb-8">Industry Solutions</p>
-                            <a href="/manufacturing" class="inline-flex items-center px-6 py-2.5 rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-colors text-sm group" title="Manufacturing">
+                            <a href="/industry" class="inline-flex items-center px-6 py-2.5 rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-colors text-sm group" title="Manufacturing">
                                 See all plans
                                 <svg class="w-4 h-4 ml-1.5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </a>
@@ -589,7 +589,7 @@
                             <h3 class="text-2xl md:text-3xl lg:text-[40px] font-bold text-white mb-6 md:mb-8 font-heading leading-tight">"On-demand booking systems, salon management, and lifestyle applications."</h3>
                             <p class="text-white font-bold text-sm md:text-base mb-1">Beauty & Lifestyle</p>
                             <p class="text-gray-300 text-xs md:text-sm mb-6 md:mb-8">Industry Solutions</p>
-                            <a href="/beauty-lifestyle" class="inline-flex items-center px-6 py-2.5 rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-colors text-sm group" title="Beauty Lifestyle">
+                            <a href="/industry" class="inline-flex items-center px-6 py-2.5 rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-colors text-sm group" title="Beauty Lifestyle">
                                 See all plans
                                 <svg class="w-4 h-4 ml-1.5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </a>
@@ -1193,9 +1193,9 @@
             <div class="flex w-max animate-marquee-reverse items-center">
                 <!-- Group 1 -->
                 <div class="flex items-center justify-center gap-6 md:gap-10 px-3 md:px-5">
-                    <img src="/assets/images/htmlcoderunner.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Htmlcoderunner">
-                    <img src="/assets/images/babynameslibrary.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Babynameslibrary">
-                    <img src="/assets/images/danagedumigrate.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Danagedumigrate">
+                    <img src="/assets/images/Essence-51.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Htmlcoderunner">
+                    <img src="/assets/images/hanuwantiyatentcity.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Babynameslibrary">
+                    <img src="/assets/images/boatshoesuk.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Danagedumigrate">
                     <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Astrologermaakalyani">
                     <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvam">
                     <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvasti">
@@ -1204,9 +1204,9 @@
                 </div>
                 <!-- Group 2 (Clone for infinite loop) -->
                 <div class="flex items-center justify-center gap-6 md:gap-10 px-3 md:px-5">
-                    <img src="/assets/images/htmlcoderunner.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Htmlcoderunner">
-                    <img src="/assets/images/babynameslibrary.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Babynameslibrary">
-                    <img src="/assets/images/danagedumigrate.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Danagedumigrate">
+                    <img src="/assets/images/Essence-51.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Htmlcoderunner">
+                    <img src="/assets/images/hanuwantiyatentcity.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Babynameslibrary">
+                    <img src="/assets/images/boatshoesuk.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Danagedumigrate">
                     <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Astrologermaakalyani">
                     <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvam">
                     <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvasti">

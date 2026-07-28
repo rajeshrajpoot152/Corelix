@@ -82,26 +82,26 @@ include 'header.php';
                 
                 <div class="relative z-10 px-2 sm:px-4">
                     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-8 mb-12">
-                        <a href="/healthcare" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Healthcare">Healthcare</a>
-                        <a href="/legal" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Legal">Legal</a>
-                        <a href="/logistics" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Logistics">Logistics</a>
-                        <a href="/finance" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Finance">Finance</a>
-                        <a href="/education" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Education">Education</a>
-                        <a href="/social-media" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Social Media">Social Media</a>
-                        <a href="/media-ott" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Media Ott">Media & OTT</a>
-                        <a href="/insurance" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Insurance">Insurance</a>
-                        <a href="/travel" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Travel">Travel</a>
-                        <a href="/retail" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Retail">Retail</a>
-                        <a href="/manufacturing" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Manufacturing">Manufacturing</a>
-                        <a href="/construction" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Construction">Construction</a>
-                        <a href="/beauty-lifestyle" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Beauty Lifestyle">Beauty & Lifestyle</a>
-                        <a href="/sports" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Sports">Sports</a>
-                        <a href="/on-demand" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="On Demand">On Demand</a>
-                        <a href="/marketplace" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Marketplace">Marketplace</a>
-                        <a href="/it-telecom" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="It Telecom">IT & Telecom</a>
-                        <a href="/automotive" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Automotive">Automotive</a>
-                        <a href="/real-estate" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Real Estate">Real Estate</a>
-                        <a href="/energy-utilities" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Energy Utilities">Energy & Utilities</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Healthcare">Healthcare</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Legal">Legal</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Logistics">Logistics</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Finance">Finance</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Education">Education</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Social Media">Social Media</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Media Ott">Media & OTT</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Insurance">Insurance</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Travel">Travel</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Retail">Retail</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Manufacturing">Manufacturing</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Construction">Construction</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Beauty Lifestyle">Beauty & Lifestyle</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Sports">Sports</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="On Demand">On Demand</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Marketplace">Marketplace</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="It Telecom">IT & Telecom</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Automotive">Automotive</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Real Estate">Real Estate</a>
+                        <a href="/industry" class="text-gray-700 hover:text-brand-orange transition-colors text-sm font-medium" title="Energy Utilities">Energy & Utilities</a>
                     </div>
                 </div>
             </div>
