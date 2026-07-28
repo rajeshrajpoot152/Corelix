@@ -474,5 +474,149 @@ include __DIR__ . '/../header.php';
 </section>
 
 
+<!-- Section 06: WordPress Speed Optimization -->
+<section id="wordpress-speed" class="py-20 md:py-28 bg-black relative border-b border-gray-900 overflow-hidden">
+    <!-- Background Glows -->
+    <div class="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-brand-blue/20 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
+    <div class="absolute top-1/2 right-1/4 translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-brand-green/10 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
+    
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="max-w-[1536px] mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                
+                <!-- Left: Metrics Graphic -->
+                <div class="relative w-full aspect-[4/3] lg:aspect-square max-h-[600px] flex flex-col justify-center" data-aos="fade-right">
+                    
+                    <!-- Top Part: Vitals Network -->
+                    <div class="relative w-full h-[300px] sm:h-[400px] flex items-center justify-center mb-8">
+                        
+                        <!-- Central Core -->
+                        <div class="absolute z-20 w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-gradient-to-br from-brand-blue/30 to-brand-green/30 border border-brand-blue/40 flex items-center justify-center shadow-[0_0_50px_rgba(59,130,246,0.3)] backdrop-blur-md">
+                            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-brand-blue to-indigo-600 flex items-center justify-center shadow-inner">
+                                <span class="text-3xl sm:text-4xl text-white font-black font-heading">W</span>
+                            </div>
+                        </div>
+
+                        <!-- Nodes (Left) -->
+                        <div class="absolute left-0 sm:left-4 top-1/4 text-left z-30">
+                            <p class="text-[10px] sm:text-xs text-gray-400 mb-0.5 whitespace-nowrap">Largest Contentful Paint</p>
+                            <p class="text-sm sm:text-base font-bold text-green-400">0.8 s</p>
+                            <!-- Connecting Line -->
+                            <div class="absolute top-1/2 -right-12 sm:-right-20 w-12 sm:w-20 h-px bg-gradient-to-r from-transparent to-brand-blue/50"></div>
+                        </div>
+                        <div class="absolute left-0 sm:left-4 top-1/2 -translate-y-1/2 text-left z-30">
+                            <p class="text-[10px] sm:text-xs text-gray-400 mb-0.5 whitespace-nowrap">Interaction to Next Paint</p>
+                            <p class="text-sm sm:text-base font-bold text-green-400">45 ms</p>
+                            <!-- Connecting Line -->
+                            <div class="absolute top-1/2 -right-12 sm:-right-20 w-12 sm:w-20 h-px bg-gradient-to-r from-transparent to-brand-blue/50"></div>
+                        </div>
+                        <div class="absolute left-0 sm:left-4 bottom-1/4 text-left z-30">
+                            <p class="text-[10px] sm:text-xs text-gray-400 mb-0.5 whitespace-nowrap">First Contentful Paint</p>
+                            <p class="text-sm sm:text-base font-bold text-green-400">0.5 s</p>
+                            <!-- Connecting Line -->
+                            <div class="absolute top-1/2 -right-12 sm:-right-20 w-12 sm:w-20 h-px bg-gradient-to-r from-transparent to-brand-blue/50"></div>
+                        </div>
+
+                        <!-- Nodes (Right) -->
+                        <div class="absolute right-0 sm:right-4 top-1/4 text-right z-30">
+                            <p class="text-[10px] sm:text-xs text-gray-400 mb-0.5 whitespace-nowrap">Cumulative Layout Shift</p>
+                            <p class="text-sm sm:text-base font-bold text-green-400">0.01</p>
+                            <!-- Connecting Line -->
+                            <div class="absolute top-1/2 -left-12 sm:-left-20 w-12 sm:w-20 h-px bg-gradient-to-l from-transparent to-brand-blue/50"></div>
+                        </div>
+                        <div class="absolute right-0 sm:right-4 top-1/2 -translate-y-1/2 text-right z-30">
+                            <p class="text-[10px] sm:text-xs text-gray-400 mb-0.5 whitespace-nowrap">First Input Delay</p>
+                            <p class="text-sm sm:text-base font-bold text-green-400">2 ms</p>
+                            <!-- Connecting Line -->
+                            <div class="absolute top-1/2 -left-12 sm:-left-20 w-12 sm:w-20 h-px bg-gradient-to-l from-transparent to-brand-blue/50"></div>
+                        </div>
+                        <div class="absolute right-0 sm:right-4 bottom-1/4 text-right z-30">
+                            <p class="text-[10px] sm:text-xs text-gray-400 mb-0.5 whitespace-nowrap">Time to First Byte</p>
+                            <p class="text-sm sm:text-base font-bold text-green-400">0.2 s</p>
+                            <!-- Connecting Line -->
+                            <div class="absolute top-1/2 -left-12 sm:-left-20 w-12 sm:w-20 h-px bg-gradient-to-l from-transparent to-brand-blue/50"></div>
+                        </div>
+
+                    </div>
+
+                    <!-- Bottom Part: Circular Progress -->
+                    <div class="flex items-center justify-between px-2 sm:px-8">
+                        <!-- Score 1 -->
+                        <div class="flex flex-col items-center">
+                            <div class="relative w-12 h-12 sm:w-16 sm:h-16 mb-2">
+                                <svg class="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                                    <path class="text-gray-800" stroke-dasharray="100, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke="currentColor" stroke-width="3" fill="none" />
+                                    <path class="text-green-500" stroke-dasharray="100, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke="currentColor" stroke-width="3" fill="none" />
+                                </svg>
+                                <div class="absolute inset-0 flex items-center justify-center text-[10px] sm:text-xs font-bold text-white">100%</div>
+                            </div>
+                            <span class="text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-wider font-bold">Performance</span>
+                        </div>
+                        <!-- Score 2 -->
+                        <div class="flex flex-col items-center">
+                            <div class="relative w-12 h-12 sm:w-16 sm:h-16 mb-2">
+                                <svg class="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                                    <path class="text-gray-800" stroke-dasharray="100, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke="currentColor" stroke-width="3" fill="none" />
+                                    <path class="text-green-500" stroke-dasharray="98, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke="currentColor" stroke-width="3" fill="none" />
+                                </svg>
+                                <div class="absolute inset-0 flex items-center justify-center text-[10px] sm:text-xs font-bold text-white">98%</div>
+                            </div>
+                            <span class="text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-wider font-bold">Accessibility</span>
+                        </div>
+                        <!-- Score 3 -->
+                        <div class="flex flex-col items-center">
+                            <div class="relative w-12 h-12 sm:w-16 sm:h-16 mb-2">
+                                <svg class="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                                    <path class="text-gray-800" stroke-dasharray="100, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke="currentColor" stroke-width="3" fill="none" />
+                                    <path class="text-green-500" stroke-dasharray="96, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke="currentColor" stroke-width="3" fill="none" />
+                                </svg>
+                                <div class="absolute inset-0 flex items-center justify-center text-[10px] sm:text-xs font-bold text-white">96%</div>
+                            </div>
+                            <span class="text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-wider font-bold">Best Practices</span>
+                        </div>
+                        <!-- Score 4 -->
+                        <div class="flex flex-col items-center">
+                            <div class="relative w-12 h-12 sm:w-16 sm:h-16 mb-2">
+                                <svg class="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                                    <path class="text-gray-800" stroke-dasharray="100, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke="currentColor" stroke-width="3" fill="none" />
+                                    <path class="text-green-500" stroke-dasharray="100, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" stroke="currentColor" stroke-width="3" fill="none" />
+                                </svg>
+                                <div class="absolute inset-0 flex items-center justify-center text-[10px] sm:text-xs font-bold text-white">100%</div>
+                            </div>
+                            <span class="text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-wider font-bold">SEO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Text Content -->
+                <div class="lg:pl-12" data-aos="fade-left">
+                    <h3 class="text-sm font-bold tracking-widest text-brand-blue uppercase mb-3">WordPress Speed Optimization</h3>
+                    <h2 class="text-3xl md:text-5xl font-black font-heading text-white mb-6 leading-tight">
+                        Achieve <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Lightning-Fast</span> Core Web Vitals
+                    </h2>
+                    <p class="text-gray-400 text-lg leading-relaxed mb-6">
+                        Page speed is a critical ranking factor for Google and directly impacts your conversion rates. Our WordPress speed optimization experts drastically reduce load times, optimize database queries, and implement advanced caching to ensure your website passes Google's Core Web Vitals assessment with flying colors.
+                    </p>
+                    <p class="text-sm text-gray-500 italic mb-8 border-l-2 border-brand-blue pl-4">
+                        We guarantee sub-second load times and 90+ scores on Google PageSpeed Insights through code minification, image delivery optimization, and server tuning.
+                    </p>
+
+                    <!-- Assessment Card -->
+                    <div class="bg-white rounded-2xl p-4 sm:p-6 flex items-center gap-4 max-w-sm shadow-2xl shadow-brand-blue/10">
+                        <div class="w-12 h-12 rounded-full bg-green-50 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <div>
+                            <p class="text-sm font-bold text-gray-900 mb-1">Core Web Vitals Assessment: <span class="text-green-600">Passed</span></p>
+                            <p class="text-[10px] text-gray-500 leading-tight">Computed from the Chrome UX Report over the latest 28-day collection period.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
