@@ -26,36 +26,134 @@ include 'header.php';
     </div>
 </section>
 
-<main class="bg-[#080B12] min-h-screen py-16 relative z-10">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1536px]">
-        <div class="bg-brand-black/90 backdrop-blur-md rounded-3xl shadow-2xl border border-white/10 p-8 sm:p-12 text-white">
-            <div class="prose prose-lg max-w-none text-gray-300">
-                <p class="text-sm text-gray-400 border-b border-white/10 pb-4 mb-8">Last updated: <?php echo date('F d, Y'); ?></p>
-                
-                <h3 class="text-2xl font-bold text-white mt-8 mb-4 font-heading">1. Introduction</h3>
-                <p class="mb-6 leading-relaxed">At Corelix, we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.</p>
-                
-                <h3 class="text-2xl font-bold text-white mt-8 mb-4 font-heading">2. The Data We Collect About You</h3>
-                <p class="mb-4 leading-relaxed">We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:</p>
-                <ul class="list-disc pl-5 mb-6 space-y-2 text-gray-300">
-                    <li><strong class="text-white">Identity Data</strong> includes first name, last name, username or similar identifier.</li>
-                    <li><strong class="text-white">Contact Data</strong> includes billing address, email address and telephone numbers.</li>
-                    <li><strong class="text-white">Technical Data</strong> includes internet protocol (IP) address, browser type and version, time zone setting and location, operating system and platform, and other technology on the devices you use to access this website.</li>
-                </ul>
-
-                <h3 class="text-2xl font-bold text-white mt-8 mb-4 font-heading">3. How We Use Your Personal Data</h3>
-                <p class="mb-4 leading-relaxed">We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:</p>
-                <ul class="list-disc pl-5 mb-6 space-y-2 text-gray-300">
-                    <li>Where we need to perform the contract we are about to enter into or have entered into with you.</li>
-                    <li>Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests.</li>
-                    <li>Where we need to comply with a legal obligation.</li>
-                </ul>
-
-                <h3 class="text-2xl font-bold text-white mt-8 mb-4 font-heading">4. Contact Us</h3>
-                <p class="mb-4 leading-relaxed">If you have any questions about this privacy policy or our privacy practices, please contact us in the following ways:</p>
-                <p class="mb-4 leading-relaxed">Email address: <a href="mailto:info@corelix.com" class="text-brand-blue hover:underline font-medium" title="Email Corelix">info@corelix.com</a></p>
+<main class="bg-gray-50 min-h-screen py-16 md:py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+        
+        <div class="bg-white rounded-3xl shadow-xl border border-gray-100 p-8 md:p-14 lg:p-16">
+            
+            <!-- Document Metadata Header -->
+            <div class="flex flex-wrap items-center justify-between gap-4 pb-8 mb-10 border-b border-gray-100">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-green/10 text-brand-green text-xs font-bold uppercase tracking-wider">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    <span>Data Privacy Standards</span>
+                </div>
+                <div class="text-xs font-semibold text-gray-500 bg-gray-100 px-4 py-1.5 rounded-full">
+                    Last Updated: <?php echo date('F d, Y'); ?>
+                </div>
             </div>
+
+            <!-- Section 1 -->
+            <div class="mb-8 p-6 md:p-8 rounded-2xl bg-gray-50/70 border border-gray-100 hover:border-gray-200 transition-colors">
+                <div class="flex items-center gap-4 mb-4">
+                    <span class="w-9 h-9 rounded-xl bg-brand-green text-white font-bold text-sm flex items-center justify-center flex-shrink-0 shadow-md">01</span>
+                    <h3 class="text-xl md:text-2xl font-bold font-heading text-gray-900">Introduction & Commitment</h3>
+                </div>
+                <p class="text-gray-600 leading-relaxed text-base">
+                    At Corelix, we respect your privacy and are committed to protecting your personal data. This privacy policy informs you as to how we safeguard your personal data when you visit our website, communicate with our team, or utilize our digital solutions, while outlining your privacy rights under applicable data protection laws.
+                </p>
+            </div>
+
+            <!-- Section 2 -->
+            <div class="mb-8 p-6 md:p-8 rounded-2xl bg-gray-50/70 border border-gray-100 hover:border-gray-200 transition-colors">
+                <div class="flex items-center gap-4 mb-4">
+                    <span class="w-9 h-9 rounded-xl bg-brand-green text-white font-bold text-sm flex items-center justify-center flex-shrink-0 shadow-md">02</span>
+                    <h3 class="text-xl md:text-2xl font-bold font-heading text-gray-900">The Data We Collect About You</h3>
+                </div>
+                <p class="text-gray-600 leading-relaxed text-base mb-6">
+                    We may collect, use, store, and transfer different kinds of personal data about you, categorized as follows:
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <!-- Identity Data -->
+                    <div class="p-5 rounded-xl bg-white border border-gray-100 shadow-sm">
+                        <div class="w-8 h-8 rounded-lg bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-gray-900 mb-1">Identity Data</h4>
+                        <p class="text-xs text-gray-500">First name, last name, username, or similar professional identifiers.</p>
+                    </div>
+
+                    <!-- Contact Data -->
+                    <div class="p-5 rounded-xl bg-white border border-gray-100 shadow-sm">
+                        <div class="w-8 h-8 rounded-lg bg-brand-green/10 text-brand-green flex items-center justify-center mb-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-gray-900 mb-1">Contact Data</h4>
+                        <p class="text-xs text-gray-500">Corporate email address, telephone numbers, and billing location.</p>
+                    </div>
+
+                    <!-- Technical Data -->
+                    <div class="p-5 rounded-xl bg-white border border-gray-100 shadow-sm">
+                        <div class="w-8 h-8 rounded-lg bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-gray-900 mb-1">Technical Data</h4>
+                        <p class="text-xs text-gray-500">IP address, browser type/version, operating system, and platform diagnostics.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 3 -->
+            <div class="mb-8 p-6 md:p-8 rounded-2xl bg-gray-50/70 border border-gray-100 hover:border-gray-200 transition-colors">
+                <div class="flex items-center gap-4 mb-4">
+                    <span class="w-9 h-9 rounded-xl bg-brand-green text-white font-bold text-sm flex items-center justify-center flex-shrink-0 shadow-md">03</span>
+                    <h3 class="text-xl md:text-2xl font-bold font-heading text-gray-900">How We Use Your Personal Data</h3>
+                </div>
+                <p class="text-gray-600 leading-relaxed text-base mb-4">
+                    We only use your personal data when the law allows us to. Most commonly, we process your data under the following legal circumstances:
+                </p>
+                <div class="space-y-3">
+                    <div class="flex items-start gap-3">
+                        <div class="w-5 h-5 rounded-full bg-brand-green/10 text-brand-green flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                        </div>
+                        <p class="text-sm text-gray-600"><strong class="text-gray-900 font-semibold">Contractual Necessity:</strong> Where we need to perform the contract we are about to enter into or have entered into with you.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="w-5 h-5 rounded-full bg-brand-green/10 text-brand-green flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                        </div>
+                        <p class="text-sm text-gray-600"><strong class="text-gray-900 font-semibold">Legitimate Interests:</strong> Where necessary for our business operations, security, and service improvement without overriding your fundamental rights.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="w-5 h-5 rounded-full bg-brand-green/10 text-brand-green flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                        </div>
+                        <p class="text-sm text-gray-600"><strong class="text-gray-900 font-semibold">Legal Obligation:</strong> Where we need to comply with regulatory, financial, or statutory reporting requirements.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 4 -->
+            <div class="mb-10 p-6 md:p-8 rounded-2xl bg-gray-50/70 border border-gray-100 hover:border-gray-200 transition-colors">
+                <div class="flex items-center gap-4 mb-4">
+                    <span class="w-9 h-9 rounded-xl bg-brand-green text-white font-bold text-sm flex items-center justify-center flex-shrink-0 shadow-md">04</span>
+                    <h3 class="text-xl md:text-2xl font-bold font-heading text-gray-900">Your Privacy Rights</h3>
+                </div>
+                <p class="text-gray-600 leading-relaxed text-base">
+                    Under applicable data protection laws, you have rights including access to your personal data, correction of inaccurate data, request for deletion, and restriction of processing. To exercise any of these rights, please contact our Privacy Team.
+                </p>
+            </div>
+
+            <!-- Dedicated Privacy Support Help Box -->
+            <div class="p-8 rounded-2xl bg-gradient-to-r from-brand-green/5 via-brand-blue/5 to-transparent border border-brand-green/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-xl bg-brand-green/10 text-brand-green flex items-center justify-center flex-shrink-0">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-900 text-lg mb-1">Have privacy or data inquiries?</h4>
+                        <p class="text-sm text-gray-600">Our Data Protection Officer is ready to assist you.</p>
+                    </div>
+                </div>
+                <a href="mailto:info@corelix.com" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-brand-black text-white hover:bg-brand-green transition-colors font-bold text-sm shadow-md" title="Email Corelix Privacy">
+                    <span>Contact Privacy Officer</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+            </div>
+
         </div>
+
     </div>
 </main>
 <?php include 'footer.php'; ?>
