@@ -490,5 +490,4 @@ include 'header.php';
     }
 </script>
 
-<?php include 'cta.php'; ?>
 <?php include 'footer.php'; ?>
