@@ -177,12 +177,15 @@ include 'header.php';
                 $color = $colors[$index % count($colors)];
                 
                 // Construct the local image filename dynamically based on the title
-                $filename = 'in-' . str_replace([' & ', ' '], ['-', '-'], $sol['title']) . '.jpg';
-                $localImagePath = 'assets/images/' . $filename;
+                $baseFilename = 'in-' . str_replace([' & ', ' '], ['-', '-'], $sol['title']);
+                $jpgPath = 'assets/images/' . $baseFilename . '.jpg';
+                $pngPath = 'assets/images/' . $baseFilename . '.png';
                 
-                // Fallback to a local default image if the specific image is missing
-                if (file_exists($localImagePath)) {
-                    $imageUrl = $localImagePath;
+                // Check for both .jpg and .png extensions, then fallback
+                if (file_exists($jpgPath)) {
+                    $imageUrl = $jpgPath;
+                } elseif (file_exists($pngPath)) {
+                    $imageUrl = $pngPath;
                 } else {
                     $imageUrl = "assets/images/og-image.jpg"; // Local fallback image
                 }
