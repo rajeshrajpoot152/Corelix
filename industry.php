@@ -15,15 +15,15 @@ include 'header.php';
     
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center" data-aos="zoom-out-up">
         
-        <!-- SEO Page Title (Reusable for all inner pages) -->
-        <h1 class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-4 md:mb-6 text-white text-xs font-bold tracking-widest uppercase shadow-sm">
-            Industry
-        </h1>
+        <!-- Eyebrow Label -->
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-4 md:mb-6 text-white text-xs font-bold tracking-widest uppercase shadow-sm">
+            Industries We Serve
+        </div>
         
-        <!-- Main Visual Heading -->
-        <h2 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white mb-4 tracking-tight leading-tight md:leading-none">
-            Solutions for Every <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Industry</span>
-        </h2>
+        <!-- Main SEO Heading (H1) -->
+        <h1 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white mb-4 tracking-tight leading-tight md:leading-none">
+            Digital Solutions for Every <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Industry</span>
+        </h1>
         
         <!-- Page Subtitle -->
         <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium">
@@ -194,7 +194,7 @@ include 'header.php';
                         
                         <!-- Image Top Section -->
                         <div class="h-56 relative overflow-hidden bg-gray-900">
-                            <img src="'.$imageUrl.'" alt="'.$sol['title'].'" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700">
+                            <img src="'.$imageUrl.'" alt="IT Solutions & Services for '.$sol['title'].' Industry" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700">
                             
                             <!-- Overlay Gradient for smooth blend -->
                             <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -212,7 +212,7 @@ include 'header.php';
                             
                             <div class="relative z-10 flex-grow flex flex-col">
                                 <div class="text-xs font-bold tracking-widest uppercase mb-4 '.$color['sub'].'">INDUSTRY</div>
-                                <h3 class="text-2xl font-bold font-heading mb-4 tracking-tight transition-colors '.$color['title'].'">'.$sol['title'].'</h3>
+                                <h2 class="text-2xl font-bold font-heading mb-4 tracking-tight transition-colors '.$color['title'].'">'.$sol['title'].'</h2>
                                 <p class="leading-relaxed text-[15px] mb-0 opacity-90 '.$color['desc'].'">'.$sol['desc'].'</p>
                             </div>
                         </div>
