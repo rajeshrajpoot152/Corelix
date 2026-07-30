@@ -143,33 +143,33 @@ include 'header.php';
             ];
 
             $colors = [
-                // Dark Theme
+                // Dark Brand Theme
                 [
-                    'bg' => 'bg-[#0f0f0f]',
-                    'sub' => 'text-gray-400',
+                    'bg' => 'bg-slate-900',
+                    'sub' => 'text-slate-400',
                     'title' => 'text-white group-hover:text-brand-orange',
-                    'desc' => 'text-gray-400'
+                    'desc' => 'text-slate-300'
                 ],
-                // Light Gray Theme
+                // Clean White Theme
                 [
-                    'bg' => 'bg-[#e5e5e5]',
-                    'sub' => 'text-gray-500',
-                    'title' => 'text-gray-900 group-hover:text-brand-orange',
-                    'desc' => 'text-gray-600'
+                    'bg' => 'bg-white',
+                    'sub' => 'text-slate-500',
+                    'title' => 'text-slate-900 group-hover:text-brand-orange',
+                    'desc' => 'text-slate-600'
                 ],
-                // Gradient Theme (Purple to Orange)
+                // Primary Brand Theme
                 [
-                    'bg' => 'bg-gradient-to-br from-indigo-950 via-purple-900 to-orange-500',
-                    'sub' => 'text-purple-200',
-                    'title' => 'text-white',
-                    'desc' => 'text-purple-100'
-                ],
-                // Brand Theme
-                [
-                    'bg' => 'bg-gradient-to-br from-brand-orange to-orange-500',
+                    'bg' => 'bg-brand-orange',
                     'sub' => 'text-orange-200',
                     'title' => 'text-white',
                     'desc' => 'text-orange-50'
+                ],
+                // Soft Orange Theme
+                [
+                    'bg' => 'bg-orange-50',
+                    'sub' => 'text-brand-orange',
+                    'title' => 'text-slate-900',
+                    'desc' => 'text-slate-600'
                 ]
             ];
 
