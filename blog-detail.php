@@ -90,14 +90,14 @@ include 'header.php';
                 Back to Blog
             </a>
             <span class="text-white/20">|</span>
-            <!-- SEO Page Title (Reusable for all inner pages) -->
-            <h1 class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md text-brand-blue text-xs font-bold tracking-widest uppercase shadow-sm">
+            <!-- Eyebrow Category -->
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md text-brand-blue text-xs font-bold tracking-widest uppercase shadow-sm">
                 <?php echo $currentBlog['category']; ?>
-            </h1>
+            </div>
         </div>
         
-        <!-- Main Visual Heading -->
-        <h2 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white text-center mb-8 tracking-tight leading-tight md:leading-none">
+        <!-- Main SEO Title (H1) -->
+        <h1 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white text-center mb-8 tracking-tight leading-tight md:leading-none">
             <?php
                 $title_words = explode(' ', trim($currentBlog['title']));
                 if (count($title_words) > 1) {
@@ -107,7 +107,7 @@ include 'header.php';
                     echo '<span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">' . $currentBlog['title'] . '</span>';
                 }
             ?>
-        </h2>
+        </h1>
         
         <div class="flex justify-center items-center gap-6 border-b border-white/10 pb-8 mb-8">
             <div class="flex items-center gap-3">
@@ -133,7 +133,7 @@ include 'header.php';
         
         <!-- Featured Image -->
         <div class="w-full h-auto md:h-[500px] rounded-3xl overflow-hidden mb-12 shadow-2xl border border-white/5" data-aos="fade-up" data-aos-delay="100">
-            <img title="<" alt="<" src="<?php echo $currentBlog['image']; ?>" alt="<?php echo htmlspecialchars($currentBlog['title']); ?>" title="<?php echo htmlspecialchars($currentBlog['title']); ?>" class="w-full h-full object-cover">
+            <img src="<?php echo $currentBlog['image']; ?>" alt="<?php echo htmlspecialchars($currentBlog['title']); ?>" title="<?php echo htmlspecialchars($currentBlog['title']); ?>" class="w-full h-full object-cover">
         </div>
 
         <!-- Article Content -->

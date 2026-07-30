@@ -21,15 +21,15 @@ if (file_exists($jsonFile)) {
     
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center" data-aos="zoom-out-up">
         
-        <!-- SEO Page Title (Reusable for all inner pages) -->
-        <h1 class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-4 md:mb-6 text-white text-xs font-bold tracking-widest uppercase shadow-sm">
-            Blog
-        </h1>
+        <!-- Eyebrow Label -->
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-4 md:mb-6 text-white text-xs font-bold tracking-widest uppercase shadow-sm">
+            Our Blog
+        </div>
         
-        <!-- Main Visual Heading -->
-        <h2 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white mb-4 tracking-tight leading-tight md:leading-none">
+        <!-- Main SEO Heading (H1) -->
+        <h1 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white mb-4 tracking-tight leading-tight md:leading-none">
             Latest <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Insights.</span>
-        </h2>
+        </h1>
         
         <!-- Page Subtitle -->
         <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium">
