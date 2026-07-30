@@ -175,8 +175,17 @@ include 'header.php';
 
             foreach ($industries as $index => $sol) {
                 $color = $colors[$index % count($colors)];
-                // Using a consistent placeholder image for each card based on its index
-                $imageUrl = "https://picsum.photos/id/" . (10 + $index * 2) . "/600/400";
+                
+                // Construct the local image filename dynamically based on the title
+                $filename = 'in-' . str_replace([' & ', ' '], ['-', '-'], $sol['title']) . '.jpg';
+                $localImagePath = 'assets/images/' . $filename;
+                
+                // Fallback to placeholder if the specific image is missing (like Energy & Utilities)
+                if (file_exists($localImagePath)) {
+                    $imageUrl = $localImagePath;
+                } else {
+                    $imageUrl = "https://picsum.photos/id/" . (10 + $index * 2) . "/600/400";
+                }
                 
                 echo '<div class="group flex flex-col rounded-3xl overflow-hidden hover:-translate-y-2 transition-transform duration-500 shadow-sm hover:shadow-2xl h-full border border-gray-100/50">
                         
