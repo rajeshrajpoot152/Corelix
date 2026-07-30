@@ -180,11 +180,11 @@ include 'header.php';
                 $filename = 'in-' . str_replace([' & ', ' '], ['-', '-'], $sol['title']) . '.jpg';
                 $localImagePath = 'assets/images/' . $filename;
                 
-                // Fallback to placeholder if the specific image is missing (like Energy & Utilities)
+                // Fallback to a local default image if the specific image is missing
                 if (file_exists($localImagePath)) {
                     $imageUrl = $localImagePath;
                 } else {
-                    $imageUrl = "https://picsum.photos/id/" . (10 + $index * 2) . "/600/400";
+                    $imageUrl = "assets/images/og-image.jpg"; // Local fallback image
                 }
                 
                 echo '<div class="group flex flex-col rounded-3xl overflow-hidden hover:-translate-y-2 transition-transform duration-500 shadow-sm hover:shadow-2xl h-full border border-gray-100/50">
