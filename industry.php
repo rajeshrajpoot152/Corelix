@@ -142,19 +142,69 @@ include 'header.php';
                 ],
             ];
 
-            foreach ($industries as $sol) {
-                echo '<div class="group flex flex-col p-8 bg-white rounded-3xl hover:bg-slate-50 transition-all duration-300 border border-gray-100 hover:border-gray-200 hover:shadow-[0_8px_30px_rgb(0,0,0,0.04)] relative h-full">
+            $colors = [
+                // Dark Theme
+                [
+                    'bg' => 'bg-[#0f0f0f]',
+                    'sub' => 'text-gray-400',
+                    'title' => 'text-white group-hover:text-brand-orange',
+                    'desc' => 'text-gray-400'
+                ],
+                // Light Gray Theme
+                [
+                    'bg' => 'bg-[#e5e5e5]',
+                    'sub' => 'text-gray-500',
+                    'title' => 'text-gray-900 group-hover:text-brand-orange',
+                    'desc' => 'text-gray-600'
+                ],
+                // Gradient Theme (Purple to Orange)
+                [
+                    'bg' => 'bg-gradient-to-br from-indigo-950 via-purple-900 to-orange-500',
+                    'sub' => 'text-purple-200',
+                    'title' => 'text-white',
+                    'desc' => 'text-purple-100'
+                ],
+                // Brand Theme
+                [
+                    'bg' => 'bg-gradient-to-br from-brand-orange to-orange-500',
+                    'sub' => 'text-orange-200',
+                    'title' => 'text-white',
+                    'desc' => 'text-orange-50'
+                ]
+            ];
+
+            foreach ($industries as $index => $sol) {
+                $color = $colors[$index % count($colors)];
+                // Using a consistent placeholder image for each card based on its index
+                $imageUrl = "https://picsum.photos/id/" . (10 + $index * 2) . "/600/400";
+                
+                echo '<div class="group flex flex-col rounded-3xl overflow-hidden hover:-translate-y-2 transition-transform duration-500 shadow-sm hover:shadow-2xl h-full border border-gray-100/50">
                         
-                        <!-- Premium Icon Container -->
-                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-brand-orange to-orange-400 text-white flex items-center justify-center shadow-lg shadow-brand-orange/20 mb-8 transform group-hover:scale-105 group-hover:-rotate-3 transition-transform duration-300">
-                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">'.$sol['icon'].'</svg>
+                        <!-- Image Top Section -->
+                        <div class="h-56 relative overflow-hidden bg-gray-900">
+                            <img src="'.$imageUrl.'" alt="'.$sol['title'].'" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700">
+                            
+                            <!-- Overlay Gradient for smooth blend -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                            
+                            <!-- Floating Icon -->
+                            <div class="absolute bottom-4 right-4 w-14 h-14 bg-white/10 backdrop-blur-md rounded-2xl flex items-center justify-center text-white shadow-xl border border-white/20 transform group-hover:rotate-6 transition-transform duration-300">
+                                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">'.$sol['icon'].'</svg>
+                            </div>
                         </div>
                         
-                        <!-- Content -->
-                        <div>
-                            <h3 class="text-2xl font-bold font-heading text-gray-900 mb-3 tracking-tight group-hover:text-brand-orange transition-colors">'.$sol['title'].'</h3>
-                            <p class="text-gray-500 leading-relaxed text-[15px] mb-0">'.$sol['desc'].'</p>
+                        <!-- Content Bottom Section -->
+                        <div class="flex-grow p-8 sm:p-10 '.$color['bg'].' flex flex-col relative overflow-hidden transition-colors duration-500">
+                            <!-- Decorative background blur -->
+                            <div class="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none"></div>
+                            
+                            <div class="relative z-10 flex-grow flex flex-col">
+                                <div class="text-xs font-bold tracking-widest uppercase mb-4 '.$color['sub'].'">INDUSTRY</div>
+                                <h3 class="text-2xl font-bold font-heading mb-4 tracking-tight transition-colors '.$color['title'].'">'.$sol['title'].'</h3>
+                                <p class="leading-relaxed text-[15px] mb-0 opacity-90 '.$color['desc'].'">'.$sol['desc'].'</p>
+                            </div>
                         </div>
+                        
                       </div>';
             }
             ?>
