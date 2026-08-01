@@ -414,9 +414,9 @@ include 'header.php';
 
         <!-- View All Services Link -->
         <div class="mt-16 flex justify-center w-full" data-aos="fade-up">
-            <a href="/services" class="group inline-flex items-center gap-2 text-brand-blue font-bold text-xl hover:text-brand-blue/80 transition-colors border-b-2 border-brand-blue pb-1" title="Services">
+            <a href="/services" class="group inline-flex items-center gap-2 px-8 py-3 rounded-full bg-gradient-to-r from-brand-blue to-brand-green text-white font-bold text-sm sm:text-base hover:shadow-lg hover:shadow-brand-blue/30 transition-all duration-300 hover:-translate-y-1" title="View All Services">
                 View all services
-                <svg class="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
             </a>
         </div>
     </div>
