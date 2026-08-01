@@ -484,6 +484,11 @@
             if (globalModal) {
                 globalModal.addEventListener('click', (e) => {
                     if (e.target === globalModal) {
+                        closeGlobalInquiryModal();
+                    }
+                });
+            }
+        });
     </script>
 
     <!-- Floating Action Buttons -->
