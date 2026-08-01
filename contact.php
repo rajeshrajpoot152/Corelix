@@ -99,8 +99,8 @@ include 'header.php';
                     <div class="absolute -bottom-32 -left-32 w-64 h-64 bg-brand-green/10 rounded-full blur-[80px] pointer-events-none"></div>
                     
                     <div class="mb-8 md:mb-10 relative z-10">
-                        <h3 class="text-2xl md:text-3xl font-bold font-heading text-brand-black mb-2">Send us a message</h3>
-                        <p class="text-sm md:text-base text-gray-600">Fill out the form below and we'll get back to you shortly.</p>
+                        <h3 class="text-3xl md:text-4xl font-bold font-heading text-brand-black mb-4">Send us a message</h3>
+                        <p class="text-base md:text-lg text-gray-600">Fill out the form below and we'll get back to you shortly.</p>
                     </div>
 
                     <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">
