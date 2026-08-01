@@ -12,9 +12,9 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <!-- Brand -->
                 <div class="col-span-1 lg:col-span-1">
-                    <a href="/" class="font-heading font-black text-2xl tracking-tight flex items-center gap-2 mb-6 text-gray-900" title="Corelix Home">
+                    <!-- <a href="/" class="font-heading font-black text-2xl tracking-tight flex items-center gap-2 mb-6 text-gray-900" title="Corelix Home">
                         <img src="/assets/images/lgoo.png" alt="Corelix Logo" title="Corelix" class="h-7 md:h-8 w-auto object-contain filter invert opacity-90">
-                    </a>
+                    </a> -->
                     <p class="text-gray-600 text-sm leading-relaxed mb-6">
                         Empowering businesses with cutting-edge digital solutions. From custom development to advanced marketing strategies, we build the future.
                     </p>
@@ -391,8 +391,8 @@
     </script>
 
     <!-- Fixed Enquire Now Button -->
-    <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="fixed right-0 top-1/2 -translate-y-1/2 z-[9999] bg-gradient-to-br from-brand-blue to-brand-green text-white py-6 px-2 md:py-8 md:px-3 rounded-l-3xl shadow-2xl transition-all duration-300 border-l border-t border-b border-white/10 group flex items-center justify-center shadow-[0_0_20px_rgba(30,58,138,0.3)] hover:shadow-[0_0_25px_rgba(30,58,138,0.5)]" title="Corelix Action">
-        <span class="[writing-mode:vertical-rl] rotate-180 font-bold text-sm md:text-[17px] tracking-wider group-hover:-translate-y-1 transition-transform">
+    <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="fixed right-0 top-1/2 -translate-y-1/2 z-[9999] bg-gradient-to-br from-brand-blue to-brand-green text-white py-4 px-1.5 md:py-5 md:px-2 rounded-l-2xl shadow-2xl transition-all duration-300 border-l border-t border-b border-white/10 group flex items-center justify-center shadow-[0_0_15px_rgba(30,58,138,0.3)] hover:shadow-[0_0_20px_rgba(30,58,138,0.5)]" title="Corelix Action">
+        <span class="[writing-mode:vertical-rl] rotate-180 font-bold text-xs md:text-sm tracking-wider group-hover:-translate-y-1 transition-transform">
             Enquire Now
         </span>
     </a>
