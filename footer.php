@@ -391,8 +391,8 @@
     </script>
 
     <!-- Fixed Enquire Now Button -->
-    <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="fixed right-0 top-1/2 -translate-y-1/2 z-[9999] bg-gradient-to-br from-brand-blue to-brand-green text-white py-4 px-1.5 md:py-6 md:px-2 rounded-l-2xl shadow-2xl transition-all duration-300 border-l border-t border-b border-white/10 group flex items-center justify-center shadow-[0_0_15px_rgba(30,58,138,0.3)] hover:shadow-[0_0_20px_rgba(30,58,138,0.4)]" title="Corelix Action">
-        <span class="[writing-mode:vertical-rl] rotate-180 font-bold text-sm md:text-[15px] tracking-wider group-hover:-translate-y-1 transition-transform">
+    <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="fixed right-0 top-1/2 -translate-y-1/2 z-[9999] bg-gradient-to-br from-brand-blue to-brand-green text-white py-2 px-1 rounded-l-lg shadow-xl transition-all duration-300 border-l border-t border-b border-white/10 group flex items-center justify-center shadow-[0_0_10px_rgba(30,58,138,0.2)] hover:shadow-[0_0_15px_rgba(30,58,138,0.4)]" title="Corelix Action">
+        <span class="[writing-mode:vertical-rl] rotate-180 font-bold text-[11px] tracking-wider uppercase group-hover:-translate-y-1 transition-transform">
             Enquire Now
         </span>
     </a>
