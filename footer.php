@@ -410,20 +410,20 @@
             <form action="process_contact.php" method="POST" class="space-y-4">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
-                        <input type="text" name="first_name" placeholder="First Name" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
+                        <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
                     </div>
                     <div>
-                        <input type="text" name="last_name" placeholder="Last Name" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
+                        <input type="text" name="last_name" placeholder="Last Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
                     </div>
                 </div>
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
-                        <input type="email" name="email" placeholder="Email Address" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
+                        <input type="email" name="email" placeholder="Email Address *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
                     </div>
                     <div>
                         <select name="service" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all appearance-none text-gray-500">
-                            <option value="" disabled selected hidden>Service of Interest</option>
+                            <option value="" disabled selected hidden>Service of Interest *</option>
                             <option value="web" class="text-gray-900">Web & Mobile Development</option>
                             <option value="design" class="text-gray-900">UI/UX Design & Branding</option>
                             <option value="marketing" class="text-gray-900">Digital Marketing & SEO</option>
@@ -434,7 +434,7 @@
                 </div>
                 
                 <div>
-                    <textarea name="message" placeholder="Message" required rows="3" class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all resize-none placeholder-gray-400"></textarea>
+                    <textarea name="message" placeholder="Message *" required rows="3" class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all resize-none placeholder-gray-400"></textarea>
                 </div>
                 
                 <div class="pt-2">
