@@ -128,7 +128,7 @@ include 'header.php';
                 // ['name' => 'Priya Sharma', 'role' => 'UI/UX Designer', 'image' => 'Priya-Sharma.png'],
                 // ['name' => 'Karan Desai', 'role' => 'Full-Stack Developer', 'image' => 'Karan-Desai.png'],
                 // ['name' => 'Rahul Singh', 'role' => 'SEO Specialist', 'image' => 'Rahul-Singh.png'],
-                // ['name' => 'Vikram Joshi', 'role' => 'Business Development Manager (BDM)', 'image' => 'Vikram-Joshi.png'],
+                // ['name' => 'Vinod Prajapati', 'role' => 'Frontend Developer', 'image' => 'Vinod-Prajapati.png'],
                 // ['name' => 'Sneha Gupta', 'role' => 'Project Manager / QA', 'image' => 'Sneha-Gupta.png'],
                 // ['name' => 'Bhargav Panchal', 'role' => 'Sr. Web developer', 'image' => 'Bhargav-Panchal.png']
             ];
