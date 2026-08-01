@@ -399,15 +399,23 @@
     <!-- Global Inquiry Modal -->
     <div id="global-inquiry-modal" class="fixed inset-0 z-[10000] hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 opacity-0 transition-opacity duration-300">
         <div class="relative bg-white rounded-3xl w-full max-w-lg shadow-[0_20px_60px_-15px_rgba(0,0,0,0.3)] p-8 sm:p-10 transform scale-95 transition-transform duration-300 overflow-y-auto max-h-[90vh]" id="inquiry-modal-content">
+            
+            <!-- Background Glow -->
+            <div class="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none z-0">
+                <div class="absolute -top-32 -right-32 w-64 h-64 bg-brand-blue/10 rounded-full blur-[80px]"></div>
+                <div class="absolute -bottom-32 -left-32 w-64 h-64 bg-brand-green/10 rounded-full blur-[80px]"></div>
+            </div>
+
             <!-- Close Button -->
-            <button onclick="closeGlobalInquiryModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-800 hover:bg-gray-100 rounded-full p-1.5 transition-colors focus:outline-none">
+            <button onclick="closeGlobalInquiryModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-800 hover:bg-gray-100 rounded-full p-1.5 transition-colors focus:outline-none z-10">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>
 
-            <h3 class="text-2xl md:text-3xl font-bold text-center text-[#1a1a2e] mb-2">Inquire Now</h3>
-            <p class="text-sm text-gray-500 mb-8 font-medium text-center">Hey, Enter your details to submit your inquiry</p>
-            
-            <form action="process_contact.php" method="POST" class="space-y-4">
+            <div class="relative z-10">
+                <h3 class="text-2xl md:text-3xl font-bold text-center text-[#1a1a2e] mb-2">Inquire Now</h3>
+                <p class="text-sm text-gray-500 mb-8 font-medium text-center">Hey, Enter your details to submit your inquiry</p>
+                
+                <form action="process_contact.php" method="POST" class="space-y-4">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                         <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
@@ -447,6 +455,7 @@
                     </button>
                 </div>
             </form>
+            </div>
         </div>
     </div>
     

@@ -367,12 +367,18 @@ include 'header.php';
         <div id="apply-modal" class="fixed inset-0 z-[100] flex items-center justify-center hidden bg-black/60 backdrop-blur-sm p-4 overflow-y-auto">
             <div class="relative w-full max-w-4xl bg-white rounded-3xl shadow-2xl p-8 sm:p-12 my-auto">
                 
+                <!-- Background Glow -->
+                <div class="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none z-0">
+                    <div class="absolute -top-32 -right-32 w-64 h-64 bg-brand-blue/10 rounded-full blur-[80px]"></div>
+                    <div class="absolute -bottom-32 -left-32 w-64 h-64 bg-brand-green/10 rounded-full blur-[80px]"></div>
+                </div>
+
                 <!-- Close Button -->
-                <button onclick="closeApplyModal()" class="absolute top-6 right-6 text-gray-400 hover:text-red-500 transition-colors focus:outline-none">
+                <button onclick="closeApplyModal()" class="absolute top-6 right-6 text-gray-400 hover:text-red-500 transition-colors focus:outline-none z-10">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                 </button>
 
-                <div class="text-center mb-10">
+                <div class="text-center mb-10 relative z-10">
                     <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 font-heading">Apply for a Position</h2>
                     <p class="text-gray-600">Fill out the form below and attach your resume. We'll get back to you soon.</p>
                     <?php if(isset($_GET['status']) && $_GET['status'] == 'success'): ?>
@@ -386,7 +392,7 @@ include 'header.php';
                     <?php endif; ?>
                 </div>
                 
-                <form action="process_career.php" method="POST" enctype="multipart/form-data" class="space-y-4 sm:space-y-5">
+                <form action="process_career.php" method="POST" enctype="multipart/form-data" class="space-y-4 sm:space-y-5 relative z-10">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
                         <div>
                             <input type="text" id="full_name" name="full_name" placeholder="Full Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
