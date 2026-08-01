@@ -389,55 +389,48 @@ include 'header.php';
                 <form action="process_career.php" method="POST" enctype="multipart/form-data" class="space-y-4 sm:space-y-5">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
                         <div>
-                            <label for="full_name" class="block text-xs font-semibold text-gray-700 mb-1.5">Full Name <span class="text-red-500">*</span></label>
-                            <input type="text" id="full_name" name="full_name" required class="w-full px-4 py-3 text-sm rounded-lg bg-gray-50 text-gray-900 border border-gray-200 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all">
+                            <input type="text" id="full_name" name="full_name" placeholder="Full Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
                         </div>
                         <div>
-                            <label for="email" class="block text-xs font-semibold text-gray-700 mb-1.5">Email Address <span class="text-red-500">*</span></label>
-                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 text-sm rounded-lg bg-gray-50 text-gray-900 border border-gray-200 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all">
+                            <input type="email" id="email" name="email" placeholder="Email Address *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
                         </div>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
                         <div>
-                            <label for="phone" class="block text-xs font-semibold text-gray-700 mb-1.5">Phone Number <span class="text-red-500">*</span></label>
-                            <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 text-sm rounded-lg bg-gray-50 text-gray-900 border border-gray-200 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
                         </div>
                         <div>
-                            <label for="position" class="block text-xs font-semibold text-gray-700 mb-1.5">Position Applying For <span class="text-red-500">*</span></label>
-                            <select id="position" name="position" required class="w-full px-4 py-3 text-sm rounded-lg bg-gray-50 text-gray-900 border border-gray-200 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all appearance-none cursor-pointer">
-                                <option value="" class="text-gray-500">Select a Position</option>
-                                <option value="Business Development Executive">Business Development Executive</option>
-                                <option value="Graphic Designer">Graphic Designer</option>
-                                <option value="Full Stack Developer">Full Stack Developer</option>
-                                <option value="Front End Developer">Front End Developer</option>
-                                <option value="Junior SEO Executive">Junior SEO Executive</option>
-                                <option value="Freelance Job For Freshers">Freelance Job For Freshers</option>
-                                <option value="Int. Business Development">Int. Business Development</option>
-                                <option value="Video Editor">Video Editor</option>
-                                <option value="HTML Developer">HTML Developer</option>
-                                <option value="Intern Video & Reels Editor">Intern Video & Reels Editor</option>
-                                <option value="Intern Social Media Marketing">Intern Social Media Marketing</option>
-                                <option value="Intern Content Writer">Intern Content Writer</option>
-                                <option value="Other">Other / Spontaneous Application</option>
+                            <select id="position" name="position" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all appearance-none cursor-pointer text-gray-500">
+                                <option value="" disabled selected hidden>Position Applying For *</option>
+                                <option value="Business Development Executive" class="text-gray-900">Business Development Executive</option>
+                                <option value="Graphic Designer" class="text-gray-900">Graphic Designer</option>
+                                <option value="Full Stack Developer" class="text-gray-900">Full Stack Developer</option>
+                                <option value="Front End Developer" class="text-gray-900">Front End Developer</option>
+                                <option value="Junior SEO Executive" class="text-gray-900">Junior SEO Executive</option>
+                                <option value="Freelance Job For Freshers" class="text-gray-900">Freelance Job For Freshers</option>
+                                <option value="Int. Business Development" class="text-gray-900">Int. Business Development</option>
+                                <option value="Video Editor" class="text-gray-900">Video Editor</option>
+                                <option value="HTML Developer" class="text-gray-900">HTML Developer</option>
+                                <option value="Intern Video & Reels Editor" class="text-gray-900">Intern Video & Reels Editor</option>
+                                <option value="Intern Social Media Marketing" class="text-gray-900">Intern Social Media Marketing</option>
+                                <option value="Intern Content Writer" class="text-gray-900">Intern Content Writer</option>
+                                <option value="Other" class="text-gray-900">Other / Spontaneous Application</option>
                             </select>
                         </div>
                     </div>
 
                     <div>
-                        <label for="resume" class="block text-xs font-semibold text-gray-700 mb-1.5">Upload Resume (PDF, DOC, DOCX) <span class="text-red-500">*</span></label>
-                        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required class="w-full px-4 py-2.5 text-sm rounded-lg bg-gray-50 text-gray-900 border border-gray-200 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all file:mr-4 file:py-1.5 file:px-4 file:rounded-full file:border-0 file:text-xs file:font-bold file:bg-brand-blue file:text-white hover:file:bg-brand-black cursor-pointer">
+                        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-2.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all file:mr-4 file:py-1.5 file:px-4 file:rounded-full file:border-0 file:text-xs file:font-bold file:bg-brand-blue file:text-white hover:file:bg-brand-black cursor-pointer" title="Upload Resume (PDF, DOC, DOCX) *">
                     </div>
 
                     <div>
-                        <label for="message" class="block text-xs font-semibold text-gray-700 mb-1.5">About your experience</label>
-                        <textarea id="message" name="message" rows="3" class="w-full px-4 py-3 text-sm rounded-lg bg-gray-50 text-gray-900 border border-gray-200 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all resize-none"></textarea>
+                        <textarea id="message" name="message" placeholder="About your experience" rows="3" class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all resize-none placeholder-gray-400"></textarea>
                     </div>
 
                     <div class="pt-2">
-                        <button type="submit" class="w-full py-3.5 rounded-lg bg-brand-blue text-white font-bold text-sm hover:bg-blue-700 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex justify-center items-center gap-2 group">
+                        <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-brand-blue to-brand-green text-white font-bold text-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex justify-center items-center">
                             Submit Application
-                            <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                         </button>
                     </div>
                 </form>

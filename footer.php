@@ -391,60 +391,55 @@
     </script>
 
     <!-- Fixed Enquire Now Button -->
-    <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="fixed right-0 top-1/2 -translate-y-1/2 z-[9999] bg-gradient-to-br from-brand-blue to-brand-green text-white py-3 px-1.5 md:py-4 md:px-2 rounded-l-xl shadow-xl transition-all duration-300 border-l border-t border-b border-white/10 group flex items-center justify-center shadow-[0_0_10px_rgba(30,58,138,0.2)] hover:shadow-[0_0_15px_rgba(30,58,138,0.4)]" title="Corelix Action">
+    <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="fixed right-0 top-1/2 -translate-y-1/2 z-[9999] bg-gradient-to-r from-brand-blue to-brand-green text-white py-3 px-1.5 md:py-4 md:px-2 rounded-l-xl shadow-xl transition-all duration-300 border-l border-t border-b border-white/10 group flex items-center justify-center shadow-[0_0_10px_rgba(30,58,138,0.2)] hover:shadow-[0_0_15px_rgba(30,58,138,0.4)]" title="Corelix Action">
         <span class="[writing-mode:vertical-rl] rotate-180 font-bold text-xs md:text-[13px] tracking-wider group-hover:-translate-y-1 transition-transform">
             Enquire Now
         </span>
     </a>
     <!-- Global Inquiry Modal -->
     <div id="global-inquiry-modal" class="fixed inset-0 z-[10000] hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 opacity-0 transition-opacity duration-300">
-        <div class="relative bg-white rounded-2xl w-full max-w-lg shadow-[0_20px_60px_-15px_rgba(0,0,0,0.3)] p-6 sm:p-8 transform scale-95 transition-transform duration-300 overflow-y-auto max-h-[90vh]" id="inquiry-modal-content">
+        <div class="relative bg-white rounded-3xl w-full max-w-lg shadow-[0_20px_60px_-15px_rgba(0,0,0,0.3)] p-8 sm:p-10 transform scale-95 transition-transform duration-300 overflow-y-auto max-h-[90vh]" id="inquiry-modal-content">
             <!-- Close Button -->
             <button onclick="closeGlobalInquiryModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-800 hover:bg-gray-100 rounded-full p-1.5 transition-colors focus:outline-none">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>
 
-            <h3 class="text-2xl font-bold font-heading text-[#1a1a2e] mb-2">Inquire Now</h3>
-            <p class="text-sm text-gray-500 mb-6 font-medium">Fill out the form below and our team will get back to you shortly.</p>
+            <h3 class="text-2xl md:text-3xl font-bold text-center text-[#1a1a2e] mb-2">Inquire Now</h3>
+            <p class="text-sm text-gray-500 mb-8 font-medium text-center">Hey, Enter your details to submit your inquiry</p>
             
             <form action="process_contact.php" method="POST" class="space-y-4">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
-                        <label class="block text-xs font-semibold text-gray-700 mb-1.5">First Name <span class="text-brand-orange">*</span></label>
-                        <input type="text" name="first_name" required class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all">
+                        <input type="text" name="first_name" placeholder="First Name" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
                     </div>
                     <div>
-                        <label class="block text-xs font-semibold text-gray-700 mb-1.5">Last Name <span class="text-brand-orange">*</span></label>
-                        <input type="text" name="last_name" required class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all">
+                        <input type="text" name="last_name" placeholder="Last Name" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
                     </div>
                 </div>
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
-                        <label class="block text-xs font-semibold text-gray-700 mb-1.5">Email Address <span class="text-brand-orange">*</span></label>
-                        <input type="email" name="email" required class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all">
+                        <input type="email" name="email" placeholder="Email Address" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
                     </div>
                     <div>
-                        <label class="block text-xs font-semibold text-gray-700 mb-1.5">Service of Interest</label>
-                        <select name="service" required class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all appearance-none">
-                            <option value="web" class="bg-white">Web & Mobile Development</option>
-                            <option value="design" class="bg-white">UI/UX Design & Branding</option>
-                            <option value="marketing" class="bg-white">Digital Marketing & SEO</option>
-                            <option value="ai" class="bg-white">AI & Business Automation</option>
-                            <option value="other" class="bg-white">Other</option>
+                        <select name="service" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all appearance-none text-gray-500">
+                            <option value="" disabled selected hidden>Service of Interest</option>
+                            <option value="web" class="text-gray-900">Web & Mobile Development</option>
+                            <option value="design" class="text-gray-900">UI/UX Design & Branding</option>
+                            <option value="marketing" class="text-gray-900">Digital Marketing & SEO</option>
+                            <option value="ai" class="text-gray-900">AI & Business Automation</option>
+                            <option value="other" class="text-gray-900">Other</option>
                         </select>
                     </div>
                 </div>
                 
                 <div>
-                    <label class="block text-xs font-semibold text-gray-700 mb-1.5">Message <span class="text-brand-orange">*</span></label>
-                    <textarea name="message" required rows="3" class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-900 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition-all resize-none"></textarea>
+                    <textarea name="message" placeholder="Message" required rows="3" class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all resize-none placeholder-gray-400"></textarea>
                 </div>
                 
-                <div class="pt-3">
-                    <button type="submit" class="w-full py-3.5 rounded-lg bg-brand-blue text-white font-bold text-sm hover:bg-blue-700 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex justify-center items-center gap-2 group">
+                <div class="pt-2">
+                    <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-brand-blue to-brand-green text-white font-bold text-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex justify-center items-center">
                         Submit Inquiry
-                        <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                     </button>
                 </div>
             </form>
