@@ -391,8 +391,8 @@
     </script>
 
     <!-- Fixed Enquire Now Button -->
-    <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="fixed right-0 top-1/2 -translate-y-1/2 z-[9999] bg-gradient-to-br from-brand-blue to-brand-green text-white py-3 px-1 md:py-4 md:px-1.5 rounded-l-xl shadow-xl transition-all duration-300 border-l border-t border-b border-white/10 group flex items-center justify-center shadow-[0_0_10px_rgba(30,58,138,0.2)] hover:shadow-[0_0_15px_rgba(30,58,138,0.4)]" title="Corelix Action">
-        <span class="[writing-mode:vertical-rl] rotate-180 font-bold text-[10px] md:text-xs tracking-widest uppercase group-hover:-translate-y-1 transition-transform">
+    <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="fixed right-0 top-1/2 -translate-y-1/2 z-[9999] bg-gradient-to-br from-brand-blue to-brand-green text-white py-2 px-0.5 md:py-3 md:px-1 rounded-l-lg md:rounded-l-xl shadow-xl transition-all duration-300 border-l border-t border-b border-white/10 group flex items-center justify-center shadow-[0_0_10px_rgba(30,58,138,0.2)] hover:shadow-[0_0_15px_rgba(30,58,138,0.4)]" title="Corelix Action">
+        <span class="[writing-mode:vertical-rl] rotate-180 font-bold text-[9px] md:text-[10px] tracking-widest uppercase group-hover:-translate-y-1 transition-transform">
             Enquire Now
         </span>
     </a>
