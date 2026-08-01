@@ -249,9 +249,9 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
             <div class="flex items-center h-20 transition-all duration-300 w-full" id="nav-inner">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
-                    <a href="/" class="font-heading font-black text-3xl tracking-tight flex items-center gap-2" title="Corelix Home">
+                    <!-- <a href="/" class="font-heading font-black text-3xl tracking-tight flex items-center gap-2" title="Corelix Home">
                         <img id="header-logo" src="/assets/images/lgoo-white.png" alt="Corelix Logo" title="Corelix" class="h-6 md:h-8 w-auto object-contain transition-all duration-300">
-                    </a>
+                    </a> -->
                 </div>
                 
                 <!-- Desktop Menu -->
