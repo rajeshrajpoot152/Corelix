@@ -32,42 +32,49 @@ include 'header.php';
 <main class="bg-gray-50 min-h-screen py-16">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1536px]">
 
+        <!-- Section Heading -->
+        <div class="text-center mb-16 relative z-10" data-aos="fade-up">
+            <span class="inline-block py-1.5 px-4 rounded-full bg-brand-blue/10 text-brand-blue font-bold text-xs tracking-widest uppercase mb-4">Life at Corelix</span>
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-black font-heading text-gray-900 mb-6 tracking-tight">Why Build Your Career With Us?</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">Join a forward-thinking team where innovation meets passion. We provide the perfect environment for tech professionals to thrive, learn, and create impact.</p>
+        </div>
+
         <!-- Perks Section -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-24 relative z-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24 relative z-10">
             <!-- Perk 1 -->
-            <div class="group relative bg-white p-8 sm:p-10 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] hover:-translate-y-2 transition-all duration-500 overflow-hidden text-center">
-                <div class="absolute -top-24 -right-24 w-48 h-48 bg-brand-blue/5 rounded-full blur-3xl group-hover:bg-brand-blue/20 transition-colors duration-500 pointer-events-none z-0"></div>
-                <div class="relative z-10">
-                    <div class="w-16 h-16 bg-gradient-to-br from-brand-blue/10 to-brand-green/10 text-brand-blue rounded-2xl flex items-center justify-center mx-auto mb-6 transform group-hover:rotate-6 group-hover:scale-110 transition-transform duration-500 border border-brand-blue/10 shadow-sm">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">Flexible & Remote</h3>
-                    <p class="text-gray-600 leading-relaxed">Work from anywhere in the world or join us at our vibrant Ahmedabad headquarters.</p>
+            <div class="group bg-white p-8 lg:p-10 rounded-3xl shadow-[0_2px_20px_rgb(0,0,0,0.03)] border border-gray-100 hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] hover:border-brand-blue/20 hover:-translate-y-1 transition-all duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-blue/10 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                
+                <div class="w-14 h-14 bg-gray-50 text-brand-blue rounded-2xl flex items-center justify-center mb-8 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm border border-gray-100 group-hover:border-transparent relative z-10">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                 </div>
+                
+                <h3 class="text-xl lg:text-2xl font-bold font-heading text-gray-900 mb-4 relative z-10 group-hover:text-brand-blue transition-colors">Flexible & Remote Work Options</h3>
+                <p class="text-gray-600 leading-relaxed relative z-10">Embrace true work-life balance. Whether you thrive in our vibrant Ahmedabad tech hub or prefer working remotely from anywhere in the world, we support your ideal work environment.</p>
             </div>
 
             <!-- Perk 2 -->
-            <div class="group relative bg-white p-8 sm:p-10 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] hover:-translate-y-2 transition-all duration-500 overflow-hidden text-center">
-                <div class="absolute -top-24 -right-24 w-48 h-48 bg-brand-green/5 rounded-full blur-3xl group-hover:bg-brand-green/20 transition-colors duration-500 pointer-events-none z-0"></div>
-                <div class="relative z-10">
-                    <div class="w-16 h-16 bg-gradient-to-br from-brand-green/10 to-brand-blue/10 text-brand-green rounded-2xl flex items-center justify-center mx-auto mb-6 transform group-hover:-rotate-6 group-hover:scale-110 transition-transform duration-500 border border-brand-green/10 shadow-sm">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-green transition-colors">Rapid Career Growth</h3>
-                    <p class="text-gray-600 leading-relaxed">Continuous learning, mentorship programs, and regular performance-based appraisals.</p>
+            <div class="group bg-white p-8 lg:p-10 rounded-3xl shadow-[0_2px_20px_rgb(0,0,0,0.03)] border border-gray-100 hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] hover:border-brand-green/20 hover:-translate-y-1 transition-all duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-green/10 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                
+                <div class="w-14 h-14 bg-gray-50 text-brand-green rounded-2xl flex items-center justify-center mb-8 group-hover:bg-brand-green group-hover:text-white transition-all duration-300 shadow-sm border border-gray-100 group-hover:border-transparent relative z-10">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                 </div>
+                
+                <h3 class="text-xl lg:text-2xl font-bold font-heading text-gray-900 mb-4 relative z-10 group-hover:text-brand-green transition-colors">Accelerated Career Growth</h3>
+                <p class="text-gray-600 leading-relaxed relative z-10">Fast-track your professional journey with continuous learning budgets, dedicated mentorship programs, and regular performance appraisals designed for ambitious developers and marketers.</p>
             </div>
 
             <!-- Perk 3 -->
-            <div class="group relative bg-white p-8 sm:p-10 rounded-[2rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] hover:-translate-y-2 transition-all duration-500 overflow-hidden text-center">
-                <div class="absolute -top-24 -right-24 w-48 h-48 bg-orange-500/5 rounded-full blur-3xl group-hover:bg-orange-500/10 transition-colors duration-500 pointer-events-none z-0"></div>
-                <div class="relative z-10">
-                    <div class="w-16 h-16 bg-gradient-to-br from-orange-500/10 to-brand-blue/10 text-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-6 transform group-hover:rotate-6 group-hover:scale-110 transition-transform duration-500 border border-orange-500/10 shadow-sm">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-orange-500 transition-colors">Great Culture</h3>
-                    <p class="text-gray-600 leading-relaxed">A collaborative, inclusive, and fun environment where your ideas actually matter.</p>
+            <div class="group bg-white p-8 lg:p-10 rounded-3xl shadow-[0_2px_20px_rgb(0,0,0,0.03)] border border-gray-100 hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] hover:border-orange-500/20 hover:-translate-y-1 transition-all duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-orange-500/10 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                
+                <div class="w-14 h-14 bg-gray-50 text-orange-500 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-orange-500 group-hover:text-white transition-all duration-300 shadow-sm border border-gray-100 group-hover:border-transparent relative z-10">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                 </div>
+                
+                <h3 class="text-xl lg:text-2xl font-bold font-heading text-gray-900 mb-4 relative z-10 group-hover:text-orange-500 transition-colors">Dynamic & Inclusive Culture</h3>
+                <p class="text-gray-600 leading-relaxed relative z-10">Be part of a collaborative workspace where every voice matters. We foster an inclusive, fun, and innovative culture that drives excellence in web development and digital solutions.</p>
             </div>
         </div>
 
