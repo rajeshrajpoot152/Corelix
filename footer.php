@@ -422,15 +422,19 @@
                         <input type="email" name="email" placeholder="Email Address *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
                     </div>
                     <div>
-                        <select name="service" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all appearance-none text-gray-500">
-                            <option value="" disabled selected hidden>Service of Interest *</option>
-                            <option value="web" class="text-gray-900">Web & Mobile Development</option>
-                            <option value="design" class="text-gray-900">UI/UX Design & Branding</option>
-                            <option value="marketing" class="text-gray-900">Digital Marketing & SEO</option>
-                            <option value="ai" class="text-gray-900">AI & Business Automation</option>
-                            <option value="other" class="text-gray-900">Other</option>
-                        </select>
+                        <input type="tel" name="phone" placeholder="Mobile Number *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
                     </div>
+                </div>
+                
+                <div>
+                    <select name="service" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all appearance-none text-gray-500">
+                        <option value="" disabled selected hidden>Service of Interest</option>
+                        <option value="web" class="text-gray-900">Web & Mobile Development</option>
+                        <option value="design" class="text-gray-900">UI/UX Design & Branding</option>
+                        <option value="marketing" class="text-gray-900">Digital Marketing & SEO</option>
+                        <option value="ai" class="text-gray-900">AI & Business Automation</option>
+                        <option value="other" class="text-gray-900">Other</option>
+                    </select>
                 </div>
                 
                 <div>
