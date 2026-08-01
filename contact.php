@@ -183,7 +183,7 @@ include 'header.php';
                     </p>
                     <a href="https://maps.google.com/maps?q=Chandlodia,%20Ahmedabad" target="_blank" class="inline-flex items-center text-brand-blue font-semibold hover:text-white transition-colors group/link">
                         Get Directions
-                        <svg class="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        <svg class="w-4 h-4 ml-2 group-hover/link:translate-x-1 group-hover/link:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                     </a>
                 </div>
             </div>
@@ -205,7 +205,7 @@ include 'header.php';
                     </p>
                     <a href="https://maps.google.com/maps?q=Pichhore,%20Madhya%20Pradesh" target="_blank" class="inline-flex items-center text-brand-green font-semibold hover:text-white transition-colors group/link">
                         Get Directions
-                        <svg class="w-4 h-4 ml-2 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        <svg class="w-4 h-4 ml-2 group-hover/link:translate-x-1 group-hover/link:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                     </a>
                 </div>
             </div>
