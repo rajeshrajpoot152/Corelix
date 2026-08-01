@@ -438,7 +438,7 @@
                 </div>
                 
                 <div>
-                    <textarea name="message" placeholder="Message *" required rows="3" class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all resize-none placeholder-gray-400"></textarea>
+                    <textarea name="message" placeholder="Your message" required rows="3" class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all resize-none placeholder-gray-400"></textarea>
                 </div>
                 
                 <div class="pt-2">
