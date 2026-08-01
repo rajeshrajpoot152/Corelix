@@ -232,8 +232,8 @@ include 'header.php';
                         </div>
                     </div>
                     <div class="text-left flex flex-col justify-center">
-                        <h3 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 font-heading leading-none mb-0.5 sm:mb-1">
-                            <span class="stat-counter" data-target="14">0</span><span class="text-brand-blue ml-0.5 font-bold">+</span>
+                        <h3 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-none mb-0.5 sm:mb-1 flex items-baseline">
+                            <span class="stat-counter font-light" data-target="14" style="font-family: 'Inter', sans-serif;">0</span><span class="text-brand-blue ml-0.5 font-bold">+</span>
                         </h3>
                         <p class="text-[7.5px] sm:text-[10px] lg:text-xs text-gray-500 font-bold uppercase tracking-widest leading-tight sm:leading-snug max-w-[65px] sm:max-w-[120px]">Years of <br>Experience</p>
                     </div>
@@ -249,8 +249,8 @@ include 'header.php';
                         </div>
                     </div>
                     <div class="text-left flex flex-col justify-center">
-                        <h3 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 font-heading leading-none mb-0.5 sm:mb-1">
-                            <span class="stat-counter" data-target="6">0</span><span class="text-brand-orange ml-0.5 font-bold">+</span>
+                        <h3 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-none mb-0.5 sm:mb-1 flex items-baseline">
+                            <span class="stat-counter font-light" data-target="6" style="font-family: 'Inter', sans-serif;">0</span><span class="text-brand-orange ml-0.5 font-bold">+</span>
                         </h3>
                         <p class="text-[7.5px] sm:text-[10px] lg:text-xs text-gray-500 font-bold uppercase tracking-widest leading-tight sm:leading-snug max-w-[65px] sm:max-w-[120px]">SaaS <br>Products</p>
                     </div>
@@ -266,8 +266,8 @@ include 'header.php';
                         </div>
                     </div>
                     <div class="text-left flex flex-col justify-center">
-                        <h3 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 font-heading leading-none mb-0.5 sm:mb-1">
-                            <span class="stat-counter" data-target="80">0</span><span class="text-brand-green ml-0.5 font-bold">+</span>
+                        <h3 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-none mb-0.5 sm:mb-1 flex items-baseline">
+                            <span class="stat-counter font-light" data-target="80" style="font-family: 'Inter', sans-serif;">0</span><span class="text-brand-green ml-0.5 font-bold">+</span>
                         </h3>
                         <p class="text-[7.5px] sm:text-[10px] lg:text-xs text-gray-500 font-bold uppercase tracking-widest leading-tight sm:leading-snug max-w-[65px] sm:max-w-[120px]">Projects <br>Delivered</p>
                     </div>
@@ -283,8 +283,8 @@ include 'header.php';
                         </div>
                     </div>
                     <div class="text-left flex flex-col justify-center">
-                        <h3 class="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 font-heading leading-none mb-0.5 sm:mb-1">
-                            <span class="stat-counter" data-target="10">0</span><span class="text-brand-blue ml-0.5 font-bold">+</span>
+                        <h3 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-none mb-0.5 sm:mb-1 flex items-baseline">
+                            <span class="stat-counter font-light" data-target="10" style="font-family: 'Inter', sans-serif;">0</span><span class="text-purple-400 ml-0.5 font-bold">+</span>
                         </h3>
                         <p class="text-[7.5px] sm:text-[10px] lg:text-xs text-gray-500 font-bold uppercase tracking-widest leading-tight sm:leading-snug max-w-[65px] sm:max-w-[120px]">Global <br>Clients</p>
                     </div>
