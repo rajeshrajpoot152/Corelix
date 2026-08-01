@@ -83,8 +83,9 @@ include 'header.php';
                         <div>
                             <h4 class="text-brand-black text-lg md:text-xl font-bold mb-1">WhatsApp Support</h4>
                             <p class="text-gray-500 text-xs md:text-sm mb-3">Chat instantly with our AI bot or human representative.</p>
-                            <a href="https://wa.me/918488075196" target="_blank" class="inline-flex items-center px-5 py-2 md:py-2.5 rounded-full bg-[#25D366] text-white font-bold text-xs md:text-sm hover:shadow-lg hover:-translate-y-0.5 transition-all">
-                                Start Chatting &rarr;
+                            <a href="https://wa.me/918488075196" target="_blank" class="inline-flex items-center gap-2 px-5 py-2 md:py-2.5 rounded-full bg-[#25D366] text-white font-bold text-xs md:text-sm hover:shadow-lg hover:-translate-y-0.5 transition-all group">
+                                Start Chatting
+                                <svg class="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </a>
                         </div>
                     </div>
