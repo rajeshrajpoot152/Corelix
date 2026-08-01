@@ -32,9 +32,9 @@ include 'header.php';
             
             <!-- CTA Button -->
             <div class="mt-8">
-                <a href="/contact" class="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-br from-brand-blue to-brand-green text-white font-bold text-sm sm:text-base hover:shadow-[0_0_20px_rgba(30,58,138,0.5)] transition-all duration-300 hover:-translate-y-1 group" title="Talk to Us">
+                <a href="/contact" class="group relative inline-flex items-center gap-2 px-6 py-3 font-bold border rounded-full overflow-hidden transition-all duration-300 text-sm sm:text-base border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Talk to Us">
                     Talk to Us
-                    <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
+                    <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                 </a>
             </div>
         </div>
