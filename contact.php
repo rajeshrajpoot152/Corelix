@@ -112,14 +112,19 @@ include 'header.php';
                             </div>
                         </div>
                         
-                        <div>
-                            <input type="email" name="email" placeholder="Email Address *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
+                            <div>
+                                <input type="email" name="email" placeholder="Email Address *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
+                            </div>
+                            <div>
+                                <input type="tel" name="phone" placeholder="Mobile Number *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
+                            </div>
                         </div>
                         
                         <div>
                             <div class="relative">
-                                <select name="service" class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 appearance-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all cursor-pointer text-gray-500">
-                                    <option value="" disabled selected hidden>Service of Interest</option>
+                                <select name="service" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 appearance-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all cursor-pointer text-gray-500">
+                                    <option value="" disabled selected hidden>Service of Interest *</option>
                                     <option value="web" class="text-gray-900">Web & Mobile Development</option>
                                     <option value="design" class="text-gray-900">UI/UX Design & Branding</option>
                                     <option value="marketing" class="text-gray-900">Digital Marketing & SEO</option>
