@@ -79,7 +79,7 @@ include 'header.php';
     </div>
 </section>
 <!-- Our Team Section -->
-<!-- <section class="py-16 md:py-24 text-center overflow-hidden bg-slate-950 border-t border-white/10 relative">
+<section class="py-16 md:py-24 text-center overflow-hidden bg-slate-950 border-t border-white/10 relative">
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-brand-blue/20 blur-[120px] rounded-full pointer-events-none"></div>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
@@ -124,13 +124,13 @@ include 'header.php';
             
             <?php
             $scrollTeam = [
-                // ['name' => 'Rajesh Rajpoot', 'role' => 'Frontend Tech Lead', 'image' => 'Rajesh-Rajpoot.png'],
-                // ['name' => 'Priya Sharma', 'role' => 'UI/UX Designer', 'image' => 'Priya-Sharma.png'],
-                // ['name' => 'Karan Desai', 'role' => 'Full-Stack Developer', 'image' => 'Karan-Desai.png'],
-                // ['name' => 'Rahul Singh', 'role' => 'SEO Specialist', 'image' => 'Rahul-Singh.png'],
-                // ['name' => 'Vinod Prajapati', 'role' => 'Frontend Developer', 'image' => 'Vinod-Prajapati.png'],
-                // ['name' => 'Sneha Gupta', 'role' => 'Project Manager / QA', 'image' => 'Sneha-Gupta.png'],
-                // ['name' => 'Bhargav Panchal', 'role' => 'Sr. Web developer', 'image' => 'Bhargav-Panchal.png']
+                 ['name' => 'Rajesh Rajpoot', 'role' => 'Frontend Tech Lead', 'image' => 'Rajesh-Rajpoot.png'],
+                 ['name' => 'Priya Sharma', 'role' => 'UI/UX Designer', 'image' => 'Priya-Sharma.png'],
+                 ['name' => 'Karan Desai', 'role' => 'Full-Stack Developer', 'image' => 'Karan-Desai.png'],
+                 ['name' => 'Rahul Singh', 'role' => 'SEO Specialist', 'image' => 'Rahul-Singh.png'],
+                 ['name' => 'Vinod Prajapati', 'role' => 'Frontend Developer', 'image' => 'Vinod-Prajapati.png'],
+                 ['name' => 'Sneha Gupta', 'role' => 'Project Manager / QA', 'image' => 'Sneha-Gupta.png'],
+                 ['name' => 'Bhargav Panchal', 'role' => 'Sr. Web developer', 'image' => 'Bhargav-Panchal.png']
             ];
             
             for($i=0; $i<2; $i++) {
@@ -151,7 +151,7 @@ include 'header.php';
 
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- Global Reach Section -->
 <section class="py-24 bg-white border-t border-gray-100 relative z-10">
@@ -166,7 +166,7 @@ include 'header.php';
             <!-- India -->
             <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
                 <div class="aspect-[4/5] overflow-hidden bg-gray-900">
-                    <img src="/assets/images/INDIA.avif" alt="India" class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" loading="lazy" title="India">
+                    <img src="/assets/images/INDIA.avif" alt="India" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="India">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
                     <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">IN</span>INDIA</span>
@@ -176,7 +176,7 @@ include 'header.php';
             <!-- USA -->
             <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
                 <div class="aspect-[4/5] overflow-hidden bg-gray-900">
-                    <img src="/assets/images/UNITED-STATES.avif" alt="United States" class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" loading="lazy" title="United States">
+                    <img src="/assets/images/UNITED-STATES.avif" alt="United States" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="United States">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
                     <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">US</span>UNITED STATES</span>
@@ -186,7 +186,7 @@ include 'header.php';
             <!-- Canada -->
             <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
                 <div class="aspect-[4/5] overflow-hidden bg-gray-900">
-                    <img src="/assets/images/CANADA.avif" alt="Canada" class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" loading="lazy" title="Canada">
+                    <img src="/assets/images/CANADA.avif" alt="Canada" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Canada">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
                     <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">CA</span>CANADA</span>
@@ -196,7 +196,7 @@ include 'header.php';
             <!-- UAE -->
             <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
                 <div class="aspect-[4/5] overflow-hidden bg-gray-900">
-                    <img src="/assets/images/AEUAE.avif" alt="UAE" class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" loading="lazy" title="Aeuae">
+                    <img src="/assets/images/AEUAE.avif" alt="UAE" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Aeuae">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
                     <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">AE</span>UAE</span>
@@ -206,7 +206,7 @@ include 'header.php';
             <!-- Australia -->
             <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
                 <div class="aspect-[4/5] overflow-hidden bg-gray-900">
-                    <img src="/assets/images/AUSTRALIA.avif" alt="Australia" class="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" loading="lazy" title="Australia">
+                    <img src="/assets/images/AUSTRALIA.avif" alt="Australia" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Australia">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
                     <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">AU</span>AUSTRALIA</span>
@@ -218,7 +218,7 @@ include 'header.php';
 
 <!-- Stats -->
 <section class="py-12 relative bg-white border-t border-gray-100">
-    <div class="relative px-4 sm:px-6 lg:px-8 max-w-[1536px] mx-auto pb-12">
+    <div class="relative px-4 sm:px-6 lg:px-8 max-w-[1536px] mx-auto pb-0 sm:pb-12">
         <div class="p-4 sm:p-10">
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-6 gap-x-2 sm:gap-10 lg:gap-0 lg:divide-x divide-gray-100">
                 

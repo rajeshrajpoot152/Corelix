@@ -42,12 +42,7 @@ include 'header.php';
                 <!-- Left Side: Heading -->
                 <div class="xl:w-1/3 flex flex-col justify-start">
                     <h2 class="text-4xl md:text-5xl lg:text-6xl font-black font-heading text-white leading-tight mb-6 tracking-tight">Why work<br>with us</h2>
-                    <p class="text-gray-400 text-lg leading-relaxed mb-8">Join a fast-growing tech startup where your ideas matter. We offer a flexible, innovative environment designed to help you do the best work of your career.</p>
-                    
-                    <a href="#current-openings" class="inline-flex items-center gap-2 text-brand-blue font-bold hover:text-white transition-colors group self-start">
-                        View Openings
-                        <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                    </a>
+                    <p class="text-gray-400 text-lg leading-relaxed mb-0">Join a fast-growing tech startup where your ideas matter. We offer a flexible, innovative environment designed to help you do the best work of your career.</p>
                 </div>
                 
                 <!-- Right Side: Bento Grid -->

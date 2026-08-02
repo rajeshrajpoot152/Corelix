@@ -284,7 +284,7 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
                 
                 <!-- CTA Button -->
                 <div class="hidden md:flex items-center ml-auto">
-                    <a href="/contact" id="header-cta-btn" class="group relative px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all text-sm border-white text-white hover:bg-white hover:text-black" title="Contact">
+                    <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" id="header-cta-btn" class="group relative px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all text-sm border-white text-white hover:bg-white hover:text-black" title="Contact">
                         <span class="relative flex items-center gap-2">
                             Let's Talk
                             <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
@@ -369,7 +369,7 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
     </script>
 
     <!-- Main Content Wrapper -->
-    <main class="relative z-10">
+    <main class="relative">
         <!-- Ambient Background Blobs -->
         <div class="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
             <div class="absolute top-[-10%] left-[-10%] w-96 h-96 bg-brand-blue/20 rounded-full mix-blend-screen filter blur-[100px] animate-blob"></div>

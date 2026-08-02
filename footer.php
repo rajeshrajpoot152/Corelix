@@ -1,10 +1,9 @@
 </main>
 
-    <!-- Reveal Footer Spacer (hidden on small screens) -->
-    <div id="footer-spacer" aria-hidden="true" class="hidden lg:block pointer-events-none"></div>
+
 
     <!-- Footer -->
-    <footer id="reveal-footer" class="bg-white border-t border-gray-200 pt-16 pb-0 relative lg:fixed lg:bottom-0 lg:left-0 lg:right-0 lg:z-0 overflow-hidden w-full">
+    <footer id="reveal-footer" class="bg-white pt-16 pb-0 relative z-30 overflow-hidden w-full">
         <!-- Background decoration -->
         <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-blue/5 rounded-full mix-blend-multiply filter blur-[80px] pointer-events-none"></div>
         
@@ -80,10 +79,10 @@
             </div>
             
             <div class="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                <p class="text-gray-500 text-sm">
+                <p class="text-gray-500 text-xs">
                     &copy; <?php echo date('Y'); ?> Corelix. All rights reserved.
                 </p>
-                <div class="flex space-x-6 text-sm">
+                <div class="flex space-x-6 text-xs">
                     <a href="/terms-of-service" class="text-gray-500 hover:text-brand-blue transition-colors" title="Terms Of Service">Terms of Use</a>
                     <a href="/privacy-policy" class="text-gray-500 hover:text-brand-blue transition-colors" title="Privacy Policy">Privacy Policy</a>
                     <a href="/sitemap" class="text-gray-500 hover:text-brand-blue transition-colors" title="Sitemap">Sitemap</a>
@@ -323,7 +322,7 @@
             <a href="tel:+918488075196" class="relative z-10 w-14 h-14 flex items-center justify-center rounded-full bg-[#4F46E5] text-white shadow-lg shadow-[#4F46E5]/30 transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-indigo-300" aria-label="Call us" title="Call us">
                 <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.47 11.47 0 00.57 3.58 1 1 0 01-.25 1.02l-2.2 2.19z"></path></svg>
             </a>
-            <span class="absolute left-full ml-4 whitespace-nowrap px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-lg opacity-0 pointer-events-none transition-opacity group-hover:opacity-100 shadow-xl">📞 Call Us</span>
+            <span class="absolute left-full ml-4 whitespace-nowrap px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-lg opacity-0 pointer-events-none transition-opacity group-hover:opacity-100 shadow-xl">📞 Call Us: +91 84880 75196</span>
         </div>
     </div>
 
@@ -337,23 +336,8 @@
         </div>
     </div>
 
-    <!-- Script to dynamically adjust spacer for fixed reveal footer -->
+    <!-- Main scripts -->
     <script>
-        function adjustFooterReveal() {
-            const footer = document.getElementById('reveal-footer');
-            const spacer = document.getElementById('footer-spacer');
-            if (footer && spacer) {
-                if (window.innerWidth >= 1024) {
-                    spacer.style.height = footer.offsetHeight + 'px';
-                } else {
-                    spacer.style.height = '0px';
-                }
-            }
-        }
-        window.addEventListener('resize', adjustFooterReveal);
-        window.addEventListener('load', adjustFooterReveal);
-        document.addEventListener('DOMContentLoaded', adjustFooterReveal);
-
         // Counter Animation using Intersection Observer
         document.addEventListener('DOMContentLoaded', () => {
             const counters = document.querySelectorAll('.stat-counter');
@@ -531,7 +515,7 @@
             <a href="tel:+918488075196" class="relative z-10 w-14 h-14 flex items-center justify-center rounded-full bg-[#4F46E5] text-white shadow-lg shadow-[#4F46E5]/30 transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-indigo-300" aria-label="Call us" title="Call us">
                 <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.47 11.47 0 00.57 3.58 1 1 0 01-.25 1.02l-2.2 2.19z"></path></svg>
             </a>
-            <span class="absolute left-full ml-4 whitespace-nowrap px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-lg opacity-0 pointer-events-none transition-opacity group-hover:opacity-100 shadow-xl">📞 Call Us</span>
+            <span class="absolute left-full ml-4 whitespace-nowrap px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-lg opacity-0 pointer-events-none transition-opacity group-hover:opacity-100 shadow-xl">📞 Call Us: +91 84880 75196</span>
         </div>
     </div>
 

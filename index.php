@@ -20,20 +20,20 @@ include 'header.php';
         <!-- Content -->
         <div class="relative z-10 text-center px-4 sm:px-6 w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full pt-20" data-aos="fade-up">
             <!-- Main Heading with Gradients -->
-            <h1 class="text-[26px] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white mb-4 sm:mb-6 tracking-tight font-heading drop-shadow-2xl flex flex-col items-center gap-0 sm:gap-1 lg:gap-2">
-                <span class="whitespace-nowrap leading-none">Empowering Your <span class="bg-gradient-to-r from-brand-blue to-purple-400 bg-clip-text text-transparent">Business</span></span>
-                <span class="leading-none pt-2 sm:pt-3">Driven by <span class="bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text text-transparent">Experts</span></span>
+            <h1 class="text-[38px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black text-white mb-4 sm:mb-6 tracking-tight font-heading drop-shadow-2xl flex flex-col items-center gap-2">
+                <span class="sm:whitespace-nowrap leading-none">Empowering Your <span class="bg-gradient-to-r from-brand-blue to-purple-400 bg-clip-text text-transparent">Business</span></span>
+                <span class="leading-none">Driven by <span class="bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text text-transparent">Experts</span></span>
             </h1>
             
             <!-- Subtext -->
-            <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white/95 font-medium max-w-2xl mx-auto drop-shadow-lg leading-relaxed">
+            <p class="text-sm sm:text-base md:text-lg lg:text-xl text-white/95 font-medium max-w-xl mx-auto drop-shadow-lg leading-relaxed">
                 A dedicated team of experts building cutting-edge software and impactful designs to accelerate your business growth.
             </p>
             
             <!-- CTA Button -->
             <div class="mt-8">
-                <a href="/contact" class="group relative inline-flex items-center gap-2 px-6 py-3 font-bold border rounded-full overflow-hidden transition-all duration-300 text-sm sm:text-base border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Talk to Us">
-                    Talk to Us
+                <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="group relative inline-flex items-center gap-2 px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all duration-300 text-sm border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Free SEO & Tech Audit">
+                    Free SEO & Tech Audit
                     <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                 </a>
             </div>
@@ -47,7 +47,7 @@ include 'header.php';
     <!-- White background starting below the hero -->
     <div class="absolute inset-x-0 bottom-0 top-20 bg-white rounded-t-[40px] md:rounded-t-[60px]"></div>
     
-    <div class="relative px-4 sm:px-6 lg:px-8 max-w-[1536px] mx-auto pb-12">
+    <div class="relative px-4 sm:px-6 lg:px-8 max-w-[1536px] mx-auto pb-0 sm:pb-12">
         <div class="bg-white rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border-t-4 border-t-brand-green p-4 sm:p-10">
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-6 gap-x-2 sm:gap-10 lg:gap-0 lg:divide-x divide-gray-100">
                 
@@ -125,23 +125,22 @@ include 'header.php';
 </section>
 
 <!-- Services Sticky Stack Section -->
-<section id="services-stack" class="py-24 bg-white relative border-b border-gray-200">
+<section id="services-stack" class="py-8 md:py-12 bg-white relative border-b border-gray-200">
     <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTMwLjUgMjEuNWgtdjEwaDEwdS0xMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDAsMCwwLDAuMDUpIiBzdHJva2Utd2lkdGg9IjEiLz48L3N2Zz4=')] opacity-50 pointer-events-none"></div>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         <!-- Header -->
-        <div class="flex flex-col gap-4 mb-20" data-aos="fade-up">
+        <div class="flex flex-col gap-4 mb-10" data-aos="fade-up">
             <h2 class="text-5xl md:text-6xl font-black font-heading text-[#1a1a2e] tracking-tight">Core Services</h2>
             <p class="relative z-10 text-gray-600 text-xl max-w-2xl">We design and build digital platforms that look great, perform smoothly, and turn visitors into customers. Scroll to explore our stack.</p>
         </div>
 
         <div class="flex flex-col gap-10">
-            <!-- Card 1: Web & Mobile App Dev -->
-            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-blue/5 top-[100px]">
-                <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px]">
-                    <img src="/assets/images/Web-Mobile-Development.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Web and Mobile App Development" title="Web Mobile Development">
+            <article class="group static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-blue/5 top-[100px]">
+                <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px] overflow-hidden">
+                    <img src="/assets/images/Web-Mobile-Development.jpg" class="absolute inset-0 w-full h-full object-cover transition-all duration-700 group-hover:scale-110" alt="Web and Mobile App Development" title="Web Mobile Development">
                 </div>
-                <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-6 min-w-0 p-8 md:p-12 overflow-hidden">
+                <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-5 min-w-0 p-6 sm:p-8 md:p-10 lg:p-8 xl:p-12 overflow-hidden">
                     <div class="absolute -top-32 -right-32 w-96 h-96 bg-brand-blue/10 rounded-full blur-[100px] pointer-events-none z-0"></div>
                     <div class="absolute bottom-0 left-0 w-72 h-72 bg-brand-blue/5 rounded-full blur-[80px] pointer-events-none z-0"></div>
 
@@ -151,7 +150,7 @@ include 'header.php';
                             ENGINEERING & APP DEV
                         </span>
                     </div>
-                    <h3 class="relative z-10 text-4xl md:text-6xl lg:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">Web & Mobile App <span class="text-brand-blue">Development</span></h3>
+                    <h3 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-[2.6rem] xl:text-[3.4rem] min-[1400px]:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">Web & Mobile App <span class="text-brand-blue">Development</span></h3>
                     <p class="relative z-10 text-gray-600 text-lg leading-relaxed">High-performance custom web applications, native & cross-platform iOS/Android apps, and scalable cloud architectures built for speed and security.</p>
                     
                     <div class="mt-2 relative z-10">
@@ -160,10 +159,10 @@ include 'header.php';
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Custom Web Apps</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">iOS & Android Apps</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Enterprise SaaS</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">API Development</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Custom Web Apps</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">iOS & Android Apps</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Enterprise SaaS</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">API Development</span>
                         </div>
                     </div>
 
@@ -181,9 +180,9 @@ include 'header.php';
                     </div>
 
                     <div class="mt-6 relative z-10">
-                        <a href="/services/web-mobile-app-development" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-blue/30 transition-all duration-300 group" title="Web & Mobile App Development">
-                            <div class="w-10 h-10 rounded-full bg-brand-blue text-white flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-blue/50">
-                                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        <a href="/services/web-mobile-app-development" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-5 hover:bg-black hover:shadow-lg hover:shadow-brand-blue/30 transition-all duration-300 group" title="Web & Mobile App Development">
+                            <div class="w-8 h-8 rounded-full bg-brand-blue text-white flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-blue/50">
+                                <svg class="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </div>
                             <span class="font-bold text-sm">Explore Development Solutions</span>
                         </a>
@@ -191,12 +190,11 @@ include 'header.php';
                 </div>
             </article>
 
-            <!-- Card 2: SEO Services -->
-            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-green/5 top-[125px]">
-                <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px]">
-                    <img src="/assets/images/Digital-Marketing-SEO.jpg" class="absolute inset-0 w-full h-full object-cover" alt="SEO Services" title="SEO Services">
+            <article class="group static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-green/5 top-[100px]">
+                <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px] overflow-hidden">
+                    <img src="/assets/images/Digital-Marketing-SEO.jpg" class="absolute inset-0 w-full h-full object-cover transition-all duration-700 group-hover:scale-110" alt="SEO Services" title="SEO Services">
                 </div>
-                <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-6 min-w-0 p-8 md:p-12 overflow-hidden">
+                <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-5 min-w-0 p-6 sm:p-8 md:p-10 lg:p-8 xl:p-12 overflow-hidden">
                     <div class="absolute -top-32 -right-32 w-96 h-96 bg-brand-green/10 rounded-full blur-[100px] pointer-events-none z-0"></div>
                     <div class="absolute bottom-0 left-0 w-72 h-72 bg-brand-green/5 rounded-full blur-[80px] pointer-events-none z-0"></div>
 
@@ -206,7 +204,7 @@ include 'header.php';
                             SEARCH ENGINE OPTIMIZATION
                         </span>
                     </div>
-                    <h3 class="relative z-10 text-4xl md:text-6xl lg:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">SEO <span class="text-brand-green">Services</span></h3>
+                    <h3 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-[2.6rem] xl:text-[3.4rem] min-[1400px]:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">SEO <span class="text-brand-green">Services</span></h3>
                     <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Data-driven SEO strategies, advanced technical SEO audits, and high-authority link building to dominate organic rankings and drive qualified traffic.</p>
                     
                     <div class="mt-2 relative z-10">
@@ -215,10 +213,10 @@ include 'header.php';
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Technical SEO</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">On-Page Optimization</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Link Building</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Local & E-commerce SEO</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Technical SEO</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">On-Page Optimization</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Link Building</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Local & E-commerce SEO</span>
                         </div>
                     </div>
 
@@ -236,9 +234,9 @@ include 'header.php';
                     </div>
 
                     <div class="mt-6 relative z-10">
-                        <a href="/services/seo-services" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-green/30 transition-all duration-300 group" title="SEO Services">
-                            <div class="w-10 h-10 rounded-full bg-brand-green text-white flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-green/50">
-                                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        <a href="/services/seo-services" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-5 hover:bg-black hover:shadow-lg hover:shadow-brand-green/30 transition-all duration-300 group" title="SEO Services">
+                            <div class="w-8 h-8 rounded-full bg-brand-green text-white flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-green/50">
+                                <svg class="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </div>
                             <span class="font-bold text-sm">Explore SEO Solutions</span>
                         </a>
@@ -246,12 +244,11 @@ include 'header.php';
                 </div>
             </article>
 
-            <!-- Card 3: Digital Marketing -->
-            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-orange/5 top-[150px]">
-                <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px]">
-                    <img src="/assets/images/Social-Media.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Digital Marketing" title="Digital Marketing">
+            <article class="group static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-orange/5 top-[100px]">
+                <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px] overflow-hidden">
+                    <img src="/assets/images/Social-Media.jpg" class="absolute inset-0 w-full h-full object-cover transition-all duration-700 group-hover:scale-110" alt="Digital Marketing" title="Digital Marketing">
                 </div>
-                <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-6 min-w-0 p-8 md:p-12 overflow-hidden">
+                <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-5 min-w-0 p-6 sm:p-8 md:p-10 lg:p-8 xl:p-12 overflow-hidden">
                     <div class="absolute -top-32 -right-32 w-96 h-96 bg-brand-orange/10 rounded-full blur-[100px] pointer-events-none z-0"></div>
                     <div class="absolute bottom-0 left-0 w-72 h-72 bg-brand-orange/5 rounded-full blur-[80px] pointer-events-none z-0"></div>
 
@@ -261,7 +258,7 @@ include 'header.php';
                             PERFORMANCE & ADS
                         </span>
                     </div>
-                    <h3 class="relative z-10 text-4xl md:text-6xl lg:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">Digital <span class="text-brand-orange">Marketing</span></h3>
+                    <h3 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-[2.6rem] xl:text-[3.4rem] min-[1400px]:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">Digital <span class="text-brand-orange">Marketing</span></h3>
                     <p class="relative z-10 text-gray-600 text-lg leading-relaxed">High-ROI performance marketing, conversion rate optimization, and omnichannel social media advertising designed to scale acquisition and revenue.</p>
                     
                     <div class="mt-2 relative z-10">
@@ -270,10 +267,10 @@ include 'header.php';
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Google & PPC Ads</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Meta & Social Ads</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Conversion Optimization</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Content Marketing</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Google & PPC Ads</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Meta & Social Ads</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Conversion Optimization</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Content Marketing</span>
                         </div>
                     </div>
 
@@ -291,9 +288,9 @@ include 'header.php';
                     </div>
 
                     <div class="mt-6 relative z-10">
-                        <a href="/services/digital-marketing" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-orange/30 transition-all duration-300 group" title="Digital Marketing">
-                            <div class="w-10 h-10 rounded-full bg-brand-orange text-white flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-orange/50">
-                                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        <a href="/services/digital-marketing" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-5 hover:bg-black hover:shadow-lg hover:shadow-brand-orange/30 transition-all duration-300 group" title="Digital Marketing">
+                            <div class="w-8 h-8 rounded-full bg-brand-orange text-white flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-orange/50">
+                                <svg class="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </div>
                             <span class="font-bold text-sm">Explore Marketing Solutions</span>
                         </a>
@@ -301,12 +298,11 @@ include 'header.php';
                 </div>
             </article>
 
-            <!-- Card 4: AI & Business Automation -->
-            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-red/5 top-[175px]">
-                <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px]">
-                    <img src="/assets/images/AI-Business-Automation.jpg" class="absolute inset-0 w-full h-full object-cover" alt="AI and Business Automation" title="AI Business Automation">
+            <article class="group static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-brand-red/5 top-[100px]">
+                <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px] overflow-hidden">
+                    <img src="/assets/images/AI-Business-Automation.jpg" class="absolute inset-0 w-full h-full object-cover transition-all duration-700 group-hover:scale-110" alt="AI and Business Automation" title="AI Business Automation">
                 </div>
-                <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-6 min-w-0 p-8 md:p-12 overflow-hidden">
+                <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-5 min-w-0 p-6 sm:p-8 md:p-10 lg:p-8 xl:p-12 overflow-hidden">
                     <div class="absolute -top-32 -right-32 w-96 h-96 bg-brand-red/10 rounded-full blur-[100px] pointer-events-none z-0"></div>
                     <div class="absolute bottom-0 left-0 w-72 h-72 bg-brand-red/5 rounded-full blur-[80px] pointer-events-none z-0"></div>
 
@@ -316,7 +312,7 @@ include 'header.php';
                             AI / AUTOMATION
                         </span>
                     </div>
-                    <h3 class="relative z-10 text-4xl md:text-6xl lg:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">AI & Business <span class="text-brand-red">Automation</span></h3>
+                    <h3 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-[2.6rem] xl:text-[3.4rem] min-[1400px]:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">AI & Business <span class="text-brand-red">Automation</span></h3>
                     <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Intelligent WhatsApp chatbots, CRM integrations, and automated workflows to streamline operations and reduce manual tasks by up to 80%.</p>
                     
                     <div class="mt-2 relative z-10">
@@ -325,10 +321,10 @@ include 'header.php';
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">AI Consulting</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">WhatsApp Automation</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">CRM Integration</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">Custom Chatbots</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">AI Consulting</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">WhatsApp Automation</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">CRM Integration</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">Custom Chatbots</span>
                         </div>
                     </div>
 
@@ -346,9 +342,9 @@ include 'header.php';
                     </div>
 
                     <div class="mt-6 relative z-10">
-                        <a href="/services/ai-automation" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-brand-red/30 transition-all duration-300 group" title="AI & Business Automation">
-                            <div class="w-10 h-10 rounded-full bg-brand-red text-white flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-red/50">
-                                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        <a href="/services/ai-automation" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-5 hover:bg-black hover:shadow-lg hover:shadow-brand-red/30 transition-all duration-300 group" title="AI & Business Automation">
+                            <div class="w-8 h-8 rounded-full bg-brand-red text-white flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-brand-red/50">
+                                <svg class="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </div>
                             <span class="font-bold text-sm">Explore AI Solutions</span>
                         </a>
@@ -356,12 +352,11 @@ include 'header.php';
                 </div>
             </article>
 
-            <!-- Card 5: UI/UX & Branding -->
-            <article class="static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-purple-500/5 top-[200px]">
-                <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px]">
-                    <img src="/assets/images/UIUX-Design-Creative.jpg" class="absolute inset-0 w-full h-full object-cover" alt="UI/UX and Branding" title="UI/UX Branding">
+            <article class="group static min-[900px]:sticky grid grid-cols-1 min-[900px]:grid-cols-12 gap-0 min-[900px]:min-h-[58vh] bg-white border border-gray-200 rounded-[32px] overflow-hidden shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] shadow-purple-500/5 top-[100px]">
+                <div class="col-span-1 min-[900px]:col-span-5 relative h-64 min-[900px]:h-full min-h-[300px] overflow-hidden">
+                    <img src="/assets/images/UIUX-Design-Creative.jpg" class="absolute inset-0 w-full h-full object-cover transition-all duration-700 group-hover:scale-110" alt="UI/UX and Branding" title="UI/UX Branding">
                 </div>
-                <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-6 min-w-0 p-8 md:p-12 overflow-hidden">
+                <div class="col-span-1 min-[900px]:col-span-7 relative flex flex-col gap-5 min-w-0 p-6 sm:p-8 md:p-10 lg:p-8 xl:p-12 overflow-hidden">
                     <div class="absolute -top-32 -right-32 w-96 h-96 bg-purple-500/10 rounded-full blur-[100px] pointer-events-none z-0"></div>
                     <div class="absolute bottom-0 left-0 w-72 h-72 bg-purple-500/5 rounded-full blur-[80px] pointer-events-none z-0"></div>
 
@@ -371,8 +366,8 @@ include 'header.php';
                             DESIGN & BRANDING
                         </span>
                     </div>
-                    <h3 class="relative z-10 text-4xl md:text-6xl lg:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">UI/UX & <span class="text-purple-600">Branding</span></h3>
-                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Human-centric UI/UX design, brand identity systems, interactive wireframes, and motion design that elevate your brand and maximize user engagement.</p>
+                    <h3 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-[2.6rem] xl:text-[3.4rem] min-[1400px]:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">UI/UX & <span class="text-purple-600">Branding</span></h3>
+                     <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Professional UI/UX design, custom logo & branding, and engaging website designs that help your business stand out and attract more customers.</p>
                     
                     <div class="mt-2 relative z-10">
                         <div class="flex items-center gap-2 mb-4">
@@ -380,10 +375,10 @@ include 'header.php';
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">UI/UX Design</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">Corporate Identity</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">Brand Strategy</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">Wireframing & Prototyping</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">Web & Mobile UI Design</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">Logo & Branding</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">Graphic Design Solutions</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-purple-500/5 hover:border-purple-500/20 hover:text-purple-600 transition-colors cursor-default shadow-sm">UX Research & Prototyping</span>
                         </div>
                     </div>
 
@@ -394,16 +389,17 @@ include 'header.php';
                         </div>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Figma</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Canva</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Adobe Illustrator</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Adobe Photoshop</span>
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Adobe XD</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Illustrator</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Framer</span>
                         </div>
                     </div>
 
                     <div class="mt-6 relative z-10">
-                        <a href="/services/ui-ux-branding" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-6 hover:bg-black hover:shadow-lg hover:shadow-purple-500/30 transition-all duration-300 group" title="UI/UX & Branding">
-                            <div class="w-10 h-10 rounded-full bg-purple-600 text-white flex items-center justify-center mr-4 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-purple-500/50">
-                                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        <a href="/services/ui-ux-branding" class="inline-flex items-center bg-gray-900 text-white rounded-full p-1.5 pr-5 hover:bg-black hover:shadow-lg hover:shadow-purple-500/30 transition-all duration-300 group" title="UI/UX & Branding">
+                            <div class="w-8 h-8 rounded-full bg-purple-600 text-white flex items-center justify-center mr-3 group-hover:scale-110 transition-transform duration-300 shadow-sm shadow-purple-500/50">
+                                <svg class="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </div>
                             <span class="font-bold text-sm">Explore Design & Branding</span>
                         </a>
@@ -422,7 +418,7 @@ include 'header.php';
     </div>
 </section>
 
-<section class="py-24 text-center overflow-hidden bg-slate-950 border-t border-white/10 relative" aria-label="Platforms and Technologies">
+<section class="py-8 md:py-12 text-center overflow-hidden bg-slate-950 border-t border-white/10 relative" aria-label="Platforms and Technologies">
     <!-- Background Glow -->
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-brand-blue/20 blur-[120px] rounded-full pointer-events-none"></div>
     <div class="mb-16 px-4 max-md:mb-10 relative z-10">
@@ -431,7 +427,7 @@ include 'header.php';
 
 
 <!-- No-Code & Low-Code Tools Section -->
-<section class="py-24 bg-white relative z-10 border-b border-gray-100">
+<section class="py-8 md:py-12 bg-white relative z-10 border-b border-gray-100">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
             <span class="font-mono text-sm font-bold tracking-[0.2em] text-brand-blue uppercase mb-3 block">TECHNOLOGY</span>
@@ -520,7 +516,7 @@ include 'header.php';
 </section>
 
 <!-- Industries Slider Section -->
-<section class="py-24 bg-slate-950 border-t border-white/10 relative overflow-hidden">
+<section class="py-8 md:py-12 bg-slate-950 border-t border-white/10 relative overflow-hidden">
     <!-- Include Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     
@@ -542,9 +538,8 @@ include 'header.php';
         <!-- Added explicit heights to prevent collapsing -->
         <div class="swiper industrySwiper w-full h-[450px] md:h-[600px]">
             <div class="swiper-wrapper h-full">
-                <!-- Slide 1 -->
-                <div class="swiper-slide industry-slide h-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden relative bg-[#111]">
-                    <img src="/assets/images/Healthcare.jpg" alt="Healthcare" class="absolute inset-0 w-full h-full object-cover opacity-90" title="Healthcare">
+                <div class="swiper-slide industry-slide group h-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden relative bg-[#111]">
+                    <img src="/assets/images/Healthcare.jpg" alt="Healthcare" class="absolute inset-0 w-full h-full object-cover opacity-90 transition-all duration-700 group-hover:scale-110 group-hover:grayscale group-hover:opacity-75" title="Healthcare">
                     <div class="absolute inset-0 swiper-slide-overlay z-10 pointer-events-none"></div>
                     <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-black/40 to-transparent flex flex-col justify-center items-start text-left p-8 md:p-16 lg:p-24 z-20 swiper-slide-content">
                         <div class="w-full max-w-2xl">
@@ -558,9 +553,8 @@ include 'header.php';
                         </div>
                     </div>
                 </div>
-                <!-- Slide 2 -->
-                <div class="swiper-slide industry-slide h-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden relative bg-[#111]">
-                    <img src="/assets/images/Education.jpg" alt="Education" class="absolute inset-0 w-full h-full object-cover opacity-90" title="Education">
+                <div class="swiper-slide industry-slide group h-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden relative bg-[#111]">
+                    <img src="/assets/images/Education.jpg" alt="Education" class="absolute inset-0 w-full h-full object-cover opacity-90 transition-all duration-700 group-hover:scale-110 group-hover:grayscale group-hover:opacity-75" title="Education">
                     <div class="absolute inset-0 swiper-slide-overlay z-10 pointer-events-none"></div>
                     <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-black/40 to-transparent flex flex-col justify-center items-start text-left p-8 md:p-16 lg:p-24 z-20 swiper-slide-content">
                         <div class="w-full max-w-2xl">
@@ -574,9 +568,8 @@ include 'header.php';
                         </div>
                     </div>
                 </div>
-                <!-- Slide 3 -->
-                <div class="swiper-slide industry-slide h-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden relative bg-[#111]">
-                    <img src="/assets/images/Social-Media.jpg" alt="Social Media" class="absolute inset-0 w-full h-full object-cover opacity-90" title="Social Media">
+                <div class="swiper-slide industry-slide group h-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden relative bg-[#111]">
+                    <img src="/assets/images/Social-Media.jpg" alt="Social Media" class="absolute inset-0 w-full h-full object-cover opacity-90 transition-all duration-700 group-hover:scale-110 group-hover:grayscale group-hover:opacity-75" title="Social Media">
                     <div class="absolute inset-0 swiper-slide-overlay z-10 pointer-events-none"></div>
                     <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-black/40 to-transparent flex flex-col justify-center items-start text-left p-8 md:p-16 lg:p-24 z-20 swiper-slide-content">
                         <div class="w-full max-w-2xl">
@@ -590,9 +583,8 @@ include 'header.php';
                         </div>
                     </div>
                 </div>
-                <!-- Slide 4 -->
-                <div class="swiper-slide industry-slide h-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden relative bg-[#111]">
-                    <img src="/assets/images/Manufacturing.jpg" alt="Manufacturing" class="absolute inset-0 w-full h-full object-cover opacity-90" title="Manufacturing">
+                <div class="swiper-slide industry-slide group h-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden relative bg-[#111]">
+                    <img src="/assets/images/Manufacturing.jpg" alt="Manufacturing" class="absolute inset-0 w-full h-full object-cover opacity-90 transition-all duration-700 group-hover:scale-110 group-hover:grayscale group-hover:opacity-75" title="Manufacturing">
                     <div class="absolute inset-0 swiper-slide-overlay z-10 pointer-events-none"></div>
                     <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-black/40 to-transparent flex flex-col justify-center items-start text-left p-8 md:p-16 lg:p-24 z-20 swiper-slide-content">
                         <div class="w-full max-w-2xl">
@@ -606,9 +598,8 @@ include 'header.php';
                         </div>
                     </div>
                 </div>
-                <!-- Slide 5 -->
-                <div class="swiper-slide industry-slide h-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden relative bg-[#111]">
-                    <img src="/assets/images/Beauty-and-Lifestyle.jpg" alt="Beauty & Lifestyle" class="absolute inset-0 w-full h-full object-cover opacity-90" title="Beauty And Lifestyle">
+                <div class="swiper-slide industry-slide group h-full rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden relative bg-[#111]">
+                    <img src="/assets/images/Beauty-and-Lifestyle.jpg" alt="Beauty & Lifestyle" class="absolute inset-0 w-full h-full object-cover opacity-90 transition-all duration-700 group-hover:scale-110 group-hover:grayscale group-hover:opacity-75" title="Beauty And Lifestyle">
                     <div class="absolute inset-0 swiper-slide-overlay z-10 pointer-events-none"></div>
                     <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-black/40 to-transparent flex flex-col justify-center items-start text-left p-8 md:p-16 lg:p-24 z-20 swiper-slide-content">
                         <div class="w-full max-w-2xl">
@@ -765,7 +756,7 @@ include 'header.php';
 </section>
 
 <!-- Process Section -->
- <section class="py-24 bg-white relative overflow-hidden" style="background-color: #ffffff;" id="our-process">
+ <section class="py-8 md:py-12 bg-white relative overflow-hidden" style="background-color: #ffffff;" id="our-process">
         <div class="max-w-[1280px] mx-auto px-4 sm:px-6 relative z-10">
                 <div class="text-center mb-10 md:mb-24">
                         <h2 class="text-4xl md:text-5xl lg:text-6xl font-black font-heading text-[#1a1a2e] tracking-tight mb-5 md:mb-6 leading-[1.1]">
@@ -897,7 +888,7 @@ include 'header.php';
 </section>
 
 <!-- Testimonials Section -->
-<section class="py-20 md:py-32 bg-[#F4F4F4] relative border-t border-gray-200 overflow-hidden" style="background-color: #F4F4F4;">
+<section class="py-8 md:py-12 bg-[#F4F4F4] relative border-t border-gray-200 overflow-hidden" style="background-color: #F4F4F4;">
     <!-- Subtle background glow -->
     <div class="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-brand-blue/10 rounded-full blur-[120px] pointer-events-none"></div>
     
@@ -938,7 +929,7 @@ include 'header.php';
                             <div class="absolute inset-0 bg-gradient-to-br from-brand-blue/20 to-brand-green/20 rounded-full translate-x-4 translate-y-4 -z-10 group-hover:translate-x-6 group-hover:translate-y-6 transition-transform duration-500"></div>
                             
                             <div class="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full border-[8px] md:border-[12px] border-white shadow-[0_20px_50px_rgba(0,0,0,0.1)] relative z-20 overflow-hidden bg-[#e6e9f0]">
-                                <img src="/assets/images/Michael-Lawson.png" alt="Michael Lawson" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-700" title="Michael Lawson">
+                                <img src="/assets/images/Michael-Lawson.png" alt="Michael Lawson" class="w-full h-full object-cover object-top transition-all duration-700 group-hover:scale-110 group-hover:grayscale group-hover:opacity-80" title="Michael Lawson">
                             </div>
                         </div>
                         
@@ -981,7 +972,7 @@ include 'header.php';
                             <div class="absolute inset-0 bg-gradient-to-br from-brand-blue/20 to-brand-green/20 rounded-full translate-x-4 translate-y-4 -z-10 group-hover:translate-x-6 group-hover:translate-y-6 transition-transform duration-500"></div>
                             
                             <div class="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full border-[8px] md:border-[12px] border-white shadow-[0_20px_50px_rgba(0,0,0,0.1)] relative z-20 overflow-hidden bg-[#e6e9f0]">
-                                <img src="/assets/images/James-Carter.png" alt="James Carter" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-700" title="James Carter">
+                                <img src="/assets/images/James-Carter.png" alt="James Carter" class="w-full h-full object-cover object-top transition-all duration-700 group-hover:scale-110 group-hover:grayscale group-hover:opacity-80" title="James Carter">
                             </div>
                         </div>
                         
@@ -1024,7 +1015,7 @@ include 'header.php';
                             <div class="absolute inset-0 bg-gradient-to-br from-brand-blue/20 to-brand-green/20 rounded-full translate-x-4 translate-y-4 -z-10 group-hover:translate-x-6 group-hover:translate-y-6 transition-transform duration-500"></div>
                             
                             <div class="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full border-[8px] md:border-[12px] border-white shadow-[0_20px_50px_rgba(0,0,0,0.1)] relative z-20 overflow-hidden bg-[#e6e9f0]">
-                                <img src="/assets/images/Sarah-Jenkins.png" alt="Sarah Jenkins" class="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-700" title="Sarah Jenkins">
+                                <img src="/assets/images/Sarah-Jenkins.png" alt="Sarah Jenkins" class="w-full h-full object-cover object-top transition-all duration-700 group-hover:scale-110 group-hover:grayscale group-hover:opacity-80" title="Sarah Jenkins">
                             </div>
                         </div>
                         
@@ -1132,7 +1123,7 @@ include 'header.php';
 </section>
 
 <!-- Partners Section -->
-<section class="py-24 bg-white relative overflow-hidden">
+<section class="py-8 md:py-12 bg-white relative overflow-hidden">
     <!-- Subtle blue top glow -->
     <div class="absolute top-0 left-1/4 w-1/2 h-64 bg-brand-blue/10 blur-[100px] rounded-full pointer-events-none"></div>
 
@@ -1182,8 +1173,8 @@ include 'header.php';
     </style>
     <div class="container mx-auto relative z-10 overflow-hidden">
         <div class="mb-12 md:mb-16 max-w-4xl px-4 sm:px-6 lg:px-8 text-center mx-auto" data-aos="fade-up">
-            <h2 class="text-4xl md:text-5xl lg:text-6xl font-black font-heading text-[#1a1a2e] tracking-tight mb-5 md:mb-6 leading-[1.1]">Trusted by the brands<br>that shape the future.</h2>
-            <p class="text-gray-500 text-lg leading-relaxed max-w-2xl mx-auto">Corelix partners with the platforms, tools, and teams powering the digital ecosystem — the names you already know and trust.</p>
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-black font-heading text-[#1a1a2e] tracking-tight mb-5 md:mb-6 leading-[1.1]">Trusted by Growing Businesses</h2>
+            <p class="text-gray-500 text-lg leading-relaxed max-w-3xl mx-auto">We are proud to work with top companies and technology partners to build fast, secure, and high-ranking websites</p>
         </div>
         
         <!-- Scrolling Marquee - Right to Left -->
@@ -1191,25 +1182,25 @@ include 'header.php';
             <div class="flex w-max animate-marquee items-center">
                 <!-- Group 1 -->
                 <div class="flex items-center justify-center gap-6 md:gap-10 px-3 md:px-5">
-                    <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvam">
-                    <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvasti">
-                    <img src="/assets/images/Nutrizo-Advancis.png" alt="Nutrizo Advancis" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Nutrizo Advancis">
-                    <img src="/assets/images/hhjrlogoblack.png" alt="Hhjrlogoblack" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Hhjrlogoblack">
-                    <img src="/assets/images/htmlcoderunner.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Htmlcoderunner">
-                    <img src="/assets/images/babynameslibrary.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Babynameslibrary">
-                    <img src="/assets/images/danagedumigrate.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Danagedumigrate">
-                    <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Astrologermaakalyani">
+                    <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvam">
+                    <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvasti">
+                    <img src="/assets/images/Nutrizo-Advancis.png" alt="Nutrizo Advancis" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Nutrizo Advancis">
+                    <img src="/assets/images/hhjrlogoblack.png" alt="Hhjrlogoblack" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Hhjrlogoblack">
+                    <img src="/assets/images/htmlcoderunner.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Htmlcoderunner">
+                    <img src="/assets/images/babynameslibrary.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Babynameslibrary">
+                    <img src="/assets/images/danagedumigrate.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Danagedumigrate">
+                    <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Astrologermaakalyani">
                 </div>
                 <!-- Group 2 (Clone for infinite loop) -->
                 <div class="flex items-center justify-center gap-6 md:gap-10 px-3 md:px-5">
-                    <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvam">
-                    <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvasti">
-                    <img src="/assets/images/Nutrizo-Advancis.png" alt="Nutrizo Advancis" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Nutrizo Advancis">
-                    <img src="/assets/images/hhjrlogoblack.png" alt="Hhjrlogoblack" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Hhjrlogoblack">
-                    <img src="/assets/images/htmlcoderunner.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Htmlcoderunner">
-                    <img src="/assets/images/babynameslibrary.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Babynameslibrary">
-                    <img src="/assets/images/danagedumigrate.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Danagedumigrate">
-                    <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Astrologermaakalyani">
+                    <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvam">
+                    <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvasti">
+                    <img src="/assets/images/Nutrizo-Advancis.png" alt="Nutrizo Advancis" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Nutrizo Advancis">
+                    <img src="/assets/images/hhjrlogoblack.png" alt="Hhjrlogoblack" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Hhjrlogoblack">
+                    <img src="/assets/images/htmlcoderunner.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Htmlcoderunner">
+                    <img src="/assets/images/babynameslibrary.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Babynameslibrary">
+                    <img src="/assets/images/danagedumigrate.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Danagedumigrate">
+                    <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Astrologermaakalyani">
                 </div>
             </div>
         </div>
@@ -1219,25 +1210,25 @@ include 'header.php';
             <div class="flex w-max animate-marquee-reverse items-center">
                 <!-- Group 1 -->
                 <div class="flex items-center justify-center gap-6 md:gap-10 px-3 md:px-5">
-                    <img src="/assets/images/Essence-51.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Htmlcoderunner">
-                    <img src="/assets/images/hanuwantiyatentcity.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Babynameslibrary">
-                    <img src="/assets/images/boatshoesuk.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Danagedumigrate">
-                    <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Astrologermaakalyani">
-                    <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvam">
-                    <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvasti">
-                    <img src="/assets/images/Nutrizo-Advancis.png" alt="Nutrizo Advancis" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Nutrizo Advancis">
-                    <img src="/assets/images/hhjrlogoblack.png" alt="Hhjrlogoblack" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Hhjrlogoblack">
+                    <img src="/assets/images/Essence-51.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Htmlcoderunner">
+                    <img src="/assets/images/hanuwantiyatentcity.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Babynameslibrary">
+                    <img src="/assets/images/boatshoesuk.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Danagedumigrate">
+                    <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Astrologermaakalyani">
+                    <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvam">
+                    <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvasti">
+                    <img src="/assets/images/Nutrizo-Advancis.png" alt="Nutrizo Advancis" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Nutrizo Advancis">
+                    <img src="/assets/images/hhjrlogoblack.png" alt="Hhjrlogoblack" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Hhjrlogoblack">
                 </div>
                 <!-- Group 2 (Clone for infinite loop) -->
                 <div class="flex items-center justify-center gap-6 md:gap-10 px-3 md:px-5">
-                    <img src="/assets/images/Essence-51.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Htmlcoderunner">
-                    <img src="/assets/images/hanuwantiyatentcity.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Babynameslibrary">
-                    <img src="/assets/images/boatshoesuk.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Danagedumigrate">
-                    <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Astrologermaakalyani">
-                    <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvam">
-                    <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Tvasti">
-                    <img src="/assets/images/Nutrizo-Advancis.png" alt="Nutrizo Advancis" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Nutrizo Advancis">
-                    <img src="/assets/images/hhjrlogoblack.png" alt="Hhjrlogoblack" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain hover:scale-110 transition-transform duration-300" title="Hhjrlogoblack">
+                    <img src="/assets/images/Essence-51.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Htmlcoderunner">
+                    <img src="/assets/images/hanuwantiyatentcity.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Babynameslibrary">
+                    <img src="/assets/images/boatshoesuk.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Danagedumigrate">
+                    <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Astrologermaakalyani">
+                    <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvam">
+                    <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvasti">
+                    <img src="/assets/images/Nutrizo-Advancis.png" alt="Nutrizo Advancis" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Nutrizo Advancis">
+                    <img src="/assets/images/hhjrlogoblack.png" alt="Hhjrlogoblack" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Hhjrlogoblack">
                 </div>
             </div>
         </div>
@@ -1246,97 +1237,89 @@ include 'header.php';
 </section>
 
 <!-- Why Choose Us Section -->
-<section class="py-24 bg-white relative overflow-hidden" style="background-color: #ffffff;" id="why-choose-us">
+<section class="py-8 md:py-12 bg-gray-50 relative overflow-hidden" id="why-choose-us">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+        <div class="text-center max-w-3xl mx-auto mb-16">
             <h2 class="text-4xl md:text-5xl lg:text-6xl font-black font-heading text-[#1a1a2e] tracking-tight mb-6">Why Choose Corelix?</h2>
-            <p class="text-gray-500 text-lg md:text-xl leading-relaxed">We combine industry expertise with cutting-edge technology to deliver solutions that drive real business growth and digital transformation.</p>
+            <p class="text-gray-500 text-lg md:text-xl leading-relaxed">We build fast, secure, and SEO-friendly digital solutions that help your business get more traffic, leads, and growth.</p>
         </div>
 
-        <div class="flex flex-col lg:flex-row gap-4 lg:gap-6 h-auto lg:h-[600px] w-full">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
             <!-- Card 1 -->
-            <a href="/about" class="group relative flex-1 lg:hover:flex-[4.3] transition-all duration-300 ease-in-out bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="0">
-                <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50 shrink-0 relative z-10">
-                    <div class="w-10 h-10 rounded-xl bg-brand-blue/10 flex items-center justify-center shrink-0">
-                        <svg class="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                    </div>
-                    <div class="w-[200px] shrink-0">
-                        <p class="text-[13px] font-bold text-gray-900 uppercase tracking-wide truncate">Expert Team</p>
-                    </div>
+            <div class="group relative bg-white rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                <!-- Image Container (Top) -->
+                <div class="relative h-48 w-full overflow-hidden bg-gray-200 shrink-0">
+                    <img src="/assets/images/Expert-Web-Design-Team.jpg" class="w-full h-full object-cover transition-all duration-500 group-hover:opacity-75 group-hover:grayscale group-hover:scale-110" alt="Expert Team" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-white/10 to-black/20 pointer-events-none"></div>
                 </div>
-                <div class="w-full flex-grow relative overflow-hidden bg-gray-200">
-                    <img src="/assets/images/our-mission.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Expert Team" loading="lazy">
-                </div>
-                <div class="p-6 md:p-8 flex flex-col bg-white border-t border-gray-100 shrink-0 relative z-10 h-[180px]">
-                    <div class="w-[280px] lg:w-[320px]">
-                        <h3 class="text-xl md:text-2xl font-black font-heading text-brand-black mb-3 truncate">Build scalable solutions.</h3>
-                        <p class="text-gray-500 text-sm md:text-base leading-relaxed line-clamp-3">Our elite team of developers and designers bring years of experience to build secure and high-performance solutions.</p>
+                <!-- Content Container (Bottom) -->
+                <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
+                    <div>
+
+                        <!-- Title -->
+                        <h3 class="text-[11px] sm:text-sm md:text-xl font-black font-heading text-brand-black mb-1.5 md:mb-3">Expert Web & Design Team</h3>
+                        <!-- Description -->
+                        <p class="text-gray-500 text-sm md:text-base leading-relaxed">Get custom-built, fast, and highly secure websites developed by our experienced team of designers and developers.</p>
                     </div>
                 </div>
-            </a>
+            </div>
 
             <!-- Card 2 -->
-            <a href="/services" class="group relative flex-1 lg:hover:flex-[4.3] transition-all duration-300 ease-in-out bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="100">
-                <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50 shrink-0 relative z-10">
-                    <div class="w-10 h-10 rounded-xl bg-brand-green/10 flex items-center justify-center shrink-0">
-                        <svg class="w-5 h-5 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
-                    </div>
-                    <div class="w-[200px] shrink-0">
-                        <p class="text-[13px] font-bold text-gray-900 uppercase tracking-wide truncate">Innovative Solutions</p>
-                    </div>
+            <div class="group relative bg-white rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                <!-- Image Container (Top) -->
+                <div class="relative h-48 w-full overflow-hidden bg-gray-200 shrink-0">
+                    <img src="/assets/images/Modern-Tech-AI-Solutions.jpg" class="w-full h-full object-cover transition-all duration-500 group-hover:opacity-75 group-hover:grayscale group-hover:scale-110" alt="Innovative Solutions" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-white/10 to-black/20 pointer-events-none"></div>
                 </div>
-                <div class="w-full flex-grow relative overflow-hidden bg-gray-200">
-                    <img src="/assets/images/UIUX-Design-Creative.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Innovative Solutions" loading="lazy">
-                </div>
-                <div class="p-6 md:p-8 flex flex-col bg-white border-t border-gray-100 shrink-0 relative z-10 h-[180px]">
-                    <div class="w-[280px] lg:w-[320px]">
-                        <h3 class="text-xl md:text-2xl font-black font-heading text-brand-black mb-3 truncate">Future-proof your business.</h3>
-                        <p class="text-gray-500 text-sm md:text-base leading-relaxed line-clamp-3">We leverage the latest technologies in AI, Web3, and cloud computing to future-proof your digital infrastructure.</p>
+                <!-- Content Container (Bottom) -->
+                <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
+                    <div>
+
+                        <!-- Title -->
+                        <h3 class="text-[11px] sm:text-sm md:text-xl font-black font-heading text-brand-black mb-1.5 md:mb-3">Modern Tech & AI Solutions</h3>
+                        <!-- Description -->
+                        <p class="text-gray-500 text-sm md:text-base leading-relaxed">We use the latest technologies like React, Next.js, and AI to make sure your digital products are fast, modern, and future-ready.</p>
                     </div>
                 </div>
-            </a>
+            </div>
 
             <!-- Card 3 -->
-            <a href="/services" class="group relative flex-1 lg:hover:flex-[4.3] transition-all duration-300 ease-in-out bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="200">
-                <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50 shrink-0 relative z-10">
-                    <div class="w-10 h-10 rounded-xl bg-brand-orange/10 flex items-center justify-center shrink-0">
-                        <svg class="w-5 h-5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
-                    </div>
-                    <div class="w-[200px] shrink-0">
-                        <p class="text-[13px] font-bold text-gray-900 uppercase tracking-wide truncate">Agile Methodology</p>
-                    </div>
+            <div class="group relative bg-white rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                <!-- Image Container (Top) -->
+                <div class="relative h-48 w-full overflow-hidden bg-gray-200 shrink-0">
+                    <img src="/assets/images/Fast-On-Time-Delivery.jpg" class="w-full h-full object-cover transition-all duration-500 group-hover:opacity-75 group-hover:grayscale group-hover:scale-110" alt="Agile Methodology" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-white/10 to-black/20 pointer-events-none"></div>
                 </div>
-                <div class="w-full flex-grow relative overflow-hidden bg-gray-200">
-                    <img src="/assets/images/Web-Mobile-Development.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Agile Methodology" loading="lazy">
-                </div>
-                <div class="p-6 md:p-8 flex flex-col bg-white border-t border-gray-100 shrink-0 relative z-10 h-[180px]">
-                    <div class="w-[280px] lg:w-[320px]">
-                        <h3 class="text-xl md:text-2xl font-black font-heading text-brand-black mb-3 truncate">Deploy faster.</h3>
-                        <p class="text-gray-500 text-sm md:text-base leading-relaxed line-clamp-3">Our flexible and iterative approach ensures rapid deployment, continuous feedback, and perfect alignment with goals.</p>
+                <!-- Content Container (Bottom) -->
+                <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
+                    <div>
+
+                        <!-- Title -->
+                        <h3 class="text-[11px] sm:text-sm md:text-xl font-black font-heading text-brand-black mb-1.5 md:mb-3">Fast & On-Time Delivery</h3>
+                        <!-- Description -->
+                        <p class="text-gray-500 text-sm md:text-base leading-relaxed">We value your time. Our clear working process ensures we launch your website or app quickly, without compromising on quality.</p>
                     </div>
                 </div>
-            </a>
+            </div>
 
             <!-- Card 4 -->
-            <a href="/contact" class="group relative flex-1 lg:hover:flex-[4.3] transition-all duration-300 ease-in-out bg-gray-50 rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl flex flex-col min-h-[400px] lg:min-h-0" data-aos="fade-up" data-aos-delay="300">
-                <div class="px-6 pt-6 pb-4 flex items-center gap-4 bg-gray-50 shrink-0 relative z-10">
-                    <div class="w-10 h-10 rounded-xl bg-brand-red/10 flex items-center justify-center shrink-0">
-                        <svg class="w-5 h-5 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
-                    </div>
-                    <div class="w-[200px] shrink-0">
-                        <p class="text-[13px] font-bold text-gray-900 uppercase tracking-wide truncate">Result Driven</p>
-                    </div>
+            <div class="group relative bg-white rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                <!-- Image Container (Top) -->
+                <div class="relative h-48 w-full overflow-hidden bg-gray-200 shrink-0">
+                    <img src="/assets/images/Focus-on-Sales-Growth.jpg" class="w-full h-full object-cover transition-all duration-500 group-hover:opacity-75 group-hover:grayscale group-hover:scale-110" alt="Result Driven" loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-white/10 to-black/20 pointer-events-none"></div>
                 </div>
-                <div class="w-full flex-grow relative overflow-hidden bg-gray-200">
-                    <img src="/assets/images/Digital-Marketing-SEO.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Result Driven" loading="lazy">
-                </div>
-                <div class="p-6 md:p-8 flex flex-col bg-white border-t border-gray-100 shrink-0 relative z-10 h-[180px]">
-                    <div class="w-[280px] lg:w-[320px]">
-                        <h3 class="text-xl md:text-2xl font-black font-heading text-brand-black mb-3 truncate">Deliver measurable ROI.</h3>
-                        <p class="text-gray-500 text-sm md:text-base leading-relaxed line-clamp-3">We don't just build software; we build solutions that increase efficiency, boost sales, and drive growth.</p>
+                <!-- Content Container (Bottom) -->
+                <div class="p-6 md:p-8 flex-grow flex flex-col justify-between">
+                    <div>
+
+                        <!-- Title -->
+                        <h3 class="text-[11px] sm:text-sm md:text-xl font-black font-heading text-brand-black mb-1.5 md:mb-3">Focus on Sales & Growth</h3>
+                        <!-- Description -->
+                        <p class="text-gray-500 text-sm md:text-base leading-relaxed">We don't just write code. We create digital solutions designed to increase your online visibility, bring more traffic, and boost your sales.</p>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
     </div>
 </section>
