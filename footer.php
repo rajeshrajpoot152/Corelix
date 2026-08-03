@@ -11,70 +11,107 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <!-- Brand -->
                 <div class="col-span-1 lg:col-span-1">
-                    <!-- <a href="/" class="font-heading font-black text-2xl tracking-tight flex items-center gap-2 mb-6 text-gray-900" title="Corelix Home">
-                        <img src="/assets/images/lgoo.png" alt="Corelix Logo" title="Corelix" class="h-7 md:h-8 w-auto object-contain filter invert opacity-90">
-                    </a> -->
-                    <p class="text-gray-600 text-sm leading-relaxed mb-6">
-                        Empowering businesses with cutting-edge digital solutions. From custom development to advanced marketing strategies, we build the future.
-                    </p>
-                    <div class="flex space-x-4">
-                        <a href="#" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-brand-blue hover:text-white transition-all" title="Corelix Action">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                    <h3 class="text-gray-900 font-semibold mb-2 font-heading text-xl">Contact Corelix</h3>
+                    <p class="text-gray-600 text-sm mb-4 leading-relaxed">Transforming businesses with AI-powered solutions.</p>
+                    
+                    <a href="/contact" class="inline-flex items-center gap-1.5 text-gray-900 font-bold hover:text-brand-blue transition-colors text-base mb-5">
+                        Contact us 
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M17 7H7M17 7v10"></path></svg>
+                    </a>
+
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center gap-2">
+                            <span class="text-brand-blue">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            </span>
+                            <a href="mailto:sales@corelix.com" class="text-gray-600 hover:text-brand-blue transition-colors text-[17px] font-medium">sales@corelix.com</a>
+                        </div>
+                        
+                        <div class="flex items-center gap-2">
+                            <span class="text-brand-green">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.47 11.47 0 00.57 3.58 1 1 0 01-.25 1.02l-2.2 2.19z"></path></svg>
+                            </span>
+                            <a href="tel:+918488075196" class="text-gray-600 hover:text-brand-blue transition-colors text-[17px] font-medium">+91-8488075196</a>
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-3 mt-2">
+                        <!-- LinkedIn -->
+                        <a href="#" class="w-8 h-8 rounded-full bg-[#0a66c2] flex items-center justify-center text-white hover:bg-gray-100 hover:text-[#0a66c2] transition-all shadow-sm" title="LinkedIn">
+                            <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-brand-blue hover:text-white transition-all" title="Corelix Action">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        <!-- Instagram -->
+                        <a href="#" class="w-8 h-8 rounded-full bg-[#E1306C] flex items-center justify-center text-white hover:bg-gray-100 hover:text-[#E1306C] transition-all shadow-sm" title="Instagram">
+                            <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-brand-blue hover:text-white transition-all" title="Corelix Action">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        <!-- Facebook -->
+                        <a href="#" class="w-8 h-8 rounded-full bg-[#1877F2] flex items-center justify-center text-white hover:bg-gray-100 hover:text-[#1877F2] transition-all shadow-sm" title="Facebook">
+                            <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.312h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+                        </a>
+                        <!-- YouTube -->
+                        <a href="#" class="w-8 h-8 rounded-full bg-[#FF0000] flex items-center justify-center text-white hover:bg-gray-100 hover:text-[#FF0000] transition-all shadow-sm" title="YouTube">
+                            <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M21.582 6.186a2.664 2.664 0 00-1.875-1.881C17.989 3.86 12 3.86 12 3.86s-5.989 0-7.707.445a2.664 2.664 0 00-1.875 1.881C2 7.915 2 12 2 12s0 4.085.418 5.814a2.664 2.664 0 001.875 1.881c1.718.445 7.707.445 7.707.445s5.989 0 7.707-.445a2.664 2.664 0 001.875-1.881C22 16.085 22 12 22 12s0-4.085-.418-5.814zM9.6 15.421V8.579L15.6 12l-6 3.421z"/></svg>
                         </a>
                     </div>
                 </div>
 
                 <!-- Services -->
                 <div>
-                    <h3 class="text-gray-900 font-semibold mb-4 font-heading">Services</h3>
+                    <h3 class="text-gray-900 font-semibold mb-4 font-heading flex items-center gap-2">
+                        <span class="w-1.5 h-5 rounded-full bg-gradient-to-r from-brand-green to-brand-blue"></span>
+                        Services
+                    </h3>
                     <ul class="space-y-3">
-                        <li><a href="/services/web-mobile-app-development" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="Web & Mobile App Development"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>Web & Mobile App Development</a></li>
-                        <li><a href="/services/seo-services" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="SEO Services"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>SEO Services</a></li>
-                        <li><a href="/services/digital-marketing" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="Digital Marketing"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>Digital Marketing</a></li>
-                        <li><a href="/services/ai-automation" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="AI & Business Automation"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>AI & Business Automation</a></li>
-                        <li><a href="/services/ui-ux-branding" class="text-gray-600 hover:text-brand-blue transition-colors text-sm flex items-center gap-2" title="UI/UX & Branding"><span class="w-1 h-1 rounded-full bg-brand-blue"></span>UI/UX & Branding</a></li>
+                        <li><a href="/services/web-mobile-app-development" class="text-gray-600 hover:text-brand-blue transition-all duration-300 hover:translate-x-1.5 text-sm flex items-center gap-2" title="Web & Mobile App Development"><svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>Web & Mobile App Development</a></li>
+                        <li><a href="/services/seo-services" class="text-gray-600 hover:text-brand-blue transition-all duration-300 hover:translate-x-1.5 text-sm flex items-center gap-2" title="SEO Services"><svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>SEO Services</a></li>
+                        <li><a href="/services/digital-marketing" class="text-gray-600 hover:text-brand-blue transition-all duration-300 hover:translate-x-1.5 text-sm flex items-center gap-2" title="Digital Marketing"><svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>Digital Marketing</a></li>
+                        <li><a href="/services/ai-automation" class="text-gray-600 hover:text-brand-blue transition-all duration-300 hover:translate-x-1.5 text-sm flex items-center gap-2" title="AI & Business Automation"><svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>AI & Business Automation</a></li>
+                        <li><a href="/services/ui-ux-branding" class="text-gray-600 hover:text-brand-blue transition-all duration-300 hover:translate-x-1.5 text-sm flex items-center gap-2" title="UI/UX & Branding"><svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>UI/UX & Branding</a></li>
                     </ul>
                 </div>
 
                 <!-- Company -->
                 <div>
-                    <h3 class="text-gray-900 font-semibold mb-4 font-heading">Company</h3>
+                    <h3 class="text-gray-900 font-semibold mb-4 font-heading flex items-center gap-2">
+                        <span class="w-1.5 h-5 rounded-full bg-gradient-to-r from-brand-green to-brand-blue"></span>
+                        Company
+                    </h3>
                     <ul class="space-y-3">
-                        <li><a href="/about" class="text-gray-600 hover:text-brand-blue transition-colors text-sm" title="About">About Us</a></li>
-                        <li><a href="/blog" class="text-gray-600 hover:text-brand-blue transition-colors text-sm" title="Blog">Blog</a></li>
-                        <li><a href="/careers" class="text-gray-600 hover:text-brand-blue transition-colors text-sm" title="Careers">Careers</a></li>
-                        <li><a href="/industry" class="text-gray-600 hover:text-brand-blue transition-colors text-sm" title="Industry">Industries</a></li>
-                        <li><a href="/contact" class="text-gray-600 hover:text-brand-blue transition-colors text-sm" title="Contact">Contact</a></li>
+                        <li><a href="/about" class="text-gray-600 hover:text-brand-blue transition-all duration-300 hover:translate-x-1.5 text-sm flex items-center gap-2" title="About"><svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>About Us</a></li>
+                        <li><a href="/blog" class="text-gray-600 hover:text-brand-blue transition-all duration-300 hover:translate-x-1.5 text-sm flex items-center gap-2" title="Blog"><svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>Blog</a></li>
+                        <li><a href="/careers" class="text-gray-600 hover:text-brand-blue transition-all duration-300 hover:translate-x-1.5 text-sm flex items-center gap-2" title="Careers"><svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>Careers</a></li>
+                        <li><a href="/industry" class="text-gray-600 hover:text-brand-blue transition-all duration-300 hover:translate-x-1.5 text-sm flex items-center gap-2" title="Industry"><svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>Industries</a></li>
+                        <li><a href="/contact" class="text-gray-600 hover:text-brand-blue transition-all duration-300 hover:translate-x-1.5 text-sm flex items-center gap-2" title="Contact"><svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>Contact</a></li>
                     </ul>
                 </div>
 
                 <!-- Contact -->
                 <div>
-                    <h3 class="text-gray-900 font-semibold mb-4 font-heading">Contact Us</h3>
-                    <ul class="space-y-4">
-                        <li class="flex items-start gap-3">
-                            <span class="text-lg leading-none mt-1">📍</span>
-                            <span class="text-gray-600 text-sm"><strong class="font-semibold text-gray-800">Operational Office</strong><br>Chandlodia, Ahmedabad<br>Gujarat, India - 382481</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <span class="text-lg leading-none mt-1">📍</span>
-                            <span class="text-gray-600 text-sm"><strong class="font-semibold text-gray-800">Registered Office</strong><br>P.O. Manpura, Tehsil - Pichhore,<br>Dist - Shivpuri, Madhya Pradesh - 473670</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <span class="text-lg leading-none">📞</span>
-                            <a href="tel:+918488075196" class="text-gray-600 hover:text-brand-blue transition-colors text-sm font-medium" title="Call Corelix">+91-8488075196</a>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <span class="text-lg leading-none">✉️</span>
-                            <a href="mailto:info@corelix.com" class="text-gray-600 hover:text-brand-blue transition-colors text-sm font-medium" title="Email Corelix">info@corelix.com</a>
-                        </li>
-                    </ul>
+                    <h3 class="text-gray-900 font-semibold mb-4 font-heading flex items-center gap-2">
+                        <span class="w-1.5 h-5 rounded-full bg-gradient-to-r from-brand-green to-brand-blue"></span>
+                        Contact Us
+                    </h3>
+                    <div class="space-y-5">
+                        <div class="group flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-blue/10 flex items-center justify-center text-brand-blue group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-gray-900 font-semibold mb-1">Operational Office</h4>
+                                <p class="text-gray-600 text-sm leading-relaxed">Chandlodia, Ahmedabad<br>Gujarat, India - 382481</p>
+                            </div>
+                        </div>
+
+                        <div class="group flex items-start gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-green/10 flex items-center justify-center text-brand-green group-hover:bg-brand-green group-hover:text-white transition-all duration-300">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-gray-900 font-semibold mb-1">Registered Office</h4>
+                                <p class="text-gray-600 text-sm leading-relaxed">P.O. Manpura, Tehsil - Pichhore,<br>Dist - Shivpuri, Madhya Pradesh - 473670</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             
