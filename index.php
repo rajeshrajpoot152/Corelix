@@ -151,7 +151,7 @@ include 'header.php';
                         </span>
                     </div>
                     <h3 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-[2.6rem] xl:text-[3.4rem] min-[1400px]:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">Web & Mobile App <span class="text-brand-blue">Development</span></h3>
-                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">High-performance custom web applications, native & cross-platform iOS/Android apps, and scalable cloud architectures built for speed and security.</p>
+                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Custom websites and mobile apps (iOS & Android) built for speed, security, and business growth.</p>
                     
                     <div class="mt-2 relative z-10">
                         <div class="flex items-center gap-2 mb-4">
@@ -159,10 +159,11 @@ include 'header.php';
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Custom Web Apps</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Custom Web Application</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Custom Website Dev</span>
                             <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">iOS & Android Apps</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Enterprise SaaS</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">API Development</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">Business Software</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-blue/5 hover:border-brand-blue/20 hover:text-brand-blue transition-colors cursor-default shadow-sm">API Integrations</span>
                         </div>
                     </div>
 
@@ -172,10 +173,11 @@ include 'header.php';
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Key Technologies</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">React / Next.js</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">React Native / Flutter</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Node.js</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">AWS / GCP</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">WordPress</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">React.js</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Angular.js</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">MySQL & PostgreSQL</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Tailwind CSS</span>
                         </div>
                     </div>
 
@@ -205,7 +207,7 @@ include 'header.php';
                         </span>
                     </div>
                     <h3 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-[2.6rem] xl:text-[3.4rem] min-[1400px]:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">SEO <span class="text-brand-green">Services</span></h3>
-                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Data-driven SEO strategies, advanced technical SEO audits, and high-authority link building to dominate organic rankings and drive qualified traffic.</p>
+                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Proven SEO strategies to improve your Google ranking, increase organic traffic, and attract real customers to your business.</p>
                     
                     <div class="mt-2 relative z-10">
                         <div class="flex items-center gap-2 mb-4">
@@ -213,9 +215,9 @@ include 'header.php';
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Technical SEO</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">On-Page Optimization</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Link Building</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">On-Page & Off-Page SEO</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Technical SEO Audits</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Keyword Research & Strategy</span>
                             <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-green/5 hover:border-brand-green/20 hover:text-brand-green transition-colors cursor-default shadow-sm">Local & E-commerce SEO</span>
                         </div>
                     </div>
@@ -227,9 +229,9 @@ include 'header.php';
                         </div>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Google Analytics 4</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Semrush</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Ahrefs</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Search Console</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Google Search Console</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Ahrefs / SEMrush</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">PageSpeed Insights</span>
                         </div>
                     </div>
 
@@ -259,7 +261,7 @@ include 'header.php';
                         </span>
                     </div>
                     <h3 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-[2.6rem] xl:text-[3.4rem] min-[1400px]:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">Digital <span class="text-brand-orange">Marketing</span></h3>
-                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">High-ROI performance marketing, conversion rate optimization, and omnichannel social media advertising designed to scale acquisition and revenue.</p>
+                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Targeted digital marketing campaigns and social media ads designed to generate quality leads, boost sales, and grow your brand online.</p>
                     
                     <div class="mt-2 relative z-10">
                         <div class="flex items-center gap-2 mb-4">
@@ -267,9 +269,9 @@ include 'header.php';
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Google & PPC Ads</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Meta & Social Ads</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Conversion Optimization</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Google Ads & PPC</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Social Media Advertising</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Lead Generation & CRO</span>
                             <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-orange/5 hover:border-brand-orange/20 hover:text-brand-orange transition-colors cursor-default shadow-sm">Content Marketing</span>
                         </div>
                     </div>
@@ -281,9 +283,9 @@ include 'header.php';
                         </div>
                         <div class="flex flex-wrap gap-2">
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Google Ads</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Meta Ads Manager</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Meta (Facebook & IG)</span>
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">LinkedIn Ads</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">HubSpot</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">HubSpot / Mailchimp</span>
                         </div>
                     </div>
 
@@ -313,7 +315,7 @@ include 'header.php';
                         </span>
                     </div>
                     <h3 class="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-[2.6rem] xl:text-[3.4rem] min-[1400px]:text-[4.1rem] font-black font-heading text-[#1a1a2e] tracking-tight">AI & Business <span class="text-brand-red">Automation</span></h3>
-                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Intelligent WhatsApp chatbots, CRM integrations, and automated workflows to streamline operations and reduce manual tasks by up to 80%.</p>
+                    <p class="relative z-10 text-gray-600 text-lg leading-relaxed">Smart AI chatbots, WhatsApp automation, and custom CRM integrations to save time, eliminate manual work, and help your business run smarter.</p>
                     
                     <div class="mt-2 relative z-10">
                         <div class="flex items-center gap-2 mb-4">
@@ -321,10 +323,10 @@ include 'header.php';
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Core Services</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">AI Consulting</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">Custom AI Chatbots</span>
                             <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">WhatsApp Automation</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">CRM Integration</span>
-                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">Custom Chatbots</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">CRM Setup & Integration</span>
+                            <span class="px-4 py-2 bg-gray-100 border border-gray-200 rounded-full text-xs font-bold text-gray-600 hover:bg-brand-red/5 hover:border-brand-red/20 hover:text-brand-red transition-colors cursor-default shadow-sm">Workflow Automation</span>
                         </div>
                     </div>
 
@@ -334,10 +336,11 @@ include 'header.php';
                             <h4 class="text-lg font-bold text-[#1a1a2e] font-heading">Key Technologies</h4>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">OpenAI</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Make.com</span>
-                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Zapier</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">OpenAI (ChatGPT)</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Cloud AI (AWS/GCP)</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Zapier & Make.com</span>
                             <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Python</span>
+                            <span class="px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-bold text-gray-800 shadow-sm">Custom LLMs</span>
                         </div>
                     </div>
 
