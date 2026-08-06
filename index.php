@@ -445,73 +445,109 @@ include 'header.php';
             <!-- Card 1 -->
             <div class="bg-white group pr-4 sm:pr-8 border-r border-gray-200" data-aos="fade-up" data-aos-delay="100">
                 <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
-                    <span class="text-2xl font-black text-black tracking-tighter">.b</span>
+                    <img src="/assets/images/cursor-ai-code-icon.svg" alt="Cursor AI" title="Cursor AI" class="w-6 h-6 object-contain">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Bubble</h3>
-                <p class="text-sm text-gray-500 leading-relaxed font-medium">Build web apps quickly with no code.</p>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Cursor AI</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">AI-assisted code editor.</p>
             </div>
             
             <!-- Card 2 -->
             <div class="bg-white group pl-4 sm:pl-8 lg:px-8 lg:border-r border-gray-200" data-aos="fade-up" data-aos-delay="200">
-                <div class="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center mb-5 border border-blue-100 group-hover:-translate-y-1 transition-transform shadow-sm">
-                    <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
+                    <img src="/assets/images/chatgpt-icon.svg" alt="ChatGPT" title="ChatGPT" class="w-6 h-6 object-contain">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Google Flow AI Video</h3>
-                <p class="text-sm text-gray-500 leading-relaxed font-medium">Create AI-generated videos effortlessly.</p>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">ChatGPT</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Advanced logic & architecture.</p>
             </div>
 
             <!-- Card 3 -->
             <div class="bg-white group pr-4 sm:pr-8 lg:px-8 border-r border-gray-200" data-aos="fade-up" data-aos-delay="300">
-                <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-orange-50 to-rose-50 flex items-center justify-center mb-5 border border-rose-100 group-hover:-translate-y-1 transition-transform shadow-sm">
-                    <svg class="w-6 h-6 text-rose-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
+                    <img src="/assets/images/claude-ai-icon.svg" alt="Claude" title="Claude" class="w-6 h-6 object-contain">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Lovable</h3>
-                <p class="text-sm text-gray-500 leading-relaxed font-medium">AI-driven no-code UI</p>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Claude</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Complex problem solving.</p>
             </div>
 
             <!-- Card 4 -->
             <div class="bg-white group pl-4 sm:pl-8" data-aos="fade-up" data-aos-delay="400">
-                <div class="w-12 h-12 rounded-2xl bg-gray-900 flex items-center justify-center mb-5 border border-gray-800 group-hover:-translate-y-1 transition-transform shadow-sm">
-                    <span class="text-2xl font-bold text-white tracking-tighter">b</span>
+                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
+                    <img src="/assets/images/google-gemini-icon.svg" alt="Gemini" title="Gemini" class="w-6 h-6 object-contain">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Bolt</h3>
-                <p class="text-sm text-gray-500 leading-relaxed font-medium">AI-powered with no code builds.</p>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Gemini</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Smart data processing.</p>
             </div>
 
             <!-- Card 5 -->
-            <div class="bg-white group pr-4 sm:pr-8 border-r border-gray-200" data-aos="fade-up" data-aos-delay="500">
-                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-200 group-hover:-translate-y-1 transition-transform shadow-sm">
-                    <svg class="w-6 h-6 text-gray-800" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 2 22 12 17 22 22"/></svg>
+            <div class="bg-white group pr-4 sm:pr-8 border-r border-gray-200" data-aos="fade-up" data-aos-delay="100">
+                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
+                    <img src="/assets/images/lovable-ai-icon.svg" alt="Lovable" title="Lovable" class="w-6 h-6 object-contain">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Cursor AI</h3>
-                <p class="text-sm text-gray-500 leading-relaxed font-medium">AI-assisted code editor</p>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Lovable</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Seamless frontend UI generation.</p>
             </div>
-
+            
             <!-- Card 6 -->
-            <div class="bg-white group pl-4 sm:pl-8 lg:px-8 lg:border-r border-gray-200" data-aos="fade-up" data-aos-delay="600">
-                <div class="w-12 h-12 rounded-2xl bg-[#F0FDF4] flex items-center justify-center mb-5 border border-[#DCFCE7] group-hover:-translate-y-1 transition-transform shadow-sm">
-                    <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            <div class="bg-white group pl-4 sm:pl-8 lg:px-8 lg:border-r border-gray-200" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
+                    <img src="/assets/images/bolt-ai-builder-icon.svg" alt="Bolt" title="Bolt" class="w-6 h-6 object-contain">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Google Antigravity</h3>
-                <p class="text-sm text-gray-500 leading-relaxed font-medium">AI-driven application development</p>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Bolt</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Rapid full-stack prototyping.</p>
             </div>
 
             <!-- Card 7 -->
-            <div class="bg-white group pr-4 sm:pr-8 lg:px-8 border-r border-gray-200" data-aos="fade-up" data-aos-delay="700">
-                <div class="w-12 h-12 rounded-2xl bg-purple-50 flex items-center justify-center mb-5 border border-purple-100 group-hover:-translate-y-1 transition-transform shadow-sm">
-                    <svg class="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2c-4.42 0-8 3.58-8 8v9.18c0 .87.89 1.45 1.63 1.04l2.06-1.14 2.14 1.19c.64.35 1.4.35 2.04 0l2.14-1.19 2.14 1.19c.64.35 1.4.35 2.04 0l2.14-1.19 2.06 1.14c.74.41 1.63-.17 1.63-1.04V10c0-4.42-3.58-8-8-8zm-2 9c-.83 0-1.5-.67-1.5-1.5S9.17 8 10 8s1.5.67 1.5 1.5S10.83 11 10 11zm4 0c-.83 0-1.5-.67-1.5-1.5S13.17 8 14 8s1.5.67 1.5 1.5S14.83 11 14 11z"/></svg>
+            <div class="bg-white group pr-4 sm:pr-8 lg:px-8 border-r border-gray-200" data-aos="fade-up" data-aos-delay="300">
+                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
+                    <img src="/assets/images/devin-ai-icon.svg" alt="Devin" title="Devin" class="w-6 h-6 object-contain">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">KIRO</h3>
-                <p class="text-sm text-gray-500 leading-relaxed font-medium">AI-powered coding assistant</p>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Devin</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Autonomous software engineering.</p>
             </div>
 
             <!-- Card 8 -->
-            <div class="bg-white group pl-4 sm:pl-8" data-aos="fade-up" data-aos-delay="800">
-                <div class="w-12 h-12 rounded-2xl bg-cyan-50 flex items-center justify-center mb-5 border border-cyan-100 group-hover:-translate-y-1 transition-transform shadow-sm">
-                    <svg class="w-6 h-6 text-cyan-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3 11h-2v2c0 .55-.45 1-1 1s-1-.45-1-1v-2H9c-.55 0-1-.45-1-1s.45-1 1-1h2V9c0-.55.45-1 1-1s1 .45 1 1v2h2c.55 0 1 .45 1 1s-.45 1-1 1z"/></svg>
+            <div class="bg-white group pl-4 sm:pl-8" data-aos="fade-up" data-aos-delay="400">
+                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
+                    <img src="/assets/images/perplexity-ai-icon.svg" alt="Perplexity" title="Perplexity" class="w-6 h-6 object-contain">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Devin</h3>
-                <p class="text-sm text-gray-500 leading-relaxed font-medium">Autonomous AI software engineer</p>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Perplexity</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Deep technical research.</p>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="bg-white group pr-4 sm:pr-8 border-r border-gray-200" data-aos="fade-up" data-aos-delay="100">
+                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
+                    <img src="/assets/images/notion-icon.svg" alt="Notion" title="Notion" class="w-6 h-6 object-contain">
+                </div>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Notion</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Smart project management.</p>
+            </div>
+            
+            <!-- Card 10 -->
+            <div class="bg-white group pl-4 sm:pl-8 lg:px-8 lg:border-r border-gray-200" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
+                    <img src="/assets/images/elevenlabs-ai-icon.svg" alt="ElevenLabs" title="ElevenLabs" class="w-6 h-6 object-contain">
+                </div>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">ElevenLabs</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Premium voice AI integrations.</p>
+            </div>
+
+            <!-- Card 11 -->
+            <div class="bg-white group pr-4 sm:pr-8 lg:px-8 border-r border-gray-200" data-aos="fade-up" data-aos-delay="300">
+                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
+                    <img src="/assets/images/google-flow-ai-icon.svg" alt="Google Flow AI" title="Google Flow AI" class="w-6 h-6 object-contain">
+                </div>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Google Flow AI</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Cinematic video content generation.</p>
+            </div>
+
+            <!-- Card 12 -->
+            <div class="bg-white group pl-4 sm:pl-8" data-aos="fade-up" data-aos-delay="400">
+                <div class="w-12 h-12 rounded-2xl bg-gray-50 flex items-center justify-center mb-5 border border-gray-100 group-hover:-translate-y-1 transition-transform shadow-sm">
+                    <img src="/assets/images/google-antigravity-ai-icon.svg" alt="Google Antigravity" title="Google Antigravity" class="w-6 h-6 object-contain">
+                </div>
+                <h3 class="text-xl font-bold text-[#1a1a2e] mb-2 font-heading">Google Antigravity</h3>
+                <p class="text-sm text-gray-500 leading-relaxed font-medium">Next-gen app development.</p>
             </div>
         </div>
     </div>
@@ -1210,7 +1246,7 @@ include 'header.php';
                     <img src="/assets/images/Essence-51.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Htmlcoderunner">
                     <img src="/assets/images/hanuwantiyatentcity.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Babynameslibrary">
                     <img src="/assets/images/boatshoesuk.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Danagedumigrate">
-                    <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Astrologermaakalyani">
+                    <img src="/assets/images/sanjayrealtygroup.png" alt="Sanjay Realty Group" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Sanjay Realty Group">
                     <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvam">
                     <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvasti">
                     <img src="/assets/images/Nutrizo-Advancis.png" alt="Nutrizo Advancis" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Nutrizo Advancis">
@@ -1221,7 +1257,7 @@ include 'header.php';
                     <img src="/assets/images/Essence-51.png" alt="Htmlcoderunner" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Htmlcoderunner">
                     <img src="/assets/images/hanuwantiyatentcity.png" alt="Babynameslibrary" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Babynameslibrary">
                     <img src="/assets/images/boatshoesuk.png" alt="Danagedumigrate" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Danagedumigrate">
-                    <img src="/assets/images/astrologermaakalyani.png" alt="Astrologermaakalyani" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Astrologermaakalyani">
+                    <img src="/assets/images/sanjayrealtygroup.png" alt="Sanjay Realty Group" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Sanjay Realty Group">
                     <img src="/assets/images/TVAM.png" alt="Tvam" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvam">
                     <img src="/assets/images/Tvasti.png" alt="Tvasti" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Tvasti">
                     <img src="/assets/images/Nutrizo-Advancis.png" alt="Nutrizo Advancis" class="h-10 sm:h-12 md:h-16 w-auto shrink-0 object-contain transition-all duration-300 hover:scale-110 hover:grayscale hover:opacity-75" title="Nutrizo Advancis">
