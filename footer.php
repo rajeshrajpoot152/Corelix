@@ -2,15 +2,34 @@
 
 
 
+    <!-- Footer Texture Background -->
+    <style>
+        #reveal-footer::after {
+            content: "";
+            background-image: url(/assets/images/footer-icon-bg.png);
+            background-position: center center;
+            background-size: 400px 400px;
+            background-repeat: repeat;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            opacity: 0.099;
+            pointer-events: none;
+        }
+    </style>
+
     <!-- Footer -->
     <footer id="reveal-footer" class="bg-white pt-16 pb-0 relative z-30 overflow-hidden w-full">
         <!-- Background decoration -->
         <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-blue/5 rounded-full mix-blend-multiply filter blur-[80px] pointer-events-none"></div>
         
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
                 <!-- Brand -->
-                <div class="col-span-1 lg:col-span-1">
+                <div class="col-span-1 lg:col-span-3">
                     <h3 class="text-gray-900 font-semibold mb-2 font-heading text-xl">Contact Corelix</h3>
                     <p class="text-gray-600 text-sm mb-4 leading-relaxed">Transforming businesses with AI-powered solutions.</p>
                     
@@ -24,7 +43,7 @@
                             <span class="text-brand-blue">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                             </span>
-                            <a href="mailto:sales@corelix.com" class="text-gray-600 hover:text-brand-blue transition-colors text-[17px] font-medium">sales@corelix.com</a>
+                            <a href="mailto:info@corelix.com" class="text-gray-600 hover:text-brand-blue transition-colors text-[17px] font-medium">info@corelix.com</a>
                         </div>
                         
                         <div class="flex items-center gap-2">
@@ -56,7 +75,7 @@
                 </div>
 
                 <!-- Services -->
-                <div>
+                <div class="lg:col-span-3">
                     <h3 class="text-gray-900 font-semibold mb-4 font-heading flex items-center gap-2">
                         <span class="w-1.5 h-5 rounded-full bg-gradient-to-r from-brand-green to-brand-blue"></span>
                         Services
@@ -71,7 +90,7 @@
                 </div>
 
                 <!-- Company -->
-                <div>
+                <div class="lg:col-span-2">
                     <h3 class="text-gray-900 font-semibold mb-4 font-heading flex items-center gap-2">
                         <span class="w-1.5 h-5 rounded-full bg-gradient-to-r from-brand-green to-brand-blue"></span>
                         Company
@@ -85,32 +104,70 @@
                     </ul>
                 </div>
 
-                <!-- Contact -->
-                <div>
+                <!-- Our Offices -->
+                <div class="lg:col-span-4">
                     <h3 class="text-gray-900 font-semibold mb-4 font-heading flex items-center gap-2">
                         <span class="w-1.5 h-5 rounded-full bg-gradient-to-r from-brand-green to-brand-blue"></span>
-                        Contact Us
+                        Our Offices
                     </h3>
-                    <div class="space-y-5">
-                        <div class="group flex items-start gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-blue/10 flex items-center justify-center text-brand-blue group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                            </div>
-                            <div>
-                                <h4 class="text-gray-900 font-semibold mb-1">Operational Office</h4>
-                                <p class="text-gray-600 text-sm leading-relaxed">Chandlodia, Ahmedabad<br>Gujarat, India - 382481</p>
+                    <div class="flex flex-col gap-3">
+
+                        <!-- Corporate Office -->
+                        <div class="flex gap-3 items-center p-3 rounded-xl bg-gray-50 hover:bg-brand-blue/5 border border-gray-100 hover:border-brand-blue/20 transition-all duration-300">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Chandlodia,+Ahmedabad,+Gujarat" target="_blank" rel="noopener" title="Open in Google Maps" class="lazy-map w-[90px] h-[90px] shrink-0 rounded-lg overflow-hidden relative border border-gray-200 shadow-sm block group/map" data-map-src="https://maps.google.com/maps?q=Chandlodia,%20Ahmedabad&t=&z=14&ie=UTF8&iwloc=&output=embed">
+                                <div class="map-skeleton absolute inset-0 bg-gray-100 animate-pulse flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                                </div>
+                                <div class="absolute inset-0 bg-brand-blue/0 group-hover/map:bg-brand-blue/10 transition-colors duration-300 z-10"></div>
+                            </a>
+                            <div class="flex flex-col flex-1 min-w-0">
+                                <div class="flex items-center gap-1.5 text-gray-900 font-bold text-[0.8rem] mb-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 shrink-0 text-brand-blue"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    Corporate Office (Head Office)
+                                </div>
+                                <p class="text-[0.68rem] text-gray-500 leading-relaxed mb-2">Chandlodia, Ahmedabad Gujarat, India - 382481</p>
+                                <div class="flex flex-wrap gap-x-3 gap-y-1">
+                                    <a href="tel:+918488075196" class="flex items-center gap-1 text-[0.68rem] font-semibold text-gray-500 hover:text-brand-blue transition-colors">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-2.5 h-2.5 shrink-0 text-brand-blue"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                        +91 8488075196
+                                    </a>
+                                    <a href="mailto:rajeshrshiv@gmail.com" class="flex items-center gap-1 text-[0.68rem] font-semibold text-gray-500 hover:text-brand-blue transition-colors truncate">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-2.5 h-2.5 shrink-0 text-brand-blue"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                                        rajeshrshiv@gmail.com
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="group flex items-start gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-brand-green/10 flex items-center justify-center text-brand-green group-hover:bg-brand-green group-hover:text-white transition-all duration-300">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                            </div>
-                            <div>
-                                <h4 class="text-gray-900 font-semibold mb-1">Registered Office</h4>
-                                <p class="text-gray-600 text-sm leading-relaxed">P.O. Manpura, Tehsil - Pichhore,<br>Dist - Shivpuri, Madhya Pradesh - 473670</p>
+                        <!-- Registered Office -->
+                        <div class="flex gap-3 items-center p-3 rounded-xl bg-gray-50 hover:bg-brand-green/5 border border-gray-100 hover:border-brand-green/20 transition-all duration-300">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Pichhore,+Shivpuri,+Madhya+Pradesh" target="_blank" rel="noopener" title="Open in Google Maps" class="lazy-map w-[90px] h-[90px] shrink-0 rounded-lg overflow-hidden relative border border-gray-200 shadow-sm block group/map" data-map-src="https://maps.google.com/maps?q=Pichhore,%20Madhya%20Pradesh&t=&z=14&ie=UTF8&iwloc=&output=embed">
+                                <div class="map-skeleton absolute inset-0 bg-gray-100 animate-pulse flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                                </div>
+                                <div class="absolute inset-0 bg-brand-green/0 group-hover/map:bg-brand-green/20 transition-colors duration-300 z-10 flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" class="w-6 h-6 opacity-0 group-hover/map:opacity-100 transition-opacity duration-300 drop-shadow-lg"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+                                </div>
+                            </a>
+                            <div class="flex flex-col flex-1 min-w-0">
+                                <div class="flex items-center gap-1.5 text-gray-900 font-bold text-[0.8rem] mb-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 shrink-0 text-brand-green"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    Registered Office
+                                </div>
+                                <p class="text-[0.68rem] text-gray-500 leading-relaxed mb-2">P.O. Manpura, Tehsil - Pichhore, Dist - Shivpuri, M.P. - 473670</p>
+                                <div class="flex flex-wrap gap-x-3 gap-y-1">
+                                    <a href="tel:+919479878487" class="flex items-center gap-1 text-[0.68rem] font-semibold text-gray-500 hover:text-brand-green transition-colors">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-2.5 h-2.5 shrink-0 text-brand-green"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                        +91 9479878487
+                                    </a>
+                                    <a href="mailto:info@corelix.com" class="flex items-center gap-1 text-[0.68rem] font-semibold text-gray-500 hover:text-brand-green transition-colors">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-2.5 h-2.5 shrink-0 text-brand-green"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                                        info@corelix.com
+                                    </a>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -621,5 +678,74 @@
 
 
 </div> <!-- Close overflow wrapper -->
+
+    <!-- Auto Map Loader: iframe loads when footer enters viewport after page load -->
+    <script>
+        (function () {
+            var pageLoaded = false;
+            var mapsToLoad = [];
+
+            // Inject iframe into the anchor element
+            function injectMap(el) {
+                if (el.dataset.mapLoaded) return;
+                el.dataset.mapLoaded = '1';
+
+                var src = el.getAttribute('data-map-src');
+                if (!src) return;
+
+                var skeleton = el.querySelector('.map-skeleton');
+
+                var iframe = document.createElement('iframe');
+                iframe.src = src;
+                iframe.allowFullscreen = true;
+                iframe.setAttribute('title', 'Office Location Map');
+                iframe.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0;opacity:0;transition:opacity 0.5s ease;z-index:5;';
+
+                // Fade in iframe and remove skeleton once map has loaded
+                iframe.addEventListener('load', function () {
+                    iframe.style.opacity = '1';
+                    if (skeleton) {
+                        skeleton.style.transition = 'opacity 0.3s ease';
+                        skeleton.style.opacity = '0';
+                        setTimeout(function () { skeleton.remove(); }, 300);
+                    }
+                });
+
+                el.appendChild(iframe);
+            }
+
+            // Load all queued maps
+            function loadQueuedMaps() {
+                mapsToLoad.forEach(function (el) { injectMap(el); });
+                mapsToLoad = [];
+            }
+
+            // Wait for page to fully load
+            window.addEventListener('load', function () {
+                pageLoaded = true;
+                loadQueuedMaps();
+            });
+
+            // IntersectionObserver: watch each .lazy-map element
+            var observer = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (!entry.isIntersecting) return;
+                    observer.unobserve(entry.target);
+
+                    if (pageLoaded) {
+                        injectMap(entry.target);          // Page already loaded → inject now
+                    } else {
+                        mapsToLoad.push(entry.target);    // Page still loading → queue it
+                    }
+                });
+            }, { rootMargin: '100px' }); // Start loading 100px before footer enters view
+
+            // Observe all lazy map elements
+            document.querySelectorAll('.lazy-map').forEach(function (el) {
+                observer.observe(el);
+            });
+        })();
+    </script>
+
 </body>
 </html>

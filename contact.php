@@ -159,23 +159,23 @@ include 'header.php';
 <section class="py-24 bg-slate-950 border-t border-white/10 relative z-10 overflow-hidden" data-aos="fade-up">
     <!-- Background Glow -->
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-brand-blue/20 blur-[120px] rounded-full pointer-events-none z-0"></div>
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="w-full px-4 sm:px-6 lg:px-12 xl:px-20 relative z-10">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <h2 class="text-4xl font-bold font-heading text-white mb-4">Visit Our Offices</h2>
             <p class="text-gray-400 text-lg">Connect with us locally. Our doors are always open for a cup of coffee and a great conversation about your business.</p>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <!-- Operational Office -->
-            <div class="group bg-white/5 p-4 rounded-[32px] border border-white/10 hover:border-brand-blue/30 transition-all duration-300 shadow-xl overflow-hidden flex flex-col">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 justify-items-center">
+            <!-- Corporate Office -->
+            <div class="group bg-white/5 p-4 rounded-[32px] border border-white/10 hover:border-brand-blue/30 transition-all duration-300 shadow-xl overflow-hidden flex flex-col w-full lg:max-w-md">
                 <div class="w-full h-64 rounded-[24px] overflow-hidden relative mb-6">
                     <div class="absolute inset-0 bg-brand-blue/20 mix-blend-overlay z-10 pointer-events-none group-hover:opacity-0 transition-opacity duration-500"></div>
                     <iframe src="https://maps.google.com/maps?q=Chandlodia,%20Ahmedabad&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="grayscale group-hover:grayscale-0 transition-all duration-500"></iframe>
                 </div>
                 <div class="px-6 pb-6 flex-1 flex flex-col">
                     <div class="flex items-center gap-3 mb-4">
-                        <span class="px-3 py-1 bg-brand-blue/20 text-brand-blue text-xs font-bold uppercase tracking-wider rounded-full">HQ</span>
-                        <h3 class="text-2xl font-bold text-white">Operational Office</h3>
+                        <span class="px-3 py-1 bg-brand-blue/20 text-brand-blue text-xs font-bold uppercase tracking-wider rounded-full">Head Office</span>
+                        <h3 class="text-2xl font-bold text-white">Corporate Office</h3>
                     </div>
                     <p class="text-gray-400 leading-relaxed mb-6 flex-1">
                         Chandlodia, Ahmedabad<br>
@@ -189,7 +189,7 @@ include 'header.php';
             </div>
 
             <!-- Registered Office -->
-            <div class="group bg-white/5 p-4 rounded-[32px] border border-white/10 hover:border-brand-green/30 transition-all duration-300 shadow-xl overflow-hidden flex flex-col">
+            <div class="group bg-white/5 p-4 rounded-[32px] border border-white/10 hover:border-brand-green/30 transition-all duration-300 shadow-xl overflow-hidden flex flex-col w-full lg:max-w-md">
                 <div class="w-full h-64 rounded-[24px] overflow-hidden relative mb-6">
                     <div class="absolute inset-0 bg-brand-green/20 mix-blend-overlay z-10 pointer-events-none group-hover:opacity-0 transition-opacity duration-500"></div>
                     <iframe src="https://maps.google.com/maps?q=Pichhore,%20Madhya%20Pradesh&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="grayscale group-hover:grayscale-0 transition-all duration-500"></iframe>
