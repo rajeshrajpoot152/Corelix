@@ -159,7 +159,7 @@ include 'header.php';
         <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
             <span class="text-brand-blue text-sm font-bold tracking-[0.2em] uppercase mb-4 block">GLOBAL REACH. LOCAL EXPERTISE.</span>
             <h2 class="text-4xl md:text-5xl font-black font-heading text-brand-black mb-6">Global Reach, Local Impact</h2>
-            <p class="text-gray-600 text-lg leading-relaxed">We empower businesses worldwide with cutting-edge IT solutions, from custom web development and SaaS products to result-driven digital marketing. Rooted in Ahmedabad, we deliver scalable digital experiences that drive global growth.</p>
+            <p class="text-gray-600 text-lg leading-relaxed">We empower businesses worldwide with cutting-edge IT solutions, from custom web development and SaaS products to result-driven digital marketing. Rooted in India, we deliver scalable digital experiences that drive global growth.</p>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6" data-aos="fade-up" data-aos-delay="100">

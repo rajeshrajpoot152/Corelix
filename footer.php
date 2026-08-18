@@ -200,7 +200,7 @@
             <!-- Left Content (Offer & Features) -->
             <div class="w-full lg:w-1/2 p-8 lg:p-12 bg-white relative z-10 flex flex-col justify-center">
                 <div class="flex items-center gap-2 mb-6">
-                    <img title="Lgoo" src="/assets/images/lgoo.png" alt="Corelix Logo" class="h-8 md:h-10 w-auto object-contain filter invert opacity-90">
+                    <img title="Lgoo" src="/assets/images/lgoo.png" alt="Corelix Logo" class="h-8 md:h-10 w-auto object-contain filter">
                 </div>
                 
                 <div class="inline-flex px-3 py-1 bg-brand-blue/10 text-brand-blue font-bold text-sm tracking-wider uppercase rounded-full mb-4 w-fit">Special Offer</div>
@@ -209,23 +209,23 @@
                 <h3 class="text-xl md:text-2xl font-bold text-brand-blue mb-4">ON SEO SERVICES <span class="text-gray-500 text-lg">For 1st MONTH</span></h3>
                 
                 <div class="space-y-4 mb-8 mt-6">
-                    <div class="flex items-start gap-4">
-                        <div class="w-10 h-10 rounded-full bg-brand-blue/10 flex items-center justify-center flex-shrink-0 text-brand-blue mt-1">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                    <div style="display:flex; align-items:center; gap:1rem;">
+                        <div style="width:40px; height:40px; border-radius:50%; background:rgba(104,58,242,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:#683AF2;">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
                         </div>
-                        <p class="text-sm font-medium text-gray-700">Increase Your Business Visibility in ChatGPT, Google Gemini and Other AI Engines.</p>
+                        <p style="font-size:1rem; font-weight:500; color:#374151; margin:0;">Increase Your Business Visibility in ChatGPT, Google Gemini and Other AI Engines.</p>
                     </div>
-                    <div class="flex items-start gap-4">
-                        <div class="w-10 h-10 rounded-full bg-brand-green/10 flex items-center justify-center flex-shrink-0 text-brand-green mt-1">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                    <div style="display:flex; align-items:center; gap:1rem;">
+                        <div style="width:40px; height:40px; border-radius:50%; background:rgba(76,187,24,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:#4CBB18;">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                         </div>
-                        <p class="text-sm font-medium text-gray-700">Get Online Inquiries Directly on Your <span class="text-brand-green font-bold">Mobile Number</span>.</p>
+                        <p style="font-size:1rem; font-weight:500; color:#374151; margin:0;">Get Online Inquiries Directly on Your <span style="color:#4CBB18; font-weight:700;">Mobile Number</span>.</p>
                     </div>
-                    <div class="flex items-start gap-4">
-                        <div class="w-10 h-10 rounded-full bg-brand-orange/10 flex items-center justify-center flex-shrink-0 text-brand-orange mt-1">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                    <div style="display:flex; align-items:center; gap:1rem;">
+                        <div style="width:40px; height:40px; border-radius:50%; background:rgba(253,88,18,0.1); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:#FD5812;">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
                         </div>
-                        <p class="text-sm font-medium text-gray-700">Increase Your Target Keywords Ranking in Your Area.</p>
+                        <p style="font-size:1rem; font-weight:500; color:#374151; margin:0;">Increase Your Target Keywords Ranking in Your Area.</p>
                     </div>
                 </div>
 
