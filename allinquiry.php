@@ -38,7 +38,7 @@ if (!isset($_SESSION['inquiry_logged_in']) || $_SESSION['inquiry_logged_in'] !==
         <?php endif; ?>
         <form method="POST" action="">
             <div class="mb-4">
-                <label class="block text-sm font-medium text-gray-700 mb-1">Enter Password (Email ID)</label>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Enter Password</label>
                 <input type="password" name="password" required class="w-full border-gray-300 rounded-xl px-4 py-3 border focus:ring-blue-500 focus:border-blue-500 outline-none">
             </div>
             <button type="submit" name="login" class="w-full bg-blue-600 text-white font-bold py-3 rounded-xl hover:bg-blue-700 transition">Access Inquiries</button>
@@ -59,6 +59,8 @@ if (file_exists($dataFile)) {
 
 // Handle basic PHP filtering
 $filter = $_GET['filter'] ?? 'all';
+$start_date = $_GET['start_date'] ?? '';
+$end_date = $_GET['end_date'] ?? '';
 $filteredInquiries = [];
 $today = date('Y-m-d');
 $yesterday = date('Y-m-d', strtotime('-1 day'));
@@ -76,6 +78,11 @@ foreach ($inquiries as $inq) {
     elseif ($filter == 'week' && $inqDate >= $week_start) $match = true;
     elseif ($filter == 'month' && $inqDate >= $month_start) $match = true;
     elseif ($filter == 'year' && $inqDate >= $year_start) $match = true;
+    elseif ($filter == 'custom') {
+        $match = true;
+        if (!empty($start_date) && $inqDate < $start_date) $match = false;
+        if (!empty($end_date) && $inqDate > $end_date) $match = false;
+    }
     
     if ($match) {
         $filteredInquiries[] = $inq;
@@ -113,6 +120,14 @@ foreach ($inquiries as $inq) {
         <a href="?filter=week" class="<?= $filter=='week' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200' ?> px-4 py-2 rounded-lg text-sm font-medium transition">Last 7 Days</a>
         <a href="?filter=month" class="<?= $filter=='month' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200' ?> px-4 py-2 rounded-lg text-sm font-medium transition">This Month</a>
         <a href="?filter=year" class="<?= $filter=='year' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200' ?> px-4 py-2 rounded-lg text-sm font-medium transition">This Year</a>
+        
+        <form method="GET" class="flex items-center gap-2 ml-auto border-l border-gray-200 pl-4">
+            <input type="hidden" name="filter" value="custom">
+            <input type="date" name="start_date" value="<?= htmlspecialchars($start_date) ?>" class="border border-gray-200 rounded-lg px-2 py-1.5 text-sm outline-none focus:border-blue-500 text-gray-600">
+            <span class="text-gray-400 text-sm">to</span>
+            <input type="date" name="end_date" value="<?= htmlspecialchars($end_date) ?>" class="border border-gray-200 rounded-lg px-2 py-1.5 text-sm outline-none focus:border-blue-500 text-gray-600">
+            <button type="submit" class="bg-blue-600 text-white px-3 py-1.5 rounded-lg text-sm font-bold hover:bg-blue-700 transition">Go</button>
+        </form>
     </div>
 
     <!-- Table -->
@@ -184,3 +199,6 @@ foreach ($inquiries as $inq) {
 
 </body>
 </html>
+
+
+
