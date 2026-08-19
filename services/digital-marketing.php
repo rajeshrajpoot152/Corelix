@@ -111,9 +111,9 @@ include __DIR__ . '/../header.php';
                     <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-orange transition-colors">Google Ads & PPC</h3>
                     <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Capture high-intent buyers exactly when they are searching. We manage Search, Display, and Performance Max campaigns, utilizing robust negative keyword filtering to protect your budget.</p>
                     <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
-                        <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Search Campaigns</span>
+                        <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Google Search & Display</span>
                         <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Retargeting</span>
-                        <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Shopping Ads</span>
+                        <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Google Shopping</span>
                     </div>
                 </div>
 
@@ -126,8 +126,8 @@ include __DIR__ . '/../header.php';
                     <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Scale your brand awareness and generate immediate demand. We engineer sophisticated Meta and LinkedIn ad funnels to target specific demographics, job titles, and lucrative industries.</p>
                     <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                         <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">B2B LinkedIn Ads</span>
-                        <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Meta Lookalike</span>
-                        <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Video Creatives</span>
+                        <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Facebook & Instagram Ads</span>
+                        <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">TikTok & YouTube Ads</span>
                     </div>
                 </div>
 
@@ -412,5 +412,6 @@ include __DIR__ . '/../header.php';
 
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
+
 
 

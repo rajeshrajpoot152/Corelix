@@ -125,10 +125,10 @@ include __DIR__ . '/../header.php';
                           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
                       </div>
                       <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-green transition-colors">Effective On-Page Optimization</h3>
-                      <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We align your landing pages with the precise search intent of your buyers. This includes semantic keyword clustering, optimizing meta tags, and structuring content to capture valuable Featured Snippets.</p>
+                      <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We align your landing pages with the precise search intent of your buyers. This includes semantic Keyword Strategy, optimizing meta tags, and structuring content to capture valuable Featured Snippets.</p>
                       <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
-                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Keyword Clustering</span>
-                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Content Pruning</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Keyword Strategy</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Content Optimization</span>
                           <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">UI/UX Alignment</span>
                       </div>
                   </div>
@@ -470,5 +470,6 @@ include __DIR__ . '/../header.php';
 
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
+
 
 
