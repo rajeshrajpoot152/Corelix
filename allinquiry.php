@@ -88,6 +88,30 @@ foreach ($inquiries as $inq) {
         $filteredInquiries[] = $inq;
     }
 }
+
+// Export logic
+if (isset($_GET['export']) && $_GET['export'] == 'csv') {
+    header('Content-Type: text/csv; charset=utf-8');
+    header('Content-Disposition: attachment; filename="inquiries_' . date('Y-m-d') . '.csv"');
+    $output = fopen('php://output', 'w');
+    fputcsv($output, ['Date', 'Source', 'Name', 'Email', 'Phone', 'Service/Position', 'Message', 'Resume Link']);
+    
+    foreach ($filteredInquiries as $inq) {
+        $resumeLink = !empty($inq['resume']) ? 'http://' . $_SERVER['HTTP_HOST'] . '/' . $inq['resume'] : 'N/A';
+        fputcsv($output, [
+            $inq['date'],
+            $inq['source'],
+            $inq['name'],
+            $inq['email'],
+            $inq['phone'],
+            $inq['service_position'],
+            $inq['message'],
+            $resumeLink
+        ]);
+    }
+    fclose($output);
+    exit;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -108,7 +132,13 @@ foreach ($inquiries as $inq) {
             <h1 class="text-3xl font-bold text-gray-900">Lead & Inquiry Dashboard</h1>
             <p class="text-gray-500 mt-1">Manage your website contacts, footer inquiries, and career applications.</p>
         </div>
-        <a href="?logout=true" class="bg-red-50 text-red-600 hover:bg-red-100 px-4 py-2 rounded-lg font-semibold transition">Logout</a>
+        <div class="flex items-center gap-3">
+            <a href="?<?= http_build_query(array_merge($_GET, ['export' => 'csv'])) ?>" class="bg-green-600 text-white hover:bg-green-700 px-4 py-2 rounded-lg font-semibold transition flex items-center gap-2">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                Export CSV
+            </a>
+            <a href="?logout=true" class="bg-red-50 text-red-600 hover:bg-red-100 px-4 py-2 rounded-lg font-semibold transition">Logout</a>
+        </div>
     </div>
 
     <!-- Filters -->
@@ -199,6 +229,7 @@ foreach ($inquiries as $inq) {
 
 </body>
 </html>
+
 
 
 
