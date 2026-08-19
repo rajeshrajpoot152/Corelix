@@ -11,7 +11,7 @@
     <!-- Content Container -->
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20 relative z-20 flex items-center justify-center">
         <!-- Centered Content -->
-        <div class="w-full max-w-3xl flex flex-col justify-center items-center text-center">
+        <div class="w-full flex flex-col justify-center items-center text-center">
             <div class="inline-flex items-center justify-center gap-3 mb-6">
                 <span class="w-8 h-[2px] bg-brand-green rounded-full"></span>
                 <span class="text-brand-green font-bold text-sm tracking-widest uppercase">Take the Next Step</span>
