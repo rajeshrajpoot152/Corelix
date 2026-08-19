@@ -94,7 +94,7 @@ include __DIR__ . '/../header.php';
             <!-- Right: Image + Glassmorphism overlay -->
             <div class="relative lg:pb-16" data-aos="fade-left">
 
-                <!-- Image — overflow-hidden only here -->
+                <!-- Image â€” overflow-hidden only here -->
                 <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group">
                     <img src="/assets/images/Premium-UI-UX-Design-Workspace.jpg"
                         alt="Designer creating wireframes and UI/UX prototypes on a tablet"
@@ -107,11 +107,10 @@ include __DIR__ . '/../header.php';
                     </div>
                 </div>
 
-                <!-- Glassmorphism Box — static on mobile, absolute overlay on lg -->
+                <!-- Glassmorphism Box â€” static on mobile, absolute overlay on lg -->
                 <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
                     <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
-                        <h3 class="text-xs font-black text-purple-600 mb-4 uppercase tracking-wider font-heading">Our
-                            Intelligent Philosophy</h3>
+                        <h3 class="text-xs font-black text-purple-600 mb-4 uppercase tracking-wider font-heading">Common Issues</h3>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
                                 <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">High Bounce Rates</h4>
@@ -151,7 +150,8 @@ include __DIR__ . '/../header.php';
 
             <!-- Card 1 -->
             <div
-                class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-purple-500/40 hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <div
                     class="w-14 h-14 rounded-2xl bg-purple-500/10 text-purple-600 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-purple-500 group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -181,7 +181,8 @@ include __DIR__ . '/../header.php';
 
             <!-- Card 2 -->
             <div
-                class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-purple-500/40 hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <div
                     class="w-14 h-14 rounded-2xl bg-purple-500/10 text-purple-600 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-purple-500 group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -212,7 +213,8 @@ include __DIR__ . '/../header.php';
 
             <!-- Card 3 -->
             <div
-                class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-purple-500/40 hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <div
                     class="w-14 h-14 rounded-2xl bg-purple-500/10 text-purple-600 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-purple-500 group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -242,7 +244,8 @@ include __DIR__ . '/../header.php';
 
             <!-- Card 4 -->
             <div
-                class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-purple-500/40 hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <div
                     class="w-14 h-14 rounded-2xl bg-purple-500/10 text-purple-600 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-purple-500 group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -590,4 +593,5 @@ include __DIR__ . '/../header.php';
 
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
+
 

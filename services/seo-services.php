@@ -48,7 +48,7 @@ include __DIR__ . '/../header.php';
                     </p>
                     <ul class="grid gap-6">
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
-                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-green to-emerald-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">✕</div>
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-green to-emerald-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">âœ•</div>
                             <div>
                                 <h4 class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-green transition-colors font-heading">Technical Decay</h4>
                                 <p class="text-slate-600 text-sm leading-relaxed">Slow load speeds, broken links, and poor mobile optimization silently degrade your rankings.</p>
@@ -64,29 +64,40 @@ include __DIR__ . '/../header.php';
                     </ul>
                 </div>
 
-                <div class="relative lg:sticky lg:top-32">
+                <!-- Right: Image + Glassmorphism overlay -->
+                <div class="relative lg:pb-16" data-aos="fade-left">
+
+                    <!-- Image â€” overflow-hidden only here -->
                     <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group">
-                        <img src="/assets/images/seo-organic-search-ranking-growth.png" alt="SEO expert analyzing organic search ranking growth and website traffic" title="Organic Search Traffic Analysis" loading="lazy" class="w-full h-auto object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-700" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent"></div>
-                        
-                        <!-- Floating Glassmorphism Box -->
-                        <div class="absolute bottom-6 left-6 right-6">
-                            <div class="bg-white/90 backdrop-blur-md p-5 rounded-2xl border border-white/30 shadow-2xl">
-                                <h3 class="text-xs font-black text-brand-green mb-3 uppercase tracking-wider font-heading">Our Focus</h3>
-                                <div class="grid grid-cols-2 gap-4">
-                                      <div class="bg-gray-50/20 backdrop-blur-sm rounded-xl p-3 border border-white/10">
-                                      <h4 class="text-slate-900 font-bold text-sm mb-1 font-heading">Invisible to Buyers</h4>
-                                      <p class="text-slate-600 text-xs leading-relaxed">Lost traffic to inferior competitors.</p>
-                                  </div>
-                                  <div class="bg-gray-50/20 backdrop-blur-sm rounded-xl p-3 border border-white/10">
-                                      <h4 class="text-slate-900 font-bold text-sm mb-1 font-heading">Low Authority</h4>
-                                      <p class="text-slate-600 text-xs leading-relaxed">Poor trust signals prevent ranking growth.</p>
-                                  </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+                        <img src="/assets/images/seo-organic-search-ranking-growth.png"
+                            alt="SEO expert analyzing organic search ranking growth and website traffic"
+                            title="Organic Search Traffic Analysis" loading="lazy"
+                            class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700"
+                            style="min-height: 420px;">
+                        <!-- Light bottom fade -->
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-gray-900/40 via-transparent to-transparent pointer-events-none">
+                        </div>
+                    </div>
+
+                    <!-- Glassmorphism Box â€” static on mobile, absolute overlay on lg -->
+                    <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
+                        <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
+                            <h3 class="text-xs font-black text-brand-green mb-4 uppercase tracking-wider font-heading">Our Focus</h3>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
+                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Invisible to Buyers</h4>
+                                    <p class="text-gray-500 text-xs leading-relaxed">Lost traffic to inferior competitors.</p>
+                                </div>
+                                <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
+                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Low Authority</h4>
+                                    <p class="text-gray-500 text-xs leading-relaxed">Poor trust signals prevent ranking growth.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
                     </div>
                 </div>
                 </div>
@@ -106,7 +117,8 @@ include __DIR__ . '/../header.php';
   
               <div class="grid md:grid-cols-2 gap-8">
                   <!-- Card 1 -->
-                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-green/40 hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                  <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-green/50 hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-green/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                       <div class="w-14 h-14 rounded-2xl bg-brand-green/10 text-brand-green flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-green group-hover:text-white transition-all duration-300 shadow-sm">
                           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
                       </div>
@@ -120,7 +132,8 @@ include __DIR__ . '/../header.php';
                   </div>
   
                   <!-- Card 2 -->
-                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-green/40 hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                  <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-green/50 hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-green/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                       <div class="w-14 h-14 rounded-2xl bg-brand-green/10 text-brand-green flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-green group-hover:text-white transition-all duration-300 shadow-sm">
                           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
                       </div>
@@ -134,7 +147,8 @@ include __DIR__ . '/../header.php';
                   </div>
   
                   <!-- Card 3 -->
-                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-green/40 hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                  <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-green/50 hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-green/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                       <div class="w-14 h-14 rounded-2xl bg-brand-green/10 text-brand-green flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-green group-hover:text-white transition-all duration-300 shadow-sm">
                           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
                       </div>
@@ -148,7 +162,8 @@ include __DIR__ . '/../header.php';
                   </div>
   
                   <!-- Card 4 -->
-                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-green/40 hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                  <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-green/50 hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-green/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                       <div class="w-14 h-14 rounded-2xl bg-brand-green/10 text-brand-green flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-green group-hover:text-white transition-all duration-300 shadow-sm">
                           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
                       </div>
@@ -460,7 +475,7 @@ include __DIR__ . '/../header.php';
                             <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
                         </span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">On-Page SEO focuses on content optimization—like keywords, meta tags, and headers—that users actually see. Technical SEO focuses on the backend infrastructure—like site speed, mobile responsiveness, and schema markup—to ensure search engines can properly crawl and index your site.</p>
+                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">On-Page SEO focuses on content optimizationâ€”like keywords, meta tags, and headersâ€”that users actually see. Technical SEO focuses on the backend infrastructureâ€”like site speed, mobile responsiveness, and schema markupâ€”to ensure search engines can properly crawl and index your site.</p>
                 </details>
             </div>
         </div>
@@ -470,6 +485,7 @@ include __DIR__ . '/../header.php';
 
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
+
 
 
 

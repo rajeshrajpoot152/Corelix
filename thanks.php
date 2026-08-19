@@ -29,7 +29,7 @@ include 'header.php';
         </p>
 
         <!-- Back to Home Button -->
-        <a href="index.php" class="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-white transition-all duration-300 bg-gradient-to-r from-brand-blue to-brand-green rounded-full hover:scale-105 hover:shadow-lg hover:shadow-brand-blue/20">
+        <a href="/" class="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-white transition-all duration-300 bg-gradient-to-r from-brand-blue to-brand-green rounded-full hover:scale-105 hover:shadow-lg hover:shadow-brand-blue/20">
             Back to Homepage
         </a>
     </div>

@@ -47,7 +47,7 @@ include __DIR__ . '/../header.php';
                     </p>
                     <ul class="grid gap-6">
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
-                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-orange to-amber-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">✕</div>
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-orange to-amber-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">âœ•</div>
                             <div>
                                 <h4 class="text-slate-900 font-bold font-heading text-xl mb-2 group-hover:text-brand-orange transition-colors">Ineffective Ad Spend</h4>
                                 <p class="text-slate-600 text-sm leading-relaxed">Bidding on incorrect keywords or targeting overly broad audiences results in high costs without substantial, qualified leads.</p>
@@ -63,29 +63,40 @@ include __DIR__ . '/../header.php';
                     </ul>
                 </div>
 
-                <div class="relative lg:sticky lg:top-32">
+                <!-- Right: Image + Glassmorphism overlay -->
+                <div class="relative lg:pb-16" data-aos="fade-left">
+
+                    <!-- Image â€” overflow-hidden only here -->
                     <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group">
-                        <img src="/assets/images/digital-marketing-analytics-dashboard.png" alt="Digital marketing team analyzing ROAS and conversion metrics on a dashboard" title="Data-Driven Marketing Analytics" loading="lazy" class="w-full h-auto object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-700" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/20 to-transparent"></div>
-                        
-                        <!-- Floating Glassmorphism Box -->
-                        <div class="absolute bottom-6 left-6 right-6">
-                            <div class="bg-white/90 backdrop-blur-md p-5 rounded-2xl border border-white/30 shadow-2xl">
-                                <h3 class="text-xs font-black text-brand-orange mb-3 uppercase tracking-wider font-heading">Our Core Focus</h3>
-                                <div class="grid grid-cols-2 gap-4">
-                                      <div class="bg-gray-50/20 backdrop-blur-sm rounded-xl p-3 border border-white/10">
-                                      <h4 class="text-slate-900 font-bold font-heading text-sm mb-1">Wasted Budget</h4>
-                                      <p class="text-slate-600 text-xs leading-relaxed">Spending blindly without clear attribution.</p>
-                                  </div>
-                                  <div class="bg-gray-50/20 backdrop-blur-sm rounded-xl p-3 border border-white/10">
-                                      <h4 class="text-slate-900 font-bold font-heading text-sm mb-1">Low Intent Leads</h4>
-                                      <p class="text-slate-600 text-xs leading-relaxed">Traffic that never converts to sales.</p>
-                                  </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+                        <img src="/assets/images/digital-marketing-analytics-dashboard.png"
+                            alt="Digital marketing team analyzing ROAS and conversion metrics on a dashboard"
+                            title="Data-Driven Marketing Analytics" loading="lazy"
+                            class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700"
+                            style="min-height: 420px;">
+                        <!-- Light bottom fade -->
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-gray-900/40 via-transparent to-transparent pointer-events-none">
+                        </div>
+                    </div>
+
+                    <!-- Glassmorphism Box â€” static on mobile, absolute overlay on lg -->
+                    <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
+                        <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
+                            <h3 class="text-xs font-black text-brand-orange mb-4 uppercase tracking-wider font-heading">Our Core Focus</h3>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
+                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Wasted Budget</h4>
+                                    <p class="text-gray-500 text-xs leading-relaxed">Spending blindly without clear attribution.</p>
+                                </div>
+                                <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
+                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Low Intent Leads</h4>
+                                    <p class="text-gray-500 text-xs leading-relaxed">Traffic that never converts to sales.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
                     </div>
                 </div>
                 </div>
@@ -104,7 +115,8 @@ include __DIR__ . '/../header.php';
 
             <div class="grid md:grid-cols-2 gap-8">
                 <!-- Card 1 -->
-                <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-orange/40 hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                     </div>
@@ -118,7 +130,8 @@ include __DIR__ . '/../header.php';
                 </div>
 
                 <!-- Card 2 -->
-                <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-orange/40 hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                     </div>
@@ -132,7 +145,8 @@ include __DIR__ . '/../header.php';
                 </div>
 
                 <!-- Card 3 -->
-                <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-orange/40 hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
                     </div>
@@ -146,7 +160,8 @@ include __DIR__ . '/../header.php';
                 </div>
 
                 <!-- Card 4 -->
-                <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-orange/40 hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
                     </div>
@@ -402,7 +417,7 @@ include __DIR__ . '/../header.php';
                             <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
                         </span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">An in-house marketer is just one person. Partnering with us gives you access to a masterful, specialized team—media buyer, copywriter, UX designer, and analyst—all dedicated to excellence for a fraction of the cost of a full-time executive.</p>
+                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">An in-house marketer is just one person. Partnering with us gives you access to a masterful, specialized teamâ€”media buyer, copywriter, UX designer, and analystâ€”all dedicated to excellence for a fraction of the cost of a full-time executive.</p>
                 </details>
             </div>
         </div>
@@ -412,6 +427,7 @@ include __DIR__ . '/../header.php';
 
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
+
 
 
 

@@ -42,11 +42,11 @@ include __DIR__ . '/../header.php';
                         Legacy Technology Compromises Your Authority.
                     </h2>
                     <p class="text-lg text-slate-600 leading-relaxed mb-8">
-                        Slow load times, disjointed interfaces, and fragmented software do more than annoy users—they actively erode trust in your brand. We replace vulnerable legacy systems with tested, modern architectures built to handle high traffic securely and reliably.
+                        Slow load times, disjointed interfaces, and fragmented software do more than annoy usersâ€”they actively erode trust in your brand. We replace vulnerable legacy systems with tested, modern architectures built to handle high traffic securely and reliably.
                     </p>
                     <ul class="grid gap-6">
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
-                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">✕</div>
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">âœ•</div>
                             <div>
                                 <h4 class="text-slate-900 font-bold text-xl mb-2 font-heading group-hover:text-brand-blue transition-colors">Vulnerable Performance</h4>
                                 <p class="text-slate-600 text-sm leading-relaxed">Users abandon applications that load slowly or feel unsecure. Consistent speed and security are critical business metrics.</p>
@@ -62,12 +62,40 @@ include __DIR__ . '/../header.php';
                     </ul>
                 </div>
 
-                <div class="relative">
-                    <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative">
-                        <img src="/assets/images/custom-software-engineering-code.jpg" alt="Software engineering team writing code for custom web application" title="Custom Software Engineering" loading="lazy" class="w-full h-auto object-cover aspect-[4/3] opacity-80" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+            <!-- Right: Image + Glassmorphism overlay -->
+            <div class="relative lg:pb-16" data-aos="fade-left">
+
+                <!-- Image â€” overflow-hidden only here -->
+                <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group">
+                    <img src="/assets/images/custom-software-engineering-code.jpg"
+                        alt="Software engineering team writing code for custom web application"
+                        title="Custom Software Engineering" loading="lazy"
+                        class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700 opacity-80"
+                        style="min-height: 420px;">
+                    <!-- Light bottom fade -->
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-gray-900/40 via-transparent to-transparent pointer-events-none">
                     </div>
                 </div>
+
+                <!-- Glassmorphism Box â€” static on mobile, absolute overlay on lg -->
+                <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
+                    <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
+                        <h3 class="text-xs font-black text-brand-blue mb-4 uppercase tracking-wider font-heading">Common Challenges</h3>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
+                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Vulnerable Performance</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Users abandon slow and insecure applications.</p>
+                            </div>
+                            <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
+                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Scalability Bottlenecks</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Generic templates break under pressure.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
             </div>
         </div>
     </section>
@@ -83,7 +111,8 @@ include __DIR__ . '/../header.php';
 
             <div class="grid md:grid-cols-2 gap-8">
                 <!-- Web Apps -->
-                <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-blue/50 hover:shadow-2xl hover:shadow-brand-blue/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-blue/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                     </div>
@@ -97,7 +126,8 @@ include __DIR__ . '/../header.php';
                 </div>
 
                 <!-- eCommerce -->
-                <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-blue/50 hover:shadow-2xl hover:shadow-brand-blue/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-blue/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
                     </div>
@@ -111,7 +141,8 @@ include __DIR__ . '/../header.php';
                 </div>
 
                 <!-- Mobile Apps -->
-                <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-blue/50 hover:shadow-2xl hover:shadow-brand-blue/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-blue/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
                     </div>
@@ -125,7 +156,8 @@ include __DIR__ . '/../header.php';
                 </div>
 
                 <!-- API & Integrations -->
-                <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-blue/50 hover:shadow-2xl hover:shadow-brand-blue/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-brand-blue/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                     </div>
@@ -414,4 +446,5 @@ include __DIR__ . '/../header.php';
 
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
+
 
