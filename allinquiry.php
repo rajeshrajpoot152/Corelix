@@ -47,15 +47,16 @@ if (!isset($_SESSION['inquiry_logged_in']) || $_SESSION['inquiry_logged_in'] !==
 
     <!-- jQuery and DataTables JS -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.tailwindcss.js"></script>
     <script>
         $(document).ready(function() {
             $('#inquiryTable').DataTable({
-                "order": [[ 0, "desc" ]], // Sort by Date descending by default
-                "pageLength": 25,
-                "responsive": true,
-                "language": {
-                    "search": "Search Inquiries:"
+                order: [[ 0, 'desc' ]], // Sort by Date descending by default
+                pageLength: 25,
+                language: {
+                    search: 'Quick Search: ',
+                    lengthMenu: 'Show _MENU_ entries'
                 }
             });
         });
@@ -136,16 +137,15 @@ if (isset($_GET['export']) && $_GET['export'] == 'csv') {
     <title>All Inquiries | Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- DataTables CSS -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.min.css">
+    <!-- DataTables Tailwind CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.tailwindcss.css">
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        /* Custom styling for DataTables within Tailwind */
-        .dt-container { padding: 1rem; }
-        .dt-search input { border: 1px solid #e5e7eb; border-radius: 0.5rem; padding: 0.25rem 0.75rem; outline: none; margin-left: 0.5rem; }
-        .dt-search input:focus { border-color: #3b82f6; box-shadow: 0 0 0 1px #3b82f6; }
-        .dt-length select { border: 1px solid #e5e7eb; border-radius: 0.5rem; padding: 0.25rem 1.5rem 0.25rem 0.5rem; margin: 0 0.5rem; }
-        .dt-paging-button { border-radius: 0.5rem !important; }
+        /* Minor fixes for Tailwind datatables */
+        .dt-container { padding: 1.5rem; }
+        div.dt-container div.dt-layout-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+        .dt-search input, .dt-length select { border: 1px solid #e5e7eb !important; border-radius: 0.5rem !important; padding: 0.35rem 0.75rem !important; }
+        table.dataTable { border-collapse: collapse !important; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -254,21 +254,23 @@ if (isset($_GET['export']) && $_GET['export'] == 'csv') {
 
     <!-- jQuery and DataTables JS -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.tailwindcss.js"></script>
     <script>
         $(document).ready(function() {
             $('#inquiryTable').DataTable({
-                "order": [[ 0, "desc" ]], // Sort by Date descending by default
-                "pageLength": 25,
-                "responsive": true,
-                "language": {
-                    "search": "Search Inquiries:"
+                order: [[ 0, 'desc' ]], // Sort by Date descending by default
+                pageLength: 25,
+                language: {
+                    search: 'Quick Search: ',
+                    lengthMenu: 'Show _MENU_ entries'
                 }
             });
         });
     </script>
 </body>
 </html>
+
 
 
 
