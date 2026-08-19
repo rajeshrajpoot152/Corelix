@@ -46,14 +46,14 @@ include __DIR__ . '/../header.php';
                     </p>
                     <ul class="grid gap-6">
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
-                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-orange text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">✕</div>
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">✕</div>
                             <div>
                                 <h4 class="text-slate-900 font-bold text-xl mb-2 font-heading group-hover:text-brand-blue transition-colors">Vulnerable Performance</h4>
                                 <p class="text-slate-600 text-sm leading-relaxed">Users abandon applications that load slowly or feel unsecure. Consistent speed and security are critical business metrics.</p>
                             </div>
                         </li>
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
-                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-orange text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">!</div>
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">!</div>
                             <div>
                                 <h4 class="text-slate-900 font-bold text-xl mb-2 font-heading group-hover:text-brand-blue transition-colors">Scalability Bottlenecks</h4>
                                 <p class="text-slate-600 text-sm leading-relaxed">Generic templates break under pressure. When your user base expands, your infrastructure must rely on proven, enterprise-grade foundations.</p>
@@ -414,3 +414,4 @@ include __DIR__ . '/../header.php';
 
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
+

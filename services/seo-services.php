@@ -9,7 +9,7 @@ include __DIR__ . '/../header.php';
 <!-- Premium Inner Page Hero Section -->
 <section class="pt-28 pb-16 md:pt-36 md:pb-20 relative overflow-hidden bg-slate-950">
     <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-brand-blue/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-brand-green/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
     
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center" data-aos="zoom-out-up">
         <!-- SEO Page Badge -->
@@ -34,7 +34,7 @@ include __DIR__ . '/../header.php';
     <!-- 02. The Problem (Pain Points & Image Split) -->
     <section id="the-problem" class="py-20 md:py-28 bg-white border-b border-gray-200 relative overflow-hidden">
     <!-- Subtle glow -->
-    <div class="absolute top-0 right-0 w-96 h-96 bg-brand-blue/5 rounded-full filter blur-[100px] pointer-events-none"></div>
+    <div class="absolute top-0 right-0 w-96 h-96 bg-brand-green/5 rounded-full filter blur-[100px] pointer-events-none"></div>
 
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -47,17 +47,17 @@ include __DIR__ . '/../header.php';
                         If your website isn't on the first page, you are invisible to buyers. We focus on sustainable, long-term growth by building trust and relevance, ensuring your audience finds you before they find your competitors.
                     </p>
                     <ul class="grid gap-6">
-                        <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
-                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-orange text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">✕</div>
+                        <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-green to-emerald-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">✕</div>
                             <div>
-                                <h4 class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-blue transition-colors font-heading">Technical Decay</h4>
+                                <h4 class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-green transition-colors font-heading">Technical Decay</h4>
                                 <p class="text-slate-600 text-sm leading-relaxed">Slow load speeds, broken links, and poor mobile optimization silently degrade your rankings.</p>
                             </div>
                         </li>
-                        <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
-                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-orange text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">!</div>
+                        <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-green to-emerald-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">!</div>
                             <div>
-                                <h4 class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-blue transition-colors font-heading">The Content Penalty</h4>
+                                <h4 class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-green transition-colors font-heading">The Content Penalty</h4>
                                 <p class="text-slate-600 text-sm leading-relaxed">Search engines aggressively demote websites that offer generic, unverified content.</p>
                             </div>
                         </li>
@@ -72,7 +72,7 @@ include __DIR__ . '/../header.php';
                         <!-- Floating Glassmorphism Box -->
                         <div class="absolute bottom-6 left-6 right-6">
                             <div class="bg-white/90 backdrop-blur-md p-5 rounded-2xl border border-white/30 shadow-2xl">
-                                <h3 class="text-xs font-black text-brand-blue mb-3 uppercase tracking-wider font-heading">Our Focus</h3>
+                                <h3 class="text-xs font-black text-brand-green mb-3 uppercase tracking-wider font-heading">Our Focus</h3>
                                 <div class="grid grid-cols-2 gap-4">
                                       <div class="bg-gray-50/20 backdrop-blur-sm rounded-xl p-3 border border-white/10">
                                       <h4 class="text-slate-900 font-bold text-sm mb-1 font-heading">Invisible to Buyers</h4>
@@ -97,7 +97,7 @@ include __DIR__ . '/../header.php';
     
           <!-- 03. Core Specialized Services Grid -->
       <section id="services" class="py-20 md:py-28 bg-gray-50 border-b border-gray-200 relative overflow-hidden">
-          <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-blue/5 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
+          <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-green/5 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
           <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
               <div class="text-center mb-14">
                   <h2 class="text-3xl md:text-5xl font-black font-heading text-gray-900 mb-5">Outstanding Search Engine Optimization</h2>
@@ -106,58 +106,58 @@ include __DIR__ . '/../header.php';
   
               <div class="grid md:grid-cols-2 gap-8">
                   <!-- Card 1 -->
-                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
-                      <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
+                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-green/40 hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                      <div class="w-14 h-14 rounded-2xl bg-brand-green/10 text-brand-green flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-green group-hover:text-white transition-all duration-300 shadow-sm">
                           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
                       </div>
-                      <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">Technical SEO & Core Web Vitals</h3>
+                      <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-green transition-colors">Technical SEO & Core Web Vitals</h3>
                       <p class="text-gray-600 leading-relaxed mb-6 flex-grow">A beautiful website is useless if search engines can't crawl it. We resolve underlying code issues, optimize Core Web Vitals, implement advanced structured data, and ensure your site architecture is perfectly mapped for search engine bots.</p>
                       <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Schema Markup</span>
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Speed Optimization</span>
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Indexation Fixes</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Schema Markup</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Speed Optimization</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Indexation Fixes</span>
                       </div>
                   </div>
   
                   <!-- Card 2 -->
-                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
-                      <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
+                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-green/40 hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                      <div class="w-14 h-14 rounded-2xl bg-brand-green/10 text-brand-green flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-green group-hover:text-white transition-all duration-300 shadow-sm">
                           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
                       </div>
-                      <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">Effective On-Page Optimization</h3>
+                      <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-green transition-colors">Effective On-Page Optimization</h3>
                       <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We align your landing pages with the precise search intent of your buyers. This includes semantic keyword clustering, optimizing meta tags, and structuring content to capture valuable Featured Snippets.</p>
                       <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Keyword Clustering</span>
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Content Pruning</span>
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">UI/UX Alignment</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Keyword Clustering</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Content Pruning</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">UI/UX Alignment</span>
                       </div>
                   </div>
   
                   <!-- Card 3 -->
-                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
-                      <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
+                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-green/40 hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                      <div class="w-14 h-14 rounded-2xl bg-brand-green/10 text-brand-green flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-green group-hover:text-white transition-all duration-300 shadow-sm">
                           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
                       </div>
-                      <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">Authoritative Link Building</h3>
+                      <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-green transition-colors">Authoritative Link Building</h3>
                       <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Authority is built through association. We execute substantial digital PR campaigns and manual outreach to secure high-quality, verified backlinks from trusted industry publications.</p>
                       <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Digital PR</span>
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Guest Posting</span>
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Toxic Link Disavow</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Digital PR</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Guest Posting</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Toxic Link Disavow</span>
                       </div>
                   </div>
   
                   <!-- Card 4 -->
-                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
-                      <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
+                  <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-green/40 hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                      <div class="w-14 h-14 rounded-2xl bg-brand-green/10 text-brand-green flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-green group-hover:text-white transition-all duration-300 shadow-sm">
                           <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
                       </div>
-                      <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">Local SEO & Google Business</h3>
+                      <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-green transition-colors">Local SEO & Google Business</h3>
                       <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Dominate your local market. We optimize your Google Business Profile and ensure consistent NAP (Name, Address, Phone) citations across local directories to drive high-converting foot traffic and local leads.</p>
                       <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">GBP Optimization</span>
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Local Citations</span>
-                          <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Review Management</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">GBP Optimization</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Local Citations</span>
+                          <span class="px-3 py-1 bg-brand-green/8 border border-brand-green/20 text-brand-green text-xs font-semibold rounded-full">Review Management</span>
                       </div>
                   </div>
               </div>
@@ -226,7 +226,7 @@ include __DIR__ . '/../header.php';
                   <!-- Timeline connecting line -->
                   <div class="absolute left-[47px] top-10 bottom-10 w-px bg-gradient-to-b from-brand-green/30 via-brand-green/30 to-transparent hidden sm:block"></div>
                   
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
+                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
                       <div class="w-12 h-12 rounded-2xl bg-green-50 text-brand-green font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-green group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">1</div>
                       <div>
                           <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-green transition-colors">Audit</h3>
@@ -234,7 +234,7 @@ include __DIR__ . '/../header.php';
                       </div>
                   </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
+                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
                       <div class="w-12 h-12 rounded-2xl bg-green-50 text-brand-green font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-green group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">2</div>
                       <div>
                           <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-green transition-colors">Strategy</h3>
@@ -242,7 +242,7 @@ include __DIR__ . '/../header.php';
                       </div>
                   </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
+                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
                       <div class="w-12 h-12 rounded-2xl bg-green-50 text-brand-green font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-green group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">3</div>
                       <div>
                           <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-green transition-colors">On-Page</h3>
@@ -250,7 +250,7 @@ include __DIR__ . '/../header.php';
                       </div>
                   </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
+                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
                       <div class="w-12 h-12 rounded-2xl bg-green-50 text-brand-green font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-green group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">4</div>
                       <div>
                           <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-green transition-colors">Off-Page</h3>
@@ -258,7 +258,7 @@ include __DIR__ . '/../header.php';
                       </div>
                   </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
+                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
                       <div class="w-12 h-12 rounded-2xl bg-green-50 text-brand-green font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-green group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">5</div>
                       <div>
                           <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-green transition-colors">Reporting</h3>
@@ -394,7 +394,7 @@ include __DIR__ . '/../header.php';
             
             <div class="grid md:grid-cols-3 gap-6">
                 <!-- Project Based -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300">
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300">
                     <h3 class="text-xl font-bold text-slate-900 mb-2 font-heading">Project-Based</h3>
                     <p class="text-slate-600 text-sm mb-6">Perfect for strictly defined deliverables and timelines.</p>
                     <ul class="space-y-3 mb-8">
@@ -415,7 +415,7 @@ include __DIR__ . '/../header.php';
                     </ul>
                 </div>
                 <!-- Retainer -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300">
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300">
                     <h3 class="text-xl font-bold text-slate-900 mb-2 font-heading">Monthly Retainer</h3>
                     <p class="text-slate-600 text-sm mb-6">Continuous support and iterative improvements for ongoing success.</p>
                     <ul class="space-y-3 mb-8">
@@ -470,3 +470,5 @@ include __DIR__ . '/../header.php';
 
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
+
+

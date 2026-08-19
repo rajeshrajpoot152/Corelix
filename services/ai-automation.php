@@ -12,7 +12,7 @@ include __DIR__ . '/../header.php';
         class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]">
     </div>
     <div
-        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-brand-blue/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none">
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-brand-red/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none">
     </div>
 
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center" data-aos="zoom-out-up">
@@ -42,7 +42,7 @@ include __DIR__ . '/../header.php';
 <!-- 02. The Problem (Pain Points & Local SEO with Image) -->
 <section id="the-problem" class="py-20 md:py-28 bg-white border-b border-gray-200 relative overflow-hidden">
     <!-- Subtle glow -->
-    <div class="absolute top-0 right-0 w-96 h-96 bg-brand-blue/5 rounded-full filter blur-[100px] pointer-events-none"></div>
+    <div class="absolute top-0 right-0 w-96 h-96 bg-brand-red/5 rounded-full filter blur-[100px] pointer-events-none"></div>
 
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -58,26 +58,26 @@ include __DIR__ . '/../header.php';
                 </p>
                 <ul class="grid gap-6">
                     <li
-                        class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
+                        class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
                         <div
-                            class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-orange text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">
+                            class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-red to-rose-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">
                             !</div>
                         <div>
                             <h4
-                                class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-blue transition-colors font-heading">
+                                class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-red transition-colors font-heading">
                                 The 5-Minute Rule</h4>
                             <p class="text-slate-600 text-sm leading-relaxed">If you fail to provide a fast response to
                                 a digital inquiry within 5 minutes, your conversion probability drops by 80%.</p>
                         </div>
                     </li>
                     <li
-                        class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
+                        class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
                         <div
-                            class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-orange text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">
+                            class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-red to-rose-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">
                             !</div>
                         <div>
                             <h4
-                                class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-blue transition-colors font-heading">
+                                class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-red transition-colors font-heading">
                                 After-Hours Engagement</h4>
                             <p class="text-slate-600 text-sm leading-relaxed">Over 65% of local leads message after 7
                                 PM—exactly when your office is closed and a proactive response is most needed.</p>
@@ -98,7 +98,7 @@ include __DIR__ . '/../header.php';
                     <!-- Floating Glassmorphism Box -->
                     <div class="absolute bottom-6 left-6 right-6">
                         <div class="bg-white/90 backdrop-blur-md p-5 rounded-2xl border border-white/30 shadow-2xl">
-                            <h3 class="text-xs font-black text-brand-blue mb-3 uppercase tracking-wider font-heading">The
+                            <h3 class="text-xs font-black text-brand-red mb-3 uppercase tracking-wider font-heading">The
                                 Hidden Costs</h3>
                             <div class="grid grid-cols-2 gap-4">
                                 <div class="bg-gray-50/20 backdrop-blur-sm rounded-xl p-3 border border-white/10">
@@ -127,7 +127,7 @@ include __DIR__ . '/../header.php';
 
 <!-- 03. High-Performance Automation (Problem vs Outcome) -->
 <section id="solutions" class="py-20 md:py-28 bg-gray-50 border-b border-gray-200 relative overflow-hidden">
-    <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-blue/5 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
+    <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-red/5 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center mb-14">
             <h2 class="text-3xl md:text-5xl font-black font-heading text-gray-900 mb-5">Comprehensive AI Solutions</h2>
@@ -136,58 +136,58 @@ include __DIR__ . '/../header.php';
 
         <div class="grid md:grid-cols-2 gap-8">
             <!-- Card 1 -->
-            <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
-                <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
+            <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-red/40 hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="w-14 h-14 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">WhatsApp Business Automation</h3>
+                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">WhatsApp Business Automation</h3>
                 <p class="text-gray-600 leading-relaxed mb-6 flex-grow">A responsive WhatsApp agent that instantly qualifies leads, shares your portfolio, and schedules appointments without delay. Capture leads 24/7.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Multi-lingual</span>
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Media Sharing</span>
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Calendar Sync</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Multi-lingual</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Media Sharing</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Calendar Sync</span>
                 </div>
             </div>
 
             <!-- Card 2 -->
-            <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
-                <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
+            <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-red/40 hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="w-14 h-14 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">AI Voice Calling Agents</h3>
+                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">AI Voice Calling Agents</h3>
                 <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Intelligent voice bots that execute cold outreach, qualify intent, and transfer only high-intent leads to your human closers. Streamline inbound & outbound sales.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Natural Speech</span>
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Call Transcripts</span>
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Live Transfer</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Natural Speech</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Call Transcripts</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Live Transfer</span>
                 </div>
             </div>
 
             <!-- Card 3 -->
-            <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
-                <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
+            <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-red/40 hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="w-14 h-14 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">CRM & Workflow Automation</h3>
+                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">CRM & Workflow Automation</h3>
                 <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We engineer seamless connections that automatically sync every customer interaction directly into your CRM or internal databases. Integrate your tools and maximize efficiency.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Auto-Assignment</span>
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Live Dashboards</span>
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Invoice Sync</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Auto-Assignment</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Live Dashboards</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Invoice Sync</span>
                 </div>
             </div>
 
             <!-- Card 4 -->
-            <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-blue/40 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
-                <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
+            <div class="bg-white border border-gray-200 p-8 rounded-3xl hover:border-brand-red/40 hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col h-full">
+                <div class="w-14 h-14 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">Proactive AI Support Agents</h3>
+                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">Proactive AI Support Agents</h3>
                 <p class="text-gray-600 leading-relaxed mb-6 flex-grow">A proactive agent that consumes your internal manuals to answer complex queries as efficiently as a veteran employee. Trained exclusively on your data.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Knowledge Base</span>
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Web Concierge</span>
-                    <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Continuous Learning</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Knowledge Base</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Web Concierge</span>
+                    <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Continuous Learning</span>
                 </div>
             </div>
         </div>
@@ -236,7 +236,7 @@ include __DIR__ . '/../header.php';
             <div class="lg:col-span-7 grid sm:grid-cols-2 gap-6">
                 <!-- Card 1 -->
                 <div
-                    class="bg-white border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group">
+                    class="bg-white border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 group">
                     <div
                         class="w-12 h-12 rounded-2xl bg-red-50 flex items-center justify-center text-brand-red mb-5 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -265,7 +265,7 @@ include __DIR__ . '/../header.php';
                 </div>
                 <!-- Card 3 -->
                 <div
-                    class="bg-white border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group">
+                    class="bg-white border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 group">
                     <div
                         class="w-12 h-12 rounded-2xl bg-red-50 flex items-center justify-center text-brand-red mb-5 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -297,7 +297,7 @@ include __DIR__ . '/../header.php';
                 </div>
                 <!-- Card 5 -->
                 <div
-                    class="bg-white border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group">
+                    class="bg-white border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 group">
                     <div
                         class="w-12 h-12 rounded-2xl bg-red-50 flex items-center justify-center text-brand-red mb-5 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -413,7 +413,7 @@ include __DIR__ . '/../header.php';
 
                 <div class="space-y-6 relative">
                     <div
-                        class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-red hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex gap-6 items-start relative z-10">
+                        class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-red hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 group flex gap-6 items-start relative z-10">
                         <div
                             class="w-12 h-12 rounded-2xl bg-red-50 text-brand-red font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-red group-hover:text-white transition-colors shadow-sm ring-4 ring-white">
                             1</div>
@@ -436,7 +436,7 @@ include __DIR__ . '/../header.php';
                         </div>
                     </div>
                     <div
-                        class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-red hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 group flex gap-6 items-start relative z-10">
+                        class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-red hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 group flex gap-6 items-start relative z-10">
                         <div
                             class="w-12 h-12 rounded-2xl bg-red-50 text-brand-red font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-red group-hover:text-white transition-colors shadow-sm ring-4 ring-white">
                             3</div>
@@ -643,7 +643,7 @@ include __DIR__ . '/../header.php';
         <div class="grid md:grid-cols-3 gap-6">
             <!-- Project Based -->
             <div
-                class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300">
+                class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300">
                 <h3 class="text-xl font-bold text-slate-900 mb-2 font-heading">Project-Based</h3>
                 <p class="text-slate-600 text-sm mb-6">Perfect for strictly defined deliverables and timelines.</p>
                 <ul class="space-y-3 mb-8">
@@ -693,7 +693,7 @@ include __DIR__ . '/../header.php';
             </div>
             <!-- Retainer -->
             <div
-                class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300">
+                class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300">
                 <h3 class="text-xl font-bold text-slate-900 mb-2 font-heading">Monthly Retainer</h3>
                 <p class="text-slate-600 text-sm mb-6">Continuous support and iterative improvements for ongoing
                     success.</p>
@@ -800,3 +800,4 @@ include __DIR__ . '/../header.php';
 
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
+
