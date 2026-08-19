@@ -96,7 +96,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mail->setFrom('rajeshrshiv@gmail.com', 'Corelix Careers');
         $mail->addAddress('rajeshrshiv@gmail.com', 'Rajesh HR');
-        $mail->addAddress('hr@corelix.com', 'Corelix HR');
+        
         $mail->addReplyTo($email, $fullName);
 
         if ($resumeUploaded && !empty($resumePath)) {
@@ -122,7 +122,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mail->send();
         
-        header("Location: careers.php?status=success#apply-form");
+        header("Location: thanks.php");
         exit();
 
     } catch (Exception $e) {
@@ -134,3 +134,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit();
 }
 ?>
+
+

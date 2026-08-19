@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mail->setFrom('rajeshrshiv@gmail.com', 'Corelix Website');
         $mail->addAddress('rajeshrshiv@gmail.com', 'Rajesh');
-        $mail->addAddress('info@corelix.com', 'Corelix Info');
+        
         $mail->addReplyTo($email, $firstName . ' ' . $lastName);
 
         $mail->isHTML(true);
@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (strpos($referer, '?') !== false) {
             $referer = explode('?', $referer)[0];
         }
-        header("Location: " . $referer . "?status=success");
+        header("Location: thanks.php");
         exit();
 
     } catch (Exception $e) {
@@ -95,3 +95,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit();
 }
 ?>
+
+
