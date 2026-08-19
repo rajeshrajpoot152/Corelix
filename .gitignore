@@ -1,0 +1,4 @@
+﻿PHPMailerData/inquiries.json
+PHPMailerData/resumes/*.pdf
+PHPMailerData/resumes/*.doc
+PHPMailerData/resumes/*.docx
