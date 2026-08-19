@@ -15,10 +15,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = htmlspecialchars(trim($_POST['phone'] ?? ''));
     $service = htmlspecialchars(trim($_POST['service'] ?? ''));
     $messageBody = htmlspecialchars(trim($_POST['message'] ?? ''));
+    $formSource = htmlspecialchars(trim($_POST['form_source'] ?? 'Unknown Contact Form'));
 
     if (empty($firstName) || empty($email) || empty($messageBody)) {
         die("Please fill all required fields.");
     }
+
+    // Save to JSON
+    $dataFile = __DIR__ . '/PHPMailerData/inquiries.json';
+    $inquiries = [];
+    if (file_exists($dataFile)) {
+        $inquiries = json_decode(file_get_contents($dataFile), true) ?? [];
+    }
+    
+    $newInquiry = [
+        'id' => uniqid(),
+        'date' => date('Y-m-d H:i:s'),
+        'source' => $formSource,
+        'name' => trim("$firstName $lastName"),
+        'email' => $email,
+        'phone' => $phone,
+        'service_position' => $service,
+        'message' => $messageBody,
+        'resume' => ''
+    ];
+    
+    array_unshift($inquiries, $newInquiry); // Add to beginning
+    file_put_contents($dataFile, json_encode($inquiries, JSON_PRETTY_PRINT));
 
     $mail = new PHPMailer(true);
     try {
@@ -39,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Subject = "New Contact Lead: $service - $firstName $lastName";
         
         $mail->Body    = "
-            <h2>New Contact Form Submission</h2>
+            <h2>New Contact Form Submission ($formSource)</h2>
             <p><strong>Name:</strong> {$firstName} {$lastName}</p>
             <p><strong>Email:</strong> {$email}</p>
             <p><strong>Phone:</strong> {$phone}</p>
@@ -48,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p><strong>Message:</strong></p>
             <p>" . nl2br($messageBody) . "</p>
         ";
-        $mail->AltBody = "New Lead: \nName: $firstName $lastName \nEmail: $email \nPhone: $phone \nService: $service \nMessage: $messageBody";
+        $mail->AltBody = "New Lead ($formSource): \nName: $firstName $lastName \nEmail: $email \nPhone: $phone \nService: $service \nMessage: $messageBody";
 
         $mail->send();
         

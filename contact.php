@@ -209,7 +209,7 @@ include 'header.php';
                         <p class="text-base md:text-lg text-gray-600">Fill out the form below and we'll get back to you shortly.</p>
                     </div>
 
-                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">
+                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">`n                            <input type="hidden" name="form_source" value="Contact Page">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
                             <div>
                                 <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
@@ -426,7 +426,7 @@ include 'header.php';
                         <p class="text-base md:text-lg text-gray-600">Fill out the form below and we'll get back to you shortly.</p>
                     </div>
 
-                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">
+                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">`n                            <input type="hidden" name="form_source" value="Contact Page">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
                             <div>
                                 <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
@@ -647,7 +647,7 @@ include 'header.php';
                         <p class="text-base md:text-lg text-gray-600">Fill out the form below and we'll get back to you shortly.</p>
                     </div>
 
-                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">
+                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">`n                            <input type="hidden" name="form_source" value="Contact Page">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
                             <div>
                                 <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
@@ -864,7 +864,7 @@ include 'header.php';
                         <p class="text-base md:text-lg text-gray-600">Fill out the form below and we'll get back to you shortly.</p>
                     </div>
 
-                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">
+                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">`n                            <input type="hidden" name="form_source" value="Contact Page">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
                             <div>
                                 <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
@@ -981,7 +981,7 @@ GET['status'] == 'error'): ?>
                             Oops! Something went wrong. Please try again.
                         </div>
                     <?php endif; ?>
-                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">
+                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">`n                            <input type="hidden" name="form_source" value="Contact Page">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
                             <div>
                                 <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
@@ -1093,4 +1093,5 @@ GET['status'] == 'error'): ?>
 
 <!-- CTA removed from contact page -->
 <?php include 'footer.php'; ?>
+
 

@@ -989,7 +989,7 @@
                 <h3 class="text-2xl md:text-3xl font-bold text-center text-[#1a1a2e] mb-2">Inquire Now</h3>
                 <p class="text-sm text-gray-500 mb-8 font-medium text-center">Hey, Enter your details to submit your inquiry</p>
                 
-                <form action="process_contact.php" method="POST" class="space-y-4">
+                <form action="process_contact.php" method="POST" class="space-y-4">`n                    <input type="hidden" name="form_source" value="Footer">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                         <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
@@ -1740,7 +1740,7 @@ GET['status']) && </main>
                 <h3 class="text-2xl md:text-3xl font-bold text-center text-[#1a1a2e] mb-2">Inquire Now</h3>
                 <p class="text-sm text-gray-500 mb-8 font-medium text-center">Hey, Enter your details to submit your inquiry</p>
                 
-                <form action="process_contact.php" method="POST" class="space-y-4">
+                <form action="process_contact.php" method="POST" class="space-y-4">`n                    <input type="hidden" name="form_source" value="Footer">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                         <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
@@ -2495,7 +2495,7 @@ GET['status'] == 'success'): ?>
                 <h3 class="text-2xl md:text-3xl font-bold text-center text-[#1a1a2e] mb-2">Inquire Now</h3>
                 <p class="text-sm text-gray-500 mb-8 font-medium text-center">Hey, Enter your details to submit your inquiry</p>
                 
-                <form action="process_contact.php" method="POST" class="space-y-4">
+                <form action="process_contact.php" method="POST" class="space-y-4">`n                    <input type="hidden" name="form_source" value="Footer">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                         <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
@@ -3246,7 +3246,7 @@ GET['status']) && </main>
                 <h3 class="text-2xl md:text-3xl font-bold text-center text-[#1a1a2e] mb-2">Inquire Now</h3>
                 <p class="text-sm text-gray-500 mb-8 font-medium text-center">Hey, Enter your details to submit your inquiry</p>
                 
-                <form action="process_contact.php" method="POST" class="space-y-4">
+                <form action="process_contact.php" method="POST" class="space-y-4">`n                    <input type="hidden" name="form_source" value="Footer">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                         <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
@@ -3507,7 +3507,7 @@ GET['status'] == 'error'): ?>
                         Oops! Something went wrong. Please try again.
                     </div>
                 <?php endif; ?>
-                <form action="process_contact.php" method="POST" class="space-y-4">
+                <form action="process_contact.php" method="POST" class="space-y-4">`n                    <input type="hidden" name="form_source" value="Footer">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                         <input type="text" name="first_name" placeholder="First Name *" required class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-900 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue outline-none transition-all placeholder-gray-400">
@@ -3763,4 +3763,5 @@ GET['status'] == 'error'): ?>
 
 </body>
 </html>
+
 

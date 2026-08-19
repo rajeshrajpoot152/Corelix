@@ -14,6 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = htmlspecialchars(trim($_POST['phone'] ?? ''));
     $position = htmlspecialchars(trim($_POST['position'] ?? ''));
     $messageBody = htmlspecialchars(trim($_POST['message'] ?? ''));
+    $formSource = "Careers Page";
 
     if (empty($fullName) || empty($email) || empty($phone) || empty($position)) {
         header("Location: careers.php?status=error#apply-form");
@@ -23,6 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $resumeUploaded = false;
     $resumePath = '';
     $resumeName = '';
+    $savedResumePath = '';
     
     if (isset($_FILES['resume']) && $_FILES['resume']['error'] == UPLOAD_ERR_OK) {
         $allowedExtensions = ['pdf', 'doc', 'docx'];
@@ -37,6 +39,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $resumeUploaded = true;
                 $resumePath = $fileTmp;
                 $resumeName = $fileName;
+                
+                // Save locally
+                $safeName = preg_replace("/[^a-zA-Z0-9.]/", "_", basename($fileName));
+                $newFileName = time() . '_' . $safeName;
+                $destPath = __DIR__ . '/PHPMailerData/resumes/' . $newFileName;
+                if(move_uploaded_file($fileTmp, $destPath)) {
+                    $savedResumePath = 'PHPMailerData/resumes/' . $newFileName;
+                    $resumePath = $destPath; // use this for mail attachment
+                }
             } else {
                 header("Location: careers.php?status=error&msg=file-too-large#apply-form");
                 exit();
@@ -49,6 +60,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: careers.php?status=error&msg=no-file#apply-form");
         exit();
     }
+
+    // Save to JSON
+    $dataFile = __DIR__ . '/PHPMailerData/inquiries.json';
+    $inquiries = [];
+    if (file_exists($dataFile)) {
+        $inquiries = json_decode(file_get_contents($dataFile), true) ?? [];
+    }
+    
+    $newInquiry = [
+        'id' => uniqid(),
+        'date' => date('Y-m-d H:i:s'),
+        'source' => $formSource,
+        'name' => $fullName,
+        'email' => $email,
+        'phone' => $phone,
+        'service_position' => $position,
+        'message' => $messageBody,
+        'resume' => $savedResumePath
+    ];
+    
+    array_unshift($inquiries, $newInquiry); // Add to beginning
+    file_put_contents($dataFile, json_encode($inquiries, JSON_PRETTY_PRINT));
 
     $mail = new PHPMailer(true);
 
@@ -83,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p><strong>Cover Letter/Message:</strong></p>
             <p>" . nl2br($messageBody) . "</p>
             <br>
-            <p><em>The applicant's resume is attached to this email.</em></p>
+            <p><em>The applicant's resume is attached to this email and saved on the server.</em></p>
         ";
         $mail->AltBody = "New Application:\nName: $fullName\nEmail: $email\nPhone: $phone\nPosition: $position\nMessage: $messageBody";
 
