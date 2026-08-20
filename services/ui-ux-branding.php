@@ -31,8 +31,7 @@ include __DIR__ . '/../header.php';
 
         <!-- Subtitle -->
         <p class="text-base md:text-xl text-gray-300 max-w-3xl mx-auto font-medium leading-relaxed mb-10">
-            Transform your business with custom web design and intuitive user experiences. We build high-converting
-            interfaces that drive growth and command trust.
+            First impressions matter. We design beautiful, easy-to-use websites and apps that instantly build brand trust and turn visitors into paying customers.
         </p>
 
 
@@ -52,11 +51,10 @@ include __DIR__ . '/../header.php';
             <!-- Left: Text Content -->
             <div data-aos="fade-right">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-black font-heading text-gray-900 leading-tight mb-6">
-                    Superior Design is Not Subjective. It's a Business Asset.
+                    Good Design is Not Just Pretty. It Drives Sales.
                 </h2>
                 <p class="text-base md:text-lg text-gray-600 leading-relaxed mb-8">
-                    A generic logo or a confusing website interface doesn't just look bad it actively damages your
-                    credibility and conversion rates. We treat custom design as a decisive strategic tool for growth.
+                    If your website is confusing or looks cheap, customers will immediately leave and buy from your competitor. We design premium, easy-to-use interfaces that build instant trust and grow your business.
                 </p>
 
                 <ul class="flex flex-col gap-5">
@@ -69,9 +67,8 @@ include __DIR__ . '/../header.php';
                         <div>
                             <h4
                                 class="font-bold font-heading text-gray-900 text-lg mb-1 group-hover:text-purple-600 transition-colors">
-                                The Cost of Bad UX</h4>
-                            <p class="text-gray-600 text-sm leading-relaxed">Frustrated users don't complain; they
-                                simply leave.</p>
+                                Losing Customers</h4>
+                            <p class="text-gray-600 text-sm leading-relaxed">If your website is hard to use, visitors will close it and never come back.</p>
                         </div>
                     </li>
                     <!-- Card 2 -->
@@ -83,9 +80,8 @@ include __DIR__ . '/../header.php';
                         <div>
                             <h4
                                 class="font-bold font-heading text-gray-900 text-lg mb-1 group-hover:text-purple-600 transition-colors">
-                                Inconsistent Branding</h4>
-                            <p class="text-gray-600 text-sm leading-relaxed">If your social media, website, and print
-                                materials look disjointed, you fail to build absolute brand recall.</p>
+                                Looking Unprofessional</h4>
+                            <p class="text-gray-600 text-sm leading-relaxed">If your website and social media look different, your business looks cheap and customers will not trust you.</p>
                         </div>
                     </li>
                 </ul>
@@ -110,15 +106,15 @@ include __DIR__ . '/../header.php';
                 <!-- Glassmorphism Box — static on mobile, absolute overlay on lg -->
                 <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
                     <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
-                        <h3 class="text-xs font-black text-purple-600 mb-4 uppercase tracking-wider font-heading">Common Issues</h3>
+                        <h3 class="text-xs font-black text-purple-600 mb-4 uppercase tracking-wider font-heading">Why You Lose Sales</h3>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">High Bounce Rates</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Users leave due to poor navigation.</p>
+                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Users Leaving Fast</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">People leave if they can't find what they need.</p>
                             </div>
                             <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Lost Trust</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Outdated design looks unprofessional.
+                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Zero Trust</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">An old, messy website kills your brand authority.
                                 </p>
                             </div>
                         </div>
@@ -140,10 +136,8 @@ include __DIR__ . '/../header.php';
     </div>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center mb-14">
-            <h2 class="text-3xl md:text-5xl font-black font-heading text-gray-900 mb-5">Innovative Design Services</h2>
-            <p class="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed">We provide end-to-end creative solutions,
-                ensuring every visual touchpoint of your business radiates intelligent professionalism and modern
-                elegance.</p>
+            <h2 class="text-3xl md:text-5xl font-black font-heading text-gray-900 mb-5">UI/UX Design Services in India</h2>
+            <p class="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed">We don't just make things look good. We build custom brand identities and website redesigns that make your business look like a premium market leader.</p>
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
@@ -162,10 +156,8 @@ include __DIR__ . '/../header.php';
                 </div>
                 <h3
                     class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
-                    Custom Brand Identity &amp; Strategy</h3>
-                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Your brand is more than just a logo. We develop
-                    comprehensive brand guidelines, including sophisticated typography systems, custom color palettes,
-                    and brand voice, ensuring a cohesive identity across all platforms.</p>
+                    Corporate Branding & Identity</h3>
+                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We build a premium look for your business. From logo design to custom colors and fonts, we make sure your brand looks established, professional, and highly trustworthy everywhere.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                     <span
                         class="px-3 py-1 bg-purple-500/10 border border-purple-500/20 text-purple-600 text-xs font-semibold rounded-full">Logo
@@ -192,12 +184,8 @@ include __DIR__ . '/../header.php';
                 </div>
                 <h3
                     class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
-                    Superior UI/UX Design for Web &amp; Mobile</h3>
-                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We design digital products that users love. By
-                    focusing on intelligent wireframing, user journeys, and high-fidelity prototyping, we ensure your
-                    app or website is both masterful and incredibly easy to navigate. Looking to build a fully
-                    functional application? Check out our <a href="/services/web-mobile-app-development.php"
-                        class="text-purple-600 font-semibold hover:underline">Web App Development services</a>.</p>
+                    Premium UI/UX Web Design</h3>
+                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We make your website incredibly easy to use. Our seamless user experience design ensures your customers can quickly find information and buy your products without any frustration. Need a fully functional app? See our <a href="/services/web-mobile-app-development.php" class="text-purple-600 font-semibold hover:underline">Web App Development services</a>.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                     <span
                         class="px-3 py-1 bg-purple-500/10 border border-purple-500/20 text-purple-600 text-xs font-semibold rounded-full">App
@@ -225,10 +213,8 @@ include __DIR__ . '/../header.php';
                 </div>
                 <h3
                     class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
-                    Innovative Website &amp; Landing Page Design</h3>
-                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">First impressions matter. We design highly
-                    immersive, conversion-optimized landing pages that clearly communicate your superior value
-                    proposition and guide the user seamlessly toward the CTA.</p>
+                    High-Converting Landing Pages</h3>
+                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We design pages that are built to sell. Our layouts naturally guide visitors through your website, keeping them engaged and convincing them to contact you or buy.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                     <span
                         class="px-3 py-1 bg-purple-500/10 border border-purple-500/20 text-purple-600 text-xs font-semibold rounded-full">SaaS
@@ -256,10 +242,8 @@ include __DIR__ . '/../header.php';
                 </div>
                 <h3
                     class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
-                    Sophisticated Print &amp; Marketing Collateral</h3>
-                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Take your digital brand into the physical world.
-                    We design sophisticated business cards, brochures, corporate presentations, and packaging that leave
-                    a lasting tactile impression.</p>
+                    Marketing & Print Design</h3>
+                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Look like a premium brand in the real world too. We design high-quality business cards, company brochures, and pitch decks that make a powerful impression on your clients.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                     <span
                         class="px-3 py-1 bg-purple-500/10 border border-purple-500/20 text-purple-600 text-xs font-semibold rounded-full">Pitch
@@ -279,7 +263,7 @@ include __DIR__ . '/../header.php';
 <!-- /03. Core Specialized Services Grid -->
 
 
-<!-- 04. Our Masterful Design Process -->
+<!-- 04. How We Design for Growth -->
     <section class="py-24 bg-slate-950 text-white relative overflow-hidden">
         <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-purple-600/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
@@ -287,8 +271,8 @@ include __DIR__ . '/../header.php';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <span class="text-purple-500 font-bold tracking-widest uppercase text-sm mb-4 block">Design Process</span>
-                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">Our Masterful Design Process</h2>
-                <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto">A collaborative, iterative workflow designed to capture your vision and elevate it to absolute industry-leading standards.</p>
+                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">How We Design for Growth</h2>
+                <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto">A simple, step-by-step process to build a brand identity that helps you stand out from your competitors.</p>
             </div>
 
             <div class="relative max-w-7xl mx-auto mt-20">
@@ -303,8 +287,8 @@ include __DIR__ . '/../header.php';
                             <span class="text-2xl font-black text-slate-500 group-hover:text-purple-500 transition-colors">1</span>
                             <div class="absolute inset-0 rounded-full border border-purple-500/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-purple-500/50 border-dashed transition-all"></div>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Discovery</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We interview key stakeholders to understand your brand values, target audience, and specific aesthetic preferences.</p>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Understanding You</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We learn about your business, your customers, and what makes you different from your competitors.</p>
                     </div>
 
                     <!-- Step 2 -->
@@ -313,8 +297,8 @@ include __DIR__ . '/../header.php';
                             <span class="text-2xl font-black text-slate-500 group-hover:text-purple-500 transition-colors">2</span>
                             <div class="absolute inset-0 rounded-full border border-purple-500/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-purple-500/50 border-dashed transition-all"></div>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Wireframing</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We intelligently map out the structural hierarchy and user flow using low-fidelity sketches before adding visual elements.</p>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Planning the Layout</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We create a simple blueprint of your website to make sure the user experience is smooth and easy.</p>
                     </div>
 
                     <!-- Step 3 (Highlight) -->
@@ -323,8 +307,8 @@ include __DIR__ . '/../header.php';
                         <div class="w-24 h-24 rounded-full bg-purple-600 border-4 border-purple-400/30 flex items-center justify-center mb-6 shadow-[0_0_40px_rgba(147,51,234,0.4)] group-hover:scale-110 transition-all duration-500 relative">
                             <span class="text-3xl font-black text-white">3</span>
                         </div>
-                        <h3 class="text-2xl font-bold text-purple-500 mb-3 font-heading">Visual Design</h3>
-                        <p class="text-slate-300 text-sm leading-relaxed max-w-[220px]">This is where we inject color, typography, and imagery to create stunning, sophisticated high-fidelity mockups.</p>
+                        <h3 class="text-2xl font-bold text-purple-500 mb-3 font-heading">Adding Premium Design</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed max-w-[220px]">We add your brand colors, fonts, and images to make your website look highly professional and premium.</p>
                     </div>
 
                     <!-- Step 4 -->
@@ -333,8 +317,8 @@ include __DIR__ . '/../header.php';
                             <span class="text-2xl font-black text-slate-500 group-hover:text-purple-500 transition-colors">4</span>
                             <div class="absolute inset-0 rounded-full border border-purple-500/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-purple-500/50 border-dashed transition-all"></div>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Prototyping</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We build clickable prototypes so you can experience the custom product exactly as your users will.</p>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Testing the Flow</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We create a working model of the design so you can click around and feel the exact user experience.</p>
                     </div>
 
                     <!-- Step 5 -->
@@ -343,8 +327,8 @@ include __DIR__ . '/../header.php';
                             <span class="text-2xl font-black text-slate-500 group-hover:text-purple-500 transition-colors">5</span>
                             <div class="absolute inset-0 rounded-full border border-purple-500/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-purple-500/50 border-dashed transition-all"></div>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Handoff</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We deliver neatly organized design files and comprehensive style guides to ensure a decisive transition to developers.</p>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Final Delivery</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We hand over all the final design files and brand guidelines so your team has everything they need.</p>
                     </div>
 
                 </div>
@@ -362,16 +346,16 @@ include __DIR__ . '/../header.php';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <span class="text-purple-600 font-bold tracking-widest uppercase text-sm mb-4 block">Case Studies</span>
-                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">Proven Business Impact</h2>
-                <p class="text-slate-600 text-lg max-w-2xl mx-auto">We design intuitive digital experiences that captivate users and build profound brand loyalty. Explore our recent user-centric design transformations.</p>
+                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">Real Business Impact</h2>
+                <p class="text-slate-600 text-lg max-w-2xl mx-auto">We don't just design; we increase sales. See how our UI/UX design has helped Indian businesses grow and retain more customers.</p>
             </div>
             
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-purple-600/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-600/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
-                    <div class="text-purple-600 font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-purple-600"></div>SaaS Analytics Dashboard</div>
-                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Increased daily user engagement by 150%</h3>
-                    <p class="text-slate-600 text-base mb-6 leading-relaxed">We completely redesigned their complex data dashboard into a breathtaking, intuitive, user-centric interface that their customers actually love to log into every day.</p>
+                    <div class="text-purple-600 font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-purple-600"></div>Software Company Dashboard</div>
+                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Kept users on the software 150% longer</h3>
+                    <p class="text-slate-600 text-base mb-6 leading-relaxed">We took a confusing software platform and redesigned it to be incredibly easy to use, meaning fewer people canceled their subscriptions.</p>
                     <div class="flex gap-4">
                         <div>
                             <div class="text-4xl font-black text-purple-600 font-heading mb-1">150%</div>
@@ -387,9 +371,9 @@ include __DIR__ . '/../header.php';
                 
                 <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-purple-600/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-600/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
-                    <div class="text-purple-600 font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-purple-600"></div>Consumer Neobank</div>
-                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Boosted onboarding completion to 95%</h3>
-                    <p class="text-slate-600 text-base mb-6 leading-relaxed">Crafted a totally frictionless onboarding flow and a modern visual brand identity that established profound trust and connection with a highly critical millennial audience.</p>
+                    <div class="text-purple-600 font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-purple-600"></div>Financial App</div>
+                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Increased customer sign-ups to 95%</h3>
+                    <p class="text-slate-600 text-base mb-6 leading-relaxed">We made the app sign-up process completely seamless and designed a premium brand that made users instantly trust them with their money.</p>
                     <div class="flex gap-4">
                         <div>
                             <div class="text-4xl font-black text-purple-600 font-heading mb-1">95%</div>
@@ -417,9 +401,8 @@ include __DIR__ . '/../header.php';
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-purple-600/10 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
-            <h2 class="text-4xl font-black text-white font-heading relative z-10">Flexible Engagement Models</h2>
-            <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto relative z-10">We partner with organizations of all sizes,
-                offering transparent and flexible operational models tailored to your goals.</p>
+            <h2 class="text-4xl font-black text-white font-heading relative z-10">Work With Us Your Way</h2>
+            <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto relative z-10">Whether you need a quick website redesign or a full corporate branding package, we have a model that fits your business.</p>
         </div>
 
         <div class="grid md:grid-cols-3 gap-6 relative z-10">
@@ -504,8 +487,8 @@ include __DIR__ . '/../header.php';
 <section id="faqs" class="py-20 bg-gray-50 border-t border-gray-200">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold text-slate-900 font-heading">Design Questions Answered</h2>
-            <p class="mt-4 text-slate-600">Clear insights into our creative methodology and collaboration process.</p>
+            <h2 class="text-4xl font-bold text-slate-900 font-heading">Common Questions Answered</h2>
+            <p class="mt-4 text-slate-600">Everything you need to know about how we build premium brands.</p>
         </div>
         <div class="divide-y divide-gray-200 border-t border-b border-gray-200 mt-8">
             <details class="group bg-transparent">
