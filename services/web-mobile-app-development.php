@@ -42,11 +42,11 @@ include __DIR__ . '/../header.php';
                         Legacy Technology Compromises Your Authority.
                     </h2>
                     <p class="text-lg text-slate-600 leading-relaxed mb-8">
-                        Slow load times, disjointed interfaces, and fragmented software do more than annoy usersâ€”they actively erode trust in your brand. We replace vulnerable legacy systems with tested, modern architectures built to handle high traffic securely and reliably.
+                        Slow load times, disjointed interfaces, and fragmented software do more than annoy usersÃ¢â‚¬â€they actively erode trust in your brand. We replace vulnerable legacy systems with tested, modern architectures built to handle high traffic securely and reliably.
                     </p>
                     <ul class="grid gap-6">
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
-                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">âœ•</div>
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">Ã¢Å“â€¢</div>
                             <div>
                                 <h4 class="text-slate-900 font-bold text-xl mb-2 font-heading group-hover:text-brand-blue transition-colors">Vulnerable Performance</h4>
                                 <p class="text-slate-600 text-sm leading-relaxed">Users abandon applications that load slowly or feel unsecure. Consistent speed and security are critical business metrics.</p>
@@ -65,7 +65,7 @@ include __DIR__ . '/../header.php';
             <!-- Right: Image + Glassmorphism overlay -->
             <div class="relative lg:pb-16" data-aos="fade-left">
 
-                <!-- Image â€” overflow-hidden only here -->
+                <!-- Image Ã¢â‚¬â€ overflow-hidden only here -->
                 <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group">
                     <img src="/assets/images/custom-software-engineering-code.jpg"
                         alt="Software engineering team writing code for custom web application"
@@ -78,7 +78,7 @@ include __DIR__ . '/../header.php';
                     </div>
                 </div>
 
-                <!-- Glassmorphism Box â€” static on mobile, absolute overlay on lg -->
+                <!-- Glassmorphism Box Ã¢â‚¬â€ static on mobile, absolute overlay on lg -->
                 <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
                     <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
                         <h3 class="text-xs font-black text-brand-blue mb-4 uppercase tracking-wider font-heading">Common Challenges</h3>
@@ -235,69 +235,70 @@ include __DIR__ . '/../header.php';
     </section>
 
     <!-- 05. The 8-Step Engineering Lifecycle -->
-    <section class="py-20 bg-white">
+    <section class="py-24 bg-gray-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-slate-900 font-heading">A Proven Process: From Concept to App Store</h2>
+                <span class="text-brand-blue font-bold tracking-widest uppercase text-sm mb-4 block">Methodology</span>
+                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading">A Proven Process: From Concept to App Store</h2>
                 <p class="mt-4 text-slate-600 text-lg max-w-3xl mx-auto">We rely on a rigorous, 8-step methodology to ensure your software is rock-solid, compliant, and market-ready.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Step 1 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-500 group">
+                <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-blue-50 transition-colors duration-500 select-none">01</div>
-                    <div class="w-10 h-10 rounded-full bg-brand-blue text-brand-blue flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">1</div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 relative z-10 font-heading">Idea Analysis</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">We study your vision, conduct thorough feasibility checks, and recommend intelligent customization options to enhance your product's core functionality.</p>
+                    <div class="w-12 h-12 rounded-2xl bg-blue-100 text-brand-blue flex items-center justify-center font-bold mb-6 relative z-10 shadow-sm text-xl">1</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Idea Analysis</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We study your vision, conduct thorough feasibility checks, and recommend intelligent customization options to enhance your product's core functionality.</p>
                 </div>
                 <!-- Step 2 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-500 group">
+                <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-cyan-50 transition-colors duration-500 select-none">02</div>
-                    <div class="w-10 h-10 rounded-full bg-brand-blue text-brand-blue flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">2</div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 relative z-10 font-heading">Architectural Design</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">Our technical architects draft the foundational blueprints and wireframes. We deeply value your active feedback during this critical planning stage.</p>
+                    <div class="w-12 h-12 rounded-2xl bg-cyan-100 text-cyan-600 flex items-center justify-center font-bold mb-6 relative z-10 shadow-sm text-xl">2</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Architectural Design</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">Our technical architects draft the foundational blueprints and wireframes. We deeply value your active feedback during this critical planning stage.</p>
                 </div>
                 <!-- Step 3 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 relative overflow-hidden hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-500 group">
+                <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-indigo-50 transition-colors duration-500 select-none">03</div>
                     <div class="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">3</div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 relative z-10 font-heading">UI/UX Design</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">Our professional design team creates interactive, brand-aligned interfaces tailored precisely to your target user base.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">UI/UX Design</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">Our professional design team creates interactive, brand-aligned interfaces tailored precisely to your target user base.</p>
                 </div>
                 <!-- Step 4 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 relative overflow-hidden hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-500 group">
+                <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-purple-50 transition-colors duration-500 select-none">04</div>
                     <div class="w-10 h-10 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">4</div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 relative z-10 font-heading">Development</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">Our dedicated developers write clean, modular code to transform your visual models into an intelligent, high-functioning application.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Development</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">Our dedicated developers write clean, modular code to transform your visual models into an intelligent, high-functioning application.</p>
                 </div>
                 <!-- Step 5 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 relative overflow-hidden hover:shadow-2xl hover:shadow-emerald-500/10 hover:-translate-y-1 transition-all duration-500 group">
+                <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-emerald-50 transition-colors duration-500 select-none">05</div>
                     <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">5</div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 relative z-10 font-heading">Quality Assurance</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">We examine every module individually. Our QA unit conducts strict code reviews to verify the architecture is entirely risk-free.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Quality Assurance</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We examine every module individually. Our QA unit conducts strict code reviews to verify the architecture is entirely risk-free.</p>
                 </div>
                 <!-- Step 6 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 relative overflow-hidden hover:shadow-2xl hover:shadow-sky-500/10 hover:-translate-y-1 transition-all duration-500 group">
+                <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-sky-50 transition-colors duration-500 select-none">06</div>
                     <div class="w-10 h-10 rounded-full bg-sky-100 text-sky-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">6</div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 relative z-10 font-heading">Rigorous Testing</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">We conduct functional, performance, security, and cross-device testing to ensure the application is fast, secure, and completely reliable.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Rigorous Testing</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We conduct functional, performance, security, and cross-device testing to ensure the application is fast, secure, and completely reliable.</p>
                 </div>
                 <!-- Step 7 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 relative overflow-hidden hover:shadow-2xl hover:shadow-orange-500/10 hover:-translate-y-1 transition-all duration-500 group">
+                <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-orange-50 transition-colors duration-500 select-none">07</div>
                     <div class="w-10 h-10 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">7</div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 relative z-10 font-heading">Deployment</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">Once QA provides full clearance, we configure the production servers, migrate your databases, and safely transition to your live environment.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Deployment</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">Once QA provides full clearance, we configure the production servers, migrate your databases, and safely transition to your live environment.</p>
                 </div>
                 <!-- Step 8 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 relative overflow-hidden hover:shadow-2xl hover:shadow-rose-500/10 hover:-translate-y-1 transition-all duration-500 group">
+                <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-rose-50 transition-colors duration-500 select-none">08</div>
                     <div class="w-10 h-10 rounded-full bg-rose-100 text-rose-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">8</div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 relative z-10 font-heading">App Store Submission</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">We handle the complete Apple App Store and Google Play submission process, optimizing metadata and verifying strict platform compliance.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">App Store Submission</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We handle the complete Apple App Store and Google Play submission process, optimizing metadata and verifying strict platform compliance.</p>
                 </div>
             </div>
         </div>
@@ -448,5 +449,6 @@ include __DIR__ . '/../header.php';
 
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
+
 
 
