@@ -42,11 +42,11 @@ include __DIR__ . '/../header.php';
                         Legacy Technology Compromises Your Authority.
                     </h2>
                     <p class="text-lg text-slate-600 leading-relaxed mb-8">
-                        Slow load times, disjointed interfaces, and fragmented software do more than annoy users—they actively erode trust in your brand. We replace vulnerable legacy systems with tested, modern architectures built to handle high traffic securely and reliably.
+                        Slow load times, disjointed interfaces, and fragmented software do more than annoy users&mdash;they actively erode trust in your brand. We replace vulnerable legacy systems with tested, modern architectures built to handle high traffic securely and reliably.
                     </p>
                     <ul class="grid gap-6">
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
-                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">✓</div>
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">&#10004;</div>
                             <div>
                                 <h4 class="text-slate-900 font-bold text-xl mb-2 font-heading group-hover:text-brand-blue transition-colors">Vulnerable Performance</h4>
                                 <p class="text-slate-600 text-sm leading-relaxed">Users abandon applications that load slowly or feel unsecure. Consistent speed and security are critical business metrics.</p>
@@ -65,7 +65,7 @@ include __DIR__ . '/../header.php';
             <!-- Right: Image + Glassmorphism overlay -->
             <div class="relative lg:pb-16" data-aos="fade-left">
 
-                <!-- Image — overflow-hidden only here -->
+                <!-- Image &mdash; overflow-hidden only here -->
                 <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group">
                     <img src="/assets/images/custom-software-engineering-code.jpg"
                         alt="Software engineering team writing code for custom web application"
@@ -78,7 +78,7 @@ include __DIR__ . '/../header.php';
                     </div>
                 </div>
 
-                <!-- Glassmorphism Box — static on mobile, absolute overlay on lg -->
+                <!-- Glassmorphism Box &mdash; static on mobile, absolute overlay on lg -->
                 <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
                     <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
                         <h3 class="text-xs font-black text-brand-blue mb-4 uppercase tracking-wider font-heading">Common Challenges</h3>
