@@ -27,8 +27,15 @@ include 'header.php';
         
         <!-- Page Subtitle -->
         <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium">
-            We are a team of passionate developers, designers, and marketers committed to transforming your ideas into powerful digital realities. We bridge the gap between complex technology and business growth.
+            We are an elite team of engineers and growth strategists committed to building custom IT solutions that actively drive your revenue. We turn complex technology into simple, scalable business assets.
         </p>
+        <div class="mt-8">
+            <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="group relative inline-flex items-center gap-2 px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all duration-300 text-sm border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Discuss Your Project">
+                Discuss Your Project
+                <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
+            </a>
+        </div>
+
     </div>
 </section>
 
@@ -52,7 +59,7 @@ include 'header.php';
                 </div>
                 <h2 class="text-3xl md:text-5xl font-black font-heading text-brand-black mb-6">Our Mission</h2>
                 <p class="text-gray-600 text-lg leading-relaxed">
-                    To deliver scalable, innovative, and high-performance digital solutions that solve real-world business challenges. We believe in creating technology that works for you, not the other way around.
+                    To engineer secure, high-performance software and marketing systems that solve your exact business bottlenecks. We build technology that works for you, eliminating manual effort and maximizing ROI.
                 </p>
             </div>
         </div>
@@ -65,7 +72,7 @@ include 'header.php';
                 </div>
                 <h2 class="text-3xl md:text-5xl font-black font-heading text-brand-black mb-6">Our Vision</h2>
                 <p class="text-gray-600 text-lg leading-relaxed">
-                    To be the leading global IT agency recognized for pushing boundaries in Web Development, AI, and Digital Marketing, shaping the future of how businesses interact with their customers online.
+                    To be the most trusted IT partner for businesses globally, known for building lightning-fast apps, smart AI automation, and marketing systems that consistently generate sales.
                 </p>
             </div>
             <div class="order-1 lg:order-2" data-aos="fade-left">
