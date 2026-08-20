@@ -374,26 +374,27 @@ include __DIR__ . '/../header.php';
     
 
     <!-- Featured Case Studies -->
-    <section class="py-24 bg-slate-50 border-b border-gray-200 relative overflow-hidden">
+    <section class="py-24 bg-slate-950 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <span class="text-brand-green font-bold tracking-widest uppercase text-sm mb-4 block">Case Studies</span>
-                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">Proven Business Impact</h2>
-                <p class="text-slate-600 text-lg max-w-2xl mx-auto">We don't just chase vanity metrics; we engineer sustainable organic growth. See how our search strategies dominate markets and drive direct revenue.</p>
+                <h2 class="text-4xl md:text-5xl font-black text-white font-heading mb-6">Proven Business Impact</h2>
+                <p class="text-slate-400 text-lg max-w-2xl mx-auto">We don't just chase vanity metrics; we engineer sustainable organic growth. See how our search strategies dominate markets and drive direct revenue.</p>
             </div>
             
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-md hover:bg-white/10 hover:border-brand-green/30 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-green/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
                     <div class="text-brand-green font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-green"></div>B2B SaaS Company</div>
-                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Tripled non-branded organic traffic in 6 months</h3>
-                    <p class="text-slate-600 text-base mb-6 leading-relaxed">By resolving deep technical SEO bottlenecks and executing a high-intent content strategy, we captured top rankings for their most profitable core product keywords.</p>
+                    <h3 class="text-2xl font-bold text-white font-heading mb-4">Tripled non-branded organic traffic in 6 months</h3>
+                    <p class="text-slate-400 text-base mb-6 leading-relaxed">By resolving deep technical SEO bottlenecks and executing a high-intent content strategy, we captured top rankings for their most profitable core product keywords.</p>
                     <div class="flex gap-4">
                         <div>
                             <div class="text-4xl font-black text-brand-green font-heading mb-1">300%</div>
                             <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Organic Traffic</div>
                         </div>
-                        <div class="w-px bg-gray-200 mx-2"></div>
+                        <div class="w-px bg-white/10 mx-2"></div>
                         <div>
                             <div class="text-4xl font-black text-brand-green font-heading mb-1">#1</div>
                             <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Ranked Keywords</div>
@@ -401,17 +402,17 @@ include __DIR__ . '/../header.php';
                     </div>
                 </div>
                 
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-md hover:bg-white/10 hover:border-brand-green/30 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-green/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
                     <div class="text-brand-green font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-green"></div>National Retailer</div>
-                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Increased organic revenue by .2M</h3>
-                    <p class="text-slate-600 text-base mb-6 leading-relaxed">We optimized their massive category structure and deployed programmatic SEO at scale, driving high-converting transactional traffic and lowering overall CAC.</p>
+                    <h3 class="text-2xl font-bold text-white font-heading mb-4">Increased organic revenue by .2M</h3>
+                    <p class="text-slate-400 text-base mb-6 leading-relaxed">We optimized their massive category structure and deployed programmatic SEO at scale, driving high-converting transactional traffic and lowering overall CAC.</p>
                     <div class="flex gap-4">
                         <div>
                             <div class="text-4xl font-black text-brand-green font-heading mb-1">.2M</div>
                             <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">New Revenue</div>
                         </div>
-                        <div class="w-px bg-gray-200 mx-2"></div>
+                        <div class="w-px bg-white/10 mx-2"></div>
                         <div>
                             <div class="text-4xl font-black text-brand-green font-heading mb-1">45%</div>
                             <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Lower CAC</div>
