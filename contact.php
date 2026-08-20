@@ -26,9 +26,17 @@ include 'header.php';
         </h1>
         
         <!-- Page Subtitle -->
-        <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium">
-            Have a project in mind? Drop us a message and our experts will get back to you with a tailored solution within 24 hours.
+        <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium leading-relaxed">
+            Ready to scale your business? Share your operational challenges or project goals, and our engineering team will provide a strategic roadmap within 24 hours.
         </p>
+        
+        <!-- CTA Button -->
+        <div class="mt-8">
+            <button onclick="window.scrollBy({ top: 600, behavior: 'smooth' })" class="group relative inline-flex items-center gap-2 px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all duration-300 text-sm border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Get a Free Quote">
+                Get a Free Quote
+                <svg class="w-4 h-4 group-hover:translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+            </button>
+        </div>
     </div>
 </section>
 
@@ -99,8 +107,8 @@ include 'header.php';
                     <div class="absolute -bottom-32 -left-32 w-64 h-64 bg-brand-green/10 rounded-full blur-[80px] pointer-events-none"></div>
                     
                     <div class="mb-8 md:mb-10 relative z-10">
-                        <h3 class="text-3xl md:text-4xl font-bold font-heading text-brand-black mb-4">Send us a message</h3>
-                        <p class="text-base md:text-lg text-gray-600">Fill out the form below and we'll get back to you shortly.</p>
+                        <h3 class="text-3xl md:text-4xl font-bold font-heading text-brand-black mb-4">Request a Free Consultation</h3>
+                        <p class="text-base md:text-lg text-gray-600">Tell us about your business goals, and we'll craft a customized technical roadmap for you.</p>
                     </div>
 
                                         <?php if (isset($_GET['status']) && $_GET['status'] == 'success'): ?>
