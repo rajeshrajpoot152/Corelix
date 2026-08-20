@@ -239,7 +239,7 @@ include __DIR__ . '/../header.php';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <span class="text-brand-blue font-bold tracking-widest uppercase text-sm mb-4 block">Methodology</span>
-                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading">A Proven Process: From Concept to App Store</h2>
+                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading">Our 8-Step Development Process</h2>
                 <p class="mt-4 text-slate-600 text-lg max-w-3xl mx-auto">We rely on a rigorous, 8-step methodology to ensure your software is rock-solid, compliant, and market-ready.</p>
             </div>
 
