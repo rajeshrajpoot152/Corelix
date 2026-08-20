@@ -371,109 +371,68 @@ include __DIR__ . '/../header.php';
         </div>
     </div>
 </section>
-<!-- 06. Our Workflow (Discover to Scale) with Image -->
-<section class="py-20 bg-gray-50 border-b border-gray-200">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-12 gap-12 items-center">
-
-            <div class="lg:col-span-6 order-2 lg:order-1 relative">
-                <!-- Timeline connecting line -->
-                <div
-                    class="absolute left-[47px] top-10 bottom-10 w-px bg-gradient-to-b from-brand-red/30 via-brand-orange/30 to-transparent hidden sm:block">
-                </div>
-
-                <div class="space-y-6 relative">
-                    <div
-                        class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-red hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 group flex gap-6 items-start relative z-10">
-                        <div
-                            class="w-12 h-12 rounded-2xl bg-red-50 text-brand-red font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-red group-hover:text-white transition-colors shadow-sm ring-4 ring-white">
-                            1</div>
-                        <div>
-                            <h3 class="text-xl font-bold text-slate-900 mb-2 mt-1 font-heading">Discover</h3>
-                            <p class="text-slate-600 text-sm leading-relaxed">We audit your existing processes to fully
-                                understand your operational bottlenecks and business logic.</p>
-                        </div>
-                    </div>
-                    <div
-                        class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-orange hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 group flex gap-6 items-start relative z-10">
-                        <div
-                            class="w-12 h-12 rounded-2xl bg-orange-50 text-brand-orange font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors shadow-sm ring-4 ring-white">
-                            2</div>
-                        <div>
-                            <h3 class="text-xl font-bold text-slate-900 mb-2 mt-1 font-heading">Plan</h3>
-                            <p class="text-slate-600 text-sm leading-relaxed">We design a straightforward technical
-                                architecture and select the right AI models for your specific security and speed
-                                requirements.</p>
-                        </div>
-                    </div>
-                    <div
-                        class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-red hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-1 transition-all duration-300 group flex gap-6 items-start relative z-10">
-                        <div
-                            class="w-12 h-12 rounded-2xl bg-red-50 text-brand-red font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-red group-hover:text-white transition-colors shadow-sm ring-4 ring-white">
-                            3</div>
-                        <div>
-                            <h3 class="text-xl font-bold text-slate-900 mb-2 mt-1 font-heading">Build & Automate</h3>
-                            <p class="text-slate-600 text-sm leading-relaxed">Our engineers integrate intelligent
-                                systems, connecting your CRMs, messaging platforms, and internal databases seamlessly.
-                            </p>
-                        </div>
-                    </div>
-                    <div
-                        class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-orange hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 group flex gap-6 items-start relative z-10">
-                        <div
-                            class="w-12 h-12 rounded-2xl bg-orange-50 text-brand-orange font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors shadow-sm ring-4 ring-white">
-                            4</div>
-                        <div>
-                            <h3 class="text-xl font-bold text-slate-900 mb-2 mt-1 font-heading">Scale</h3>
-                            <p class="text-slate-600 text-sm leading-relaxed">We continuously monitor, refine, and
-                                upgrade the AI integrations to ensure your business grows efficiently and error-free.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+<!-- 06. Our Workflow (Discover to Scale) -->
+    <section class="py-24 bg-slate-950 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-brand-red/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
+        
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <span class="text-brand-red font-bold tracking-widest uppercase text-sm mb-4 block">Proven Framework</span>
+                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">How We Build Efficient Systems</h2>
+                <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto">A straightforward, engineering-first framework designed to ensure rapid deployment and immediate ROI for your organization.</p>
             </div>
 
-            <div class="lg:col-span-6 order-1 lg:order-2">
-                <div class="sticky top-32">
-                    <h2 class="text-4xl md:text-5xl font-black text-slate-900 leading-tight mb-6 font-heading">How We
-                        Build <br /><span
-                            class="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-brand-orange">Efficient
-                            Systems</span></h2>
-                    <p class="text-slate-600 text-lg leading-relaxed mb-10">A straightforward, engineering-first
-                        framework designed to ensure rapid deployment and immediate ROI for your organization.</p>
-
-                    <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group">
-                        <!-- SEO Optimized Process Image -->
-                        <img src="/assets/images/agile-ai-development-process.jpg"
-                            alt="Software engineering team deploying AI architecture and automation workflows"
-                            title="AI System Integration Process" loading="lazy"
-                            class="w-full h-auto object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-700" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent">
+            <div class="relative max-w-6xl mx-auto mt-20">
+                <!-- Horizontal Dashed Connecting Line (Desktop) -->
+                <div class="absolute top-[2.5rem] left-[15%] right-[15%] h-[2px] border-t-[3px] border-dashed border-white/10 hidden lg:block z-0"></div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 relative z-10">
+                    
+                    <!-- Step 1 -->
+                    <div class="group relative flex flex-col items-center text-center">
+                        <div class="w-20 h-20 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center mb-6 group-hover:border-brand-red group-hover:scale-110 transition-all duration-500 relative shadow-2xl">
+                            <span class="text-2xl font-black text-slate-500 group-hover:text-brand-red transition-colors">1</span>
+                            <div class="absolute inset-0 rounded-full border border-brand-red/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-red/50 border-dashed transition-all"></div>
                         </div>
-                        <div class="absolute bottom-6 left-6 right-6">
-                            <div
-                                class="bg-white/95 backdrop-blur-md p-5 rounded-2xl flex items-center gap-4 border border-white/20 shadow-xl">
-                                <div
-                                    class="w-12 h-12 rounded-full bg-brand-red flex items-center justify-center text-brand-red flex-shrink-0">
-                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <p class="text-sm font-bold text-slate-900">Agile Deployment</p>
-                                    <p class="text-xs text-slate-600">Iterative, fast, and highly secure</p>
-                                </div>
-                            </div>
-                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Discover</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We audit your existing processes to fully understand your operational bottlenecks and business logic.</p>
                     </div>
+
+                    <!-- Step 2 -->
+                    <div class="group relative flex flex-col items-center text-center">
+                        <div class="w-20 h-20 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center mb-6 group-hover:border-brand-red group-hover:scale-110 transition-all duration-500 relative shadow-2xl">
+                            <span class="text-2xl font-black text-slate-500 group-hover:text-brand-red transition-colors">2</span>
+                            <div class="absolute inset-0 rounded-full border border-brand-red/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-red/50 border-dashed transition-all"></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Plan</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We design a straightforward technical architecture and select the right AI models for your specific security and speed requirements.</p>
+                    </div>
+
+                    <!-- Step 3 (Highlight) -->
+                    <div class="group relative flex flex-col items-center text-center lg:-mt-4">
+                        <div class="absolute top-10 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-brand-red/30 rounded-full filter blur-[40px] pointer-events-none group-hover:bg-brand-red/50 transition-colors"></div>
+                        <div class="w-24 h-24 rounded-full bg-brand-red border-4 border-red-400/30 flex items-center justify-center mb-6 shadow-[0_0_40px_rgba(225,38,28,0.4)] group-hover:scale-110 transition-all duration-500 relative">
+                            <span class="text-3xl font-black text-white">3</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-brand-red mb-3 font-heading">Build & Automate</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed max-w-[220px]">Our engineers integrate intelligent systems, connecting your CRMs, messaging platforms, and internal databases seamlessly.</p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="group relative flex flex-col items-center text-center">
+                        <div class="w-20 h-20 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center mb-6 group-hover:border-brand-red group-hover:scale-110 transition-all duration-500 relative shadow-2xl">
+                            <span class="text-2xl font-black text-slate-500 group-hover:text-brand-red transition-colors">4</span>
+                            <div class="absolute inset-0 rounded-full border border-brand-red/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-red/50 border-dashed transition-all"></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Scale</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We continuously monitor, refine, and upgrade the AI integrations to ensure your business grows efficiently and error-free.</p>
+                    </div>
+
                 </div>
             </div>
-
         </div>
-    </div>
-</section>
-
+    </section>
 <!-- 07. Tech Stack & Integration Platforms -->
 <section class="py-20 bg-white">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
