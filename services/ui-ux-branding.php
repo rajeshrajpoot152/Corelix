@@ -352,7 +352,7 @@ include __DIR__ . '/../header.php';
         </div>
     </section>
 
-<?php include __DIR__ . '/../php/platforms-technologies.php'; ?>
+
 
 <!-- 06. FAQs -->
 
