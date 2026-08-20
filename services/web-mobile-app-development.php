@@ -42,11 +42,11 @@ include __DIR__ . '/../header.php';
                         Legacy Technology Compromises Your Authority.
                     </h2>
                     <p class="text-lg text-slate-600 leading-relaxed mb-8">
-                        Slow load times, disjointed interfaces, and fragmented software do more than annoy usersÃ¢â‚¬â€they actively erode trust in your brand. We replace vulnerable legacy systems with tested, modern architectures built to handle high traffic securely and reliably.
+                        Slow load times, disjointed interfaces, and fragmented software do more than annoy users—they actively erode trust in your brand. We replace vulnerable legacy systems with tested, modern architectures built to handle high traffic securely and reliably.
                     </p>
                     <ul class="grid gap-6">
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
-                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">Ã¢Å“â€¢</div>
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">✓</div>
                             <div>
                                 <h4 class="text-slate-900 font-bold text-xl mb-2 font-heading group-hover:text-brand-blue transition-colors">Vulnerable Performance</h4>
                                 <p class="text-slate-600 text-sm leading-relaxed">Users abandon applications that load slowly or feel unsecure. Consistent speed and security are critical business metrics.</p>
@@ -65,7 +65,7 @@ include __DIR__ . '/../header.php';
             <!-- Right: Image + Glassmorphism overlay -->
             <div class="relative lg:pb-16" data-aos="fade-left">
 
-                <!-- Image Ã¢â‚¬â€ overflow-hidden only here -->
+                <!-- Image — overflow-hidden only here -->
                 <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group">
                     <img src="/assets/images/custom-software-engineering-code.jpg"
                         alt="Software engineering team writing code for custom web application"
@@ -78,7 +78,7 @@ include __DIR__ . '/../header.php';
                     </div>
                 </div>
 
-                <!-- Glassmorphism Box Ã¢â‚¬â€ static on mobile, absolute overlay on lg -->
+                <!-- Glassmorphism Box — static on mobile, absolute overlay on lg -->
                 <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
                     <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
                         <h3 class="text-xs font-black text-brand-blue mb-4 uppercase tracking-wider font-heading">Common Challenges</h3>
@@ -212,7 +212,7 @@ include __DIR__ . '/../header.php';
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-3 font-heading">Inspiring UI/UX Design</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Our team crafts custom layouts that match your brand persona. <a href="/UI-UX-Branding-and-Design/UI-UX-Branding-and-Design.html" class="text-brand-blue hover:underline font-semibold inline-flex items-center gap-1 mt-1">Explore UI/UX Branding &rarr;</a></p>
+                    <p class="text-slate-400 text-sm leading-relaxed">Our team crafts custom layouts that match your brand persona. <a href="/services/ui-ux-branding" class="text-brand-blue hover:underline font-semibold inline-flex items-center gap-1 mt-1">Explore UI/UX Branding &rarr;</a></p>
                 </div>
                 <!-- Point 5 -->
                 <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
@@ -452,6 +452,7 @@ include __DIR__ . '/../header.php';
 
 <?php include __DIR__ . '/../cta.php'; ?>
 <?php include __DIR__ . '/../footer.php'; ?>
+
 
 
 
