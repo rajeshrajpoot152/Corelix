@@ -421,7 +421,7 @@ include __DIR__ . '/../header.php';
             </div>
             
             <div class="text-center mt-12">
-                <a href="/case-studies" class="inline-flex items-center justify-center gap-2 bg-purple-600 hover:bg-slate-900 text-white px-8 py-4 rounded-full font-bold transition-all duration-300 shadow-xl shadow-purple-600/20 hover:shadow-2xl hover:shadow-slate-900/20 hover:-translate-y-1 group">Explore Design Portfolios <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg></a>
+                <a href="/services/ui-ux-branding" class="inline-flex items-center justify-center gap-2 bg-purple-600 hover:bg-slate-900 text-white px-8 py-4 rounded-full font-bold transition-all duration-300 shadow-xl shadow-purple-600/20 hover:shadow-2xl hover:shadow-slate-900/20 hover:-translate-y-1 group">Explore Design Portfolios <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg></a>
             </div>
         </div>
     </section>
