@@ -258,14 +258,52 @@ include __DIR__ . '/../header.php';
                 <p class="text-slate-600 text-sm max-w-2xl mx-auto">We leverage robust tracking and advertising platforms to ensure every marketing dollar spent is definitively accounted for.</p>
             </div>
             
-            <div class="flex flex-wrap justify-center gap-3">
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-orange/50 transition-colors">Google Ads</span>
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-orange/50 transition-colors">Meta Ads Manager</span>
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-orange/50 transition-colors">LinkedIn Campaign Manager</span>
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-orange/50 transition-colors">Google Analytics 4 (GA4)</span>
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-orange/50 transition-colors">Google Tag Manager</span>
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-orange/50 transition-colors">HubSpot CRM</span>
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-orange/50 transition-colors">Looker Studio</span>
+            <!-- Interactive Platforms Grid -->
+            <div class="flex flex-wrap justify-center gap-4 lg:gap-6 mt-10">
+                <!-- Google Ads -->
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#4285F4]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(66,133,244,0.15)] hover:border-[#4285F4]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#4285F4]/10 flex items-center justify-center group-hover:bg-[#4285F4] transition-colors relative">
+                        <svg class="w-6 h-6 text-[#4285F4] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line></svg>
+                        <div class="absolute inset-0 bg-[#4285F4] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                    </div>
+                    <span class="text-slate-800 font-bold tracking-tight text-base">Google Ads</span>
+                </div>
+
+                <!-- Meta Ads Manager -->
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#0668E1]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(6,104,225,0.15)] hover:border-[#0668E1]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#0668E1]/10 flex items-center justify-center group-hover:bg-[#0668E1] transition-colors relative">
+                        <svg class="w-6 h-6 text-[#0668E1] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>
+                        <div class="absolute inset-0 bg-[#0668E1] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                    </div>
+                    <span class="text-slate-800 font-bold tracking-tight text-base">Meta Ads</span>
+                </div>
+
+                <!-- LinkedIn Campaign Manager -->
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#0A66C2]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(10,102,194,0.15)] hover:border-[#0A66C2]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#0A66C2]/10 flex items-center justify-center group-hover:bg-[#0A66C2] transition-colors relative">
+                        <svg class="w-6 h-6 text-[#0A66C2] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        <div class="absolute inset-0 bg-[#0A66C2] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                    </div>
+                    <span class="text-slate-800 font-bold tracking-tight text-base">LinkedIn Ads</span>
+                </div>
+
+                <!-- Google Analytics 4 -->
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#F4B400]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(244,180,0,0.15)] hover:border-[#F4B400]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#F4B400]/10 flex items-center justify-center group-hover:bg-[#F4B400] transition-colors relative">
+                        <svg class="w-6 h-6 text-[#F4B400] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                        <div class="absolute inset-0 bg-[#F4B400] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                    </div>
+                    <span class="text-slate-800 font-bold tracking-tight text-base">GA4</span>
+                </div>
+
+                <!-- HubSpot CRM -->
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#FF7A59]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(255,122,89,0.15)] hover:border-[#FF7A59]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#FF7A59]/10 flex items-center justify-center group-hover:bg-[#FF7A59] transition-colors relative">
+                        <svg class="w-6 h-6 text-[#FF7A59] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        <div class="absolute inset-0 bg-[#FF7A59] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                    </div>
+                    <span class="text-slate-800 font-bold tracking-tight text-base">HubSpot CRM</span>
+                </div>
             </div>
         </div>
     </section>
