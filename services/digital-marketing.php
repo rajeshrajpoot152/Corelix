@@ -353,26 +353,27 @@ include __DIR__ . '/../header.php';
     
 
     <!-- Featured Case Studies -->
-    <section class="py-24 bg-white border-b border-gray-200 relative overflow-hidden">
+    <section class="py-24 bg-slate-950 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <span class="text-brand-orange font-bold tracking-widest uppercase text-sm mb-4 block">Case Studies</span>
-                <h2 class="text-3xl lg:text-5xl font-black text-slate-900 font-heading mb-6">Proven Business Impact</h2>
-                <p class="text-slate-600 text-lg max-w-2xl mx-auto">Data-driven campaigns designed for absolute maximum ROI. Discover how our performance marketing turns advertising budgets into explosive business growth.</p>
+                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">Proven Business Impact</h2>
+                <p class="text-slate-400 text-lg max-w-2xl mx-auto">Data-driven campaigns designed for absolute maximum ROI. Discover how our performance marketing turns advertising budgets into explosive business growth.</p>
             </div>
             
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-md hover:bg-white/10 hover:border-brand-orange/30 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-orange/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
                     <div class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-orange"></div>Healthcare Provider</div>
-                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Generated 500+ qualified leads per month</h3>
-                    <p class="text-slate-600 text-base mb-6 leading-relaxed">We overhauled their entire PPC infrastructure and redesigned ad landing pages, dramatically increasing conversion rates while heavily slashing their cost-per-click.</p>
+                    <h3 class="text-2xl font-bold text-white font-heading mb-4">Generated 500+ qualified leads per month</h3>
+                    <p class="text-slate-400 text-base mb-6 leading-relaxed">We overhauled their entire PPC infrastructure and redesigned ad landing pages, dramatically increasing conversion rates while heavily slashing their cost-per-click.</p>
                     <div class="flex gap-4">
                         <div>
                             <div class="text-4xl font-black text-brand-orange font-heading mb-1">3x</div>
                             <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Lead Volume</div>
                         </div>
-                        <div class="w-px bg-gray-200 mx-2"></div>
+                        <div class="w-px bg-white/10 mx-2"></div>
                         <div>
                             <div class="text-4xl font-black text-brand-orange font-heading mb-1">60%</div>
                             <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Lower CPC</div>
@@ -380,17 +381,17 @@ include __DIR__ . '/../header.php';
                     </div>
                 </div>
                 
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-md hover:bg-white/10 hover:border-brand-orange/30 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-orange/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
                     <div class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-orange"></div>D2C Fashion Brand</div>
-                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Scaled ROAS to 4.5x on Meta & Google</h3>
-                    <p class="text-slate-600 text-base mb-6 leading-relaxed">Implemented dynamic retargeting and advanced AI-driven bidding strategies that maximized their seasonal marketing budgets and accelerated global sales.</p>
+                    <h3 class="text-2xl font-bold text-white font-heading mb-4">Scaled ROAS to 4.5x on Meta & Google</h3>
+                    <p class="text-slate-400 text-base mb-6 leading-relaxed">Implemented dynamic retargeting and advanced AI-driven bidding strategies that maximized their seasonal marketing budgets and accelerated global sales.</p>
                     <div class="flex gap-4">
                         <div>
                             <div class="text-4xl font-black text-brand-orange font-heading mb-1">4.5x</div>
                             <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Return on Ad Spend</div>
                         </div>
-                        <div class="w-px bg-gray-200 mx-2"></div>
+                        <div class="w-px bg-white/10 mx-2"></div>
                         <div>
                             <div class="text-4xl font-black text-brand-orange font-heading mb-1">200%</div>
                             <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Sales Growth</div>
