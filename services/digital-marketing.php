@@ -285,7 +285,7 @@ include __DIR__ . '/../header.php';
             <div class="text-center mb-16">
                 <span class="text-brand-orange font-bold tracking-widest uppercase text-sm mb-4 block">Case Studies</span>
                 <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">Proven Business Impact</h2>
-                <p class="text-slate-600 text-lg max-w-2xl mx-auto">We don't just deliver services; we engineer measurable growth. Explore our recent enterprise transformations.</p>
+                <p class="text-slate-600 text-lg max-w-2xl mx-auto">Data-driven campaigns designed for absolute maximum ROI. Discover how our performance marketing turns advertising budgets into explosive business growth.</p>
             </div>
             
             <div class="grid md:grid-cols-2 gap-8">
@@ -327,7 +327,7 @@ include __DIR__ . '/../header.php';
             </div>
             
             <div class="text-center mt-12">
-                <a href="/industry" class="inline-flex items-center justify-center gap-2 bg-brand-orange hover:bg-slate-900 text-white px-8 py-4 rounded-full font-bold transition-all duration-300 shadow-xl shadow-brand-orange/20 hover:shadow-2xl hover:shadow-slate-900/20 hover:-translate-y-1 group">Explore Our Work by Industry <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg></a>
+                <a href="/industry" class="inline-flex items-center justify-center gap-2 bg-brand-orange hover:bg-slate-900 text-white px-8 py-4 rounded-full font-bold transition-all duration-300 shadow-xl shadow-brand-orange/20 hover:shadow-2xl hover:shadow-slate-900/20 hover:-translate-y-1 group">View Marketing Results <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg></a>
             </div>
         </div>
     </section>
