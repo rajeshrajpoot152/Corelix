@@ -486,28 +486,70 @@ include __DIR__ . '/../header.php';
                 infrastructure to ensure your automations remain fast, compliant, and infinitely scalable.</p>
         </div>
 
-        <div class="flex flex-wrap justify-center gap-3">
-            <span
-                class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-red/50 transition-colors">Python
-                & Node.js</span>
-            <span
-                class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-red/50 transition-colors">Make.com
-                & Zapier</span>
-            <span
-                class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-red/50 transition-colors">WhatsApp
-                Cloud API</span>
-            <span
-                class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-red/50 transition-colors">Google
-                Cloud & AWS</span>
-            <span
-                class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-red/50 transition-colors">Salesforce
-                & HubSpot</span>
-            <span
-                class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-red/50 transition-colors">Zoho
-                CRM</span>
-            <span
-                class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-red/50 transition-colors">Tally
-                API</span>
+        <!-- Interactive Technology Grid -->
+        <div class="flex flex-wrap justify-center gap-4 lg:gap-6 mt-10">
+            <!-- Python & Node.js -->
+            <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#3776AB]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(55,118,171,0.15)] hover:border-[#3776AB]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                <div class="w-12 h-12 rounded-2xl bg-[#3776AB]/10 flex items-center justify-center group-hover:bg-[#3776AB] transition-colors relative">
+                    <svg class="w-6 h-6 text-[#3776AB] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    <div class="absolute inset-0 bg-[#3776AB] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                </div>
+                <span class="text-slate-800 font-bold tracking-tight text-base">Python & Node.js</span>
+            </div>
+
+            <!-- Make.com & Zapier -->
+            <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#FF4A00]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(255,74,0,0.15)] hover:border-[#FF4A00]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                <div class="w-12 h-12 rounded-2xl bg-[#FF4A00]/10 flex items-center justify-center group-hover:bg-[#FF4A00] transition-colors relative">
+                    <svg class="w-6 h-6 text-[#FF4A00] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    <div class="absolute inset-0 bg-[#FF4A00] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                </div>
+                <span class="text-slate-800 font-bold tracking-tight text-base">Make & Zapier</span>
+            </div>
+
+            <!-- WhatsApp Cloud API -->
+            <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#25D366]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(37,211,102,0.15)] hover:border-[#25D366]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                <div class="w-12 h-12 rounded-2xl bg-[#25D366]/10 flex items-center justify-center group-hover:bg-[#25D366] transition-colors relative">
+                    <svg class="w-6 h-6 text-[#25D366] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                    <div class="absolute inset-0 bg-[#25D366] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                </div>
+                <span class="text-slate-800 font-bold tracking-tight text-base">WhatsApp API</span>
+            </div>
+
+            <!-- Google Cloud & AWS -->
+            <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#4285F4]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(66,133,244,0.15)] hover:border-[#4285F4]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                <div class="w-12 h-12 rounded-2xl bg-[#4285F4]/10 flex items-center justify-center group-hover:bg-[#4285F4] transition-colors relative">
+                    <svg class="w-6 h-6 text-[#4285F4] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+                    <div class="absolute inset-0 bg-[#4285F4] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                </div>
+                <span class="text-slate-800 font-bold tracking-tight text-base">Google Cloud & AWS</span>
+            </div>
+
+            <!-- Salesforce & HubSpot -->
+            <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#FF7A59]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(255,122,89,0.15)] hover:border-[#FF7A59]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                <div class="w-12 h-12 rounded-2xl bg-[#FF7A59]/10 flex items-center justify-center group-hover:bg-[#FF7A59] transition-colors relative">
+                    <svg class="w-6 h-6 text-[#FF7A59] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    <div class="absolute inset-0 bg-[#FF7A59] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                </div>
+                <span class="text-slate-800 font-bold tracking-tight text-base">Salesforce & HubSpot</span>
+            </div>
+
+            <!-- Zoho CRM -->
+            <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#E1261C]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(225,38,28,0.15)] hover:border-[#E1261C]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                <div class="w-12 h-12 rounded-2xl bg-[#E1261C]/10 flex items-center justify-center group-hover:bg-[#E1261C] transition-colors relative">
+                    <svg class="w-6 h-6 text-[#E1261C] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                    <div class="absolute inset-0 bg-[#E1261C] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                </div>
+                <span class="text-slate-800 font-bold tracking-tight text-base">Zoho CRM</span>
+            </div>
+
+            <!-- Tally API -->
+            <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#059669]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(5,150,105,0.15)] hover:border-[#059669]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                <div class="w-12 h-12 rounded-2xl bg-[#059669]/10 flex items-center justify-center group-hover:bg-[#059669] transition-colors relative">
+                    <svg class="w-6 h-6 text-[#059669] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+                    <div class="absolute inset-0 bg-[#059669] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                </div>
+                <span class="text-slate-800 font-bold tracking-tight text-base">Tally API</span>
+            </div>
         </div>
     </div>
 </section>
