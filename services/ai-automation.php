@@ -315,65 +315,65 @@ include __DIR__ . '/../header.php';
                 performance.</p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div
-                class="bg-gray-50 p-8 rounded-3xl border border-gray-200 text-center hover:border-brand-red/30 transition-colors">
-                <div
-                    class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-6 border border-gray-200">
-                    <span class="text-xl font-bold text-slate-900">GPT</span>
-                </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2 font-heading">ChatGPT</h3>
-                <h4 class="text-xs font-bold text-brand-red mb-4 uppercase tracking-wider font-heading">The Communicator
-                </h4>
-                <p class="text-slate-600 text-sm leading-relaxed">The ideal model for dynamic customer service chatbots,
-                    drafting natural emails, and organizing unstructured client data efficiently.</p>
-            </div>
-
-            <div
-                class="bg-gray-50 p-8 rounded-3xl border border-gray-200 text-center hover:border-brand-orange/30 transition-colors">
-                <div
-                    class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-6 border border-gray-200">
-                    <span class="text-xl font-bold text-slate-900">Gem</span>
-                </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2 font-heading">Gemini</h3>
-                <h4 class="text-xs font-bold text-brand-orange mb-4 uppercase tracking-wider font-heading">The
-                    Researcher</h4>
-                <p class="text-slate-600 text-sm leading-relaxed">Excels at processing massive documents, analyzing
-                    spreadsheets, and integrating deeply with your Google Workspace ecosystem.</p>
-            </div>
-
-            <div
-                class="bg-gray-50 p-8 rounded-3xl border border-gray-200 text-center hover:border-brand-red/30 transition-colors">
-                <div
-                    class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-6 border border-gray-200">
-                    <span class="text-xl font-bold text-slate-900">Cld</span>
-                </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2 font-heading">Claude</h3>
-                <h4 class="text-xs font-bold text-brand-red mb-4 uppercase tracking-wider font-heading">The Precision
-                    Engine</h4>
-                <p class="text-slate-600 text-sm leading-relaxed">Perfect for complex logical tasks, analyzing long-form
-                    contracts, and providing highly accurate, context-aware responses seamlessly.</p>
-            </div>
-
-            <div
-                class="bg-gray-50 p-8 rounded-3xl border border-gray-200 text-center hover:border-brand-orange/30 transition-colors">
-                <div
-                    class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-6 border border-gray-200">
-                    <svg class="w-6 h-6 text-slate-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 xl:gap-8">
+            <!-- ChatGPT -->
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(16,163,127,0.12)] hover:border-[#10a37f]/30 hover:-translate-y-2 transition-all duration-500 relative group overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#10a37f]/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
+                <div class="w-16 h-16 rounded-2xl bg-[#10a37f]/10 flex items-center justify-center mb-6 group-hover:bg-[#10a37f] transition-colors relative shadow-sm">
+                    <svg class="w-8 h-8 text-[#10a37f] group-hover:text-white transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.073zm-9.022 12.108a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-2.1466zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.8956zm16.0993 3.8558L12.5973 8.3829v-2.3324a.0757.0757 0 0 1 .0332-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.1408 2.1466 4.4708 4.4708 0 0 1 .5346 3.0137l-.1419-.0852-4.783-2.7582a.7712.7712 0 0 0-.7806 0l-5.8428 3.3685zm.8504-8.4547a4.485 4.485 0 0 1-2.3655 1.9728V5.6811a.7664.7664 0 0 0-.3879-.6765L10.7228 1.6503l2.0201-1.1685a.0757.0757 0 0 1 .071 0l4.8303 2.7866a4.504 4.504 0 0 1-2.3655 8.4547z"/>
                     </svg>
+                    <div class="absolute inset-0 bg-[#10a37f] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
                 </div>
-                <h3 class="text-xl font-bold text-slate-900 mb-2 font-heading">Custom LLMs</h3>
-                <h4 class="text-xs font-bold text-brand-orange mb-4 uppercase tracking-wider font-heading">The
-                    Specialist</h4>
-                <p class="text-slate-600 text-sm leading-relaxed">When public tools aren't enough, we build and deploy
-                    proprietary AI models trained strictly on your secure internal business data.</p>
+                <h3 class="text-xl font-bold text-slate-900 mb-1 font-heading">ChatGPT</h3>
+                <h4 class="text-xs font-bold text-[#10a37f] mb-4 uppercase tracking-wider font-heading">The Communicator</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">The ideal model for dynamic customer service chatbots, drafting natural emails, and organizing unstructured client data efficiently.</p>
+            </div>
+
+            <!-- Gemini -->
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(66,133,244,0.12)] hover:border-[#4285F4]/30 hover:-translate-y-2 transition-all duration-500 relative group overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#4285F4]/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
+                <div class="w-16 h-16 rounded-2xl bg-[#4285F4]/10 flex items-center justify-center mb-6 group-hover:bg-[#4285F4] transition-colors relative shadow-sm">
+                    <svg class="w-8 h-8 text-[#4285F4] group-hover:text-white transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2l1.6 5.2 5.2 1.6-5.2 1.6L12 22l-1.6-5.2-5.2-1.6 5.2-1.6L12 2zm0 8.4l-.8 2.4-2.4.8 2.4.8.8 2.4.8-2.4 2.4-.8-2.4-.8-.8-2.4z"/>
+                    </svg>
+                    <div class="absolute inset-0 bg-[#4285F4] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-1 font-heading">Gemini</h3>
+                <h4 class="text-xs font-bold text-[#4285F4] mb-4 uppercase tracking-wider font-heading">The Researcher</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Excels at processing massive documents, analyzing spreadsheets, and integrating deeply with your Google Workspace ecosystem.</p>
+            </div>
+
+            <!-- Claude -->
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(204,120,92,0.12)] hover:border-[#CC785C]/30 hover:-translate-y-2 transition-all duration-500 relative group overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#CC785C]/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
+                <div class="w-16 h-16 rounded-2xl bg-[#CC785C]/10 flex items-center justify-center mb-6 group-hover:bg-[#CC785C] transition-colors relative shadow-sm">
+                    <svg class="w-8 h-8 text-[#CC785C] group-hover:text-white transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-2h2v2zm0-4h-2V7h2v6zm4 4h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                    </svg>
+                    <div class="absolute inset-0 bg-[#CC785C] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-1 font-heading">Claude</h3>
+                <h4 class="text-xs font-bold text-[#CC785C] mb-4 uppercase tracking-wider font-heading">The Precision Engine</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Perfect for complex logical tasks, analyzing long-form contracts, and providing highly accurate, context-aware responses seamlessly.</p>
+            </div>
+
+            <!-- Custom LLMs -->
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(225,38,28,0.12)] hover:border-brand-red/30 hover:-translate-y-2 transition-all duration-500 relative group overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-red/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
+                <div class="w-16 h-16 rounded-2xl bg-brand-red/10 flex items-center justify-center mb-6 group-hover:bg-brand-red transition-colors relative shadow-sm">
+                    <svg class="w-8 h-8 text-brand-red group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                    <div class="absolute inset-0 bg-brand-red blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-1 font-heading">Custom LLMs</h3>
+                <h4 class="text-xs font-bold text-brand-red mb-4 uppercase tracking-wider font-heading">The Specialist</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">When public tools aren't enough, we build and deploy proprietary AI models trained strictly on your secure internal business data.</p>
             </div>
         </div>
     </div>
 </section>
-
 <!-- 06. Our Workflow (Discover to Scale) with Image -->
 <section class="py-20 bg-gray-50 border-b border-gray-200">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
