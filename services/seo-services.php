@@ -48,7 +48,7 @@ include __DIR__ . '/../header.php';
                     </p>
                     <ul class="grid gap-6">
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
-                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-green to-emerald-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">âœ•</div>
+                            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-green to-emerald-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">&#10006;</div>
                             <div>
                                 <h4 class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-green transition-colors font-heading">Broken Website Code</h4>
                                 <p class="text-slate-600 text-sm leading-relaxed">Slow loading speeds and poor mobile design silently kill your Google rankings and drive visitors away.</p>
