@@ -554,27 +554,43 @@ include __DIR__ . '/../header.php';
     </div>
 </section>
 
-<!-- 08. Social Proof & Benefits -->
-<section class="py-16 bg-gradient-to-r from-red-50 to-brand-red/50 border-y border-brand-red">
+<!-- 08. Social Proof & Benefits (Bubble Chart Layout) -->
+<section class="py-24 bg-gray-50 border-t border-gray-200 overflow-hidden">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-                <div class="text-4xl md:text-5xl font-black text-slate-900 mb-2">24/7</div>
-                <div class="text-brand-red font-bold uppercase text-xs tracking-wider mt-2">Uninterrupted Availability
-                </div>
+        <div class="text-center mb-12">
+            <span class="text-brand-red font-bold tracking-widest uppercase text-sm mb-4 block">Proven Results</span>
+            <h2 class="text-3xl md:text-4xl font-black text-slate-900 font-heading mb-4">Transformative AI Outcomes</h2>
+            <p class="text-slate-600 text-lg max-w-2xl mx-auto">See how integrating intelligent automation directly translates into massive time savings, zero-error operations, and unstoppable business growth.</p>
+        </div>
+        
+        <div class="flex flex-col lg:flex-row items-center justify-center -space-y-4 lg:space-y-0 lg:-space-x-12 py-10 relative z-10">
+            
+            <!-- Bubble 1 -->
+            <div class="relative z-10 flex flex-col justify-center items-center text-center w-40 h-40 lg:w-52 lg:h-52 rounded-full bg-white shadow-xl border border-gray-100 hover:scale-110 transition-transform duration-500 cursor-default">
+                <div class="text-3xl lg:text-5xl font-black text-slate-900 mb-1">24/7</div>
+                <div class="text-slate-500 font-bold uppercase text-[9px] lg:text-xs tracking-wider px-4">Uninterrupted<br>Availability</div>
             </div>
-            <div>
-                <div class="text-4xl md:text-5xl font-black text-slate-900 mb-2">80%</div>
-                <div class="text-brand-red font-bold uppercase text-xs tracking-wider mt-2">Drop in Manual Tasks</div>
+
+            <!-- Bubble 2 -->
+            <div class="relative z-20 flex flex-col justify-center items-center text-center w-48 h-48 lg:w-64 lg:h-64 rounded-full bg-slate-900 shadow-2xl hover:scale-110 transition-transform duration-500 cursor-default">
+                <div class="absolute inset-0 bg-white/5 rounded-full mix-blend-overlay"></div>
+                <div class="text-4xl lg:text-6xl font-black text-white mb-2">80<span class="text-3xl">%</span></div>
+                <div class="text-brand-red font-bold uppercase text-xs tracking-widest px-8">Drop in Manual<br>Tasks</div>
             </div>
-            <div>
-                <div class="text-4xl md:text-5xl font-black text-slate-900 mb-2">5x</div>
-                <div class="text-brand-red font-bold uppercase text-xs tracking-wider mt-2">Faster Lead Response</div>
+
+            <!-- Bubble 3 -->
+            <div class="relative z-10 flex flex-col justify-center items-center text-center w-40 h-40 lg:w-56 lg:h-56 rounded-full bg-white shadow-xl border border-gray-100 hover:scale-110 transition-transform duration-500 cursor-default">
+                <div class="text-3xl lg:text-5xl font-black text-slate-900 mb-1">5x</div>
+                <div class="text-slate-500 font-bold uppercase text-[9px] lg:text-xs tracking-wider px-6">Faster Lead<br>Response</div>
             </div>
-            <div>
-                <div class="text-4xl md:text-5xl font-black text-slate-900 mb-2">100%</div>
-                <div class="text-brand-red font-bold uppercase text-xs tracking-wider mt-2">Data Accuracy</div>
+
+            <!-- Bubble 4 -->
+            <div class="relative z-30 flex flex-col justify-center items-center text-center w-56 h-56 lg:w-72 lg:h-72 rounded-full bg-gradient-to-br from-brand-red to-[#cc0000] shadow-2xl shadow-brand-red/40 hover:scale-110 transition-transform duration-500 cursor-default">
+                <div class="absolute inset-0 bg-white/10 rounded-full mix-blend-overlay"></div>
+                <div class="text-5xl lg:text-7xl font-black text-white mb-2">100<span class="text-4xl">%</span></div>
+                <div class="text-white/90 font-bold uppercase text-xs md:text-sm tracking-widest px-10">Data<br>Accuracy</div>
             </div>
+
         </div>
     </div>
 </section>
