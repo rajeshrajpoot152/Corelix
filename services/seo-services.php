@@ -374,7 +374,7 @@ include __DIR__ . '/../header.php';
     
 
     <!-- Featured Case Studies -->
-    <section class="py-24 bg-white border-b border-gray-200 relative overflow-hidden">
+    <section class="py-24 bg-slate-50 border-b border-gray-200 relative overflow-hidden">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <span class="text-brand-green font-bold tracking-widest uppercase text-sm mb-4 block">Case Studies</span>
