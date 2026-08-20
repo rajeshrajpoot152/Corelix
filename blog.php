@@ -32,9 +32,17 @@ if (file_exists($jsonFile)) {
         </h1>
         
         <!-- Page Subtitle -->
-        <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium">
-            Explore our thoughts on the future of AI, actionable SEO strategies, and the evolving landscape of Web Development.
+        <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium leading-relaxed">
+            Read actionable growth strategies, tech insights, and proven case studies on how custom software and marketing can scale your business.
         </p>
+        
+        <!-- CTA Button -->
+        <div class="mt-8">
+            <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="group relative inline-flex items-center gap-2 px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all duration-300 text-sm border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Get a Free Business Audit">
+                Get a Free Business Audit
+                <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
+            </a>
+        </div>
     </div>
 </section>
 
