@@ -174,59 +174,61 @@ include __DIR__ . '/../header.php';
     </section>
 
     <!-- 04. Why Choose Us (Benefits Integration) -->
-    <section class="py-20 bg-gray-50 border-b border-gray-200">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="py-24 bg-slate-950 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold text-slate-900 font-heading">Why Businesses Trust Our Engineering</h2>
-                <p class="mt-4 text-slate-600 text-lg max-w-3xl mx-auto">We deliver complete digital ecosystems, not just code. For over 14 years, our dedicated team has maintained absolute standards for quality, transparency, and professional delivery.</p>
+                <span class="text-brand-blue font-bold tracking-widest uppercase text-sm mb-4 block">Top-Tier Engineering</span>
+                <h2 class="text-4xl md:text-5xl font-black font-heading mb-6">Why Businesses Trust Our Engineering</h2>
+                <p class="text-slate-400 text-lg max-w-3xl mx-auto">We deliver complete digital ecosystems, not just code. For over 14 years, our dedicated team has maintained absolute standards for quality, transparency, and professional delivery.</p>
             </div>            <div class="grid md:grid-cols-3 gap-6">
                 <!-- Point 1 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-brand-blue/5 hover:-translate-y-1 transition-all duration-300 group">
-                    <div class="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
+                    <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading">100% Client Satisfaction</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">We measure our success through your operational growth. Our professional priority is delivering thoroughly tested, bug-free products that foster user loyalty.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">100% Client Satisfaction</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">We measure our success through your operational growth. Our professional priority is delivering thoroughly tested, bug-free products that foster user loyalty.</p>
                 </div>
                 <!-- Point 2 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-brand-blue/5 hover:-translate-y-1 transition-all duration-300 group">
-                    <div class="w-12 h-12 rounded-2xl bg-cyan-50 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
+                    <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading">On-Time Delivery</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">Time directly impacts your bottom line. Our decisive agile project management ensures we meet deadlines consistently without sacrificing our standard of excellence.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">On-Time Delivery</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Time directly impacts your bottom line. Our decisive agile project management ensures we meet deadlines consistently without sacrificing our standard of excellence.</p>
                 </div>
                 <!-- Point 3 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-indigo-500/5 hover:-translate-y-1 transition-all duration-300 group">
-                    <div class="w-12 h-12 rounded-2xl bg-indigo-50 flex items-center justify-center text-indigo-600 mb-6 group-hover:scale-110 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-300 shadow-sm">
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
+                    <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading">SEO-Friendly Architecture</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">We structure your web applications using clean, semantic code and server-side rendering, helping your platforms rank effectively and attract organic traffic.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">SEO-Friendly Architecture</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">We structure your web applications using clean, semantic code and server-side rendering, helping your platforms rank effectively and attract organic traffic.</p>
                 </div>
                 <!-- Point 4 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-purple-500/5 hover:-translate-y-1 transition-all duration-300 group">
-                    <div class="w-12 h-12 rounded-2xl bg-purple-50 flex items-center justify-center text-purple-600 mb-6 group-hover:scale-110 group-hover:bg-purple-600 group-hover:text-white transition-all duration-300 shadow-sm">
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
+                    <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading">Inspiring UI/UX Design</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">Our team crafts custom layouts that match your brand persona. <a href="/UI-UX-Branding-and-Design/UI-UX-Branding-and-Design.html" class="text-brand-blue hover:underline font-semibold inline-flex items-center gap-1 mt-1">Explore UI/UX Branding &rarr;</a></p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">Inspiring UI/UX Design</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Our team crafts custom layouts that match your brand persona. <a href="/UI-UX-Branding-and-Design/UI-UX-Branding-and-Design.html" class="text-brand-blue hover:underline font-semibold inline-flex items-center gap-1 mt-1">Explore UI/UX Branding &rarr;</a></p>
                 </div>
                 <!-- Point 5 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-emerald-500/5 hover:-translate-y-1 transition-all duration-300 group">
-                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 flex items-center justify-center text-emerald-600 mb-6 group-hover:scale-110 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-300 shadow-sm">
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
+                    <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading">Value-Driven Pricing</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">Enterprise-grade software should not require blind spending. We offer straightforward, competitive pricing models designed to maximize your return on investment.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">Value-Driven Pricing</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Enterprise-grade software should not require blind spending. We offer straightforward, competitive pricing models designed to maximize your return on investment.</p>
                 </div>
                 <!-- Point 6 -->
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-sky-500/5 hover:-translate-y-1 transition-all duration-300 group">
-                    <div class="w-12 h-12 rounded-2xl bg-sky-50 flex items-center justify-center text-sky-600 mb-6 group-hover:scale-110 group-hover:bg-sky-600 group-hover:text-white transition-all duration-300 shadow-sm">
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
+                    <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading">24/7 Post-Launch Support</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">Our commitment continues long after deployment. We offer proactive post-launch support to resolve potential issues swiftly, allowing you to focus on your core business.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">24/7 Post-Launch Support</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Our commitment continues long after deployment. We offer proactive post-launch support to resolve potential issues swiftly, allowing you to focus on your core business.</p>
                 </div>
             </div>          </div>
         </div>
