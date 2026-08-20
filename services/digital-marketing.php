@@ -179,59 +179,77 @@ include __DIR__ . '/../header.php';
 
     
       <!-- 04. Our Workflow (Audit to Scale) -->
-      <section class="py-24 bg-gray-50 border-b border-gray-200">
-          <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-              <div class="text-center mb-16">
-                  <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">Our Outstanding Marketing Lifecycle</h2>
-                  <p class="mt-4 text-slate-600 text-lg max-w-2xl mx-auto">A systematic, data-driven methodology for launching and scaling highly profitable campaigns.</p>
-              </div>
-  
-              <div class="space-y-6 relative max-w-4xl mx-auto">
-                  <!-- Timeline connecting line -->
-                  <div class="absolute left-[47px] top-10 bottom-10 w-px bg-gradient-to-b from-brand-orange/30 via-brand-orange/30 to-transparent hidden sm:block"></div>
-                  
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-orange hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                      <div class="w-12 h-12 rounded-2xl bg-orange-50 text-brand-orange font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">1</div>
-                      <div>
-                          <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-orange transition-colors">Audit</h3>
-                          <p class="text-slate-600 text-sm leading-relaxed">We analyze your historical data and competitor strategies to uncover advanced opportunities for growth.</p>
-                      </div>
-                  </div>
+      <!-- 04. Our Outstanding Marketing Lifecycle -->
+    <section class="py-24 bg-slate-950 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-brand-orange/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
+        
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-black text-white font-heading mb-6">Our Outstanding Marketing Lifecycle</h2>
+                <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto">A systematic, data-driven methodology for launching and scaling highly profitable campaigns.</p>
+            </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-orange hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                      <div class="w-12 h-12 rounded-2xl bg-orange-50 text-brand-orange font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">2</div>
-                      <div>
-                          <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-orange transition-colors">Strategy</h3>
-                          <p class="text-slate-600 text-sm leading-relaxed">We map out the customer journey, defining effective platforms, optimal budgets, and precise targeting parameters.</p>
-                      </div>
-                  </div>
+            <div class="relative max-w-7xl mx-auto mt-20">
+                <!-- Horizontal Dashed Connecting Line (Desktop) -->
+                <div class="absolute top-[2.5rem] left-[10%] right-[10%] h-[2px] border-t-[3px] border-dashed border-white/10 hidden lg:block z-0"></div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-4 relative z-10">
+                    
+                    <!-- Step 1 -->
+                    <div class="group relative flex flex-col items-center text-center">
+                        <div class="w-20 h-20 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center mb-6 group-hover:border-brand-orange group-hover:scale-110 transition-all duration-500 relative shadow-2xl">
+                            <span class="text-2xl font-black text-slate-500 group-hover:text-brand-orange transition-colors">1</span>
+                            <div class="absolute inset-0 rounded-full border border-brand-orange/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-orange/50 border-dashed transition-all"></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Audit</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We analyze your historical data and competitor strategies to uncover advanced opportunities for growth.</p>
+                    </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-orange hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                      <div class="w-12 h-12 rounded-2xl bg-orange-50 text-brand-orange font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">3</div>
-                      <div>
-                          <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-orange transition-colors">Creative</h3>
-                          <p class="text-slate-600 text-sm leading-relaxed">Our creative team produces multiple variations of ad creatives and landing pages to test robust psychological hooks.</p>
-                      </div>
-                  </div>
+                    <!-- Step 2 -->
+                    <div class="group relative flex flex-col items-center text-center">
+                        <div class="w-20 h-20 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center mb-6 group-hover:border-brand-orange group-hover:scale-110 transition-all duration-500 relative shadow-2xl">
+                            <span class="text-2xl font-black text-slate-500 group-hover:text-brand-orange transition-colors">2</span>
+                            <div class="absolute inset-0 rounded-full border border-brand-orange/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-orange/50 border-dashed transition-all"></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Strategy</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We map out the customer journey, defining effective platforms, optimal budgets, and precise targeting parameters.</p>
+                    </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-orange hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                      <div class="w-12 h-12 rounded-2xl bg-orange-50 text-brand-orange font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">4</div>
-                      <div>
-                          <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-orange transition-colors">Launch</h3>
-                          <p class="text-slate-600 text-sm leading-relaxed">Campaigns go live with optimized tracking pixels and conversion APIs configured to ensure perfectly accurate data collection.</p>
-                      </div>
-                  </div>
+                    <!-- Step 3 (Highlight) -->
+                    <div class="group relative flex flex-col items-center text-center lg:-mt-4">
+                        <div class="absolute top-10 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-brand-orange/30 rounded-full filter blur-[40px] pointer-events-none group-hover:bg-brand-orange/50 transition-colors"></div>
+                        <div class="w-24 h-24 rounded-full bg-brand-orange border-4 border-brand-orange/30 flex items-center justify-center mb-6 shadow-[0_0_40px_rgba(245,130,32,0.4)] group-hover:scale-110 transition-all duration-500 relative">
+                            <span class="text-3xl font-black text-white">3</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-brand-orange mb-3 font-heading">Creative</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed max-w-[220px]">Our creative team produces multiple variations of ad creatives and landing pages to test robust psychological hooks.</p>
+                    </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-orange hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                      <div class="w-12 h-12 rounded-2xl bg-orange-50 text-brand-orange font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">5</div>
-                      <div>
-                          <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-orange transition-colors">Scale</h3>
-                          <p class="text-slate-600 text-sm leading-relaxed">We identify the superior ad sets, pause underperformers, and systematically scale budgets to maximize your overall ROI.</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+                    <!-- Step 4 -->
+                    <div class="group relative flex flex-col items-center text-center">
+                        <div class="w-20 h-20 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center mb-6 group-hover:border-brand-orange group-hover:scale-110 transition-all duration-500 relative shadow-2xl">
+                            <span class="text-2xl font-black text-slate-500 group-hover:text-brand-orange transition-colors">4</span>
+                            <div class="absolute inset-0 rounded-full border border-brand-orange/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-orange/50 border-dashed transition-all"></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Launch</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">Campaigns go live with optimized tracking pixels and conversion APIs configured to ensure perfectly accurate data collection.</p>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="group relative flex flex-col items-center text-center">
+                        <div class="w-20 h-20 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center mb-6 group-hover:border-brand-orange group-hover:scale-110 transition-all duration-500 relative shadow-2xl">
+                            <span class="text-2xl font-black text-slate-500 group-hover:text-brand-orange transition-colors">5</span>
+                            <div class="absolute inset-0 rounded-full border border-brand-orange/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-orange/50 border-dashed transition-all"></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Scale</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We identify the superior ad sets, pause underperformers, and systematically scale budgets to maximize your overall ROI.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 <!-- 05. Tech Stack & Integration Platforms -->
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
