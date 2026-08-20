@@ -310,53 +310,56 @@ include __DIR__ . '/../header.php';
     
 
     <!-- Featured Case Studies -->
-    <section class="py-24 bg-slate-950 text-white border-b border-slate-800 relative overflow-hidden">
-        <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
-        <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-blue/10 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
+    <section class="py-24 bg-white border-b border-gray-200 relative overflow-hidden">
+        
+        <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-50/50 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
         
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-black font-heading mb-4">Proven Business Impact</h2>
-                <p class="text-slate-400 text-lg max-w-2xl mx-auto">We don't just deliver services; we engineer measurable growth. Explore our recent enterprise transformations.</p>
+                <span class="text-brand-blue font-bold tracking-widest uppercase text-sm mb-4 block">Case Studies</span>
+                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">Proven Business Impact</h2>
+                <p class="text-slate-600 text-lg max-w-2xl mx-auto">We don't just deliver services; we engineer measurable growth. Explore our recent enterprise transformations.</p>
             </div>
             
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors duration-300">
-                    <div class="text-brand-blue font-bold tracking-widest uppercase text-xs mb-2">Logistics Enterprise</div>
-                    <h3 class="text-2xl font-bold font-heading mb-4">Reduced overhead by 40% in 6 months</h3>
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">By implementing custom Web App workflows, we eliminated redundant manual entry and improved data accuracy across 3 global branches.</p>
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-blue/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
+                    <div class="text-brand-blue font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-blue"></div>Logistics Enterprise</div>
+                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Reduced overhead by 40% in 6 months</h3>
+                    <p class="text-slate-600 text-base mb-6 leading-relaxed">By implementing custom Web App workflows, we eliminated redundant manual entry and improved data accuracy across 3 global branches.</p>
                     <div class="flex gap-4">
                         <div>
-                            <div class="text-3xl font-black text-white">40%</div>
+                            <div class="text-4xl font-black text-brand-blue font-heading mb-1">40%</div>
                             <div class="text-xs text-slate-500 uppercase">Cost Reduction</div>
                         </div>
-                        <div class="w-px bg-white/10"></div>
+                        <div class="w-px bg-gray-200 mx-2"></div>
                         <div>
-                            <div class="text-3xl font-black text-white">2.5x</div>
+                            <div class="text-4xl font-black text-brand-blue font-heading mb-1">2.5x</div>
                             <div class="text-xs text-slate-500 uppercase">Speed Increase</div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors duration-300">
-                    <div class="text-brand-blue font-bold tracking-widest uppercase text-xs mb-2">FinTech Startup</div>
-                    <h3 class="text-2xl font-bold font-heading mb-4">Scaled user acquisition by 250%</h3>
-                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">Our comprehensive Web App architecture allowed the client to securely onboard thousands of users seamlessly without infrastructure breaks.</p>
+                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-blue/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
+                    <div class="text-brand-blue font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-blue"></div>FinTech Startup</div>
+                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Scaled user acquisition by 250%</h3>
+                    <p class="text-slate-600 text-base mb-6 leading-relaxed">Our comprehensive Web App architecture allowed the client to securely onboard thousands of users seamlessly without infrastructure breaks.</p>
                     <div class="flex gap-4">
                         <div>
-                            <div class="text-3xl font-black text-white">250%</div>
+                            <div class="text-4xl font-black text-brand-blue font-heading mb-1">250%</div>
                             <div class="text-xs text-slate-500 uppercase">Growth</div>
                         </div>
-                        <div class="w-px bg-white/10"></div>
+                        <div class="w-px bg-gray-200 mx-2"></div>
                         <div>
-                            <div class="text-3xl font-black text-white">100%</div>
+                            <div class="text-4xl font-black text-brand-blue font-heading mb-1">100%</div>
                             <div class="text-xs text-slate-500 uppercase">Uptime</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-12">
-                <a href="#contact" class="inline-flex items-center gap-2 text-white font-bold hover:text-brand-blue transition-colors">Read full case studies &rarr;</a>
+                <a href="#contact" class="inline-flex items-center gap-2 text-brand-blue font-bold hover:text-slate-900 transition-colors text-lg">Read full case studies &rarr;</a>
             </div>
         </div>
     </section>
