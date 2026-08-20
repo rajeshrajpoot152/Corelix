@@ -312,59 +312,59 @@ include __DIR__ . '/../header.php';
                 <p class="text-slate-600 text-sm max-w-2xl mx-auto">We utilize robust software to gather precise data, track competitors, and definitively measure our impact on your organic growth.</p>
             </div>
             
-            <div class="flex flex-wrap justify-center gap-5 lg:gap-8 mt-12">
+            <div class="flex flex-wrap justify-center gap-4 lg:gap-6 mt-10">
                 <!-- Ahrefs -->
-                <div class="flex items-center gap-4 px-8 py-5 bg-white border-2 border-[#f58220]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(245,130,32,0.15)] hover:border-[#f58220]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
-                    <div class="w-14 h-14 rounded-2xl bg-[#f58220]/10 flex items-center justify-center group-hover:bg-[#f58220] transition-colors relative">
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#f58220]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(245,130,32,0.15)] hover:border-[#f58220]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#f58220]/10 flex items-center justify-center group-hover:bg-[#f58220] transition-colors relative">
                         <div class="absolute inset-0 rounded-2xl bg-[#f58220]/20 blur-md -z-10 group-hover:bg-[#f58220]/40 transition-colors"></div>
-                        <svg class="w-7 h-7 text-[#f58220] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        <svg class="w-6 h-6 text-[#f58220] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                     </div>
-                    <span class="text-slate-900 font-black text-xl font-heading">Ahrefs</span>
+                    <span class="text-slate-900 font-black text-lg font-heading">Ahrefs</span>
                 </div>
                 
                 <!-- Semrush -->
-                <div class="flex items-center gap-4 px-8 py-5 bg-white border-2 border-[#ff642d]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(255,100,45,0.15)] hover:border-[#ff642d]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
-                    <div class="w-14 h-14 rounded-2xl bg-[#ff642d]/10 flex items-center justify-center group-hover:bg-[#ff642d] transition-colors relative">
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#ff642d]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(255,100,45,0.15)] hover:border-[#ff642d]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#ff642d]/10 flex items-center justify-center group-hover:bg-[#ff642d] transition-colors relative">
                         <div class="absolute inset-0 rounded-2xl bg-[#ff642d]/20 blur-md -z-10 group-hover:bg-[#ff642d]/40 transition-colors"></div>
-                        <svg class="w-7 h-7 text-[#ff642d] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
+                        <svg class="w-6 h-6 text-[#ff642d] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
                     </div>
-                    <span class="text-slate-900 font-black text-xl font-heading">Semrush</span>
+                    <span class="text-slate-900 font-black text-lg font-heading">Semrush</span>
                 </div>
                 
                 <!-- Screaming Frog -->
-                <div class="flex items-center gap-4 px-8 py-5 bg-white border-2 border-[#8fc33a]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(143,195,58,0.15)] hover:border-[#8fc33a]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
-                    <div class="w-14 h-14 rounded-2xl bg-[#8fc33a]/10 flex items-center justify-center group-hover:bg-[#8fc33a] transition-colors relative">
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#8fc33a]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(143,195,58,0.15)] hover:border-[#8fc33a]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#8fc33a]/10 flex items-center justify-center group-hover:bg-[#8fc33a] transition-colors relative">
                         <div class="absolute inset-0 rounded-2xl bg-[#8fc33a]/20 blur-md -z-10 group-hover:bg-[#8fc33a]/40 transition-colors"></div>
-                        <svg class="w-7 h-7 text-[#8fc33a] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="12" height="14" x="6" y="8" rx="4"/><path d="M12 11v6"/><path d="M9 14h6"/><path d="M6 12H2"/><path d="M6 16H2"/><path d="M22 12h-4"/><path d="M22 16h-4"/></svg>
+                        <svg class="w-6 h-6 text-[#8fc33a] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="12" height="14" x="6" y="8" rx="4"/><path d="M12 11v6"/><path d="M9 14h6"/><path d="M6 12H2"/><path d="M6 16H2"/><path d="M22 12h-4"/><path d="M22 16h-4"/></svg>
                     </div>
-                    <span class="text-slate-900 font-black text-xl font-heading">Screaming Frog</span>
+                    <span class="text-slate-900 font-black text-lg font-heading">Screaming Frog</span>
                 </div>
                 
                 <!-- Google Search Console -->
-                <div class="flex items-center gap-4 px-8 py-5 bg-white border-2 border-[#4285f4]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(66,133,244,0.15)] hover:border-[#4285f4]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
-                    <div class="w-14 h-14 rounded-2xl bg-[#4285f4]/10 flex items-center justify-center group-hover:bg-[#4285f4] transition-colors relative">
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#4285f4]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(66,133,244,0.15)] hover:border-[#4285f4]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#4285f4]/10 flex items-center justify-center group-hover:bg-[#4285f4] transition-colors relative">
                         <div class="absolute inset-0 rounded-2xl bg-[#4285f4]/20 blur-md -z-10 group-hover:bg-[#4285f4]/40 transition-colors"></div>
-                        <img src="/assets/images/google.svg" class="w-7 h-7" alt="Google">
+                        <img src="/assets/images/google.svg" class="w-6 h-6" alt="Google">
                     </div>
-                    <span class="text-slate-900 font-black text-xl font-heading">Search Console</span>
+                    <span class="text-slate-900 font-black text-lg font-heading">Search Console</span>
                 </div>
                 
                 <!-- PageSpeed Insights -->
-                <div class="flex items-center gap-4 px-8 py-5 bg-white border-2 border-[#34a853]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(52,168,83,0.15)] hover:border-[#34a853]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
-                    <div class="w-14 h-14 rounded-2xl bg-[#34a853]/10 flex items-center justify-center group-hover:bg-[#34a853] transition-colors relative">
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#34a853]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(52,168,83,0.15)] hover:border-[#34a853]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#34a853]/10 flex items-center justify-center group-hover:bg-[#34a853] transition-colors relative">
                         <div class="absolute inset-0 rounded-2xl bg-[#34a853]/20 blur-md -z-10 group-hover:bg-[#34a853]/40 transition-colors"></div>
-                        <svg class="w-7 h-7 text-[#34a853] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14l4-4"/><path d="M3.34 16.99a10 10 0 1 1 17.32 0"/></svg>
+                        <svg class="w-6 h-6 text-[#34a853] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14l4-4"/><path d="M3.34 16.99a10 10 0 1 1 17.32 0"/></svg>
                     </div>
-                    <span class="text-slate-900 font-black text-xl font-heading">PageSpeed</span>
+                    <span class="text-slate-900 font-black text-lg font-heading">PageSpeed</span>
                 </div>
                 
                 <!-- Surfer SEO -->
-                <div class="flex items-center gap-4 px-8 py-5 bg-white border-2 border-[#8b5cf6]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(139,92,246,0.15)] hover:border-[#8b5cf6]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
-                    <div class="w-14 h-14 rounded-2xl bg-[#8b5cf6]/10 flex items-center justify-center group-hover:bg-[#8b5cf6] transition-colors relative">
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#8b5cf6]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(139,92,246,0.15)] hover:border-[#8b5cf6]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#8b5cf6]/10 flex items-center justify-center group-hover:bg-[#8b5cf6] transition-colors relative">
                         <div class="absolute inset-0 rounded-2xl bg-[#8b5cf6]/20 blur-md -z-10 group-hover:bg-[#8b5cf6]/40 transition-colors"></div>
-                        <svg class="w-7 h-7 text-[#8b5cf6] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></svg>
+                        <svg class="w-6 h-6 text-[#8b5cf6] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></svg>
                     </div>
-                    <span class="text-slate-900 font-black text-xl font-heading">Surfer SEO</span>
+                    <span class="text-slate-900 font-black text-lg font-heading">Surfer SEO</span>
                 </div>
             </div>
         </div>
