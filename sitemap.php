@@ -25,6 +25,13 @@ include 'header.php';
         <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium">
             Explore all sections, pages, and services available across our digital ecosystem.
         </p>
+        <!-- CTA Button -->
+        <div class="mt-8">
+            <a href="/contact" class="group relative inline-flex items-center gap-2 px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all duration-300 text-sm border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Need Help? Contact Us">
+                Need Help? Contact Us
+                <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            </a>
+        </div>
     </div>
 </section>
 
