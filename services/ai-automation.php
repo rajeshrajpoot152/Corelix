@@ -32,8 +32,7 @@ include __DIR__ . '/../header.php';
 
         <!-- Subtitle -->
         <p class="text-base md:text-xl text-gray-300 max-w-3xl mx-auto font-medium leading-relaxed mb-10">
-            Eliminate manual tasks and supercharge productivity with custom AI agents and CRM workflows. We engineer
-            responsive automation systems and WhatsApp bots that capture leads and handle support 24/7.
+            Stop wasting time on manual data entry and repetitive tasks. We build custom AI agents and WhatsApp bots that run your business 24/7, handle customer support automatically, and save you money.
         </p>
     </div>
 </section>
@@ -49,12 +48,10 @@ include __DIR__ . '/../header.php';
             <!-- Text Content -->
             <div>
                 <h2 class="text-4xl md:text-5xl font-black text-slate-900 leading-tight mb-6 font-heading">
-                    Why Businesses Lose Revenue Every Single Hour.
+                    Why You Are Losing Sales While You Sleep.
                 </h2>
                 <p class="text-lg text-slate-600 leading-relaxed mb-8">
-                    In competitive markets, speed is an advantage your competitors cannot easily replicate. Attempting
-                    to solve operational bottlenecks by simply hiring more staff creates a leaky bucket where expensive
-                    marketing leads evaporate.
+                    If a customer messages your business at night and gets no reply, they will go to your competitor. Hiring a massive support team is expensive and hard to manage. We solve this by putting your customer support and lead generation on autopilot.
                 </p>
                 <ul class="grid gap-6">
                     <li
@@ -65,9 +62,8 @@ include __DIR__ . '/../header.php';
                         <div>
                             <h4
                                 class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-red transition-colors font-heading">
-                                The 5-Minute Rule</h4>
-                            <p class="text-slate-600 text-sm leading-relaxed">If you fail to provide a fast response to
-                                a digital inquiry within 5 minutes, your conversion probability drops by 80%.</p>
+                                Delayed Responses Cost You Money</h4>
+                            <p class="text-slate-600 text-sm leading-relaxed">If you don't reply to a customer within 5 minutes, there is an 80% chance they will buy from someone else.</p>
                         </div>
                     </li>
                     <li
@@ -78,9 +74,8 @@ include __DIR__ . '/../header.php';
                         <div>
                             <h4
                                 class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-red transition-colors font-heading">
-                                After-Hours Engagement</h4>
-                            <p class="text-slate-600 text-sm leading-relaxed">Over 65% of local leads message after 7
-                                PM&mdash;exactly when your office is closed and a proactive response is most needed.</p>
+                                Missing After-Hours Leads</h4>
+                            <p class="text-slate-600 text-sm leading-relaxed">Over 65% of Indian customers send messages after 7 PM. If your office is closed, you are losing direct revenue.</p>
                         </div>
                     </li>
                 </ul>
@@ -105,15 +100,15 @@ include __DIR__ . '/../header.php';
                 <!-- Glassmorphism Box &mdash; static on mobile, absolute overlay on lg -->
                 <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
                     <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
-                        <h3 class="text-xs font-black text-brand-red mb-4 uppercase tracking-wider font-heading">The Hidden Costs</h3>
+                        <h3 class="text-xs font-black text-brand-red mb-4 uppercase tracking-wider font-heading">The Cost of Manual Work</h3>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Marketing Blindness</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Zero clarity on which ad converted.</p>
+                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Lost Inquiries</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Missing important customer messages.</p>
                             </div>
                             <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">WhatsApp Overload</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Missed high-value opportunities.</p>
+                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Manual Follow-ups</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Wasting hours replying manually.</p>
                             </div>
                         </div>
                     </div>
@@ -132,8 +127,8 @@ include __DIR__ . '/../header.php';
     <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-red/5 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center mb-14">
-            <h2 class="text-3xl md:text-5xl font-black font-heading text-gray-900 mb-5">Comprehensive AI Solutions</h2>
-            <p class="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed">We do more than sell software tools. We engineer integrated digital systems that operate seamlessly according to your business logic and brand voice.</p>
+            <h2 class="text-3xl md:text-5xl font-black font-heading text-gray-900 mb-5">AI Automation Services in India</h2>
+            <p class="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed">We build simple, powerful automation systems that eliminate manual work, streamline your workflows, and help you scale without hiring more staff.</p>
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
@@ -143,8 +138,8 @@ include __DIR__ . '/../header.php';
                 <div class="w-14 h-14 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">WhatsApp Business Automation</h3>
-                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">A responsive WhatsApp agent that instantly qualifies leads, shares your portfolio, and schedules appointments without delay. Capture leads 24/7.</p>
+                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">WhatsApp Bot Development</h3>
+                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Get a smart WhatsApp bot that answers customer questions instantly, collects leads, and books appointments 24/7 without any human effort.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                     <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Multi-lingual</span>
                     <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Media Sharing</span>
@@ -158,8 +153,8 @@ include __DIR__ . '/../header.php';
                 <div class="w-14 h-14 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">AI Voice Calling Agents</h3>
-                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Intelligent voice bots that execute cold outreach, qualify intent, and transfer only high-intent leads to your human closers. Streamline inbound & outbound sales.</p>
+                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">Automated AI Calling</h3>
+                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Save money on call centers. Our AI voice agents can automatically call your leads, answer basic questions, and transfer only serious buyers to your sales team.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                     <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Natural Speech</span>
                     <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Call Transcripts</span>
@@ -173,8 +168,8 @@ include __DIR__ . '/../header.php';
                 <div class="w-14 h-14 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">CRM & Workflow Automation</h3>
-                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We engineer seamless connections that automatically sync every customer interaction directly into your CRM or internal databases. Integrate your tools and maximize efficiency.</p>
+                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">Business Workflow Automation</h3>
+                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Stop copying and pasting data. We connect your CRM, emails, and software so your entire business runs efficiently on autopilot.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                     <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Auto-Assignment</span>
                     <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Live Dashboards</span>
@@ -188,8 +183,8 @@ include __DIR__ . '/../header.php';
                 <div class="w-14 h-14 rounded-2xl bg-brand-red/10 text-brand-red flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">Proactive AI Support Agents</h3>
-                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">A proactive agent that consumes your internal manuals to answer complex queries as efficiently as a veteran employee. Trained exclusively on your data.</p>
+                <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-red transition-colors">24/7 Custom AI Agents</h3>
+                <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We build custom AI agents trained specifically on your business documents. They provide instant, accurate customer support 24 hours a day.</p>
                 <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                     <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Knowledge Base</span>
                     <span class="px-3 py-1 bg-brand-red/8 border border-brand-red/20 text-brand-red text-xs font-semibold rounded-full">Web Concierge</span>
@@ -212,8 +207,8 @@ include __DIR__ . '/../header.php';
 
             <!-- Left Side: Sticky Text & Image -->
             <div class="lg:col-span-5 relative lg:sticky lg:top-32">
-                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6 font-heading">Comprehensive <br class="hidden sm:block"/><span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-brand-orange">AI & Deep Tech</span> Engineering</h2>
-                <p class="text-slate-400 text-lg leading-relaxed mb-8">We build smart, connected systems that use Artificial Intelligence to help your business grow fast, without adding extra workload.</p>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6 font-heading">Smart <br class="hidden sm:block"/><span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-brand-orange">AI Automation</span> For Growth</h2>
+                <p class="text-slate-400 text-lg leading-relaxed mb-8">We implement intelligent automation systems that help your Indian business scale efficiently, cutting costs and removing human error.</p>
 
                 <!-- Premium Image Container -->
                 <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group" data-aos="fade-right">
@@ -234,8 +229,8 @@ include __DIR__ . '/../header.php';
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4 class="text-white font-bold text-lg font-heading">Enterprise Scale</h4>
-                                    <p class="text-slate-400 text-sm">Built for massive workloads</p>
+                                    <h4 class="text-white font-bold text-lg font-heading">Built to Scale</h4>
+                                    <p class="text-slate-400 text-sm">Grows with your business</p>
                                 </div>
                             </div>
                         </div>
@@ -251,8 +246,8 @@ include __DIR__ . '/../header.php';
                     <div class="w-14 h-14 rounded-2xl bg-brand-red/10 flex items-center justify-center text-brand-red mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Time-Saving AI Workflows</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Set up AI agents that can handle multi-step tasks for you&mdash;like optimizing your supply chain or running daily operations smoothly.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Time-Saving Automations</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Eliminate manual data entry. We automate your daily operations so your team can focus on actually growing the business.</p>
                 </div>
                 <!-- Card 2 -->
                 <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden mt-0 sm:mt-12">
@@ -260,8 +255,8 @@ include __DIR__ . '/../header.php';
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">LLM Fine-Tuning</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Create your own private AI trained on your company documents, helping your team find answers and automate tasks securely.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">Custom AI Chatbots</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">We create a private AI specifically for your company, helping your staff find answers instantly and work much faster.</p>
                 </div>
                 <!-- Card 3 -->
                 <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl hover:border-brand-red/50 hover:shadow-2xl hover:shadow-brand-red/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
@@ -269,8 +264,8 @@ include __DIR__ . '/../header.php';
                     <div class="w-14 h-14 rounded-2xl bg-brand-red/10 flex items-center justify-center text-brand-red mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Computer Vision Systems</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Use smart cameras and AI to automatically spot defects, monitor quality, and keep your facilities secure in real time.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Smart Operations</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Use intelligent cameras to automatically monitor quality, track inventory, and improve your daily business security.</p>
                 </div>
                 <!-- Card 4 -->
                 <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden mt-0 sm:mt-12">
@@ -278,8 +273,8 @@ include __DIR__ . '/../header.php';
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">Robotic Process Automation</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Eliminate repetitive data tasks. Our straightforward RPA solutions mimic human interactions within legacy software to drastically lower costs.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">Software Automation</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Stop doing the same computer tasks every day. We build software bots that do the clicking and typing for you, saving thousands of hours.</p>
                 </div>
                 <!-- Card 5 -->
                 <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl hover:border-brand-red/50 hover:shadow-2xl hover:shadow-brand-red/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
@@ -287,8 +282,8 @@ include __DIR__ . '/../header.php';
                     <div class="w-14 h-14 rounded-2xl bg-brand-red/10 flex items-center justify-center text-brand-red mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Managed MLOps</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">We manage your AI systems entirely&mdash;monitoring performance and updating them automatically so they always stay accurate and reliable.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Fully Managed AI</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">You don't need to be technical. We manage and update all your AI systems so everything runs perfectly without your involvement.</p>
                 </div>
                 <!-- Card 6 -->
                 <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden mt-0 sm:mt-12">
@@ -296,8 +291,8 @@ include __DIR__ . '/../header.php';
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">Advanced Fraud Detection</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Automatically spot unusual activity and stop fraud before it happens, keeping your business secure and compliant.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">Automated Security</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Protect your business automatically. Our systems detect unusual activities and prevent problems before they cost you money.</p>
                 </div>
             </div>
 
@@ -309,9 +304,9 @@ include __DIR__ . '/../header.php';
 <section id="ai-models" class="py-24 bg-white border-b border-gray-200">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
-            <span class="text-brand-red font-bold tracking-widest uppercase text-sm mb-4 block">Engineered For Performance</span>
-            <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">The Right Engine For Every Task</h2>
-            <p class="text-slate-600 text-lg max-w-2xl mx-auto">We don't limit you to one tool. We integrate the exact AI models needed to guarantee optimal speed and accuracy.</p>
+            <span class="text-brand-red font-bold tracking-widest uppercase text-sm mb-4 block">Powered By The Best</span>
+            <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">The Right Tools For Your Business</h2>
+            <p class="text-slate-600 text-lg max-w-2xl mx-auto">We don't force you into one software. We use the best available AI technology to ensure your business runs efficiently and reliably.</p>
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 xl:gap-8">
@@ -378,9 +373,9 @@ include __DIR__ . '/../header.php';
         
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
-                <span class="text-brand-red font-bold tracking-widest uppercase text-sm mb-4 block">Proven Framework</span>
-                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">How We Build Efficient Systems</h2>
-                <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto">A straightforward, engineering-first framework designed to ensure rapid deployment and immediate ROI for your organization.</p>
+                <span class="text-brand-red font-bold tracking-widest uppercase text-sm mb-4 block">Simple Process</span>
+                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">How We Automate Your Business</h2>
+                <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto">A simple, clear process to remove manual work and instantly boost your business efficiency.</p>
             </div>
 
             <div class="relative max-w-6xl mx-auto mt-20">
@@ -396,7 +391,7 @@ include __DIR__ . '/../header.php';
                             <div class="absolute inset-0 rounded-full border border-brand-red/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-red/50 border-dashed transition-all"></div>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-3 font-heading">Discover</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We audit your existing processes to fully understand your operational bottlenecks and business logic.</p>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We look at how you work today and find the exact manual tasks that are wasting your time and money.</p>
                     </div>
 
                     <!-- Step 2 -->
@@ -406,7 +401,7 @@ include __DIR__ . '/../header.php';
                             <div class="absolute inset-0 rounded-full border border-brand-red/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-red/50 border-dashed transition-all"></div>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-3 font-heading">Plan</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We design a straightforward technical architecture and select the right AI models for your specific security and speed requirements.</p>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We create a simple plan showing exactly how automation will streamline your workflows and increase profits.</p>
                     </div>
 
                     <!-- Step 3 (Highlight) -->
@@ -416,7 +411,7 @@ include __DIR__ . '/../header.php';
                             <span class="text-3xl font-black text-white">3</span>
                         </div>
                         <h3 class="text-2xl font-bold text-brand-red mb-3 font-heading">Build & Automate</h3>
-                        <p class="text-slate-300 text-sm leading-relaxed max-w-[220px]">Our engineers integrate intelligent systems, connecting your CRMs, messaging platforms, and internal databases seamlessly.</p>
+                        <p class="text-slate-300 text-sm leading-relaxed max-w-[220px]">We build your custom AI agents and connect all your tools so everything runs together perfectly.</p>
                     </div>
 
                     <!-- Step 4 -->
@@ -426,7 +421,7 @@ include __DIR__ . '/../header.php';
                             <div class="absolute inset-0 rounded-full border border-brand-red/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-red/50 border-dashed transition-all"></div>
                         </div>
                         <h3 class="text-xl font-bold text-white mb-3 font-heading">Scale</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We continuously monitor, refine, and upgrade the AI integrations to ensure your business grows efficiently and error-free.</p>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We make sure the automation keeps working flawlessly as your business grows and handles more customers.</p>
                     </div>
 
                 </div>
