@@ -279,94 +279,78 @@ include __DIR__ . '/../header.php';
 <!-- /03. Core Specialized Services Grid -->
 
 
-<!-- 04. Our Workflow (Discover to Handoff) -->
-<section class="py-24 bg-gray-50 border-b border-gray-200">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">Our Masterful Design Process
-            </h2>
-            <p class="mt-4 text-slate-600 text-lg max-w-2xl mx-auto">A collaborative, iterative workflow designed to
-                capture your vision and elevate it to absolute industry-leading standards.</p>
-        </div>
-
-        <div class="space-y-6 relative max-w-4xl mx-auto">
-            <!-- Timeline connecting line -->
-            <div
-                class="absolute left-[47px] top-10 bottom-10 w-px bg-gradient-to-b from-purple-500/30 via-purple-500/30 to-transparent hidden sm:block">
+<!-- 04. Our Masterful Design Process -->
+    <section class="py-24 bg-slate-950 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-purple-600/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
+        
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <span class="text-purple-500 font-bold tracking-widest uppercase text-sm mb-4 block">Design Process</span>
+                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">Our Masterful Design Process</h2>
+                <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto">A collaborative, iterative workflow designed to capture your vision and elevate it to absolute industry-leading standards.</p>
             </div>
 
-            <div
-                class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-purple-500 hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                <div
-                    class="w-12 h-12 rounded-2xl bg-blue-50 text-purple-600 font-black flex items-center justify-center flex-shrink-0 group-hover:bg-purple-500 group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">
-                    1</div>
-                <div>
-                    <h3
-                        class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-purple-600 transition-colors">
-                        Discovery</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">We interview key stakeholders to understand your
-                        brand values, target audience, and specific aesthetic preferences.</p>
-                </div>
-            </div>
+            <div class="relative max-w-7xl mx-auto mt-20">
+                <!-- Horizontal Dashed Connecting Line (Desktop) -->
+                <div class="absolute top-[2.5rem] left-[10%] right-[10%] h-[2px] border-t-[3px] border-dashed border-white/10 hidden lg:block z-0"></div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-4 relative z-10">
+                    
+                    <!-- Step 1 -->
+                    <div class="group relative flex flex-col items-center text-center">
+                        <div class="w-20 h-20 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center mb-6 group-hover:border-purple-500 group-hover:scale-110 transition-all duration-500 relative shadow-2xl">
+                            <span class="text-2xl font-black text-slate-500 group-hover:text-purple-500 transition-colors">1</span>
+                            <div class="absolute inset-0 rounded-full border border-purple-500/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-purple-500/50 border-dashed transition-all"></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Discovery</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We interview key stakeholders to understand your brand values, target audience, and specific aesthetic preferences.</p>
+                    </div>
 
-            <div
-                class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-purple-500 hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                <div
-                    class="w-12 h-12 rounded-2xl bg-blue-50 text-purple-600 font-black flex items-center justify-center flex-shrink-0 group-hover:bg-purple-500 group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">
-                    2</div>
-                <div>
-                    <h3
-                        class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-purple-600 transition-colors">
-                        Wireframing</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">We intelligently map out the structural hierarchy
-                        and user flow using low-fidelity sketches before adding visual elements.</p>
-                </div>
-            </div>
+                    <!-- Step 2 -->
+                    <div class="group relative flex flex-col items-center text-center">
+                        <div class="w-20 h-20 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center mb-6 group-hover:border-purple-500 group-hover:scale-110 transition-all duration-500 relative shadow-2xl">
+                            <span class="text-2xl font-black text-slate-500 group-hover:text-purple-500 transition-colors">2</span>
+                            <div class="absolute inset-0 rounded-full border border-purple-500/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-purple-500/50 border-dashed transition-all"></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Wireframing</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We intelligently map out the structural hierarchy and user flow using low-fidelity sketches before adding visual elements.</p>
+                    </div>
 
-            <div
-                class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-purple-500 hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                <div
-                    class="w-12 h-12 rounded-2xl bg-blue-50 text-purple-600 font-black flex items-center justify-center flex-shrink-0 group-hover:bg-purple-500 group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">
-                    3</div>
-                <div>
-                    <h3
-                        class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-purple-600 transition-colors">
-                        Visual Design</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">This is where we inject color, typography, and
-                        imagery to create stunning, sophisticated high-fidelity mockups.</p>
-                </div>
-            </div>
+                    <!-- Step 3 (Highlight) -->
+                    <div class="group relative flex flex-col items-center text-center lg:-mt-4">
+                        <div class="absolute top-10 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-purple-600/30 rounded-full filter blur-[40px] pointer-events-none group-hover:bg-purple-600/50 transition-colors"></div>
+                        <div class="w-24 h-24 rounded-full bg-purple-600 border-4 border-purple-400/30 flex items-center justify-center mb-6 shadow-[0_0_40px_rgba(147,51,234,0.4)] group-hover:scale-110 transition-all duration-500 relative">
+                            <span class="text-3xl font-black text-white">3</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-purple-500 mb-3 font-heading">Visual Design</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed max-w-[220px]">This is where we inject color, typography, and imagery to create stunning, sophisticated high-fidelity mockups.</p>
+                    </div>
 
-            <div
-                class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-purple-500 hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                <div
-                    class="w-12 h-12 rounded-2xl bg-blue-50 text-purple-600 font-black flex items-center justify-center flex-shrink-0 group-hover:bg-purple-500 group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">
-                    4</div>
-                <div>
-                    <h3
-                        class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-purple-600 transition-colors">
-                        Prototyping</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">We build clickable prototypes so you can
-                        experience the custom product exactly as your users will.</p>
-                </div>
-            </div>
+                    <!-- Step 4 -->
+                    <div class="group relative flex flex-col items-center text-center">
+                        <div class="w-20 h-20 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center mb-6 group-hover:border-purple-500 group-hover:scale-110 transition-all duration-500 relative shadow-2xl">
+                            <span class="text-2xl font-black text-slate-500 group-hover:text-purple-500 transition-colors">4</span>
+                            <div class="absolute inset-0 rounded-full border border-purple-500/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-purple-500/50 border-dashed transition-all"></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Prototyping</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We build clickable prototypes so you can experience the custom product exactly as your users will.</p>
+                    </div>
 
-            <div
-                class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-purple-500 hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                <div
-                    class="w-12 h-12 rounded-2xl bg-blue-50 text-purple-600 font-black flex items-center justify-center flex-shrink-0 group-hover:bg-purple-500 group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">
-                    5</div>
-                <div>
-                    <h3
-                        class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-purple-600 transition-colors">
-                        Handoff</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">We deliver neatly organized design files and
-                        comprehensive style guides to ensure a decisive transition to the development team.</p>
+                    <!-- Step 5 -->
+                    <div class="group relative flex flex-col items-center text-center">
+                        <div class="w-20 h-20 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center mb-6 group-hover:border-purple-500 group-hover:scale-110 transition-all duration-500 relative shadow-2xl">
+                            <span class="text-2xl font-black text-slate-500 group-hover:text-purple-500 transition-colors">5</span>
+                            <div class="absolute inset-0 rounded-full border border-purple-500/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-purple-500/50 border-dashed transition-all"></div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Handoff</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We deliver neatly organized design files and comprehensive style guides to ensure a decisive transition to developers.</p>
+                    </div>
+
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <?php include __DIR__ . '/../php/platforms-technologies.php'; ?>
 
