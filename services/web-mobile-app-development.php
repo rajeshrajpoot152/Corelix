@@ -411,41 +411,35 @@ include __DIR__ . '/../header.php';
         </div>
     </section>
     
-<section id="faqs" class="py-20 bg-white border-t border-gray-200">
+<section id="faqs" class="py-20 bg-gray-50 border-t border-gray-200">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold text-slate-900 font-heading">Development Questions Answered</h2>
                 <p class="mt-4 text-slate-600">Clear insights into our engineering workflow, technology choices, and project handoff.</p>
             </div>
-            <div class="space-y-4">
-                <details class="bg-gray-50 border border-gray-200 rounded-2xl group overflow-hidden">
-                    <summary class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
+            <div class="divide-y divide-gray-200 border-t border-b border-gray-200 mt-8">
+                <details class="group bg-transparent">
+                    <summary class="py-6 text-lg md:text-xl font-medium text-gray-800 cursor-pointer list-none flex justify-between items-center select-none hover:text-brand-blue transition-colors">
                         Who owns the source code once the project is finished?
-                        <span class="transition group-open:rotate-180">
-                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                        </span>
+                        <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">You retain full ownership. Once the project concludes and accounts are settled, we transfer 100% intellectual property rights and source code ownership directly to your company. We operate with complete transparency.</p>
+                    <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">You retain full ownership. Once the project concludes and accounts are settled, we transfer 100% intellectual property rights and source code ownership directly to your company. We operate with complete transparency.</p>
                 </details>
 
-                <details class="bg-gray-50 border border-gray-200 rounded-2xl group overflow-hidden">
-                    <summary class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
+                <details class="group bg-transparent">
+                    <summary class="py-6 text-lg md:text-xl font-medium text-gray-800 cursor-pointer list-none flex justify-between items-center select-none hover:text-brand-blue transition-colors">
                         Do you handle the App Store and Google Play submissions?
-                        <span class="transition group-open:rotate-180">
-                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                        </span>
+                        <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">Yes. During deployment, our team ensures your application is fully compliant with all platform guidelines. We manage the entire submission process, optimizing metadata and resolving any feedback from Apple or Google.</p>
+                    <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">Yes. During deployment, our team ensures your application is fully compliant with all platform guidelines. We manage the entire submission process, optimizing metadata and resolving any feedback from Apple or Google.</p>
                 </details>
 
-                <details class="bg-gray-50 border border-gray-200 rounded-2xl group overflow-hidden">
-                    <summary class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
+                <details class="group bg-transparent">
+                    <summary class="py-6 text-lg md:text-xl font-medium text-gray-800 cursor-pointer list-none flex justify-between items-center select-none hover:text-brand-blue transition-colors">
                         Do you provide maintenance after the app launches?
-                        <span class="transition group-open:rotate-180">
-                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                        </span>
+                        <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">Absolutely. Launching is only the beginning. We provide proactive post-production support and dedicated maintenance agreements to manage server health, security patches, and operating system updates.</p>
+                    <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">Absolutely. Launching is only the beginning. We provide proactive post-production support and dedicated maintenance agreements to manage server health, security patches, and operating system updates.</p>
                 </details>
             </div>
         </div>

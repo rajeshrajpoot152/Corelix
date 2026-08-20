@@ -67,7 +67,7 @@ include __DIR__ . '/../header.php';
                 <!-- Right: Image + Glassmorphism overlay -->
                 <div class="relative lg:pb-16" data-aos="fade-left">
 
-                    <!-- Image â€” overflow-hidden only here -->
+                    <!-- Image &mdash; overflow-hidden only here -->
                     <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group">
                         <img src="/assets/images/seo-organic-search-ranking-growth.png"
                             alt="SEO expert analyzing organic search ranking growth and website traffic"
@@ -80,7 +80,7 @@ include __DIR__ . '/../header.php';
                         </div>
                     </div>
 
-                    <!-- Glassmorphism Box â€” static on mobile, absolute overlay on lg -->
+                    <!-- Glassmorphism Box &mdash; static on mobile, absolute overlay on lg -->
                     <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
                         <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
                             <h3 class="text-xs font-black text-brand-green mb-4 uppercase tracking-wider font-heading">Our Focus</h3>
@@ -449,33 +449,27 @@ include __DIR__ . '/../header.php';
                 <h2 class="text-4xl font-bold text-slate-900 font-heading">SEO Questions Answered</h2>
                 <p class="mt-4 text-slate-600">Clear insights into how we build lasting search authority.</p>
             </div>
-            <div class="space-y-4">
-                <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
-                    <summary class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
+            <div class="divide-y divide-gray-200 border-t border-b border-gray-200 mt-8">
+                <details class="group bg-transparent">
+                    <summary class="py-6 text-lg md:text-xl font-medium text-gray-800 cursor-pointer list-none flex justify-between items-center select-none hover:text-brand-blue transition-colors">
                         How long does SEO take to show results?
-                        <span class="transition group-open:rotate-180">
-                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                        </span>
+                        <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">SEO is a proven, long-term investment. While technical fixes can yield improvements in weeks, substantial organic growth and first-page rankings for competitive keywords typically require 3 to 6 months of dedicated, effective effort.</p>
+                    <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">SEO is a proven, long-term investment. While technical fixes can yield improvements in weeks, substantial organic growth and first-page rankings for competitive keywords typically require 3 to 6 months of dedicated, effective effort.</p>
                 </details>
-                <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
-                    <summary class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
+                <details class="group bg-transparent">
+                    <summary class="py-6 text-lg md:text-xl font-medium text-gray-800 cursor-pointer list-none flex justify-between items-center select-none hover:text-brand-blue transition-colors">
                         Do you guarantee a #1 ranking on Google?
-                        <span class="transition group-open:rotate-180">
-                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                        </span>
+                        <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">No reputable agency can guarantee a #1 ranking due to dynamic algorithms. However, we guarantee a robust, research-backed strategy, complete transparency, and a verified track record of significantly increasing organic traffic and revenue.</p>
+                    <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">No reputable agency can guarantee a #1 ranking due to dynamic algorithms. However, we guarantee a robust, research-backed strategy, complete transparency, and a verified track record of significantly increasing organic traffic and revenue.</p>
                 </details>
-                <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
-                    <summary class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
+                <details class="group bg-transparent">
+                    <summary class="py-6 text-lg md:text-xl font-medium text-gray-800 cursor-pointer list-none flex justify-between items-center select-none hover:text-brand-blue transition-colors">
                         What is the difference between On-Page and Technical SEO?
-                        <span class="transition group-open:rotate-180">
-                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                        </span>
+                        <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">On-Page SEO focuses on content optimizationâ€”like keywords, meta tags, and headersâ€”that users actually see. Technical SEO focuses on the backend infrastructureâ€”like site speed, mobile responsiveness, and schema markupâ€”to ensure search engines can properly crawl and index your site.</p>
+                    <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">On-Page SEO focuses on content optimization&mdash;like keywords, meta tags, and headers&mdash;that users actually see. Technical SEO focuses on the backend infrastructure&mdash;like site speed, mobile responsiveness, and schema markup&mdash;to ensure search engines can properly crawl and index your site.</p>
                 </details>
             </div>
         </div>

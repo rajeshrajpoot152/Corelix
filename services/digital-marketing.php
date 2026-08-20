@@ -66,7 +66,7 @@ include __DIR__ . '/../header.php';
                 <!-- Right: Image + Glassmorphism overlay -->
                 <div class="relative lg:pb-16" data-aos="fade-left">
 
-                    <!-- Image â€” overflow-hidden only here -->
+                    <!-- Image &mdash; overflow-hidden only here -->
                     <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group">
                         <img src="/assets/images/digital-marketing-analytics-dashboard.png"
                             alt="Digital marketing team analyzing ROAS and conversion metrics on a dashboard"
@@ -79,7 +79,7 @@ include __DIR__ . '/../header.php';
                         </div>
                     </div>
 
-                    <!-- Glassmorphism Box â€” static on mobile, absolute overlay on lg -->
+                    <!-- Glassmorphism Box &mdash; static on mobile, absolute overlay on lg -->
                     <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
                         <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
                             <h3 class="text-xs font-black text-brand-orange mb-4 uppercase tracking-wider font-heading">Our Core Focus</h3>
@@ -382,42 +382,34 @@ include __DIR__ . '/../header.php';
                 <h2 class="text-4xl font-bold text-slate-900 font-heading">Marketing Questions Answered</h2>
                 <p class="mt-4 text-slate-600">Clear insights into how we run campaigns and measure excellence.</p>
             </div>
-            <div class="space-y-4">
-                <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
-                    <summary class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
+            <div class="divide-y divide-gray-200 border-t border-b border-gray-200 mt-8">
+                <details class="group bg-transparent">
+                    <summary class="py-6 text-lg md:text-xl font-medium text-gray-800 cursor-pointer list-none flex justify-between items-center select-none hover:text-brand-blue transition-colors">
                         How long does it take to see results from paid ads?
-                        <span class="transition group-open:rotate-180">
-                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                        </span>
+                        <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">Paid advertising generates traffic immediately. However, it typically takes a few weeks for our advanced algorithms to fully optimize and for us to gather enough data to lower your cost-per-acquisition and stabilize lead flow.</p>
+                    <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">Paid advertising generates traffic immediately. However, it typically takes a few weeks for our advanced algorithms to fully optimize and for us to gather enough data to lower your cost-per-acquisition and stabilize lead flow.</p>
                 </details>
-                <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
-                    <summary class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
+                <details class="group bg-transparent">
+                    <summary class="py-6 text-lg md:text-xl font-medium text-gray-800 cursor-pointer list-none flex justify-between items-center select-none hover:text-brand-blue transition-colors">
                         Do you work with B2B or B2C businesses?
-                        <span class="transition group-open:rotate-180">
-                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                        </span>
+                        <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">We successfully manage both, but the strategies differ significantly. For B2B, we rely heavily on LinkedIn and robust CRM integrations. For B2C, we focus on highly optimized Meta campaigns and aggressive retargeting loops.</p>
+                    <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">We successfully manage both, but the strategies differ significantly. For B2B, we rely heavily on LinkedIn and robust CRM integrations. For B2C, we focus on highly optimized Meta campaigns and aggressive retargeting loops.</p>
                 </details>
-                <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
-                    <summary class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
+                <details class="group bg-transparent">
+                    <summary class="py-6 text-lg md:text-xl font-medium text-gray-800 cursor-pointer list-none flex justify-between items-center select-none hover:text-brand-blue transition-colors">
                         How do you track and prove ROI?
-                        <span class="transition group-open:rotate-180">
-                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                        </span>
+                        <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">We never guess. Before launching, we implement robust server-side tracking. We provide you with a definitive dashboard so you can see exactly how much revenue was generated and precisely where your budget went.</p>
+                    <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">We never guess. Before launching, we implement robust server-side tracking. We provide you with a definitive dashboard so you can see exactly how much revenue was generated and precisely where your budget went.</p>
                 </details>
-                <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
-                    <summary class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
+                <details class="group bg-transparent">
+                    <summary class="py-6 text-lg md:text-xl font-medium text-gray-800 cursor-pointer list-none flex justify-between items-center select-none hover:text-brand-blue transition-colors">
                         Why should we choose you over hiring an in-house marketer?
-                        <span class="transition group-open:rotate-180">
-                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                        </span>
+                        <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                     </summary>
-                    <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">An in-house marketer is just one person. Partnering with us gives you access to a masterful, specialized teamâ€”media buyer, copywriter, UX designer, and analystâ€”all dedicated to excellence for a fraction of the cost of a full-time executive.</p>
+                    <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">An in-house marketer is just one person. Partnering with us gives you access to a masterful, specialized team&mdash;media buyer, copywriter, UX designer, and analyst&mdash;all dedicated to excellence for a fraction of the cost of a full-time executive.</p>
                 </details>
             </div>
         </div>

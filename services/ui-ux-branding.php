@@ -531,54 +531,36 @@ include __DIR__ . '/../header.php';
             <h2 class="text-4xl font-bold text-slate-900 font-heading">Design Questions Answered</h2>
             <p class="mt-4 text-slate-600">Clear insights into our creative methodology and collaboration process.</p>
         </div>
-        <div class="space-y-4">
-            <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
+        <div class="divide-y divide-gray-200 border-t border-b border-gray-200 mt-8">
+            <details class="group bg-transparent">
                 <summary
                     class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
                     Why do you use Figma for UI/UX design?
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
-                            width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
+                    <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                 </summary>
-                <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">Figma is the industry standard for
+                <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">Figma is the industry standard for
                     collaborative interface design. It allows you to view our progress in real-time, leave comments
                     directly on the designs, and provides developers with the exact CSS properties needed for perfect
                     implementation.</p>
             </details>
-            <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
+            <details class="group bg-transparent">
                 <summary
                     class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
                     How many revisions do we get during the design process?
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
-                            width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
+                    <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                 </summary>
-                <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">We want you to be completely thrilled with
+                <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">We want you to be completely thrilled with
                     the final result. We offer a collaborative process with structured revision rounds at each major
                     milestone (wireframes, concepts, high-fidelity) to ensure the final custom product perfectly aligns
                     with your decisive vision.</p>
             </details>
-            <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
+            <details class="group bg-transparent">
                 <summary
                     class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
                     Can you design just a logo without full branding?
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
-                            width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
+                    <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                 </summary>
-                <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">While we can design standalone logos, we
+                <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">While we can design standalone logos, we
                     strongly recommend building a sophisticated brand identity. A logo alone does not tell your story.
                     Complete brand guidelines ensure consistency across your website, social media, and printed
                     materials.</p>

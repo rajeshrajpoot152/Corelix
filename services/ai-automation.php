@@ -80,7 +80,7 @@ include __DIR__ . '/../header.php';
                                 class="text-slate-900 font-bold text-xl mb-2 group-hover:text-brand-red transition-colors font-heading">
                                 After-Hours Engagement</h4>
                             <p class="text-slate-600 text-sm leading-relaxed">Over 65% of local leads message after 7
-                                PMâ€”exactly when your office is closed and a proactive response is most needed.</p>
+                                PM&mdash;exactly when your office is closed and a proactive response is most needed.</p>
                         </div>
                     </li>
                 </ul>
@@ -89,7 +89,7 @@ include __DIR__ . '/../header.php';
             <!-- Right: Image + Glassmorphism overlay -->
             <div class="relative lg:pb-16" data-aos="fade-left">
 
-                <!-- Image â€” overflow-hidden only here -->
+                <!-- Image &mdash; overflow-hidden only here -->
                 <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group">
                     <img src="/assets/images/business-losing-leads-automation.jpg"
                         alt="Business losing revenue due to manual processes and scattered data"
@@ -102,7 +102,7 @@ include __DIR__ . '/../header.php';
                     </div>
                 </div>
 
-                <!-- Glassmorphism Box â€” static on mobile, absolute overlay on lg -->
+                <!-- Glassmorphism Box &mdash; static on mobile, absolute overlay on lg -->
                 <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
                     <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
                         <h3 class="text-xs font-black text-brand-red mb-4 uppercase tracking-wider font-heading">The Hidden Costs</h3>
@@ -251,7 +251,7 @@ include __DIR__ . '/../header.php';
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Time-Saving AI Workflows</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">Set up AI agents that can handle multi-step tasks for youâ€”like optimizing your supply chain or running daily operations smoothly.</p>
+                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">Set up AI agents that can handle multi-step tasks for you&mdash;like optimizing your supply chain or running daily operations smoothly.</p>
                 </div>
                 <!-- Card 2 -->
                 <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-6 sm:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden mt-0 sm:mt-12">
@@ -287,7 +287,7 @@ include __DIR__ . '/../header.php';
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Managed MLOps</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">We manage your AI systems entirelyâ€”monitoring performance and updating them automatically so they always stay accurate and reliable.</p>
+                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">We manage your AI systems entirely&mdash;monitoring performance and updating them automatically so they always stay accurate and reliable.</p>
                 </div>
                 <!-- Card 6 -->
                 <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-6 sm:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden mt-0 sm:mt-12">
@@ -699,70 +699,46 @@ include __DIR__ . '/../header.php';
             <p class="mt-4 text-slate-600">Everything you need to know about integrating time-saving AI into your daily
                 business operations.</p>
         </div>
-        <div class="space-y-4">
-            <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
+        <div class="divide-y divide-gray-200 border-t border-b border-gray-200 mt-8">
+            <details class="group bg-transparent">
                 <summary
                     class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
                     Will AI replace my team?
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
-                            width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
+                    <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                 </summary>
-                <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">No. Our time-saving solutions empower your
+                <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">No. Our time-saving solutions empower your
                     staff, not replace them. By taking over repetitive tasks like data entry and basic customer queries,
                     your team is freed up to focus proactively on high-value tasks like strategy, sales, and complex
                     problem-solving.</p>
             </details>
-            <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
+            <details class="group bg-transparent">
                 <summary
                     class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
                     Is my proprietary business data secure?
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
-                            width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
+                    <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                 </summary>
-                <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">Data security is our top priority. When we
+                <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">Data security is our top priority. When we
                     implement tools like OpenAI or Anthropic for your business, we use secure enterprise APIs. This
                     means your private company data is never used to train public AI models.</p>
             </details>
-            <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
+            <details class="group bg-transparent">
                 <summary
                     class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
                     Do we need technical skills to manage the automation?
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
-                            width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
+                    <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                 </summary>
-                <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">Not at all. We build the complex
+                <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">Not at all. We build the complex
                     architecture in the background and provide you with a clean, straightforward dashboard. We also
                     offer full training and proactive support to ensure your team is comfortable using the new systems.
                 </p>
             </details>
-            <details class="bg-white border border-gray-200 rounded-2xl group overflow-hidden">
+            <details class="group bg-transparent">
                 <summary
                     class="p-6 text-lg font-bold text-slate-900 cursor-pointer list-none flex justify-between items-center select-none hover:bg-gray-100 transition-colors">
                     How long does it take to deploy a custom chatbot or workflow?
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
-                            width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
+                    <span class="transform transition-transform duration-300 group-open:rotate-90 text-gray-800"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></span>
                 </summary>
-                <p class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">Simple workflow automations (like syncing
+                <p class="px-0 pb-6 text-gray-500 text-base leading-relaxed pr-8">Simple workflow automations (like syncing
                     Facebook leads to your CRM) can be deployed efficiently in a few days. More comprehensive projects,
                     such as a proactive AI chatbot trained on your entire company knowledge base, typically take 2 to 4
                     weeks for full development and testing.</p>
