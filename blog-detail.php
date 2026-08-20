@@ -82,7 +82,7 @@ include 'header.php';
     <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-brand-blue/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
     
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl relative z-10" data-aos="zoom-out-up">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10" data-aos="zoom-out-up">
         
         <div class="flex justify-center flex-wrap items-center gap-4 mb-4 md:mb-6">
             <a href="/blog" class="text-brand-gray hover:text-brand-blue transition-colors text-sm flex items-center gap-1" title="Blog">
@@ -129,7 +129,7 @@ include 'header.php';
 
 <!-- Blog Content -->
 <section class="pb-24 relative z-10 bg-white">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl pt-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 pt-16">
         
         <!-- Featured Image -->
         <div class="w-full h-auto md:h-[500px] rounded-3xl overflow-hidden mb-12 shadow-xl border border-gray-100" data-aos="fade-up" data-aos-delay="100">
@@ -137,7 +137,7 @@ include 'header.php';
         </div>
 
         <!-- Article Content -->
-        <article class="prose prose-lg prose-blue max-w-none text-gray-600 max-w-none font-sans" data-aos="fade-up" data-aos-delay="200">
+        <article class="prose prose-lg prose-blue max-w-4xl mx-auto text-gray-600 max-w-none font-sans" data-aos="fade-up" data-aos-delay="200">
             <?php echo $currentBlog['content']; ?>
         </article>
         
@@ -159,4 +159,6 @@ include 'header.php';
 
 <?php include 'cta.php'; ?>
 <?php include 'footer.php'; ?>
+
+
 
