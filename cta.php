@@ -19,7 +19,7 @@
             </div>
             
             <h2 class="text-4xl md:text-5xl lg:text-[56px] font-black font-heading text-white mb-6 tracking-tight leading-[1.1]">
-                Ready to Rank Higher <br class="hidden sm:block">
+                Ready to Rank Higher 
                 & Grow Your Business?
             </h2>
             <p class="text-gray-300 text-base sm:text-lg lg:text-xl mb-10 max-w-[650px] mx-auto leading-relaxed font-medium">
