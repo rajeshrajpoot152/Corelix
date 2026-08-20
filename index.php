@@ -21,18 +21,18 @@ include 'header.php';
         <div class="relative z-10 text-center px-4 sm:px-6 w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full pt-20" data-aos="fade-up">
             <!-- Main Heading with Gradients -->
             <h1 class="text-[38px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black text-white mb-4 sm:mb-6 tracking-tight font-heading drop-shadow-2xl flex flex-col items-center gap-2">
-    <span class="sm:whitespace-nowrap leading-none">Build Custom <span class="bg-gradient-to-r from-brand-blue to-purple-400 bg-clip-text text-transparent">Web</span> & <span class="bg-gradient-to-r from-brand-blue to-purple-400 bg-clip-text text-transparent">AI</span></span>
-    <span class="leading-none">Rank, Automate & <span class="bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text text-transparent">Scale</span></span>
+    <span class="sm:whitespace-nowrap leading-none">Build Scalable <span class="bg-gradient-to-r from-brand-blue to-purple-400 bg-clip-text text-transparent">Software</span> & <span class="bg-gradient-to-r from-brand-blue to-purple-400 bg-clip-text text-transparent">AI</span></span>
+    <span class="leading-none">Rank Higher. <span class="bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text text-transparent">Automate</span> Everything.</span>
 </h1>
             <!-- Subtext -->
             <p class="text-sm sm:text-base md:text-lg lg:text-xl text-white/95 font-medium max-w-xl mx-auto drop-shadow-lg leading-relaxed">
-               We build custom software, SEO-optimized websites, and intelligent automation tools to help your business scale.
+               We build high-performing websites, apps, and smart AI systems that eliminate manual work, generate qualified leads, and run your business on autopilot.
             </p>
             
             <!-- CTA Button -->
             <div class="mt-8">
-                <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="group relative inline-flex items-center gap-2 px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all duration-300 text-sm border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Free SEO & Tech Audit">
-                    Free SEO & Tech Audit
+                <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="group relative inline-flex items-center gap-2 px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all duration-300 text-sm border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Claim Your Free Growth Audit">
+                    Claim Your Free Growth Audit
                     <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                 </a>
             </div>
