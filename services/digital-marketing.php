@@ -19,12 +19,12 @@ include __DIR__ . '/../header.php';
 
         <!-- Main Heading -->
         <h2 class="text-4xl md:text-6xl lg:text-7xl font-black font-heading text-white mb-6 tracking-tight leading-tight md:leading-none">
-            Data-Driven <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-amber-400">Digital Marketing</span>
+            High-ROI <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-amber-400">Digital Marketing</span>
         </h2>
 
         <!-- Subtitle -->
         <p class="text-base md:text-xl text-gray-300 max-w-3xl mx-auto font-medium leading-relaxed mb-10">
-            Scale customer acquisition with high-ROI paid advertising and targeted campaigns. We optimize conversion funnels to drive definitive revenue and predictable business growth.
+            Get more targeted leads and customers for your business. As a top performance marketing agency in India, we run highly profitable ad campaigns that turn clicks into real revenue.
         </p>
     </div>
 </section>
@@ -40,24 +40,24 @@ include __DIR__ . '/../header.php';
                 <!-- Text Content -->
                 <div>
                     <h2 class="text-3xl lg:text-5xl font-black text-slate-900 leading-tight mb-6 font-heading">
-                        Stop Chasing Vanity Metrics. Demand Substantial Growth.
+                        Stop Wasting Money on Ads That Don't Work.
                     </h2>
                     <p class="text-lg text-slate-600 leading-relaxed mb-8">
-                        Traffic without conversion is merely a business expense. In a competitive digital landscape, generic ad campaigns and poorly optimized landing pages rapidly deplete your budget. We redirect your focus from superficial impressions to what truly matters: an outstanding Return on Ad Spend (ROAS) and lowered Customer Acquisition Cost (CAC).
+                        Getting likes and shares is useless if they don't turn into paying customers. Cheap ad agencies burn your budget on the wrong audience. We stop the waste and focus purely on getting you high-quality leads at the lowest possible cost, so your revenue actually grows.
                     </p>
                     <ul class="grid gap-6">
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
                             <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-orange to-amber-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">&#10006;</div>
                             <div>
-                                <h4 class="text-slate-900 font-bold font-heading text-xl mb-2 group-hover:text-brand-orange transition-colors">Ineffective Ad Spend</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">Bidding on incorrect keywords or targeting overly broad audiences results in high costs without substantial, qualified leads.</p>
+                                <h4 class="text-slate-900 font-bold font-heading text-xl mb-2 group-hover:text-brand-orange transition-colors">Burning Your Ad Budget</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">Running ads to the wrong people drains your money fast without bringing any serious buyers to your business.</p>
                             </div>
                         </li>
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-orange/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
                             <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-orange to-amber-400 text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">!</div>
                             <div>
-                                <h4 class="text-slate-900 font-bold font-heading text-xl mb-2 group-hover:text-brand-orange transition-colors">The Inefficient Funnel Effect</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">Your advertising might be strong, but if your landing page fails to capture intent, potential buyers will bounce to your competitors. A robust funnel is essential.</p>
+                                <h4 class="text-slate-900 font-bold font-heading text-xl mb-2 group-hover:text-brand-orange transition-colors">Losing Customers on Your Website</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">If your website is confusing, even great ads won't work. Visitors will leave without buying or calling you.</p>
                             </div>
                         </li>
                     </ul>
@@ -85,12 +85,12 @@ include __DIR__ . '/../header.php';
                             <h3 class="text-xs font-black text-brand-orange mb-4 uppercase tracking-wider font-heading">Our Core Focus</h3>
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                 <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Wasted Budget</h4>
-                                    <p class="text-gray-500 text-xs leading-relaxed">Spending blindly without clear attribution.</p>
+                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Wasting Money</h4>
+                                    <p class="text-gray-500 text-xs leading-relaxed">Running ads without knowing what actually works.</p>
                                 </div>
                                 <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Low Intent Leads</h4>
-                                    <p class="text-gray-500 text-xs leading-relaxed">Traffic that never converts to sales.</p>
+                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Junk Leads</h4>
+                                    <p class="text-gray-500 text-xs leading-relaxed">Getting calls from people who never buy.</p>
                                 </div>
                             </div>
                         </div>
@@ -109,8 +109,8 @@ include __DIR__ . '/../header.php';
         <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-orange/5 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-14">
-                <h2 class="text-3xl md:text-5xl font-black font-heading text-gray-900 mb-5">Masterful Marketing Solutions</h2>
-                <p class="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed">We combine advanced technical expertise, persuasive copywriting, and decisive bid management to dominate your market.</p>
+                <h2 class="text-3xl md:text-5xl font-black font-heading text-gray-900 mb-5">Digital Marketing Services That Drive Sales</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed">We don't just get you impressions. We build targeted digital marketing campaigns that bring ready-to-buy customers directly to your business.</p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-8">
@@ -120,8 +120,8 @@ include __DIR__ . '/../header.php';
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-orange transition-colors">Google Ads & PPC</h3>
-                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Capture high-intent buyers exactly when they are searching. We manage Search, Display, and Performance Max campaigns, utilizing robust negative keyword filtering to protect your budget.</p>
+                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-orange transition-colors">Google Ads (PPC)</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Show up at the exact moment a customer searches for your services. We run highly targeted Google Ads to capture ready-to-buy leads while strictly protecting your budget from fake clicks.</p>
                     <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                         <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Google Search & Display</span>
                         <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Retargeting</span>
@@ -135,8 +135,8 @@ include __DIR__ . '/../header.php';
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-orange transition-colors">Social Media Advertising</h3>
-                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Scale your brand awareness and generate immediate demand. We engineer sophisticated Meta and LinkedIn ad funnels to target specific demographics, job titles, and lucrative industries.</p>
+                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-orange transition-colors">Facebook & Instagram Ads</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Build massive brand trust and get direct leads from social media. We run profitable Facebook, Instagram, and LinkedIn ads to target your exact ideal customers across India.</p>
                     <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                         <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">B2B LinkedIn Ads</span>
                         <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Facebook & Instagram Ads</span>
@@ -150,8 +150,8 @@ include __DIR__ . '/../header.php';
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-orange transition-colors">Lead Generation & CRO</h3>
-                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Driving traffic is just the beginning. We execute advanced Conversion Rate Optimization (CRO) on your landing pages, leveraging A/B testing to ensure a substantially higher percentage of visitors convert.</p>
+                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-orange transition-colors">Lead Generation & Funnels</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Getting traffic is easy; getting sales is hard. We design high-converting landing pages that convince your visitors to fill out a form or call your business immediately.</p>
                     <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                         <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Landing Page Design</span>
                         <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">A/B Testing</span>
@@ -165,8 +165,8 @@ include __DIR__ . '/../header.php';
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-orange transition-colors">Content & SEO Strategy</h3>
-                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Build long-term authority and decrease your reliance on paid acquisition. We develop masterful content architectures and optimized SEO strategies to conquer organic search results.</p>
+                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-orange transition-colors">SEO & Content Marketing</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Stop paying for every single click. We build a strong SEO foundation so you get free, high-quality organic traffic and dominate Google rankings for years.</p>
                     <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                         <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Technical SEO</span>
                         <span class="px-3 py-1 bg-brand-orange/8 border border-brand-orange/20 text-brand-orange text-xs font-semibold rounded-full">Content Silos</span>
@@ -179,15 +179,15 @@ include __DIR__ . '/../header.php';
 
     
       <!-- 04. Our Workflow (Audit to Scale) -->
-      <!-- 04. Our Outstanding Marketing Lifecycle -->
+      <!-- 04. How We Scale Your Revenue -->
     <section class="py-24 bg-slate-950 text-white relative overflow-hidden">
         <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-brand-orange/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
         
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">Our Outstanding Marketing Lifecycle</h2>
-                <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto">A systematic, data-driven methodology for launching and scaling highly profitable campaigns.</p>
+                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">How We Scale Your Revenue</h2>
+                <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto">A clear, step-by-step process to launch your ads and maximize your ROI.</p>
             </div>
 
             <div class="relative max-w-7xl mx-auto mt-20">
@@ -202,8 +202,8 @@ include __DIR__ . '/../header.php';
                             <span class="text-2xl font-black text-slate-500 group-hover:text-brand-orange transition-colors">1</span>
                             <div class="absolute inset-0 rounded-full border border-brand-orange/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-orange/50 border-dashed transition-all"></div>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Audit</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We analyze your historical data and competitor strategies to uncover advanced opportunities for growth.</p>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Business Review</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We look at your past ads and study your competitors to find exactly where you can win.</p>
                     </div>
 
                     <!-- Step 2 -->
@@ -212,8 +212,8 @@ include __DIR__ . '/../header.php';
                             <span class="text-2xl font-black text-slate-500 group-hover:text-brand-orange transition-colors">2</span>
                             <div class="absolute inset-0 rounded-full border border-brand-orange/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-orange/50 border-dashed transition-all"></div>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Strategy</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We map out the customer journey, defining effective platforms, optimal budgets, and precise targeting parameters.</p>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Campaign Strategy</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We plan the exact platforms, budgets, and audience targeting needed to get you the best leads.</p>
                     </div>
 
                     <!-- Step 3 (Highlight) -->
@@ -222,8 +222,8 @@ include __DIR__ . '/../header.php';
                         <div class="w-24 h-24 rounded-full bg-brand-orange border-4 border-brand-orange/30 flex items-center justify-center mb-6 shadow-[0_0_40px_rgba(245,130,32,0.4)] group-hover:scale-110 transition-all duration-500 relative">
                             <span class="text-3xl font-black text-white">3</span>
                         </div>
-                        <h3 class="text-2xl font-bold text-brand-orange mb-3 font-heading">Creative</h3>
-                        <p class="text-slate-300 text-sm leading-relaxed max-w-[220px]">Our creative team produces multiple variations of ad creatives and landing pages to test robust psychological hooks.</p>
+                        <h3 class="text-2xl font-bold text-brand-orange mb-3 font-heading">Ad Creation</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed max-w-[220px]">We design beautiful ad graphics and write strong sales copy that forces customers to click.</p>
                     </div>
 
                     <!-- Step 4 -->
@@ -232,8 +232,8 @@ include __DIR__ . '/../header.php';
                             <span class="text-2xl font-black text-slate-500 group-hover:text-brand-orange transition-colors">4</span>
                             <div class="absolute inset-0 rounded-full border border-brand-orange/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-orange/50 border-dashed transition-all"></div>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Launch</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">Campaigns go live with optimized tracking pixels and conversion APIs configured to ensure perfectly accurate data collection.</p>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Go Live</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">Your ads go live with perfect tracking, so we know exactly which ad brought in which sale.</p>
                     </div>
 
                     <!-- Step 5 -->
@@ -242,8 +242,8 @@ include __DIR__ . '/../header.php';
                             <span class="text-2xl font-black text-slate-500 group-hover:text-brand-orange transition-colors">5</span>
                             <div class="absolute inset-0 rounded-full border border-brand-orange/0 group-hover:animate-[spin_4s_linear_infinite] group-hover:border-brand-orange/50 border-dashed transition-all"></div>
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Scale</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We identify the superior ad sets, pause underperformers, and systematically scale budgets to maximize your overall ROI.</p>
+                        <h3 class="text-xl font-bold text-white mb-3 font-heading">Scale Profits</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-[200px]">We turn off the ads that waste money and put more budget into the ads that are making you rich.</p>
                     </div>
 
                 </div>
@@ -254,8 +254,8 @@ include __DIR__ . '/../header.php';
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-10">
-                <h2 class="text-3xl font-bold text-slate-900 mb-4 font-heading">The Platforms We Master</h2>
-                <p class="text-slate-600 text-sm max-w-2xl mx-auto">We leverage robust tracking and advertising platforms to ensure every marketing dollar spent is definitively accounted for.</p>
+                <h2 class="text-3xl font-bold text-slate-900 mb-4 font-heading">Premium Advertising Platforms</h2>
+                <p class="text-slate-600 text-sm max-w-2xl mx-auto">We use the world's most powerful platforms to track every single rupee you spend and guarantee maximum ROI.</p>
             </div>
             
             <!-- Interactive Platforms Grid -->
@@ -312,9 +312,9 @@ include __DIR__ . '/../header.php';
     <section class="py-24 bg-gray-50 border-t border-gray-200 overflow-hidden">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <span class="text-brand-orange font-bold tracking-widest uppercase text-sm mb-4 block">Proven Results</span>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-900 font-heading mb-4">Unmatched Marketing ROI</h2>
-                <p class="text-slate-600 text-lg max-w-2xl mx-auto">We consistently deliver exponential growth metrics for our partners through precise, data-driven campaigns.</p>
+                <span class="text-brand-orange font-bold tracking-widest uppercase text-sm mb-4 block">Real Business Growth</span>
+                <h2 class="text-3xl md:text-4xl font-black text-slate-900 font-heading mb-4">Massive Return on Investment</h2>
+                <p class="text-slate-600 text-lg max-w-2xl mx-auto">We consistently deliver high-quality leads and huge revenue growth for businesses across India.</p>
             </div>
             
             <div class="flex flex-col lg:flex-row items-center justify-center -space-y-4 lg:space-y-0 lg:-space-x-12 py-10 relative z-10">
@@ -322,27 +322,27 @@ include __DIR__ . '/../header.php';
                 <!-- Bubble 1: ROAS -->
                 <div class="relative z-10 flex flex-col justify-center items-center text-center w-40 h-40 lg:w-52 lg:h-52 rounded-full bg-white shadow-xl border border-gray-100 hover:scale-110 transition-transform duration-500 cursor-default">
                     <div class="text-3xl lg:text-5xl font-black text-slate-900 mb-1">300<span class="text-2xl">%</span></div>
-                    <div class="text-slate-500 font-bold uppercase text-[9px] lg:text-xs tracking-wider px-6">Outstanding<br>ROAS</div>
+                    <div class="text-slate-500 font-bold uppercase text-[9px] lg:text-xs tracking-wider px-6">Return on<br>Ad Spend</div>
                 </div>
 
                 <!-- Bubble 2: CAC -->
                 <div class="relative z-20 flex flex-col justify-center items-center text-center w-48 h-48 lg:w-64 lg:h-64 rounded-full bg-slate-900 shadow-2xl hover:scale-110 transition-transform duration-500 cursor-default">
                     <div class="absolute inset-0 bg-white/5 rounded-full mix-blend-overlay"></div>
                     <div class="text-4xl lg:text-6xl font-black text-white mb-2">40<span class="text-3xl">%</span></div>
-                    <div class="text-brand-orange font-bold uppercase text-xs tracking-widest px-8">Reduction<br>in CAC</div>
+                    <div class="text-brand-orange font-bold uppercase text-xs tracking-widest px-8">Lower<br>Acquisition Cost</div>
                 </div>
 
                 <!-- Bubble 3: Leads -->
                 <div class="relative z-10 flex flex-col justify-center items-center text-center w-40 h-40 lg:w-56 lg:h-56 rounded-full bg-white shadow-xl border border-gray-100 hover:scale-110 transition-transform duration-500 cursor-default">
                     <div class="text-3xl lg:text-5xl font-black text-slate-900 mb-1">10k+</div>
-                    <div class="text-slate-500 font-bold uppercase text-[9px] lg:text-xs tracking-wider px-6">Qualified<br>Leads</div>
+                    <div class="text-slate-500 font-bold uppercase text-[9px] lg:text-xs tracking-wider px-6">Targeted<br>Leads</div>
                 </div>
 
                 <!-- Bubble 4: Transparency -->
                 <div class="relative z-30 flex flex-col justify-center items-center text-center w-56 h-56 lg:w-72 lg:h-72 rounded-full bg-gradient-to-br from-brand-orange to-[#ff6a00] shadow-2xl shadow-brand-orange/40 hover:scale-110 transition-transform duration-500 cursor-default">
                     <div class="absolute inset-0 bg-white/10 rounded-full mix-blend-overlay"></div>
                     <div class="text-5xl lg:text-7xl font-black text-white mb-2">100<span class="text-4xl">%</span></div>
-                    <div class="text-white/90 font-bold uppercase text-xs md:text-sm tracking-widest px-10">Data<br>Transparency</div>
+                    <div class="text-white/90 font-bold uppercase text-xs md:text-sm tracking-widest px-10">Transparent<br>Reporting</div>
                 </div>
 
             </div>
@@ -358,16 +358,16 @@ include __DIR__ . '/../header.php';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <span class="text-brand-orange font-bold tracking-widest uppercase text-sm mb-4 block">Case Studies</span>
-                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">Proven Business Impact</h2>
-                <p class="text-slate-400 text-lg max-w-2xl mx-auto">Data-driven campaigns designed for absolute maximum ROI. Discover how our performance marketing turns advertising budgets into explosive business growth.</p>
+                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">Real Revenue Impact</h2>
+                <p class="text-slate-400 text-lg max-w-2xl mx-auto">We don't sell dreams; we deliver targeted leads and sales. See how our digital marketing services have scaled Indian businesses.</p>
             </div>
             
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white/5 p-8 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-md hover:bg-white/10 hover:border-brand-orange/30 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-orange/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
-                    <div class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-orange"></div>Healthcare Provider</div>
-                    <h3 class="text-2xl font-bold text-white font-heading mb-4">Generated 500+ qualified leads per month</h3>
-                    <p class="text-slate-400 text-base mb-6 leading-relaxed">We overhauled their entire PPC infrastructure and redesigned ad landing pages, dramatically increasing conversion rates while heavily slashing their cost-per-click.</p>
+                    <div class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-orange"></div>Healthcare Clinic</div>
+                    <h3 class="text-2xl font-bold text-white font-heading mb-4">Generated 500+ ready-to-book leads per month</h3>
+                    <p class="text-slate-400 text-base mb-6 leading-relaxed">We completely rebuilt their Google Ads and landing pages, bringing in hundreds of real patients while cutting their ad costs in half.</p>
                     <div class="flex gap-4">
                         <div>
                             <div class="text-4xl font-black text-brand-orange font-heading mb-1">3x</div>
@@ -383,9 +383,9 @@ include __DIR__ . '/../header.php';
                 
                 <div class="bg-white/5 p-8 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-md hover:bg-white/10 hover:border-brand-orange/30 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-orange/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
-                    <div class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-orange"></div>D2C Fashion Brand</div>
-                    <h3 class="text-2xl font-bold text-white font-heading mb-4">Scaled ROAS to 4.5x on Meta & Google</h3>
-                    <p class="text-slate-400 text-base mb-6 leading-relaxed">Implemented dynamic retargeting and advanced AI-driven bidding strategies that maximized their seasonal marketing budgets and accelerated global sales.</p>
+                    <div class="text-brand-orange font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-orange"></div>Retail Brand</div>
+                    <h3 class="text-2xl font-bold text-white font-heading mb-4">Multiplied their ad returns by 4.5x</h3>
+                    <p class="text-slate-400 text-base mb-6 leading-relaxed">We ran highly targeted Facebook and Instagram ads that brought buyers back to their website, instantly doubling their daily sales.</p>
                     <div class="flex gap-4">
                         <div>
                             <div class="text-4xl font-black text-brand-orange font-heading mb-1">4.5x</div>
@@ -411,8 +411,8 @@ include __DIR__ . '/../header.php';
     <section class="py-24 bg-gray-50 border-t border-gray-200">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-black text-slate-900 font-heading">Flexible Engagement Models</h2>
-                <p class="mt-4 text-slate-600 text-lg max-w-2xl mx-auto">We partner with organizations of all sizes, offering transparent and flexible operational models tailored to your goals.</p>
+                <h2 class="text-4xl font-black text-slate-900 font-heading">Work With Us Your Way</h2>
+                <p class="mt-4 text-slate-600 text-lg max-w-2xl mx-auto">Whether you are a startup or an established enterprise, we offer clear, flexible models to run your digital marketing.</p>
             </div>
             
             <div class="grid md:grid-cols-3 gap-6">
@@ -454,8 +454,8 @@ include __DIR__ . '/../header.php';
 <section id="faqs" class="py-20 bg-gray-50 border-t border-gray-200">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-slate-900 font-heading">Marketing Questions Answered</h2>
-                <p class="mt-4 text-slate-600">Clear insights into how we run campaigns and measure excellence.</p>
+                <h2 class="text-4xl font-bold text-slate-900 font-heading">Common Questions Answered</h2>
+                <p class="mt-4 text-slate-600">Everything you need to know about how we manage your ads and grow your business.</p>
             </div>
             <div class="divide-y divide-gray-200 border-t border-b border-gray-200 mt-8">
                 <details class="group bg-transparent">
