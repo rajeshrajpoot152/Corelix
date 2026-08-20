@@ -312,12 +312,54 @@ include __DIR__ . '/../header.php';
                 <p class="text-slate-600 text-sm max-w-2xl mx-auto">We utilize robust software to gather precise data, track competitors, and definitively measure our impact on your organic growth.</p>
             </div>
             
-            <div class="flex flex-wrap justify-center gap-3">
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-green/50 transition-colors">Ahrefs & Semrush</span>
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-green/50 transition-colors">Screaming Frog SEO Spider</span>
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-green/50 transition-colors">Google Search Console</span>
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-green/50 transition-colors">Surfer SEO</span>
-                <span class="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl text-slate-700 text-sm font-medium hover:border-brand-green/50 transition-colors">PageSpeed Insights</span>
+            <div class="flex flex-wrap justify-center gap-4 lg:gap-6 mt-8">
+                <!-- Ahrefs -->
+                <div class="flex items-center gap-3 px-6 py-4 bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg hover:border-[#f58220] hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center group-hover:bg-[#f58220] transition-colors">
+                        <svg class="w-5 h-5 text-[#f58220] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    </div>
+                    <span class="text-slate-800 font-bold text-lg">Ahrefs</span>
+                </div>
+                
+                <!-- Semrush -->
+                <div class="flex items-center gap-3 px-6 py-4 bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg hover:border-[#ff642d] hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-10 h-10 rounded-full bg-orange-50 flex items-center justify-center group-hover:bg-[#ff642d] transition-colors">
+                        <svg class="w-5 h-5 text-[#ff642d] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
+                    </div>
+                    <span class="text-slate-800 font-bold text-lg">Semrush</span>
+                </div>
+                
+                <!-- Screaming Frog -->
+                <div class="flex items-center gap-3 px-6 py-4 bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg hover:border-[#8fc33a] hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-10 h-10 rounded-full bg-green-50 flex items-center justify-center group-hover:bg-[#8fc33a] transition-colors">
+                        <svg class="w-5 h-5 text-[#8fc33a] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="12" height="14" x="6" y="8" rx="4"/><path d="M12 11v6"/><path d="M9 14h6"/><path d="M6 12H2"/><path d="M6 16H2"/><path d="M22 12h-4"/><path d="M22 16h-4"/></svg>
+                    </div>
+                    <span class="text-slate-800 font-bold text-lg">Screaming Frog</span>
+                </div>
+                
+                <!-- Google Search Console -->
+                <div class="flex items-center gap-3 px-6 py-4 bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg hover:border-[#4285f4] hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center group-hover:bg-[#4285f4] transition-colors">
+                        <img src="/assets/images/google.svg" class="w-5 h-5" alt="Google">
+                    </div>
+                    <span class="text-slate-800 font-bold text-lg">Search Console</span>
+                </div>
+                
+                <!-- PageSpeed Insights -->
+                <div class="flex items-center gap-3 px-6 py-4 bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg hover:border-[#34a853] hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-10 h-10 rounded-full bg-green-50 flex items-center justify-center group-hover:bg-[#34a853] transition-colors">
+                        <svg class="w-5 h-5 text-[#34a853] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14l4-4"/><path d="M3.34 16.99a10 10 0 1 1 17.32 0"/></svg>
+                    </div>
+                    <span class="text-slate-800 font-bold text-lg">PageSpeed</span>
+                </div>
+                
+                <!-- Surfer SEO -->
+                <div class="flex items-center gap-3 px-6 py-4 bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg hover:border-[#8b5cf6] hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center group-hover:bg-[#8b5cf6] transition-colors">
+                        <svg class="w-5 h-5 text-[#8b5cf6] group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></svg>
+                    </div>
+                    <span class="text-slate-800 font-bold text-lg">Surfer SEO</span>
+                </div>
             </div>
         </div>
     </section>
