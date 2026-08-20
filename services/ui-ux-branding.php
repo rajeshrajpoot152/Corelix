@@ -412,32 +412,34 @@ include __DIR__ . '/../header.php';
 
 
 <!-- Engagement Models -->
-<section class="py-24 bg-gray-50 border-t border-gray-200">
+<section class="py-24 bg-slate-950 text-white border-t border-white/10 relative overflow-hidden">
+    <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-purple-600/10 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
-            <h2 class="text-4xl font-black text-slate-900 font-heading">Flexible Engagement Models</h2>
-            <p class="mt-4 text-slate-600 text-lg max-w-2xl mx-auto">We partner with organizations of all sizes,
+            <h2 class="text-4xl font-black text-white font-heading relative z-10">Flexible Engagement Models</h2>
+            <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto relative z-10">We partner with organizations of all sizes,
                 offering transparent and flexible operational models tailored to your goals.</p>
         </div>
 
-        <div class="grid md:grid-cols-3 gap-6">
+        <div class="grid md:grid-cols-3 gap-6 relative z-10">
             <!-- Project Based -->
             <div
-                class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300">
-                <h3 class="text-xl font-bold text-slate-900 mb-2 font-heading">Project-Based</h3>
-                <p class="text-slate-600 text-sm mb-6">Perfect for strictly defined deliverables and timelines.</p>
+                class="bg-white/5 backdrop-blur-md p-8 rounded-3xl border border-white/10 hover:bg-white/10 hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-1 transition-all duration-300">
+                <h3 class="text-xl font-bold text-white mb-2 font-heading">Project-Based</h3>
+                <p class="text-slate-400 text-sm mb-6">Perfect for strictly defined deliverables and timelines.</p>
                 <ul class="space-y-3 mb-8">
-                    <li class="flex items-center gap-3 text-sm text-slate-700"><svg class="w-5 h-5 text-purple-600"
+                    <li class="flex items-center gap-3 text-sm text-slate-300"><svg class="w-5 h-5 text-purple-600"
                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                             </path>
                         </svg> Fixed pricing</li>
-                    <li class="flex items-center gap-3 text-sm text-slate-700"><svg class="w-5 h-5 text-purple-600"
+                    <li class="flex items-center gap-3 text-sm text-slate-300"><svg class="w-5 h-5 text-purple-600"
                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                             </path>
                         </svg> Clear milestones</li>
-                    <li class="flex items-center gap-3 text-sm text-slate-700"><svg class="w-5 h-5 text-purple-600"
+                    <li class="flex items-center gap-3 text-sm text-slate-300"><svg class="w-5 h-5 text-purple-600"
                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                             </path>
@@ -446,7 +448,7 @@ include __DIR__ . '/../header.php';
             </div>
             <!-- Dedicated Team -->
             <div
-                class="bg-slate-900 p-8 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden transform md:-translate-y-4">
+                class="bg-purple-900/20 backdrop-blur-md p-8 rounded-3xl border border-purple-500/50 shadow-[0_0_40px_rgba(147,51,234,0.3)] relative overflow-hidden transform md:-translate-y-4 hover:-translate-y-6 transition-transform duration-300">
                 <div
                     class="absolute top-0 right-0 bg-gradient-to-r from-purple-600 to-purple-600 text-white text-xs font-bold px-4 py-1 rounded-bl-xl">
                     POPULAR</div>
@@ -473,22 +475,22 @@ include __DIR__ . '/../header.php';
             </div>
             <!-- Retainer -->
             <div
-                class="bg-white p-8 rounded-3xl border border-gray-200 hover:shadow-xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300">
-                <h3 class="text-xl font-bold text-slate-900 mb-2 font-heading">Monthly Retainer</h3>
-                <p class="text-slate-600 text-sm mb-6">Continuous support and iterative improvements for ongoing
+                class="bg-white/5 backdrop-blur-md p-8 rounded-3xl border border-white/10 hover:bg-white/10 hover:border-purple-500/50 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-1 transition-all duration-300">
+                <h3 class="text-xl font-bold text-white mb-2 font-heading">Monthly Retainer</h3>
+                <p class="text-slate-400 text-sm mb-6">Continuous support and iterative improvements for ongoing
                     success.</p>
                 <ul class="space-y-3 mb-8">
-                    <li class="flex items-center gap-3 text-sm text-slate-700"><svg class="w-5 h-5 text-purple-600"
+                    <li class="flex items-center gap-3 text-sm text-slate-300"><svg class="w-5 h-5 text-purple-600"
                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                             </path>
                         </svg> Guaranteed hours</li>
-                    <li class="flex items-center gap-3 text-sm text-slate-700"><svg class="w-5 h-5 text-purple-600"
+                    <li class="flex items-center gap-3 text-sm text-slate-300"><svg class="w-5 h-5 text-purple-600"
                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                             </path>
                         </svg> Maintenance & Updates</li>
-                    <li class="flex items-center gap-3 text-sm text-slate-700"><svg class="w-5 h-5 text-purple-600"
+                    <li class="flex items-center gap-3 text-sm text-slate-300"><svg class="w-5 h-5 text-purple-600"
                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
                             </path>
