@@ -22,9 +22,17 @@ include 'header.php';
         </h2>
         
         <!-- Page Subtitle -->
-        <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium">
-            Comprehensive IT and Marketing solutions designed to elevate your brand and accelerate your growth.
+        <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium leading-relaxed">
+            End-to-end digital engineering and marketing solutions designed to scale your operations, reduce costs, and drive revenue growth.
         </p>
+        
+        <!-- CTA Button -->
+        <div class="mt-8">
+            <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="group relative inline-flex items-center gap-2 px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all duration-300 text-sm border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Consult Our Experts">
+                Consult Our Experts
+                <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
+            </a>
+        </div>
     </div>
 </section>
 
