@@ -28,10 +28,15 @@ include 'header.php';
             We have successfully received your inquiry. One of our digital experts will review your details and get back to you with a tailored solution within 24 hours.
         </p>
 
-        <!-- Back to Home Button -->
-        <a href="/" class="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-white transition-all duration-300 bg-gradient-to-r from-brand-blue to-brand-green rounded-full hover:scale-105 hover:shadow-lg hover:shadow-brand-blue/20">
-            Back to Homepage
-        </a>
+        <!-- Action Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+            <a href="/" class="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-white transition-all duration-300 bg-gradient-to-r from-brand-blue to-brand-green rounded-full hover:scale-105 hover:shadow-lg hover:shadow-brand-blue/20">
+                Back to Homepage
+            </a>
+            <a href="/blog" class="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-white transition-all duration-300 bg-white/5 border border-white/20 rounded-full hover:bg-white/10 hover:scale-105">
+                Read Our Blog
+            </a>
+        </div>
     </div>
 </section>
 
