@@ -201,7 +201,8 @@ include __DIR__ . '/../header.php';
 </section>
 
 <!-- 04. Enterprise AI Services (Image + Grid Layout) -->
-<section id="enterprise-ai" class="py-20 md:py-28 bg-gray-50 border-b border-gray-200 relative overflow-hidden">
+<section id="enterprise-ai" class="py-20 md:py-28 bg-slate-950 text-white border-b border-white/5 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none"></div>
     <!-- Premium Background Blobs -->
     <div class="absolute top-1/4 left-0 w-[500px] h-[500px] bg-brand-red/5 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
     <div class="absolute bottom-0 right-0 w-[600px] h-[600px] bg-brand-orange/5 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
@@ -211,8 +212,8 @@ include __DIR__ . '/../header.php';
 
             <!-- Left Side: Sticky Text & Image -->
             <div class="lg:col-span-5 relative lg:sticky lg:top-32">
-                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 leading-tight mb-6 font-heading">Comprehensive <br class="hidden sm:block"/><span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-brand-orange">AI & Deep Tech</span> Engineering</h2>
-                <p class="text-slate-600 text-lg leading-relaxed mb-8">We build smart, connected systems that use Artificial Intelligence to help your business grow fast, without adding extra workload.</p>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6 font-heading">Comprehensive <br class="hidden sm:block"/><span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-brand-orange">AI & Deep Tech</span> Engineering</h2>
+                <p class="text-slate-400 text-lg leading-relaxed mb-8">We build smart, connected systems that use Artificial Intelligence to help your business grow fast, without adding extra workload.</p>
 
                 <!-- Premium Image Container -->
                 <div class="rounded-3xl overflow-hidden border border-gray-200 shadow-2xl relative group" data-aos="fade-right">
@@ -225,7 +226,7 @@ include __DIR__ . '/../header.php';
                     
                     <!-- Floating Stat Box -->
                     <div class="absolute bottom-6 left-6 right-6">
-                        <div class="bg-white/95 backdrop-blur-md p-4 sm:p-5 rounded-2xl border border-white/30 shadow-2xl transform translate-y-0 group-hover:-translate-y-2 transition-transform duration-500">
+                        <div class="bg-white/10 backdrop-blur-md p-4 sm:p-5 rounded-2xl border border-white/20 shadow-2xl transform translate-y-0 group-hover:-translate-y-2 transition-transform duration-500">
                             <div class="flex items-center gap-4">
                                 <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-red to-brand-orange flex items-center justify-center text-white flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300">
                                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -233,8 +234,8 @@ include __DIR__ . '/../header.php';
                                     </svg>
                                 </div>
                                 <div>
-                                    <h4 class="text-gray-900 font-bold text-lg font-heading">Enterprise Scale</h4>
-                                    <p class="text-slate-500 text-sm">Built for massive workloads</p>
+                                    <h4 class="text-white font-bold text-lg font-heading">Enterprise Scale</h4>
+                                    <p class="text-slate-400 text-sm">Built for massive workloads</p>
                                 </div>
                             </div>
                         </div>
@@ -245,58 +246,58 @@ include __DIR__ . '/../header.php';
             <!-- Right Side: 6 Cards Grid -->
             <div class="lg:col-span-7 grid sm:grid-cols-2 gap-6 relative" data-aos="fade-left">
                 <!-- Card 1 -->
-                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-6 sm:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-red/50 hover:shadow-2xl hover:shadow-brand-red/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl hover:border-brand-red/50 hover:shadow-2xl hover:shadow-brand-red/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-br from-brand-red/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                    <div class="w-14 h-14 rounded-2xl bg-red-50 flex items-center justify-center text-brand-red mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-red/10 flex items-center justify-center text-brand-red mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Time-Saving AI Workflows</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">Set up AI agents that can handle multi-step tasks for you&mdash;like optimizing your supply chain or running daily operations smoothly.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Time-Saving AI Workflows</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Set up AI agents that can handle multi-step tasks for you&mdash;like optimizing your supply chain or running daily operations smoothly.</p>
                 </div>
                 <!-- Card 2 -->
-                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-6 sm:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden mt-0 sm:mt-12">
+                <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden mt-0 sm:mt-12">
                     <div class="absolute inset-0 bg-gradient-to-br from-brand-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                    <div class="w-14 h-14 rounded-2xl bg-orange-50 flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">LLM Fine-Tuning</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">Create your own private AI trained on your company documents, helping your team find answers and automate tasks securely.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">LLM Fine-Tuning</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Create your own private AI trained on your company documents, helping your team find answers and automate tasks securely.</p>
                 </div>
                 <!-- Card 3 -->
-                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-6 sm:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-red/50 hover:shadow-2xl hover:shadow-brand-red/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl hover:border-brand-red/50 hover:shadow-2xl hover:shadow-brand-red/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-br from-brand-red/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                    <div class="w-14 h-14 rounded-2xl bg-red-50 flex items-center justify-center text-brand-red mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-red/10 flex items-center justify-center text-brand-red mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Computer Vision Systems</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">Use smart cameras and AI to automatically spot defects, monitor quality, and keep your facilities secure in real time.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Computer Vision Systems</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Use smart cameras and AI to automatically spot defects, monitor quality, and keep your facilities secure in real time.</p>
                 </div>
                 <!-- Card 4 -->
-                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-6 sm:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden mt-0 sm:mt-12">
+                <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden mt-0 sm:mt-12">
                     <div class="absolute inset-0 bg-gradient-to-br from-brand-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                    <div class="w-14 h-14 rounded-2xl bg-orange-50 flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">Robotic Process Automation</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">Eliminate repetitive data tasks. Our straightforward RPA solutions mimic human interactions within legacy software to drastically lower costs.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">Robotic Process Automation</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Eliminate repetitive data tasks. Our straightforward RPA solutions mimic human interactions within legacy software to drastically lower costs.</p>
                 </div>
                 <!-- Card 5 -->
-                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-6 sm:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-red/50 hover:shadow-2xl hover:shadow-brand-red/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
+                <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl hover:border-brand-red/50 hover:shadow-2xl hover:shadow-brand-red/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-br from-brand-red/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                    <div class="w-14 h-14 rounded-2xl bg-red-50 flex items-center justify-center text-brand-red mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-red/10 flex items-center justify-center text-brand-red mb-6 group-hover:scale-110 group-hover:bg-brand-red group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Managed MLOps</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">We manage your AI systems entirely&mdash;monitoring performance and updating them automatically so they always stay accurate and reliable.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-red transition-colors">Managed MLOps</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">We manage your AI systems entirely&mdash;monitoring performance and updating them automatically so they always stay accurate and reliable.</p>
                 </div>
                 <!-- Card 6 -->
-                <div class="bg-white/80 backdrop-blur-xl border border-white/60 p-6 sm:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden mt-0 sm:mt-12">
+                <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-3xl shadow-2xl hover:border-brand-orange/50 hover:shadow-2xl hover:shadow-brand-orange/20 hover:-translate-y-2 transition-all duration-500 group flex flex-col h-full relative overflow-hidden mt-0 sm:mt-12">
                     <div class="absolute inset-0 bg-gradient-to-br from-brand-orange/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-                    <div class="w-14 h-14 rounded-2xl bg-orange-50 flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 group-hover:bg-brand-orange group-hover:text-white transition-all duration-300 shadow-sm relative z-10">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">Advanced Fraud Detection</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed relative z-10">Automatically spot unusual activity and stop fraud before it happens, keeping your business secure and compliant.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading relative z-10 group-hover:text-brand-orange transition-colors">Advanced Fraud Detection</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed relative z-10">Automatically spot unusual activity and stop fraud before it happens, keeping your business secure and compliant.</p>
                 </div>
             </div>
 
