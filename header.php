@@ -269,15 +269,59 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
                             Services
                             <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                         </a>
-                        <!-- Dropdown Menu -->
-                        <div class="absolute left-0 mt-0 w-64 rounded-xl bg-white shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 overflow-hidden">
-                            <div class="py-2">
-                                <a href="/services/web-mobile-app-development" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="Web & Mobile App Development">Web & Mobile App Development</a>
-                                <a href="/services/seo-services" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="SEO Services">SEO Services</a>
-                                <a href="/services/digital-marketing" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="Digital Marketing">Digital Marketing</a>
-                                <a href="/services/ai-automation" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="AI & Business Automation">AI & Business Automation</a>
-                                <a href="/services/ui-ux-branding" class="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/5 hover:text-brand-blue transition-colors" title="UI/UX & Branding">UI/UX & Branding</a>
-                            </div>
+                        <!-- Dropdown Menu (Premium UI) -->
+                        <div class="absolute -left-12 mt-0 w-[360px] rounded-3xl bg-white shadow-[0_20px_50px_rgba(0,0,0,0.15)] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 border border-gray-100 p-3 grid gap-1 z-50">
+                            
+                            <a href="/services/web-mobile-app-development" class="flex items-center gap-4 p-3 rounded-2xl hover:bg-gray-50 transition-colors group/item" title="Web & Mobile App Development">
+                                <div class="w-11 h-11 rounded-xl bg-blue-50/50 text-brand-blue flex items-center justify-center flex-shrink-0 group-hover/item:bg-brand-blue group-hover/item:text-white group-hover/item:shadow-md transition-all">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-[15px] font-bold text-gray-900 group-hover/item:text-brand-blue transition-colors">Web & Mobile Apps</h4>
+                                    <p class="text-[13px] text-gray-500 mt-0.5 font-medium">Custom software development</p>
+                                </div>
+                            </a>
+
+                            <a href="/services/seo-services" class="flex items-center gap-4 p-3 rounded-2xl hover:bg-gray-50 transition-colors group/item" title="SEO Services">
+                                <div class="w-11 h-11 rounded-xl bg-green-50/50 text-brand-green flex items-center justify-center flex-shrink-0 group-hover/item:bg-brand-green group-hover/item:text-white group-hover/item:shadow-md transition-all">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-[15px] font-bold text-gray-900 group-hover/item:text-brand-green transition-colors">SEO Services</h4>
+                                    <p class="text-[13px] text-gray-500 mt-0.5 font-medium">Rank higher on search engines</p>
+                                </div>
+                            </a>
+
+                            <a href="/services/digital-marketing" class="flex items-center gap-4 p-3 rounded-2xl hover:bg-gray-50 transition-colors group/item" title="Digital Marketing">
+                                <div class="w-11 h-11 rounded-xl bg-orange-50/50 text-brand-orange flex items-center justify-center flex-shrink-0 group-hover/item:bg-brand-orange group-hover/item:text-white group-hover/item:shadow-md transition-all">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path></svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-[15px] font-bold text-gray-900 group-hover/item:text-brand-orange transition-colors">Digital Marketing</h4>
+                                    <p class="text-[13px] text-gray-500 mt-0.5 font-medium">Ads, Leads & Brand Growth</p>
+                                </div>
+                            </a>
+
+                            <a href="/services/ai-automation" class="flex items-center gap-4 p-3 rounded-2xl hover:bg-gray-50 transition-colors group/item" title="AI & Business Automation">
+                                <div class="w-11 h-11 rounded-xl bg-purple-50/50 text-purple-500 flex items-center justify-center flex-shrink-0 group-hover/item:bg-purple-500 group-hover/item:text-white group-hover/item:shadow-md transition-all">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-[15px] font-bold text-gray-900 group-hover/item:text-purple-500 transition-colors">AI & Automation</h4>
+                                    <p class="text-[13px] text-gray-500 mt-0.5 font-medium">Smart workflows & AI Bots</p>
+                                </div>
+                            </a>
+
+                            <a href="/services/ui-ux-branding" class="flex items-center gap-4 p-3 rounded-2xl hover:bg-gray-50 transition-colors group/item" title="UI/UX & Branding">
+                                <div class="w-11 h-11 rounded-xl bg-pink-50/50 text-pink-500 flex items-center justify-center flex-shrink-0 group-hover/item:bg-pink-500 group-hover/item:text-white group-hover/item:shadow-md transition-all">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-[15px] font-bold text-gray-900 group-hover/item:text-pink-500 transition-colors">UI/UX & Branding</h4>
+                                    <p class="text-[13px] text-gray-500 mt-0.5 font-medium">Premium brand identities</p>
+                                </div>
+                            </a>
+                            
                         </div>
                     </div>
 
