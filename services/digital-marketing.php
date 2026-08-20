@@ -39,7 +39,7 @@ include __DIR__ . '/../header.php';
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <!-- Text Content -->
                 <div>
-                    <h2 class="text-4xl md:text-5xl font-black text-slate-900 leading-tight mb-6 font-heading">
+                    <h2 class="text-3xl lg:text-5xl font-black text-slate-900 leading-tight mb-6 font-heading">
                         Stop Chasing Vanity Metrics. Demand Substantial Growth.
                     </h2>
                     <p class="text-lg text-slate-600 leading-relaxed mb-8">
@@ -186,7 +186,7 @@ include __DIR__ . '/../header.php';
         
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
-                <h2 class="text-4xl md:text-5xl font-black text-white font-heading mb-6">Our Outstanding Marketing Lifecycle</h2>
+                <h2 class="text-3xl lg:text-5xl font-black text-white font-heading mb-6">Our Outstanding Marketing Lifecycle</h2>
                 <p class="mt-4 text-slate-400 text-lg max-w-2xl mx-auto">A systematic, data-driven methodology for launching and scaling highly profitable campaigns.</p>
             </div>
 
@@ -311,31 +311,37 @@ include __DIR__ . '/../header.php';
     <!-- 06. Social Proof & Benefits (Bubble Chart Layout) -->
     <section class="py-24 bg-gray-50 border-t border-gray-200 overflow-hidden">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row items-center justify-center -space-y-6 md:space-y-0 md:-space-x-12 py-10">
+            <div class="text-center mb-12">
+                <span class="text-brand-orange font-bold tracking-widest uppercase text-sm mb-4 block">Proven Results</span>
+                <h2 class="text-3xl md:text-4xl font-black text-slate-900 font-heading mb-4">Unmatched Marketing ROI</h2>
+                <p class="text-slate-600 text-lg max-w-2xl mx-auto">We consistently deliver exponential growth metrics for our partners through precise, data-driven campaigns.</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row items-center justify-center -space-y-4 lg:space-y-0 lg:-space-x-12 py-10 relative z-10">
                 
                 <!-- Bubble 1: ROAS -->
-                <div class="relative z-10 flex flex-col justify-center items-center text-center w-48 h-48 md:w-52 md:h-52 rounded-full bg-white shadow-xl border border-gray-100 hover:scale-110 transition-transform duration-500 cursor-default">
-                    <div class="text-4xl md:text-5xl font-black text-slate-900 mb-1">300<span class="text-2xl">%</span></div>
-                    <div class="text-slate-500 font-bold uppercase text-[10px] md:text-xs tracking-wider px-6">Outstanding<br>ROAS</div>
+                <div class="relative z-10 flex flex-col justify-center items-center text-center w-40 h-40 lg:w-52 lg:h-52 rounded-full bg-white shadow-xl border border-gray-100 hover:scale-110 transition-transform duration-500 cursor-default">
+                    <div class="text-3xl lg:text-5xl font-black text-slate-900 mb-1">300<span class="text-2xl">%</span></div>
+                    <div class="text-slate-500 font-bold uppercase text-[9px] lg:text-xs tracking-wider px-6">Outstanding<br>ROAS</div>
                 </div>
 
                 <!-- Bubble 2: CAC -->
-                <div class="relative z-20 flex flex-col justify-center items-center text-center w-56 h-56 md:w-64 md:h-64 rounded-full bg-slate-900 shadow-2xl hover:scale-110 transition-transform duration-500 cursor-default">
+                <div class="relative z-20 flex flex-col justify-center items-center text-center w-48 h-48 lg:w-64 lg:h-64 rounded-full bg-slate-900 shadow-2xl hover:scale-110 transition-transform duration-500 cursor-default">
                     <div class="absolute inset-0 bg-white/5 rounded-full mix-blend-overlay"></div>
-                    <div class="text-5xl md:text-6xl font-black text-white mb-2">40<span class="text-3xl">%</span></div>
+                    <div class="text-4xl lg:text-6xl font-black text-white mb-2">40<span class="text-3xl">%</span></div>
                     <div class="text-brand-orange font-bold uppercase text-xs tracking-widest px-8">Reduction<br>in CAC</div>
                 </div>
 
                 <!-- Bubble 3: Leads -->
-                <div class="relative z-10 flex flex-col justify-center items-center text-center w-48 h-48 md:w-56 md:h-56 rounded-full bg-white shadow-xl border border-gray-100 hover:scale-110 transition-transform duration-500 cursor-default">
-                    <div class="text-4xl md:text-5xl font-black text-slate-900 mb-1">10k+</div>
-                    <div class="text-slate-500 font-bold uppercase text-[10px] md:text-xs tracking-wider px-6">Qualified<br>Leads</div>
+                <div class="relative z-10 flex flex-col justify-center items-center text-center w-40 h-40 lg:w-56 lg:h-56 rounded-full bg-white shadow-xl border border-gray-100 hover:scale-110 transition-transform duration-500 cursor-default">
+                    <div class="text-3xl lg:text-5xl font-black text-slate-900 mb-1">10k+</div>
+                    <div class="text-slate-500 font-bold uppercase text-[9px] lg:text-xs tracking-wider px-6">Qualified<br>Leads</div>
                 </div>
 
                 <!-- Bubble 4: Transparency -->
-                <div class="relative z-30 flex flex-col justify-center items-center text-center w-64 h-64 md:w-72 md:h-72 rounded-full bg-gradient-to-br from-brand-orange to-[#ff6a00] shadow-2xl shadow-brand-orange/40 hover:scale-110 transition-transform duration-500 cursor-default">
+                <div class="relative z-30 flex flex-col justify-center items-center text-center w-56 h-56 lg:w-72 lg:h-72 rounded-full bg-gradient-to-br from-brand-orange to-[#ff6a00] shadow-2xl shadow-brand-orange/40 hover:scale-110 transition-transform duration-500 cursor-default">
                     <div class="absolute inset-0 bg-white/10 rounded-full mix-blend-overlay"></div>
-                    <div class="text-6xl md:text-7xl font-black text-white mb-2">100<span class="text-4xl">%</span></div>
+                    <div class="text-5xl lg:text-7xl font-black text-white mb-2">100<span class="text-4xl">%</span></div>
                     <div class="text-white/90 font-bold uppercase text-xs md:text-sm tracking-widest px-10">Data<br>Transparency</div>
                 </div>
 
@@ -351,7 +357,7 @@ include __DIR__ . '/../header.php';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <span class="text-brand-orange font-bold tracking-widest uppercase text-sm mb-4 block">Case Studies</span>
-                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">Proven Business Impact</h2>
+                <h2 class="text-3xl lg:text-5xl font-black text-slate-900 font-heading mb-6">Proven Business Impact</h2>
                 <p class="text-slate-600 text-lg max-w-2xl mx-auto">Data-driven campaigns designed for absolute maximum ROI. Discover how our performance marketing turns advertising budgets into explosive business growth.</p>
             </div>
             
