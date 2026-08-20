@@ -33,6 +33,14 @@ include __DIR__ . '/../header.php';
         <p class="text-base md:text-xl text-gray-300 max-w-3xl mx-auto font-medium leading-relaxed mb-10">
             First impressions matter. We design beautiful, easy-to-use websites and apps that instantly build brand trust and turn visitors into paying customers.
         </p>
+        <!-- CTA Button -->
+        <div class="mt-8">
+            <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="group relative inline-flex items-center gap-2 px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all duration-300 text-sm border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Upgrade Your Brand">
+                Upgrade Your Brand
+                <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
+            </a>
+        </div>
+
 
 
     </div>
@@ -106,16 +114,15 @@ include __DIR__ . '/../header.php';
                 <!-- Glassmorphism Box — static on mobile, absolute overlay on lg -->
                 <div class="mt-4 lg:mt-0 lg:absolute lg:bottom-0 lg:left-5 lg:right-5">
                     <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
-                        <h3 class="text-xs font-black text-purple-600 mb-4 uppercase tracking-wider font-heading">Why You Lose Sales</h3>
+                        <h3 class="text-xs font-black text-purple-600 mb-4 uppercase tracking-wider font-heading">Design That Sells</h3>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                            <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Users Leaving Fast</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">People leave if they can't find what they need.</p>
+                            <div class="bg-gray-50 rounded-xl p-3 border border-gray-100 group">
+                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1 group-hover:text-purple-600 transition-colors">Frictionless UX</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Smooth user journeys that guide visitors to buy.</p>
                             </div>
-                            <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Zero Trust</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">An old, messy website kills your brand authority.
-                                </p>
+                            <div class="bg-gray-50 rounded-xl p-3 border border-gray-100 group">
+                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1 group-hover:text-purple-600 transition-colors">Premium Authority</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">World-class visual identity that commands trust.</p>
                             </div>
                         </div>
                     </div>
