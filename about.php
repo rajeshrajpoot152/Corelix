@@ -173,7 +173,7 @@ include 'header.php';
             <!-- India -->
             <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
                 <div class="aspect-[4/5] overflow-hidden bg-gray-900">
-                    <img src="/assets/images/INDIA.avif" alt="India" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="India">
+                    <img src="/assets/images/INDIA.jpg" alt="India" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="India">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
                     <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">IN</span>INDIA</span>
@@ -183,7 +183,7 @@ include 'header.php';
             <!-- USA -->
             <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
                 <div class="aspect-[4/5] overflow-hidden bg-gray-900">
-                    <img src="/assets/images/UNITED-STATES.avif" alt="United States" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="United States">
+                    <img src="/assets/images/UNITED-STATES.jpg" alt="United States" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="United States">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
                     <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">US</span>UNITED STATES</span>
@@ -193,7 +193,7 @@ include 'header.php';
             <!-- Canada -->
             <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
                 <div class="aspect-[4/5] overflow-hidden bg-gray-900">
-                    <img src="/assets/images/CANADA.avif" alt="Canada" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Canada">
+                    <img src="/assets/images/CANADA.jpg" alt="Canada" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Canada">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
                     <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">CA</span>CANADA</span>
@@ -203,7 +203,7 @@ include 'header.php';
             <!-- UAE -->
             <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
                 <div class="aspect-[4/5] overflow-hidden bg-gray-900">
-                    <img src="/assets/images/AEUAE.avif" alt="UAE" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Aeuae">
+                    <img src="/assets/images/AEUAE.jpg" alt="UAE" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Aeuae">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
                     <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">AE</span>UAE</span>
@@ -213,7 +213,7 @@ include 'header.php';
             <!-- Australia -->
             <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
                 <div class="aspect-[4/5] overflow-hidden bg-gray-900">
-                    <img src="/assets/images/AUSTRALIA.avif" alt="Australia" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Australia">
+                    <img src="/assets/images/AUSTRALIA.jpg" alt="Australia" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Australia">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
                     <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">AU</span>AUSTRALIA</span>
