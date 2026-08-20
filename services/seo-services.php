@@ -237,52 +237,73 @@ include __DIR__ . '/../header.php';
                   <p class="mt-4 text-slate-600 text-lg max-w-2xl mx-auto">A systematic, data-driven approach to dominating search results.</p>
               </div>
   
-              <div class="space-y-6 relative max-w-4xl mx-auto">
-                  <!-- Timeline connecting line -->
-                  <div class="absolute left-[47px] top-10 bottom-10 w-px bg-gradient-to-b from-brand-green/30 via-brand-green/30 to-transparent hidden sm:block"></div>
-                  
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                      <div class="w-12 h-12 rounded-2xl bg-green-50 text-brand-green font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-green group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">1</div>
-                      <div>
-                          <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-green transition-colors">Audit</h3>
-                          <p class="text-slate-600 text-sm leading-relaxed">We conduct a deep crawl of your website to identify technical errors, toxic backlinks, and substantial keyword gaps.</p>
-                      </div>
-                  </div>
+              <div class="relative max-w-7xl mx-auto mt-20">
+                    <!-- Horizontal Dashed Connecting Line (Desktop) -->
+                    <div class="absolute top-[2.5rem] left-[10%] right-[10%] h-[2px] border-t-[3px] border-dashed border-gray-200 hidden lg:block z-0"></div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-6 relative z-10">
+                        
+                        <!-- Step 1 -->
+                        <div class="flex flex-col items-center text-center group">
+                            <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-[0_10px_30px_rgba(0,0,0,0.08)] group-hover:shadow-[0_15px_40px_rgba(16,185,129,0.2)] group-hover:-translate-y-2 transition-all duration-300 mb-6 relative z-10 border border-gray-100">
+                                <div class="absolute inset-1 rounded-full border border-dashed border-gray-300 group-hover:border-brand-green group-hover:animate-[spin_4s_linear_infinite] transition-colors"></div>
+                                <span class="text-3xl font-black text-brand-green/10 absolute -right-4 -bottom-2 group-hover:text-brand-green/20 transition-colors">01</span>
+                                <span class="text-2xl font-black text-slate-800 group-hover:text-brand-green relative z-10">1</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading group-hover:text-brand-green transition-colors">Audit</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed px-2">Deep crawl to identify technical errors and toxic backlinks.</p>
+                        </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                      <div class="w-12 h-12 rounded-2xl bg-green-50 text-brand-green font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-green group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">2</div>
-                      <div>
-                          <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-green transition-colors">Strategy</h3>
-                          <p class="text-slate-600 text-sm leading-relaxed">We develop a customized roadmap prioritizing effective, high-intent keywords to secure quick, authoritative wins.</p>
-                      </div>
-                  </div>
+                        <!-- Step 2 -->
+                        <div class="flex flex-col items-center text-center group">
+                            <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-[0_10px_30px_rgba(0,0,0,0.08)] group-hover:shadow-[0_15px_40px_rgba(16,185,129,0.2)] group-hover:-translate-y-2 transition-all duration-300 mb-6 relative z-10 border border-gray-100">
+                                <div class="absolute inset-1 rounded-full border border-dashed border-gray-300 group-hover:border-brand-green group-hover:animate-[spin_4s_linear_infinite] transition-colors"></div>
+                                <span class="text-3xl font-black text-brand-green/10 absolute -right-4 -bottom-2 group-hover:text-brand-green/20 transition-colors">02</span>
+                                <span class="text-2xl font-black text-slate-800 group-hover:text-brand-green relative z-10">2</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading group-hover:text-brand-green transition-colors">Strategy</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed px-2">Custom roadmap prioritizing high-intent, authoritative keywords.</p>
+                        </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                      <div class="w-12 h-12 rounded-2xl bg-green-50 text-brand-green font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-green group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">3</div>
-                      <div>
-                          <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-green transition-colors">On-Page</h3>
-                          <p class="text-slate-600 text-sm leading-relaxed">Our team refines your copy, fixes heading structures, and optimizes media for outstanding relevance.</p>
-                      </div>
-                  </div>
+                        <!-- Step 3 -->
+                        <div class="flex flex-col items-center text-center group">
+                            <div class="w-20 h-20 bg-brand-green rounded-full flex items-center justify-center shadow-[0_10px_30px_rgba(16,185,129,0.3)] group-hover:shadow-[0_15px_40px_rgba(16,185,129,0.5)] group-hover:-translate-y-2 transition-all duration-300 mb-6 relative z-10 border-4 border-green-100">
+                                <div class="absolute inset-[-8px] rounded-full border border-brand-green/30 group-hover:animate-ping transition-colors"></div>
+                                <span class="text-2xl font-black text-white relative z-10">3</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-brand-green mb-3 font-heading">On-Page</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed px-2">Refine copy, heading structures, and targeted media optimization.</p>
+                        </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                      <div class="w-12 h-12 rounded-2xl bg-green-50 text-brand-green font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-green group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">4</div>
-                      <div>
-                          <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-green transition-colors">Off-Page</h3>
-                          <p class="text-slate-600 text-sm leading-relaxed">We begin acquiring verified backlinks and citations to steadily increase your domain authority.</p>
-                      </div>
-                  </div>
+                        <!-- Step 4 -->
+                        <div class="flex flex-col items-center text-center group">
+                            <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-[0_10px_30px_rgba(0,0,0,0.08)] group-hover:shadow-[0_15px_40px_rgba(16,185,129,0.2)] group-hover:-translate-y-2 transition-all duration-300 mb-6 relative z-10 border border-gray-100">
+                                <div class="absolute inset-1 rounded-full border border-dashed border-gray-300 group-hover:border-brand-green group-hover:animate-[spin_4s_linear_infinite] transition-colors"></div>
+                                <span class="text-3xl font-black text-brand-green/10 absolute -right-4 -bottom-2 group-hover:text-brand-green/20 transition-colors">04</span>
+                                <span class="text-2xl font-black text-slate-800 group-hover:text-brand-green relative z-10">4</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading group-hover:text-brand-green transition-colors">Off-Page</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed px-2">Acquire verified backlinks to increase your domain authority.</p>
+                        </div>
 
-                  <div class="bg-white p-6 rounded-3xl border border-gray-200 hover:border-brand-green hover:shadow-2xl hover:shadow-brand-green/10 hover:-translate-y-1 transition-all duration-300 group flex flex-col sm:flex-row gap-6 items-start relative z-10">
-                      <div class="w-12 h-12 rounded-2xl bg-green-50 text-brand-green font-black flex items-center justify-center flex-shrink-0 group-hover:bg-brand-green group-hover:text-white transition-colors shadow-sm ring-4 ring-white text-xl">5</div>
-                      <div>
-                          <h3 class="text-xl font-bold text-slate-900 mb-2 sm:mt-1 font-heading group-hover:text-brand-green transition-colors">Reporting</h3>
-                          <p class="text-slate-600 text-sm leading-relaxed">We provide transparent, monthly reports tracking your keyword movements and organic revenue growth.</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+                        <!-- Step 5 -->
+                        <div class="flex flex-col items-center text-center group">
+                            <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-[0_10px_30px_rgba(0,0,0,0.08)] group-hover:shadow-[0_15px_40px_rgba(16,185,129,0.2)] group-hover:-translate-y-2 transition-all duration-300 mb-6 relative z-10 border border-gray-100">
+                                <div class="absolute inset-1 rounded-full border border-dashed border-gray-300 group-hover:border-brand-green group-hover:animate-[spin_4s_linear_infinite] transition-colors"></div>
+                                <span class="text-3xl font-black text-brand-green/10 absolute -right-4 -bottom-2 group-hover:text-brand-green/20 transition-colors">05</span>
+                                <span class="text-2xl font-black text-slate-800 group-hover:text-brand-green relative z-10">5</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-3 font-heading group-hover:text-brand-green transition-colors">Reporting</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed px-2">Transparent monthly tracking of revenue and organic growth.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+    
 <!-- 05. Tech Stack & Integration Platforms -->
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
