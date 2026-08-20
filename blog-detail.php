@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Get slug from URL
 $slug = isset($_GET['slug']) ? $_GET['slug'] : '';
 
