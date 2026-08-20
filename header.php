@@ -7,7 +7,7 @@ $metaKeywords = isset($metaKeywords) ? $metaKeywords : "IT Agency, Web Developme
 $metaAuthor = isset($metaAuthor) ? $metaAuthor : "Corelix Team";
 $metaPublisher = isset($metaPublisher) ? $metaPublisher : "Corelix";
 // Staging mode: prevent search engines from indexing/crawling
-$metaRobots = "noindex, nofollow";
+$metaRobots = isset($metaRobots) ? $metaRobots : "index, follow";
 
 // Construct canonical URL dynamically
 if (!isset($canonicalUrl)) {
@@ -34,7 +34,7 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
     <meta name="author" content="<?php echo htmlspecialchars($metaAuthor, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="publisher" content="<?php echo htmlspecialchars($metaPublisher, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="robots" content="<?php echo htmlspecialchars($metaRobots, ENT_QUOTES, 'UTF-8'); ?>">
-    <meta name="googlebot" content="noindex, nofollow">
+    <!-- Googlebot dynamically inherits meta robots -->
     
     <!-- Canonical URL -->
     <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
