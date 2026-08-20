@@ -23,9 +23,17 @@ include 'header.php';
         </h1>
         
         <!-- Page Subtitle -->
-        <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium">
-            We are a fast-growing tech agency looking for passionate innovators, creative thinkers, and digital marketing experts. Whether you prefer the energy of the office or the flexibility of remote work, we have a place for you.
+        <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium leading-relaxed">
+            Join an elite team of engineers and marketers. We are a fast-growing tech agency looking for passionate innovators. Whether you prefer the energy of the office or the flexibility of remote work, we have a place for you.
         </p>
+        
+        <!-- CTA Button -->
+        <div class="mt-8">
+            <button onclick="window.scrollBy({ top: 900, behavior: 'smooth' })" class="group relative inline-flex items-center gap-2 px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all duration-300 text-sm border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="View Open Positions">
+                View Open Positions
+                <svg class="w-4 h-4 group-hover:translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+            </button>
+        </div>
     </div>
 </section>
 
