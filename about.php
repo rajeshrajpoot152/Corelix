@@ -169,7 +169,7 @@ include 'header.php';
             <p class="text-gray-600 text-lg leading-relaxed">We empower businesses worldwide with cutting-edge IT solutions, from custom web development and SaaS products to result-driven digital marketing. Rooted in India, we deliver scalable digital experiences that drive global growth.</p>
         </div>
 
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-6" data-aos="fade-up" data-aos-delay="100">
             <!-- India -->
             <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
                 <div class="aspect-[4/5] overflow-hidden bg-gray-900">
@@ -217,6 +217,15 @@ include 'header.php';
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
                     <span class="text-white font-bold text-sm tracking-wider uppercase"><img src="https://flagcdn.com/au.svg" class="inline-block h-4 w-auto mr-2 rounded-[2px] shadow-sm" alt="AU">AUSTRALIA</span>
+                </div>
+            </div>
+            <!-- UK -->
+            <div class="group relative rounded-2xl overflow-hidden bg-[#111319] border border-white/5 hover:border-white/20 transition-all duration-300 shadow-lg">
+                <div class="aspect-[4/5] overflow-hidden bg-gray-900">
+                    <img src="/assets/images/UK.jpg" alt="United Kingdom" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="United Kingdom">
+                </div>
+                <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
+                    <span class="text-white font-bold text-sm tracking-wider uppercase"><img src="https://flagcdn.com/gb.svg" class="inline-block h-4 w-auto mr-2 rounded-[2px] shadow-sm" alt="UK">UNITED KINGDOM</span>
                 </div>
             </div>
         </div>
