@@ -41,7 +41,11 @@ include 'header.php';
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- 1. Web & Mobile App Development -->
-            <a href="/services/web-mobile-app-development" class="block bg-white p-8 md:p-10 rounded-3xl border border-gray-100 hover:border-brand-blue transition-all duration-300 group shadow-xl hover:shadow-2xl flex flex-col justify-between" title="Web and Mobile App Development">
+            <a href="/services/web-mobile-app-development" class="block bg-white rounded-3xl border border-gray-100 hover:border-brand-blue transition-all duration-300 group shadow-xl hover:shadow-2xl flex flex-col overflow-hidden" title="Web and Mobile App Development">
+                <div class="w-full h-56 overflow-hidden">
+                    <img src="/assets/images/Web-Mobile-Development.jpg" alt="Web and Mobile App Development" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                </div>
+                <div class="p-8 md:p-10 flex-grow flex flex-col justify-between">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 transition-transform">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
@@ -60,10 +64,15 @@ include 'header.php';
                 <div class="inline-flex items-center text-brand-blue font-bold text-sm group-hover:translate-x-1 transition-transform">
                     Explore Service &rarr;
                 </div>
+            </div>
             </a>
 
             <!-- 2. SEO Services -->
-            <a href="/services/seo-services" class="block bg-white p-8 md:p-10 rounded-3xl border border-gray-100 hover:border-brand-green transition-all duration-300 group shadow-xl hover:shadow-2xl flex flex-col justify-between" title="SEO Services">
+            <a href="/services/seo-services" class="block bg-white rounded-3xl border border-gray-100 hover:border-brand-green transition-all duration-300 group shadow-xl hover:shadow-2xl flex flex-col overflow-hidden" title="SEO Services">
+                <div class="w-full h-56 overflow-hidden">
+                    <img src="/assets/images/seo-organic-search-ranking-growth.png" alt="SEO Services" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                </div>
+                <div class="p-8 md:p-10 flex-grow flex flex-col justify-between">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-green/10 flex items-center justify-center text-brand-green mb-6 group-hover:scale-110 transition-transform">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
@@ -82,10 +91,15 @@ include 'header.php';
                 <div class="inline-flex items-center text-brand-green font-bold text-sm group-hover:translate-x-1 transition-transform">
                     Explore Service &rarr;
                 </div>
+            </div>
             </a>
 
             <!-- 3. Digital Marketing -->
-            <a href="/services/digital-marketing" class="block bg-white p-8 md:p-10 rounded-3xl border border-gray-100 hover:border-brand-orange transition-all duration-300 group shadow-xl hover:shadow-2xl flex flex-col justify-between" title="Digital Marketing">
+            <a href="/services/digital-marketing" class="block bg-white rounded-3xl border border-gray-100 hover:border-brand-orange transition-all duration-300 group shadow-xl hover:shadow-2xl flex flex-col overflow-hidden" title="Digital Marketing">
+                <div class="w-full h-56 overflow-hidden">
+                    <img src="/assets/images/Focus-on-Sales-Growth.jpg" alt="Digital Marketing" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                </div>
+                <div class="p-8 md:p-10 flex-grow flex flex-col justify-between">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-orange/10 flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 transition-transform">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg>
@@ -103,10 +117,15 @@ include 'header.php';
                 <div class="inline-flex items-center text-brand-orange font-bold text-sm group-hover:translate-x-1 transition-transform">
                     Explore Service &rarr;
                 </div>
+            </div>
             </a>
 
             <!-- 4. AI & Business Automation -->
-            <a href="/services/ai-automation" class="block bg-white p-8 md:p-10 rounded-3xl border border-gray-100 hover:border-brand-red transition-all duration-300 group shadow-xl hover:shadow-2xl flex flex-col justify-between" title="AI and Business Automation">
+            <a href="/services/ai-automation" class="block bg-white rounded-3xl border border-gray-100 hover:border-brand-red transition-all duration-300 group shadow-xl hover:shadow-2xl flex flex-col overflow-hidden" title="AI and Business Automation">
+                <div class="w-full h-56 overflow-hidden">
+                    <img src="/assets/images/Modern-Tech-AI-Solutions.jpg" alt="AI and Business Automation" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                </div>
+                <div class="p-8 md:p-10 flex-grow flex flex-col justify-between">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-brand-red/10 flex items-center justify-center text-brand-red mb-6 group-hover:scale-110 transition-transform">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
@@ -124,10 +143,15 @@ include 'header.php';
                 <div class="inline-flex items-center text-brand-red font-bold text-sm group-hover:translate-x-1 transition-transform">
                     Explore Service &rarr;
                 </div>
+            </div>
             </a>
 
             <!-- 5. UI/UX & Branding -->
-            <a href="/services/ui-ux-branding" class="block bg-white p-8 md:p-10 rounded-3xl border border-gray-100 hover:border-purple-600 transition-all duration-300 group shadow-xl hover:shadow-2xl flex flex-col justify-between" title="UI/UX and Branding">
+            <a href="/services/ui-ux-branding" class="block bg-white rounded-3xl border border-gray-100 hover:border-purple-600 transition-all duration-300 group shadow-xl hover:shadow-2xl flex flex-col overflow-hidden" title="UI/UX and Branding">
+                <div class="w-full h-56 overflow-hidden">
+                    <img src="/assets/images/UIUX-Design-Creative.jpg" alt="UI/UX and Branding" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                </div>
+                <div class="p-8 md:p-10 flex-grow flex flex-col justify-between">
                 <div>
                     <div class="w-14 h-14 rounded-2xl bg-purple-600/10 flex items-center justify-center text-purple-600 mb-6 group-hover:scale-110 transition-transform">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
@@ -144,6 +168,7 @@ include 'header.php';
                 <div class="inline-flex items-center text-purple-600 font-bold text-sm group-hover:translate-x-1 transition-transform">
                     Explore Service &rarr;
                 </div>
+            </div>
             </a>
 
         </div>
