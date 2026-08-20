@@ -47,22 +47,47 @@ if (file_exists($jsonFile)) {
             
             <!-- Featured Blog (First Post) -->
             <?php $featured = $blogs[0]; ?>
-            <div class="mb-16" data-aos="fade-up">
-                <a href="/blog/<?php echo $featured['slug']; ?>" class="group block relative rounded-3xl overflow-hidden bg-white border border-gray-100 hover:border-brand-blue/30 transition-all duration-300 shadow-xl flex flex-col lg:flex-row h-auto lg:h-[450px]">
-                    <div class="w-full lg:w-3/5 h-64 lg:h-full relative overflow-hidden">
-                        <img src="<?php echo $featured['image']; ?>" alt="<?php echo htmlspecialchars($featured['title']); ?>" title="<?php echo htmlspecialchars($featured['title']); ?>" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 lg:bg-gradient-to-r lg:from-transparent lg:to-white to-transparent"></div>
-                    </div>
-                    <div class="w-full lg:w-2/5 p-8 lg:p-12 flex flex-col justify-center relative z-10">
-                        <div class="flex items-center gap-3 mb-4">
-                            <span class="px-3 py-1 bg-brand-blue/20 text-brand-blue text-xs font-bold uppercase tracking-wider rounded-full"><?php echo $featured['category']; ?></span>
-                            <span class="text-gray-500 text-xs"><?php echo $featured['date']; ?></span>
+            <div class="mb-24" data-aos="fade-up">
+                <a href="/blog/<?php echo $featured['slug']; ?>" class="group block bg-white rounded-[2rem] border border-gray-100 hover:border-brand-blue/30 transition-all duration-500 shadow-xl hover:shadow-2xl hover:shadow-brand-blue/10 overflow-hidden flex flex-col lg:flex-row min-h-[460px]">
+                    
+                    <!-- Image Section -->
+                    <div class="w-full lg:w-[55%] relative overflow-hidden h-72 lg:h-auto">
+                        <img src="<?php echo $featured['image']; ?>" alt="<?php echo htmlspecialchars($featured['title']); ?>" title="<?php echo htmlspecialchars($featured['title']); ?>" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" loading="lazy">
+                        
+                        <!-- Subtle overlay for hover effect -->
+                        <div class="absolute inset-0 bg-brand-black/5 group-hover:bg-transparent transition-colors duration-500"></div>
+                        
+                        <!-- Category floating pill -->
+                        <div class="absolute top-6 left-6 z-10">
+                            <span class="px-4 py-2 bg-white/95 backdrop-blur text-brand-blue text-xs font-bold uppercase tracking-wider rounded-full shadow-sm"><?php echo $featured['category']; ?></span>
                         </div>
-                        <h2 class="text-3xl lg:text-4xl font-bold font-heading text-brand-black mb-4 group-hover:text-brand-blue transition-colors"><?php echo $featured['title']; ?></h2>
-                        <p class="text-gray-600 mb-6 line-clamp-3 text-lg"><?php echo $featured['excerpt']; ?></p>
-                        <div class="flex items-center gap-3 mt-auto">
-                            <div class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center font-bold text-brand-black"><?php echo substr($featured['author'], 0, 1); ?></div>
-                            <span class="text-gray-500 font-medium text-sm"><?php echo $featured['author']; ?></span>
+                    </div>
+                    
+                    <!-- Content Section -->
+                    <div class="w-full lg:w-[45%] p-8 lg:p-14 flex flex-col justify-center relative">
+                        <!-- Date -->
+                        <div class="flex items-center gap-2 mb-4 text-gray-500 text-sm font-medium">
+                            <svg class="w-4 h-4 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                            <?php echo $featured['date']; ?>
+                        </div>
+                        
+                        <!-- Title -->
+                        <h2 class="text-2xl lg:text-4xl font-bold font-heading text-brand-black mb-5 group-hover:text-brand-blue transition-colors leading-tight"><?php echo $featured['title']; ?></h2>
+                        
+                        <!-- Excerpt -->
+                        <p class="text-gray-600 mb-8 line-clamp-3 text-lg leading-relaxed"><?php echo $featured['excerpt']; ?></p>
+                        
+                        <!-- Footer: Author & Read More -->
+                        <div class="flex items-center justify-between mt-auto pt-6 border-t border-gray-100">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-brand-blue/10 flex items-center justify-center font-bold text-brand-blue text-lg"><?php echo substr($featured['author'], 0, 1); ?></div>
+                                <span class="text-gray-900 font-bold text-sm">By <?php echo $featured['author']; ?></span>
+                            </div>
+                            
+                            <span class="text-brand-blue text-sm font-bold flex items-center gap-1 group-hover:translate-x-2 transition-transform duration-300">
+                                Read Article 
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                            </span>
                         </div>
                     </div>
                 </a>
@@ -111,4 +136,5 @@ if (file_exists($jsonFile)) {
 
 <?php include 'cta.php'; ?>
 <?php include 'footer.php'; ?>
+
 
