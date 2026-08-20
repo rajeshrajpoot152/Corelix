@@ -599,47 +599,48 @@ include __DIR__ . '/../header.php';
 
 
 <!-- Featured Case Studies -->
-    <section class="py-24 bg-white border-b border-gray-200 relative overflow-hidden">
+    <section class="py-24 bg-slate-950 text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none"></div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <span class="text-brand-red font-bold tracking-widest uppercase text-sm mb-4 block">Case Studies</span>
-                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">Proven Business Impact</h2>
-                <p class="text-slate-600 text-lg max-w-2xl mx-auto">We deploy intelligent AI systems that drastically cut overhead and scale operations effortlessly. See how our automation solutions reinvent enterprise workflows.</p>
+                <h2 class="text-4xl md:text-5xl font-black text-white font-heading mb-6">Proven Business Impact</h2>
+                <p class="text-slate-400 text-lg max-w-2xl mx-auto">We deploy intelligent AI systems that drastically cut overhead and scale operations effortlessly. See how our automation solutions reinvent enterprise workflows.</p>
             </div>
             
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-md hover:bg-white/10 hover:border-brand-red/30 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-red/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
                     <div class="text-brand-red font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-red"></div>Manufacturing Enterprise</div>
-                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Reduced operational overhead by 40%</h3>
-                    <p class="text-slate-600 text-base mb-6 leading-relaxed">Deployed custom AI agents for supply chain forecasting and automated invoice processing, permanently eliminating thousands of hours of tedious manual data entry.</p>
+                    <h3 class="text-2xl font-bold text-white font-heading mb-4">Reduced operational overhead by 40%</h3>
+                    <p class="text-slate-400 text-base mb-6 leading-relaxed">Deployed custom AI agents for supply chain forecasting and automated invoice processing, permanently eliminating thousands of hours of tedious manual data entry.</p>
                     <div class="flex gap-4">
                         <div>
                             <div class="text-4xl font-black text-brand-red font-heading mb-1">40%</div>
-                            <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Cost Reduction</div>
+                            <div class="text-xs text-slate-400 uppercase font-semibold tracking-wider">Cost Reduction</div>
                         </div>
-                        <div class="w-px bg-gray-200 mx-2"></div>
+                        <div class="w-px bg-white/10 mx-2"></div>
                         <div>
                             <div class="text-4xl font-black text-brand-red font-heading mb-1">10k</div>
-                            <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Hours Saved</div>
+                            <div class="text-xs text-slate-400 uppercase font-semibold tracking-wider">Hours Saved</div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-brand-red/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-md hover:bg-white/10 hover:border-brand-red/30 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-red/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
                     <div class="text-brand-red font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-red"></div>Support Center</div>
-                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Resolved 70% of tier-1 tickets instantly</h3>
-                    <p class="text-slate-600 text-base mb-6 leading-relaxed">Built a secure, LLM-powered conversational agent strictly trained on their proprietary knowledge base, dramatically improving customer satisfaction and response times.</p>
+                    <h3 class="text-2xl font-bold text-white font-heading mb-4">Resolved 70% of tier-1 tickets instantly</h3>
+                    <p class="text-slate-400 text-base mb-6 leading-relaxed">Built a secure, LLM-powered conversational agent strictly trained on their proprietary knowledge base, dramatically improving customer satisfaction and response times.</p>
                     <div class="flex gap-4">
                         <div>
                             <div class="text-4xl font-black text-brand-red font-heading mb-1">70%</div>
-                            <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Deflection Rate</div>
+                            <div class="text-xs text-slate-400 uppercase font-semibold tracking-wider">Deflection Rate</div>
                         </div>
-                        <div class="w-px bg-gray-200 mx-2"></div>
+                        <div class="w-px bg-white/10 mx-2"></div>
                         <div>
                             <div class="text-4xl font-black text-brand-red font-heading mb-1">24/7</div>
-                            <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Availability</div>
+                            <div class="text-xs text-slate-400 uppercase font-semibold tracking-wider">Availability</div>
                         </div>
                     </div>
                 </div>
