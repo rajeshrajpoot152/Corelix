@@ -180,7 +180,7 @@ include __DIR__ . '/../header.php';
             <div class="text-center mb-16">
                 <span class="text-brand-blue font-bold tracking-widest uppercase text-sm mb-4 block">Top-Tier Engineering</span>
                 <h2 class="text-4xl md:text-5xl font-black font-heading mb-6">Why Businesses Trust Our Engineering</h2>
-                <p class="text-slate-400 text-lg max-w-3xl mx-auto">We deliver complete digital ecosystems, not just code. For over 14 years, our dedicated team has maintained absolute standards for quality, transparency, and professional delivery.</p>
+                <p class="text-slate-400 text-lg max-w-3xl mx-auto">We deliver complete digital ecosystems, not just code. Our dedicated team has maintained absolute standards for quality, transparency, and professional delivery.</p>
             </div>            <div class="grid md:grid-cols-3 gap-6">
                 <!-- Point 1 -->
                 <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
