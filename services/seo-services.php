@@ -436,38 +436,89 @@ include __DIR__ . '/../header.php';
                   <p class="text-slate-600 text-lg max-w-2xl mx-auto">We deploy tailored, high-converting organic strategies across highly competitive verticals.</p>
               </div>
               
-              <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-                  <div class="px-6 py-4 bg-gray-50 border border-gray-200 rounded-full flex items-center gap-3 hover:border-brand-green/50 hover:shadow-md transition-all cursor-default">
-                      <div class="w-2 h-2 rounded-full bg-brand-green"></div>
-                      <span class="text-slate-800 font-bold font-heading">E-Commerce & Retail</span>
-                  </div>
-                  <div class="px-6 py-4 bg-gray-50 border border-gray-200 rounded-full flex items-center gap-3 hover:border-brand-green/50 hover:shadow-md transition-all cursor-default">
-                      <div class="w-2 h-2 rounded-full bg-brand-green"></div>
-                      <span class="text-slate-800 font-bold font-heading">Healthcare & Dental</span>
-                  </div>
-                  <div class="px-6 py-4 bg-gray-50 border border-gray-200 rounded-full flex items-center gap-3 hover:border-brand-green/50 hover:shadow-md transition-all cursor-default">
-                      <div class="w-2 h-2 rounded-full bg-brand-green"></div>
-                      <span class="text-slate-800 font-bold font-heading">Legal Professionals</span>
-                  </div>
-                  <div class="px-6 py-4 bg-gray-50 border border-gray-200 rounded-full flex items-center gap-3 hover:border-brand-green/50 hover:shadow-md transition-all cursor-default">
-                      <div class="w-2 h-2 rounded-full bg-brand-green"></div>
-                      <span class="text-slate-800 font-bold font-heading">Hospitality & Restaurants</span>
-                  </div>
-                  <div class="px-6 py-4 bg-gray-50 border border-gray-200 rounded-full flex items-center gap-3 hover:border-brand-green/50 hover:shadow-md transition-all cursor-default">
-                      <div class="w-2 h-2 rounded-full bg-brand-green"></div>
-                      <span class="text-slate-800 font-bold font-heading">SaaS & Technology</span>
-                  </div>
-                  <div class="px-6 py-4 bg-gray-50 border border-gray-200 rounded-full flex items-center gap-3 hover:border-brand-green/50 hover:shadow-md transition-all cursor-default">
-                      <div class="w-2 h-2 rounded-full bg-brand-green"></div>
-                      <span class="text-slate-800 font-bold font-heading">B2B Marketing</span>
-                  </div>
-                  <div class="px-6 py-4 bg-gray-50 border border-gray-200 rounded-full flex items-center gap-3 hover:border-brand-green/50 hover:shadow-md transition-all cursor-default">
-                      <div class="w-2 h-2 rounded-full bg-brand-green"></div>
-                      <span class="text-slate-800 font-bold font-heading">Wellness & Beauty</span>
-                  </div>
-              </div>
-          </div>
-      </section>
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                <!-- E-Commerce & Retail -->
+                <div class="relative group rounded-3xl overflow-hidden cursor-default shadow-lg hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 h-56">
+                    <img src="/assets/images/in-Retail.jpg" alt="E-Commerce & Retail" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-white font-bold text-xl font-heading mb-2">E-Commerce & Retail</span>
+                        <div class="w-12 h-1 bg-brand-green rounded-full transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    </div>
+                </div>
+                
+                <!-- Healthcare & Dental -->
+                <div class="relative group rounded-3xl overflow-hidden cursor-default shadow-lg hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 h-56">
+                    <img src="/assets/images/in-Healthcare.jpg" alt="Healthcare & Dental" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-white font-bold text-xl font-heading mb-2">Healthcare & Dental</span>
+                        <div class="w-12 h-1 bg-brand-green rounded-full transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    </div>
+                </div>
+                
+                <!-- Legal Professionals -->
+                <div class="relative group rounded-3xl overflow-hidden cursor-default shadow-lg hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 h-56">
+                    <img src="/assets/images/in-Legal.jpg" alt="Legal Professionals" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-white font-bold text-xl font-heading mb-2">Legal Professionals</span>
+                        <div class="w-12 h-1 bg-brand-green rounded-full transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    </div>
+                </div>
+                
+                <!-- Real Estate & PropTech -->
+                <div class="relative group rounded-3xl overflow-hidden cursor-default shadow-lg hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 h-56">
+                    <img src="/assets/images/in-Real-Estate.jpg" alt="Real Estate & PropTech" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-white font-bold text-xl font-heading mb-2">Real Estate & PropTech</span>
+                        <div class="w-12 h-1 bg-brand-green rounded-full transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    </div>
+                </div>
+                
+                <!-- Hospitality & Travel -->
+                <div class="relative group rounded-3xl overflow-hidden cursor-default shadow-lg hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 h-56">
+                    <img src="/assets/images/in-Travel.jpg" alt="Hospitality & Travel" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-white font-bold text-xl font-heading mb-2">Hospitality & Travel</span>
+                        <div class="w-12 h-1 bg-brand-green rounded-full transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    </div>
+                </div>
+                
+                <!-- SaaS & Technology -->
+                <div class="relative group rounded-3xl overflow-hidden cursor-default shadow-lg hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 h-56">
+                    <img src="/assets/images/in-IT-Telecom.jpg" alt="SaaS & Technology" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-white font-bold text-xl font-heading mb-2">SaaS & Technology</span>
+                        <div class="w-12 h-1 bg-brand-green rounded-full transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    </div>
+                </div>
+                
+                <!-- Manufacturing & B2B -->
+                <div class="relative group rounded-3xl overflow-hidden cursor-default shadow-lg hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 h-56">
+                    <img src="/assets/images/in-Manufacturing.jpg" alt="Manufacturing & B2B" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-white font-bold text-xl font-heading mb-2">Manufacturing & B2B</span>
+                        <div class="w-12 h-1 bg-brand-green rounded-full transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    </div>
+                </div>
+                
+                <!-- Wellness & Beauty -->
+                <div class="relative group rounded-3xl overflow-hidden cursor-default shadow-lg hover:shadow-2xl hover:shadow-brand-green/20 hover:-translate-y-2 transition-all duration-500 h-56">
+                    <img src="/assets/images/in-Beauty-Lifestyle.jpg" alt="Wellness & Beauty" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-white font-bold text-xl font-heading mb-2">Wellness & Beauty</span>
+                        <div class="w-12 h-1 bg-brand-green rounded-full transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <!-- Engagement Models -->
     <section class="py-24 bg-gray-50 border-t border-gray-200">
