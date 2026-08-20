@@ -308,26 +308,37 @@ include __DIR__ . '/../header.php';
         </div>
     </section>
 
-    <!-- 06. Social Proof & Benefits -->
-    <section class="py-16 bg-gradient-to-r from-brand-orange/20 to-brand-orange/20 border-y border-brand-orange/20">
+    <!-- 06. Social Proof & Benefits (Bubble Chart Layout) -->
+    <section class="py-24 bg-gray-50 border-t border-gray-200 overflow-hidden">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-                <div>
-                    <div class="text-4xl md:text-5xl font-black text-slate-900 mb-2">300%</div>
-                    <div class="text-brand-orange font-bold uppercase text-xs tracking-wider mt-2">Outstanding ROAS Increase</div>
+            <div class="flex flex-col md:flex-row items-center justify-center -space-y-6 md:space-y-0 md:-space-x-12 py-10">
+                
+                <!-- Bubble 1: ROAS -->
+                <div class="relative z-10 flex flex-col justify-center items-center text-center w-48 h-48 md:w-52 md:h-52 rounded-full bg-white shadow-xl border border-gray-100 hover:scale-110 transition-transform duration-500 cursor-default">
+                    <div class="text-4xl md:text-5xl font-black text-slate-900 mb-1">300<span class="text-2xl">%</span></div>
+                    <div class="text-slate-500 font-bold uppercase text-[10px] md:text-xs tracking-wider px-6">Outstanding<br>ROAS</div>
                 </div>
-                <div>
-                    <div class="text-4xl md:text-5xl font-black text-slate-900 mb-2">40%</div>
-                    <div class="text-brand-orange font-bold uppercase text-xs tracking-wider mt-2">Reduction in CAC</div>
+
+                <!-- Bubble 2: CAC -->
+                <div class="relative z-20 flex flex-col justify-center items-center text-center w-56 h-56 md:w-64 md:h-64 rounded-full bg-slate-900 shadow-2xl hover:scale-110 transition-transform duration-500 cursor-default">
+                    <div class="absolute inset-0 bg-white/5 rounded-full mix-blend-overlay"></div>
+                    <div class="text-5xl md:text-6xl font-black text-white mb-2">40<span class="text-3xl">%</span></div>
+                    <div class="text-brand-orange font-bold uppercase text-xs tracking-widest px-8">Reduction<br>in CAC</div>
                 </div>
-                <div>
-                    <div class="text-4xl md:text-5xl font-black text-slate-900 mb-2">10k+</div>
-                    <div class="text-brand-orange font-bold uppercase text-xs tracking-wider mt-2">Qualified Leads Generated</div>
+
+                <!-- Bubble 3: Leads -->
+                <div class="relative z-10 flex flex-col justify-center items-center text-center w-48 h-48 md:w-56 md:h-56 rounded-full bg-white shadow-xl border border-gray-100 hover:scale-110 transition-transform duration-500 cursor-default">
+                    <div class="text-4xl md:text-5xl font-black text-slate-900 mb-1">10k+</div>
+                    <div class="text-slate-500 font-bold uppercase text-[10px] md:text-xs tracking-wider px-6">Qualified<br>Leads</div>
                 </div>
-                <div>
-                    <div class="text-4xl md:text-5xl font-black text-slate-900 mb-2">100%</div>
-                    <div class="text-brand-orange font-bold uppercase text-xs tracking-wider mt-2">Data Transparency</div>
+
+                <!-- Bubble 4: Transparency -->
+                <div class="relative z-30 flex flex-col justify-center items-center text-center w-64 h-64 md:w-72 md:h-72 rounded-full bg-gradient-to-br from-brand-orange to-[#ff6a00] shadow-2xl shadow-brand-orange/40 hover:scale-110 transition-transform duration-500 cursor-default">
+                    <div class="absolute inset-0 bg-white/10 rounded-full mix-blend-overlay"></div>
+                    <div class="text-6xl md:text-7xl font-black text-white mb-2">100<span class="text-4xl">%</span></div>
+                    <div class="text-white/90 font-bold uppercase text-xs md:text-sm tracking-widest px-10">Data<br>Transparency</div>
                 </div>
+
             </div>
         </div>
     </section>
