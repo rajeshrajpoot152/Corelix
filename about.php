@@ -176,7 +176,7 @@ include 'header.php';
                     <img src="/assets/images/INDIA.jpg" alt="India" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="India">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
-                    <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">IN</span>INDIA</span>
+                    <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="mr-2 text-lg">🇮🇳</span>INDIA</span>
                 </div>
             </div>
 
@@ -186,7 +186,7 @@ include 'header.php';
                     <img src="/assets/images/UNITED-STATES.jpg" alt="United States" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="United States">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
-                    <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">US</span>UNITED STATES</span>
+                    <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="mr-2 text-lg">🇺🇸</span>UNITED STATES</span>
                 </div>
             </div>
 
@@ -196,7 +196,7 @@ include 'header.php';
                     <img src="/assets/images/CANADA.jpg" alt="Canada" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Canada">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
-                    <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">CA</span>CANADA</span>
+                    <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="mr-2 text-lg">🇨🇦</span>CANADA</span>
                 </div>
             </div>
 
@@ -206,7 +206,7 @@ include 'header.php';
                     <img src="/assets/images/AEUAE.jpg" alt="UAE" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Aeuae">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
-                    <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">AE</span>UAE</span>
+                    <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="mr-2 text-lg">🇦🇪</span>UAE</span>
                 </div>
             </div>
 
@@ -216,7 +216,7 @@ include 'header.php';
                     <img src="/assets/images/AUSTRALIA.jpg" alt="Australia" class="w-full h-full object-cover transition-all duration-500 group-hover:grayscale group-hover:scale-110" loading="lazy" title="Australia">
                 </div>
                 <div class="absolute bottom-0 w-full p-4 bg-[#111319]/95 backdrop-blur border-t border-white/10 text-center">
-                    <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="text-brand-gray mr-2 text-xs">AU</span>AUSTRALIA</span>
+                    <span class="text-white font-bold text-sm tracking-wider uppercase"><span class="mr-2 text-lg">🇦🇺</span>AUSTRALIA</span>
                 </div>
             </div>
         </div>
