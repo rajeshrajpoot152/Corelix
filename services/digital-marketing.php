@@ -26,6 +26,14 @@ include __DIR__ . '/../header.php';
         <p class="text-base md:text-xl text-gray-300 max-w-3xl mx-auto font-medium leading-relaxed mb-10">
             Get more targeted leads and customers for your business. As a top performance marketing agency in India, we run highly profitable ad campaigns that turn clicks into real revenue.
         </p>
+        
+        <!-- CTA Button -->
+        <div class="mt-8">
+            <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="group relative inline-flex items-center gap-2 px-6 py-2.5 font-medium border rounded-full overflow-hidden transition-all duration-300 text-sm border-white text-white hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:-translate-y-1" title="Get Your Free Marketing Plan">
+                Get Your Free Marketing Plan
+                <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
+            </a>
+        </div>
     </div>
 </section>
 
@@ -84,13 +92,13 @@ include __DIR__ . '/../header.php';
                         <div class="bg-white/95 backdrop-blur-md p-5 rounded-2xl border border-gray-200 shadow-xl">
                             <h3 class="text-xs font-black text-brand-orange mb-4 uppercase tracking-wider font-heading">Our Core Focus</h3>
                             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Wasting Money</h4>
-                                    <p class="text-gray-500 text-xs leading-relaxed">Running ads without knowing what actually works.</p>
+                                <div class="bg-gray-50 rounded-xl p-3 border border-gray-100 group">
+                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1 group-hover:text-brand-orange transition-colors">Data-Driven ROI</h4>
+                                    <p class="text-gray-500 text-xs leading-relaxed">Every ad dollar is tracked and optimized for profit.</p>
                                 </div>
-                                <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Junk Leads</h4>
-                                    <p class="text-gray-500 text-xs leading-relaxed">Getting calls from people who never buy.</p>
+                                <div class="bg-gray-50 rounded-xl p-3 border border-gray-100 group">
+                                    <h4 class="text-gray-900 font-bold font-heading text-sm mb-1 group-hover:text-brand-orange transition-colors">Qualified Leads</h4>
+                                    <p class="text-gray-500 text-xs leading-relaxed">We target only high-intent buyers ready to purchase.</p>
                                 </div>
                             </div>
                         </div>
