@@ -311,9 +311,6 @@ include __DIR__ . '/../header.php';
 
     <!-- Featured Case Studies -->
     <section class="py-24 bg-white border-b border-gray-200 relative overflow-hidden">
-        
-        <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-50/50 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
-        
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <span class="text-brand-blue font-bold tracking-widest uppercase text-sm mb-4 block">Case Studies</span>
@@ -324,40 +321,41 @@ include __DIR__ . '/../header.php';
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-blue/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
-                    <div class="text-brand-blue font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-blue"></div>Logistics Enterprise</div>
-                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Reduced overhead by 40% in 6 months</h3>
-                    <p class="text-slate-600 text-base mb-6 leading-relaxed">By implementing custom Web App workflows, we eliminated redundant manual entry and improved data accuracy across 3 global branches.</p>
+                    <div class="text-brand-blue font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-blue"></div>Global Logistics App</div>
+                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Optimized dispatch, reducing delays by 40%</h3>
+                    <p class="text-slate-600 text-base mb-6 leading-relaxed">By engineering a custom Web App with real-time routing algorithms, we eliminated redundant manual entry and improved delivery accuracy across 3 global branches.</p>
                     <div class="flex gap-4">
                         <div>
                             <div class="text-4xl font-black text-brand-blue font-heading mb-1">40%</div>
-                            <div class="text-xs text-slate-500 uppercase">Cost Reduction</div>
+                            <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Fewer Delays</div>
                         </div>
                         <div class="w-px bg-gray-200 mx-2"></div>
                         <div>
                             <div class="text-4xl font-black text-brand-blue font-heading mb-1">2.5x</div>
-                            <div class="text-xs text-slate-500 uppercase">Speed Increase</div>
+                            <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Dispatch Speed</div>
                         </div>
                     </div>
                 </div>
                 
                 <div class="bg-white p-8 rounded-3xl border border-gray-200 shadow-xl shadow-gray-200/50 hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 relative overflow-hidden group">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-brand-blue/5 to-transparent rounded-bl-full -z-10 group-hover:scale-110 transition-transform duration-500"></div>
-                    <div class="text-brand-blue font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-blue"></div>FinTech Startup</div>
-                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Scaled user acquisition by 250%</h3>
-                    <p class="text-slate-600 text-base mb-6 leading-relaxed">Our comprehensive Web App architecture allowed the client to securely onboard thousands of users seamlessly without infrastructure breaks.</p>
+                    <div class="text-brand-blue font-bold tracking-widest uppercase text-xs mb-3 flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-brand-blue"></div>FinTech Platform</div>
+                    <h3 class="text-2xl font-bold text-slate-900 font-heading mb-4">Scaled user acquisition seamlessly</h3>
+                    <p class="text-slate-600 text-base mb-6 leading-relaxed">Our highly scalable, secure mobile app architecture allowed the client to securely onboard 50,000+ new users in one month without a single infrastructure break.</p>
                     <div class="flex gap-4">
                         <div>
-                            <div class="text-4xl font-black text-brand-blue font-heading mb-1">250%</div>
-                            <div class="text-xs text-slate-500 uppercase">Growth</div>
+                            <div class="text-4xl font-black text-brand-blue font-heading mb-1">50k+</div>
+                            <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Users Onboarded</div>
                         </div>
                         <div class="w-px bg-gray-200 mx-2"></div>
                         <div>
-                            <div class="text-4xl font-black text-brand-blue font-heading mb-1">100%</div>
-                            <div class="text-xs text-slate-500 uppercase">Uptime</div>
+                            <div class="text-4xl font-black text-brand-blue font-heading mb-1">99.9%</div>
+                            <div class="text-xs text-slate-500 uppercase font-semibold tracking-wider">Uptime SLA</div>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div class="text-center mt-12">
                 <a href="/industry" class="inline-flex items-center justify-center gap-2 bg-brand-blue hover:bg-slate-900 text-white px-8 py-4 rounded-full font-bold transition-all duration-300 shadow-xl shadow-brand-blue/20 hover:shadow-2xl hover:shadow-slate-900/20 hover:-translate-y-1 group">Explore Our Work by Industry <svg class="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg></a>
             </div>
