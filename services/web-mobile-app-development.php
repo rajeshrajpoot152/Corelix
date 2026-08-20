@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "Web & Mobile App Development Services | Corelix";
+$pageTitle = "Web & Mobile App Custom Development Services | Corelix";
 $metaDesc = "Custom web applications, native & cross-platform mobile apps, enterprise portals, API architectures, and WordPress development by Corelix.";
-$metaKeywords = "Custom Web Development, Mobile App Development, eCommerce Development, API Development, WordPress Support, React, Node.js, Cloud Software, IT Agency";
+$metaKeywords = "Custom Web Custom Development, Mobile App Custom Development, eCommerce Custom Development, API Custom Development, WordPress Support, React, Node.js, Cloud Software, IT Agency";
 include __DIR__ . '/../header.php'; 
 ?>
 
@@ -19,12 +19,12 @@ include __DIR__ . '/../header.php';
 
         <!-- Main Heading -->
         <h2 class="text-4xl md:text-6xl lg:text-7xl font-black font-heading text-white mb-6 tracking-tight leading-tight md:leading-none">
-            Custom Software & App <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Development</span>
+            Custom Web & Mobile App <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Development</span>
         </h2>
 
         <!-- Subtitle -->
         <p class="text-base md:text-xl text-gray-300 max-w-3xl mx-auto font-medium leading-relaxed mb-10">
-            Build secure, enterprise-grade web platforms and mobile applications. We deliver custom software solutions designed for high performance, scalability, and tangible business growth.
+            Stop losing customers to slow, outdated platforms. We build premium, lightning-fast custom apps that look beautiful, build trust, and help your business grow effortlessly.
         </p>
     </div>
 </section>
@@ -39,24 +39,24 @@ include __DIR__ . '/../header.php';
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div>
                     <h2 class="text-4xl md:text-5xl font-black text-slate-900 leading-tight mb-6 font-heading">
-                        Legacy Technology Compromises Your Authority.
+                        Slow Apps Are Costing You Sales Every Single Day.
                     </h2>
                     <p class="text-lg text-slate-600 leading-relaxed mb-8">
-                        Slow load times, disjointed interfaces, and fragmented software do more than annoy users&mdash;they actively erode trust in your brand. We replace vulnerable legacy systems with tested, modern architectures built to handle high traffic securely and reliably.
+                        If your website or app is slow, confusing, or looks cheap, your customers will leave and go straight to your competitors. We fix this by building incredibly fast, modern apps that keep users engaged and actively drive revenue.
                     </p>
                     <ul class="grid gap-6">
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
                             <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">&#10004;</div>
                             <div>
-                                <h4 class="text-slate-900 font-bold text-xl mb-2 font-heading group-hover:text-brand-blue transition-colors">Vulnerable Performance</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">Users abandon applications that load slowly or feel unsecure. Consistent speed and security are critical business metrics.</p>
+                                <h4 class="text-slate-900 font-bold text-xl mb-2 font-heading group-hover:text-brand-blue transition-colors">Losing Customers to Slow Speeds</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">Fast loading times equal more sales. If your app takes too long to load, your buyers will simply close it and leave.</p>
                             </div>
                         </li>
                         <li class="bg-gray-50 border border-gray-200 p-6 rounded-3xl hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-1 transition-all duration-300 flex items-start gap-5 group">
                             <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-green text-white flex items-center justify-center flex-shrink-0 shadow-lg group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-300 font-black text-xl">!</div>
                             <div>
-                                <h4 class="text-slate-900 font-bold text-xl mb-2 font-heading group-hover:text-brand-blue transition-colors">Scalability Bottlenecks</h4>
-                                <p class="text-slate-600 text-sm leading-relaxed">Generic templates break under pressure. When your user base expands, your infrastructure must rely on proven, enterprise-grade foundations.</p>
+                                <h4 class="text-slate-900 font-bold text-xl mb-2 font-heading group-hover:text-brand-blue transition-colors">Crashing When You Need It Most</h4>
+                                <p class="text-slate-600 text-sm leading-relaxed">Cheap templates crash when you finally get good traffic. We build secure, custom foundations that grow effortlessly as your business scales.</p>
                             </div>
                         </li>
                     </ul>
@@ -84,12 +84,12 @@ include __DIR__ . '/../header.php';
                         <h3 class="text-xs font-black text-brand-blue mb-4 uppercase tracking-wider font-heading">Common Challenges</h3>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Vulnerable Performance</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Users abandon slow and insecure applications.</p>
+                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Losing Customers to Slow Speeds</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Fast loading times equal more sales.</p>
                             </div>
                             <div class="bg-gray-50 rounded-xl p-3 border border-gray-100">
-                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Scalability Bottlenecks</h4>
-                                <p class="text-gray-500 text-xs leading-relaxed">Generic templates break under pressure.</p>
+                                <h4 class="text-gray-900 font-bold font-heading text-sm mb-1">Crashing When You Need It Most</h4>
+                                <p class="text-gray-500 text-xs leading-relaxed">Cheap templates crash under heavy traffic.</p>
                             </div>
                         </div>
                     </div>
@@ -105,8 +105,8 @@ include __DIR__ . '/../header.php';
         <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-blue/5 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-14">
-                <h2 class="text-3xl md:text-5xl font-black font-heading text-gray-900 mb-5">Certified Development Services</h2>
-                <p class="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed">Backed by over a decade of IT engineering expertise, our team engineers robust, research-backed digital solutions tailored to your operational goals.</p>
+                <h2 class="text-3xl md:text-5xl font-black font-heading text-gray-900 mb-5">High-Converting Custom Solutions</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed">We don't just write code. We design and build premium digital products specifically engineered to increase your sales, automate your work, and dominate your market.</p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-8">
@@ -117,7 +117,7 @@ include __DIR__ . '/../header.php';
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">Custom Web Applications</h3>
-                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We engineer complex, data-heavy web platforms. From dynamic SaaS products to compliant enterprise dashboards, we focus on responsive frontends and rock-solid backend infrastructure.</p>
+                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Beautiful, fast, and easy to manage. We build custom web apps that give your customers a premium experience and make your daily business operations completely effortless.</p>
                     <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                         <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">React</span>
                         <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Node.js</span>
@@ -132,7 +132,7 @@ include __DIR__ . '/../header.php';
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">eCommerce Solutions</h3>
-                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Launch intuitive, mobile-friendly eCommerce storefronts. We build tested architectures capable of handling substantial product catalogs and high-volume transaction loads seamlessly.</p>
+                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Stop losing cart checkouts. We build high-speed, secure online stores that make it incredibly easy for your customers to browse, trust your brand, and buy your products.</p>
                     <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                         <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Shopify</span>
                         <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">WooCommerce</span>
@@ -147,7 +147,7 @@ include __DIR__ . '/../header.php';
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">iOS & Android Mobile Apps</h3>
-                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Deliver a risk-free, premium experience directly to your customers. We build native and cross-platform mobile applications featuring intuitive interfaces and reliable hardware integrations.</p>
+                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Put your business directly in your customers' pockets. We build fast, stunning mobile apps that keep your audience engaged and coming back for more.</p>
                     <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                         <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">React Native</span>
                         <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">Flutter</span>
@@ -161,8 +161,8 @@ include __DIR__ . '/../header.php';
                     <div class="w-14 h-14 rounded-2xl bg-brand-blue/10 text-brand-blue flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300 shadow-sm">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">API Development & Integration</h3>
-                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">We establish the secure connections between your software systems. Our engineers develop robust REST APIs to safely sync payments, third-party cloud services, and your internal business databases.</p>
+                    <h3 class="text-xl font-bold font-heading text-gray-900 mb-3 group-hover:text-brand-blue transition-colors">API Custom Development & Integration</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6 flex-grow">Connect all your business tools together. We safely link your payment gateways, CRMs, and databases so everything runs perfectly on autopilot.</p>
                     <div class="flex flex-wrap gap-2 pt-4 border-t border-gray-100 mt-auto">
                         <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">REST API</span>
                         <span class="px-3 py-1 bg-brand-blue/8 border border-brand-blue/20 text-brand-blue text-xs font-semibold rounded-full">GraphQL</span>
@@ -179,56 +179,56 @@ include __DIR__ . '/../header.php';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <span class="text-brand-blue font-bold tracking-widest uppercase text-sm mb-4 block">Top-Tier Engineering</span>
-                <h2 class="text-4xl md:text-5xl font-black font-heading mb-6">Why Businesses Trust Our Engineering</h2>
-                <p class="text-slate-400 text-lg max-w-3xl mx-auto">We deliver complete digital ecosystems, not just code. Our dedicated team has maintained absolute standards for quality, transparency, and professional delivery.</p>
+                <h2 class="text-4xl md:text-5xl font-black font-heading mb-6">Why Business Owners Trust Us</h2>
+                <p class="text-slate-400 text-lg max-w-3xl mx-auto">We deliver complete digital growth, not just code. We maintain absolute standards for premium quality, speed, and honest delivery.</p>
             </div>            <div class="grid md:grid-cols-3 gap-6">
                 <!-- Point 1 -->
                 <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
                     <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading">100% Client Satisfaction</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">We measure our success through your operational growth. Our professional priority is delivering thoroughly tested, bug-free products that foster user loyalty.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">Focused on Your Revenue Growth</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">We measure our success by how much your business grows. Our main goal is delivering a premium, fast product that makes you money.</p>
                 </div>
                 <!-- Point 2 -->
                 <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
                     <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading">On-Time Delivery</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Time directly impacts your bottom line. Our decisive agile project management ensures we meet deadlines consistently without sacrificing our standard of excellence.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">Fast & Reliable Delivery</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Time is money. We respect your deadlines and deliver highly secure, fast-loading platforms right on schedule without cutting any corners.</p>
                 </div>
                 <!-- Point 3 -->
                 <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
                     <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading">SEO-Friendly Architecture</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">We structure your web applications using clean, semantic code and server-side rendering, helping your platforms rank effectively and attract organic traffic.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">Built to Rank on Google</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">A beautiful app is useless if no one finds it. We build your platforms with strong SEO foundations so you get more organic traffic and leads.</p>
                 </div>
                 <!-- Point 4 -->
                 <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
                     <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading">Inspiring UI/UX Design</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Our team crafts custom layouts that match your brand persona. <a href="/services/ui-ux-branding" class="text-brand-blue hover:underline font-semibold inline-flex items-center gap-1 mt-1">Explore UI/UX Branding &rarr;</a></p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">Premium Premium UI/UX Design</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">We design stunning, world-class interfaces that instantly build trust with your buyers. <a href="/services/ui-ux-branding" class="text-brand-blue hover:underline font-semibold inline-flex items-center gap-1 mt-1">Explore UI/UX Branding &rarr;</a></p>
                 </div>
                 <!-- Point 5 -->
                 <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
                     <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading">Value-Driven Pricing</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Enterprise-grade software should not require blind spending. We offer straightforward, competitive pricing models designed to maximize your return on investment.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">Clear, Honest Pricing</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">No hidden costs or surprises. You get premium, high-converting software at competitive prices designed to maximize your ROI.</p>
                 </div>
                 <!-- Point 6 -->
                 <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-md hover:bg-white/10 transition-colors group">
                     <div class="w-12 h-12 rounded-2xl bg-brand-blue/20 flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition-all duration-300">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-3 font-heading">24/7 Post-Launch Support</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">Our commitment continues long after deployment. We offer proactive post-launch support to resolve potential issues swiftly, allowing you to focus on your core business.</p>
+                    <h3 class="text-xl font-bold text-white mb-3 font-heading">Always-On Technical Support</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">We don't just launch and leave. We monitor your systems 24/7 to ensure they stay fast, secure, and fully operational while you run your business.</p>
                 </div>
             </div>          </div>
         </div>
@@ -239,8 +239,8 @@ include __DIR__ . '/../header.php';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <span class="text-brand-blue font-bold tracking-widest uppercase text-sm mb-4 block">Methodology</span>
-                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading">Our 8-Step Development Process</h2>
-                <p class="mt-4 text-slate-600 text-lg max-w-3xl mx-auto">We rely on a rigorous, 8-step methodology to ensure your software is rock-solid, compliant, and market-ready.</p>
+                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading">How We Build Your App</h2>
+                <p class="mt-4 text-slate-600 text-lg max-w-3xl mx-auto">A simple, transparent process to take your idea from paper to a fully launched, high-converting digital product.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -248,57 +248,57 @@ include __DIR__ . '/../header.php';
                 <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-blue-50 transition-colors duration-500 select-none">01</div>
                     <div class="w-12 h-12 rounded-2xl bg-blue-100 text-brand-blue flex items-center justify-center font-bold mb-6 relative z-10 shadow-sm text-xl">1</div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Idea Analysis</h3>
-                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We study your vision, conduct thorough feasibility checks, and recommend intelligent customization options to enhance your product's core functionality.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Understanding Your Business</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We learn exactly how your business makes money and figure out how custom software can multiply your revenue.</p>
                 </div>
                 <!-- Step 2 -->
                 <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-cyan-50 transition-colors duration-500 select-none">02</div>
                     <div class="w-12 h-12 rounded-2xl bg-cyan-100 text-cyan-600 flex items-center justify-center font-bold mb-6 relative z-10 shadow-sm text-xl">2</div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Architectural Design</h3>
-                    <p class="text-slate-600 text-base leading-relaxed relative z-10">Our technical architects draft the foundational blueprints and wireframes. We deeply value your active feedback during this critical planning stage.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Project Planning</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We map out the exact screens, features, and user flow so you know exactly what you are paying for before we write a single line of code.</p>
                 </div>
                 <!-- Step 3 -->
                 <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-indigo-50 transition-colors duration-500 select-none">03</div>
                     <div class="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">3</div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">UI/UX Design</h3>
-                    <p class="text-slate-600 text-base leading-relaxed relative z-10">Our professional design team creates interactive, brand-aligned interfaces tailored precisely to your target user base.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Premium UI/UX Design</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">Our designers create a visually stunning, world-class look and feel that instantly builds trust with your customers.</p>
                 </div>
                 <!-- Step 4 -->
                 <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-purple-50 transition-colors duration-500 select-none">04</div>
                     <div class="w-10 h-10 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">4</div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Development</h3>
-                    <p class="text-slate-600 text-base leading-relaxed relative z-10">Our dedicated developers write clean, modular code to transform your visual models into an intelligent, high-functioning application.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Custom Development</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">Our expert team builds your app using modern, fast technologies so it loads instantly and never crashes under pressure.</p>
                 </div>
                 <!-- Step 5 -->
                 <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-emerald-50 transition-colors duration-500 select-none">05</div>
                     <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">5</div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Quality Assurance</h3>
-                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We examine every module individually. Our QA unit conducts strict code reviews to verify the architecture is entirely risk-free.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Strict Quality Checks</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We hunt down every single bug. We make sure the app works perfectly so you never lose a sale due to a technical glitch.</p>
                 </div>
                 <!-- Step 6 -->
                 <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-sky-50 transition-colors duration-500 select-none">06</div>
                     <div class="w-10 h-10 rounded-full bg-sky-100 text-sky-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">6</div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Rigorous Testing</h3>
-                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We conduct functional, performance, security, and cross-device testing to ensure the application is fast, secure, and completely reliable.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Performance Testing</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We test the app across all mobile phones and networks to guarantee lightning-fast speed and bulletproof security.</p>
                 </div>
                 <!-- Step 7 -->
                 <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-orange-50 transition-colors duration-500 select-none">07</div>
                     <div class="w-10 h-10 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">7</div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Deployment</h3>
-                    <p class="text-slate-600 text-base leading-relaxed relative z-10">Once QA provides full clearance, we configure the production servers, migrate your databases, and safely transition to your live environment.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">Live Launch</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We securely push your new web platform live and make sure your business transitions without a single minute of downtime.</p>
                 </div>
                 <!-- Step 8 -->
                 <div class="bg-white p-8 rounded-[2rem] border-0 shadow-xl shadow-gray-200/50 relative overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/10 hover:-translate-y-2 transition-all duration-500 group">
                     <div class="text-7xl font-black text-slate-50 absolute -top-2 -right-2 group-hover:text-rose-50 transition-colors duration-500 select-none">08</div>
                     <div class="w-10 h-10 rounded-full bg-rose-100 text-rose-600 flex items-center justify-center font-bold mb-5 relative z-10 shadow-sm">8</div>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">App Store Submission</h3>
-                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We handle the complete Apple App Store and Google Play submission process, optimizing metadata and verifying strict platform compliance.</p>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3 relative z-10 font-heading group-hover:text-brand-blue transition-colors">App Store Launch</h3>
+                    <p class="text-slate-600 text-base leading-relaxed relative z-10">We handle all the technical requirements to get your app successfully listed on Google Play and the Apple App Store.</p>
                 </div>
             </div>
         </div>
@@ -314,8 +314,8 @@ include __DIR__ . '/../header.php';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center mb-16">
                 <span class="text-brand-blue font-bold tracking-widest uppercase text-sm mb-4 block">Case Studies</span>
-                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">Proven Business Impact</h2>
-                <p class="text-slate-600 text-lg max-w-2xl mx-auto">We build scalable, high-performance applications that transform daily operations. Explore how our engineering drives tangible growth for global enterprises.</p>
+                <h2 class="text-4xl md:text-5xl font-black text-slate-900 font-heading mb-6">Real Business Growth</h2>
+                <p class="text-slate-600 text-lg max-w-2xl mx-auto">See how our custom web and mobile apps have helped business owners automate their work, scale operations, and multiply their revenue.</p>
             </div>
             
             <div class="grid md:grid-cols-2 gap-8">
@@ -369,8 +369,8 @@ include __DIR__ . '/../header.php';
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-brand-blue/10 rounded-full mix-blend-screen filter blur-[100px] pointer-events-none"></div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-black font-heading mb-4">Flexible Engagement Models</h2>
-                <p class="text-slate-400 text-lg max-w-2xl mx-auto">We partner with organizations of all sizes, offering transparent and flexible operational models tailored to your goals.</p>
+                <h2 class="text-4xl font-black font-heading mb-4">Work With Us Your Way</h2>
+                <p class="text-slate-400 text-lg max-w-2xl mx-auto">Whether you are a startup or an established enterprise, we offer clear, flexible models to build your custom software.</p>
             </div>
             
             <div class="grid md:grid-cols-3 gap-6">
@@ -412,8 +412,8 @@ include __DIR__ . '/../header.php';
 <section id="faqs" class="py-20 bg-gray-50 border-t border-gray-200">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-slate-900 font-heading">Development Questions Answered</h2>
-                <p class="mt-4 text-slate-600">Clear insights into our engineering workflow, technology choices, and project handoff.</p>
+                <h2 class="text-4xl font-bold text-slate-900 font-heading">Common Questions Answered</h2>
+                <p class="mt-4 text-slate-600">Everything you need to know about how we build, launch, and support your custom software.</p>
             </div>
             <div class="divide-y divide-gray-200 border-t border-b border-gray-200 mt-8">
                 <details class="group bg-transparent">
