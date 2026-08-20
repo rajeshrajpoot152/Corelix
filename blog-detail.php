@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // Get slug from URL
 $slug = isset($_GET['slug']) ? $_GET['slug'] : '';
 
@@ -128,27 +128,27 @@ include 'header.php';
 </section>
 
 <!-- Blog Content -->
-<section class="pb-24 relative z-10 bg-[#0B0F19]">
+<section class="pb-24 relative z-10 bg-white">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl pt-16">
         
         <!-- Featured Image -->
-        <div class="w-full h-auto md:h-[500px] rounded-3xl overflow-hidden mb-12 shadow-2xl border border-white/5" data-aos="fade-up" data-aos-delay="100">
+        <div class="w-full h-auto md:h-[500px] rounded-3xl overflow-hidden mb-12 shadow-xl border border-gray-100" data-aos="fade-up" data-aos-delay="100">
             <img src="<?php echo $currentBlog['image']; ?>" alt="<?php echo htmlspecialchars($currentBlog['title']); ?>" title="<?php echo htmlspecialchars($currentBlog['title']); ?>" class="w-full h-full object-cover">
         </div>
 
         <!-- Article Content -->
-        <article class="prose prose-invert prose-lg max-w-none font-sans" data-aos="fade-up" data-aos-delay="200">
+        <article class="prose prose-lg prose-blue max-w-none text-gray-600 max-w-none font-sans" data-aos="fade-up" data-aos-delay="200">
             <?php echo $currentBlog['content']; ?>
         </article>
         
         <!-- Share Post -->
-        <div class="mt-16 pt-8 border-t border-white/10 flex items-center justify-between">
-            <span class="text-white font-bold">Share this article:</span>
+        <div class="mt-16 pt-8 border-t border-gray-200 flex items-center justify-between">
+            <span class="text-brand-black font-bold text-lg">Share this article:</span>
             <div class="flex gap-4">
-                <a href="https://twitter.com/intent/tweet?url=https://www.corelix.com/blog/<?php echo $slug; ?>&text=<?php echo urlencode($currentBlog['title']); ?>" target="_blank" class="w-10 h-10 rounded-full bg-white/5 hover:bg-brand-blue flex items-center justify-center text-white transition-colors" title="Share on Twitter">
+                <a href="https://twitter.com/intent/tweet?url=https://www.corelix.com/blog/<?php echo $slug; ?>&text=<?php echo urlencode($currentBlog['title']); ?>" target="_blank" class="w-10 h-10 rounded-full bg-gray-100 hover:bg-brand-blue flex items-center justify-center text-gray-700 hover:text-white transition-colors" title="Share on Twitter">
                     <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
                 </a>
-                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.corelix.com/blog/<?php echo $slug; ?>&title=<?php echo urlencode($currentBlog['title']); ?>" target="_blank" class="w-10 h-10 rounded-full bg-white/5 hover:bg-brand-blue flex items-center justify-center text-white transition-colors" title="Share on LinkedIn">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.corelix.com/blog/<?php echo $slug; ?>&title=<?php echo urlencode($currentBlog['title']); ?>" target="_blank" class="w-10 h-10 rounded-full bg-gray-100 hover:bg-brand-blue flex items-center justify-center text-gray-700 hover:text-white transition-colors" title="Share on LinkedIn">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                 </a>
             </div>
@@ -159,3 +159,4 @@ include 'header.php';
 
 <?php include 'cta.php'; ?>
 <?php include 'footer.php'; ?>
+
