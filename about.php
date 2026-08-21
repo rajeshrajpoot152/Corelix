@@ -99,9 +99,9 @@ include 'header.php';
                     <!-- CEO Square Image (Chokor Frame) -->
                     <div class="lg:col-span-5 flex justify-center">
                         <div class="relative w-full max-w-[320px] aspect-square rounded-3xl overflow-hidden bg-slate-900 border-2 border-gray-200 shadow-2xl group/photo">
-                            <img src="/assets/images/Rahul-Tripathi.png" 
-                                 alt="Rahul Tripathi - Founder & CEO" 
-                                 title="Rahul Tripathi - Founder & CEO" 
+                            <img src="/assets/images/Bharti-lodhi.png" 
+                                 alt="Bharti Lodhi - Founder & CEO" 
+                                 title="Bharti Lodhi - Founder & CEO" 
                                  loading="lazy" 
                                  class="w-full h-full object-cover object-top transition-transform duration-700 group-hover/photo:scale-105">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
@@ -119,7 +119,7 @@ include 'header.php';
                             LEADERSHIP & VISION
                         </span>
                         <h2 class="text-3xl md:text-5xl font-black font-heading text-slate-900 mb-2 tracking-tight">
-                            Rahul Tripathi
+                            Bharti Lodhi
                         </h2>
                         <p class="text-brand-blue text-base md:text-lg font-bold mb-6">
                             Founder & Chief Executive Officer
@@ -130,7 +130,7 @@ include 'header.php';
                         
                         <!-- Actions & LinkedIn -->
                         <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4">
-                            <a href="https://www.linkedin.com/in/rahultripathi/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-[#0A66C2] hover:bg-[#084e96] text-white text-sm font-bold transition-all duration-300 shadow-lg shadow-[#0A66C2]/20 hover:shadow-[0_8px_25px_rgba(10,102,194,0.35)] hover:-translate-y-0.5" title="Connect with Rahul Tripathi on LinkedIn">
+                            <a href="https://www.linkedin.com/in/bharti-lodhi-a4261016b/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-[#0A66C2] hover:bg-[#084e96] text-white text-sm font-bold transition-all duration-300 shadow-lg shadow-[#0A66C2]/20 hover:shadow-[0_8px_25px_rgba(10,102,194,0.35)] hover:-translate-y-0.5" title="Connect with Bharti Lodhi on LinkedIn">
                                 <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
                                     <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
                                 </svg>
@@ -157,7 +157,7 @@ include 'header.php';
         </div>
         <?php
         $teamMembers = [
-             ['name' => 'Rajesh Rajpoot', 'role' => 'Frontend Tech Lead', 'image' => 'Rajesh-Rajpoot.jpg', 'linkedin' => 'https://www.linkedin.com/in/rajesh-rajpoot/'],
+            //  ['name' => 'Rajesh Rajpoot', 'role' => 'Frontend Tech Lead', 'image' => 'Rajesh-Rajpoot.jpg', 'linkedin' => 'https://www.linkedin.com/in/rajesh-rajpoot/'],
              ['name' => 'Vinod Prajapati', 'role' => 'Frontend Developer', 'image' => 'Vinod-Prajapati.jpg', 'linkedin' => 'https://www.linkedin.com/in/vinod-prajapati12/'],
              ['name' => 'Bhargav Panchal', 'role' => 'Sr. Web Developer', 'image' => 'bhargav-panchal.jpg', 'linkedin' => 'https://www.linkedin.com/in/panchal-bhargav-831614155/'],
              ['name' => 'Gajendra Kushwah', 'role' => 'Web Developer', 'image' => 'Gajendra-kushwah.jpg', 'linkedin' => 'https://www.linkedin.com/in/gajendra-kushwah-5297361a0/'],
