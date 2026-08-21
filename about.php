@@ -85,18 +85,16 @@ include 'header.php';
 </section>
 
 <!-- Founder & CEO Spotlight Section (White / Light Theme) -->
-<section class="py-20 md:py-28 bg-gray-50 text-slate-900 relative overflow-hidden border-b border-gray-200">
+<!-- <section class="py-20 md:py-28 bg-gray-50 text-slate-900 relative overflow-hidden border-b border-gray-200">
     <div class="absolute top-1/2 right-10 -translate-y-1/2 w-[500px] h-[500px] bg-brand-blue/5 blur-[120px] rounded-full pointer-events-none"></div>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         <div class="max-w-5xl mx-auto">
             <div class="bg-white border border-gray-200/80 rounded-3xl p-8 md:p-12 shadow-[0_12px_40px_rgba(0,0,0,0.06)] relative overflow-hidden group" data-aos="fade-up">
-                <!-- Subtle Top Accent Gradient Line -->
                 <div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-brand-blue via-brand-green to-brand-blue"></div>
                 
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 items-center">
                     
-                    <!-- CEO Square Image (Chokor Frame) -->
                     <div class="lg:col-span-5 flex justify-center">
                         <div class="relative w-full max-w-[320px] aspect-square rounded-3xl overflow-hidden bg-slate-900 border-2 border-gray-200 shadow-2xl group/photo">
                             <img src="/assets/images/Bharti-lodhi.png" 
@@ -113,7 +111,6 @@ include 'header.php';
                         </div>
                     </div>
 
-                    <!-- CEO Content & Message -->
                     <div class="lg:col-span-7 text-center lg:text-left">
                         <span class="font-mono text-xs md:text-sm font-bold tracking-[0.2em] text-brand-blue uppercase mb-3 block">
                             LEADERSHIP & VISION
@@ -128,7 +125,6 @@ include 'header.php';
                             "At Corelix, we believe technology should be a direct growth engine for businesses. Our mission is to engineer high-velocity digital solutions, smart automation, and profitable marketing that deliver measurable impact."
                         </blockquote>
                         
-                        <!-- Actions & LinkedIn -->
                         <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4">
                             <a href="https://www.linkedin.com/in/bharti-lodhi-a4261016b/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-[#0A66C2] hover:bg-[#084e96] text-white text-sm font-bold transition-all duration-300 shadow-lg shadow-[#0A66C2]/20 hover:shadow-[0_8px_25px_rgba(10,102,194,0.35)] hover:-translate-y-0.5" title="Connect with Bharti Lodhi on LinkedIn">
                                 <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -144,7 +140,7 @@ include 'header.php';
         </div>
 
     </div>
-</section>
+</section> -->
 
 <!-- Our Team & Leadership Section -->
 <section class="py-16 md:py-24 text-center overflow-hidden bg-slate-950 border-t border-white/10 relative">
@@ -157,7 +153,7 @@ include 'header.php';
         </div>
         <?php
         $teamMembers = [
-            //  ['name' => 'Rajesh Rajpoot', 'role' => 'Frontend Tech Lead', 'image' => 'Rajesh-Rajpoot.jpg', 'linkedin' => 'https://www.linkedin.com/in/rajesh-rajpoot/'],
+             ['name' => 'Rajesh Rajpoot', 'role' => 'Frontend Tech Lead', 'image' => 'Rajesh-Rajpoot.jpg', 'linkedin' => 'https://www.linkedin.com/in/rajesh-rajpoot/'],
              ['name' => 'Vinod Prajapati', 'role' => 'Frontend Developer', 'image' => 'Vinod-Prajapati.jpg', 'linkedin' => 'https://www.linkedin.com/in/vinod-prajapati12/'],
              ['name' => 'Bhargav Panchal', 'role' => 'Sr. Web Developer', 'image' => 'bhargav-panchal.jpg', 'linkedin' => 'https://www.linkedin.com/in/panchal-bhargav-831614155/'],
              ['name' => 'Gajendra Kushwah', 'role' => 'Web Developer', 'image' => 'Gajendra-kushwah.jpg', 'linkedin' => 'https://www.linkedin.com/in/gajendra-kushwah-5297361a0/'],
