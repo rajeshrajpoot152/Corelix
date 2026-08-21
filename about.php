@@ -160,7 +160,8 @@ include 'header.php';
              ['name' => 'Rajesh Rajpoot', 'role' => 'Frontend Tech Lead', 'image' => 'Rajesh-Rajpoot.jpg', 'linkedin' => 'https://www.linkedin.com/in/rajesh-rajpoot/'],
              ['name' => 'Vinod Prajapati', 'role' => 'Frontend Developer', 'image' => 'Vinod-Prajapati.jpg', 'linkedin' => 'https://www.linkedin.com/in/vinod-prajapati12/'],
              ['name' => 'Bhargav Panchal', 'role' => 'Sr. Web Developer', 'image' => 'bhargav-panchal.jpg', 'linkedin' => 'https://www.linkedin.com/in/panchal-bhargav-831614155/'],
-             ['name' => 'Gajendra Kushwah', 'role' => 'Web Developer', 'image' => 'Gajendra-kushwah.jpg', 'linkedin' => 'https://www.linkedin.com/in/gajendra-kushwah-5297361a0/']
+             ['name' => 'Gajendra Kushwah', 'role' => 'Web Developer', 'image' => 'Gajendra-kushwah.jpg', 'linkedin' => 'https://www.linkedin.com/in/gajendra-kushwah-5297361a0/'],
+             ['name' => 'Jayeshkumar Jansari', 'role' => 'Head of Marketing', 'image' => 'Jayeshkumar-Jansari.jpeg', 'linkedin' => 'https://www.linkedin.com/in/jayeshjansari/']
         ];
         ?>
 
