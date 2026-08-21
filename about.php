@@ -162,7 +162,8 @@ include 'header.php';
              ['name' => 'Bhargav Panchal', 'role' => 'Sr. Web Developer', 'image' => 'bhargav-panchal.jpg', 'linkedin' => 'https://www.linkedin.com/in/panchal-bhargav-831614155/'],
              ['name' => 'Gajendra Kushwah', 'role' => 'Web Developer', 'image' => 'Gajendra-kushwah.jpg', 'linkedin' => 'https://www.linkedin.com/in/gajendra-kushwah-5297361a0/'],
              ['name' => 'Jayeshkumar Jansari', 'role' => 'Head of Marketing', 'image' => 'Jayeshkumar-Jansari.jpeg', 'linkedin' => 'https://www.linkedin.com/in/jayeshjansari/'],
-             ['name' => 'Pawan Kushwah', 'role' => 'Sr. Web Designer', 'image' => 'Pawan-Kushwah.jpeg', 'linkedin' => 'https://www.linkedin.com/in/pawan-kushwah-553286150/']
+             ['name' => 'Pawan Kushwah', 'role' => 'Sr. Web Designer', 'image' => 'Pawan-Kushwah.jpeg', 'linkedin' => 'https://www.linkedin.com/in/pawan-kushwah-553286150/'],
+             ['name' => 'Pawan Kushwah', 'role' => 'Python Developer', 'image' => 'Pawan-Kushwah-Python.jpg', 'linkedin' => 'https://www.linkedin.com/in/pawankushwah/']
         ];
         ?>
 
