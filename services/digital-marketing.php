@@ -185,9 +185,260 @@ include __DIR__ . '/../header.php';
         </div>
     </section>
 
-    
-      <!-- 04. Our Workflow (Audit to Scale) -->
-      <!-- 04. How We Scale Your Revenue -->
+    <!-- 04. Specialized Social Media Marketing Section -->
+    <section id="social-media-marketing" class="py-20 md:py-28 bg-slate-950 text-white relative overflow-hidden">
+        <!-- Ambient background grid and glow -->
+        <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+        <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-brand-orange/15 rounded-full mix-blend-screen filter blur-[140px] pointer-events-none"></div>
+
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-orange/10 border border-brand-orange/30 text-brand-orange text-xs font-bold tracking-widest uppercase mb-4 shadow-sm">
+                    OUR SPECIALIZED SOCIAL MEDIA CAPABILITIES
+                </span>
+                <h2 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white mb-5 tracking-tight leading-tight">
+                    Services Engineered to <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-amber-400">Scale Your Brand</span>
+                </h2>
+                <p class="text-slate-400 text-base md:text-lg leading-relaxed">
+                    From viral short-form video production to strategic influencer partnerships, we craft and execute end-to-end social media solutions that captivate your target market and fuel sustainable business growth.
+                </p>
+            </div>
+
+            <!-- 6-Card Services Grid (3x2 on desktop) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                
+                <!-- Card 1: Content Strategy -->
+                <div class="bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-2xl hover:border-brand-orange/50 hover:shadow-[0_20px_50px_rgba(245,130,32,0.15)] hover:-translate-y-2 transition-all duration-500 flex flex-col group" data-aos="fade-up" data-aos-delay="50">
+                    <!-- Image Banner with Gradient Overlay & Badge -->
+                    <div class="relative h-52 w-full overflow-hidden bg-slate-800">
+                        <img src="/assets/images/Strategic-Content-Roadmaps.jpg" 
+                             alt="Strategic Content Planning and Brainstorming" 
+                             title="Strategic Content Roadmaps"
+                             loading="lazy" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                        <!-- Icon Badge -->
+                        <div class="absolute top-4 left-4 w-11 h-11 rounded-2xl bg-slate-950/80 backdrop-blur-md border border-white/15 text-brand-orange flex items-center justify-center shadow-lg group-hover:bg-brand-orange group-hover:text-white group-hover:scale-110 transition-all duration-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Content Area -->
+                    <div class="p-6 sm:p-8 flex flex-col flex-grow relative z-10 -mt-2">
+                        <h3 class="text-xl font-bold font-heading text-white mb-3 group-hover:text-brand-orange transition-colors">
+                            Strategic Content Roadmaps
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed flex-grow">
+                            The foundation behind every successful digital presence. We build data-informed content blueprints that unify your brand messaging, audience psychology, and commercial goals into an actionable, high-output publishing engine.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Reels & Short Video Production -->
+                <div class="bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-2xl hover:border-brand-orange/50 hover:shadow-[0_20px_50px_rgba(245,130,32,0.15)] hover:-translate-y-2 transition-all duration-500 flex flex-col group" data-aos="fade-up" data-aos-delay="100">
+                    <!-- Image Banner with Gradient Overlay & Badge -->
+                    <div class="relative h-52 w-full overflow-hidden bg-slate-800">
+                        <img src="/assets/images/Viral-Reels-Shorts-Creation.jpg" 
+                             alt="Reels and Short Video Production" 
+                             title="Viral Reels & Shorts Creation"
+                             loading="lazy" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                        <!-- Icon Badge -->
+                        <div class="absolute top-4 left-4 w-11 h-11 rounded-2xl bg-slate-950/80 backdrop-blur-md border border-white/15 text-brand-orange flex items-center justify-center shadow-lg group-hover:bg-brand-orange group-hover:text-white group-hover:scale-110 transition-all duration-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Content Area -->
+                    <div class="p-6 sm:p-8 flex flex-col flex-grow relative z-10 -mt-2">
+                        <h3 class="text-xl font-bold font-heading text-white mb-3 group-hover:text-brand-orange transition-colors">
+                            Viral Reels & Shorts Creation
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed flex-grow">
+                            High-retention vertical videos designed for algorithmic breakout. We write, direct, and produce thumb-stopping Instagram Reels, Facebook Reels, YouTube Shorts, and TikToks that showcase your products and storytelling in the most engaging format.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Professional Photography -->
+                <div class="bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-2xl hover:border-brand-orange/50 hover:shadow-[0_20px_50px_rgba(245,130,32,0.15)] hover:-translate-y-2 transition-all duration-500 flex flex-col group" data-aos="fade-up" data-aos-delay="150">
+                    <!-- Image Banner with Gradient Overlay & Badge -->
+                    <div class="relative h-52 w-full overflow-hidden bg-slate-800">
+                        <img src="/assets/images/Commercial-Brand-Photography.jpg" 
+                             alt="Commercial Brand Photography" 
+                             title="Commercial Brand Photography"
+                             loading="lazy" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                        <!-- Icon Badge -->
+                        <div class="absolute top-4 left-4 w-11 h-11 rounded-2xl bg-slate-950/80 backdrop-blur-md border border-white/15 text-brand-orange flex items-center justify-center shadow-lg group-hover:bg-brand-orange group-hover:text-white group-hover:scale-110 transition-all duration-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Content Area -->
+                    <div class="p-6 sm:p-8 flex flex-col flex-grow relative z-10 -mt-2">
+                        <h3 class="text-xl font-bold font-heading text-white mb-3 group-hover:text-brand-orange transition-colors">
+                            Commercial Brand Photography
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed flex-grow">
+                            First impressions are visual and immediate. We produce high-resolution, platform-tailored photography that highlights product details, elevates brand perception, and builds instant consumer trust across your social profiles.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 4: Videography -->
+                <div class="bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-2xl hover:border-brand-orange/50 hover:shadow-[0_20px_50px_rgba(245,130,32,0.15)] hover:-translate-y-2 transition-all duration-500 flex flex-col group" data-aos="fade-up" data-aos-delay="200">
+                    <!-- Image Banner with Gradient Overlay & Badge -->
+                    <div class="relative h-52 w-full overflow-hidden bg-slate-800">
+                        <img src="/assets/images/Cinematic-Brand-Videography.jpg" 
+                             alt="Cinematic Brand Videography" 
+                             title="Cinematic Brand Videography"
+                             loading="lazy" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                        <!-- Icon Badge -->
+                        <div class="absolute top-4 left-4 w-11 h-11 rounded-2xl bg-slate-950/80 backdrop-blur-md border border-white/15 text-brand-orange flex items-center justify-center shadow-lg group-hover:bg-brand-orange group-hover:text-white group-hover:scale-110 transition-all duration-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Content Area -->
+                    <div class="p-6 sm:p-8 flex flex-col flex-grow relative z-10 -mt-2">
+                        <h3 class="text-xl font-bold font-heading text-white mb-3 group-hover:text-brand-orange transition-colors">
+                            Cinematic Brand Videography
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed flex-grow">
+                            Visual storytelling engineered for deep emotional resonance. End-to-end cinematic production ranging from brand overview films and founders' stories to high-impact product demonstrations and authentic customer interviews.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 5: Video Editing -->
+                <div class="bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-2xl hover:border-brand-orange/50 hover:shadow-[0_20px_50px_rgba(245,130,32,0.15)] hover:-translate-y-2 transition-all duration-500 flex flex-col group" data-aos="fade-up" data-aos-delay="250">
+                    <!-- Image Banner with Gradient Overlay & Badge -->
+                    <div class="relative h-52 w-full overflow-hidden bg-slate-800">
+                        <img src="/assets/images/Post-Production-Motion-Graphics.jpg" 
+                             alt="Precision Video Editing and Motion Design" 
+                             title="Post-Production & Motion Graphics"
+                             loading="lazy" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                        <!-- Icon Badge -->
+                        <div class="absolute top-4 left-4 w-11 h-11 rounded-2xl bg-slate-950/80 backdrop-blur-md border border-white/15 text-brand-orange flex items-center justify-center shadow-lg group-hover:bg-brand-orange group-hover:text-white group-hover:scale-110 transition-all duration-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879a3 3 0 11-4.242-4.242L11 11m0 0l-2.879-2.879a3 3 0 10-4.242 4.242L11 11"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Content Area -->
+                    <div class="p-6 sm:p-8 flex flex-col flex-grow relative z-10 -mt-2">
+                        <h3 class="text-xl font-bold font-heading text-white mb-3 group-hover:text-brand-orange transition-colors">
+                            Post-Production & Motion Graphics
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed flex-grow">
+                            Turning raw footage into magnetic digital narratives. Our editing team delivers precision pacing, cinema-grade color grading, immersive sound design, dynamic captions, and motion elements that lock in viewer attention.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 6: Influencer Collaboration -->
+                <div class="bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden shadow-2xl hover:border-brand-orange/50 hover:shadow-[0_20px_50px_rgba(245,130,32,0.15)] hover:-translate-y-2 transition-all duration-500 flex flex-col group" data-aos="fade-up" data-aos-delay="300">
+                    <!-- Image Banner with Gradient Overlay & Badge -->
+                    <div class="relative h-52 w-full overflow-hidden bg-slate-800">
+                        <img src="/assets/images/Influencer-Creator-Collaborations.jpg" 
+                             alt="Influencer and Creator Partnerships" 
+                             title="Influencer & Creator Collaborations"
+                             loading="lazy" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                        <!-- Icon Badge -->
+                        <div class="absolute top-4 left-4 w-11 h-11 rounded-2xl bg-slate-950/80 backdrop-blur-md border border-white/15 text-brand-orange flex items-center justify-center shadow-lg group-hover:bg-brand-orange group-hover:text-white group-hover:scale-110 transition-all duration-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Content Area -->
+                    <div class="p-6 sm:p-8 flex flex-col flex-grow relative z-10 -mt-2">
+                        <h3 class="text-xl font-bold font-heading text-white mb-3 group-hover:text-brand-orange transition-colors">
+                            Influencer & Creator Collaborations
+                        </h3>
+                        <p class="text-slate-400 text-sm leading-relaxed flex-grow">
+                            Scale your brand reach by tapping into established creator trust. We handle complete influencer outreach, creative briefing, contract management, and performance tracking across India to drive genuine product discovery.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 05. Tech Stack & Integration Platforms -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4 font-heading">Premium Advertising Platforms</h2>
+                <p class="text-slate-600 text-sm max-w-2xl mx-auto">We use the world's most powerful platforms to track every single rupee you spend and guarantee maximum ROI.</p>
+            </div>
+            
+            <!-- Interactive Platforms Grid -->
+            <div class="flex flex-wrap justify-center gap-4 lg:gap-6 mt-10">
+                <!-- Google Ads -->
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#4285F4]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(66,133,244,0.15)] hover:border-[#4285F4]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#4285F4]/10 flex items-center justify-center group-hover:bg-[#4285F4] transition-colors relative">
+                        <svg class="w-6 h-6 text-[#4285F4] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line></svg>
+                        <div class="absolute inset-0 bg-[#4285F4] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                    </div>
+                    <span class="text-slate-800 font-bold tracking-tight text-base">Google Ads</span>
+                </div>
+
+                <!-- Meta Ads Manager -->
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#0668E1]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(6,104,225,0.15)] hover:border-[#0668E1]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#0668E1]/10 flex items-center justify-center group-hover:bg-[#0668E1] transition-colors relative">
+                        <svg class="w-6 h-6 text-[#0668E1] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>
+                        <div class="absolute inset-0 bg-[#0668E1] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                    </div>
+                    <span class="text-slate-800 font-bold tracking-tight text-base">Meta Ads</span>
+                </div>
+
+                <!-- LinkedIn Campaign Manager -->
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#0A66C2]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(10,102,194,0.15)] hover:border-[#0A66C2]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#0A66C2]/10 flex items-center justify-center group-hover:bg-[#0A66C2] transition-colors relative">
+                        <svg class="w-6 h-6 text-[#0A66C2] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        <div class="absolute inset-0 bg-[#0A66C2] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                    </div>
+                    <span class="text-slate-800 font-bold tracking-tight text-base">LinkedIn Ads</span>
+                </div>
+
+                <!-- Google Analytics 4 -->
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#F4B400]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(244,180,0,0.15)] hover:border-[#F4B400]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#F4B400]/10 flex items-center justify-center group-hover:bg-[#F4B400] transition-colors relative">
+                        <svg class="w-6 h-6 text-[#F4B400] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                        <div class="absolute inset-0 bg-[#F4B400] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                    </div>
+                    <span class="text-slate-800 font-bold tracking-tight text-base">GA4</span>
+                </div>
+
+                <!-- HubSpot CRM -->
+                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#FF7A59]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(255,122,89,0.15)] hover:border-[#FF7A59]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
+                    <div class="w-12 h-12 rounded-2xl bg-[#FF7A59]/10 flex items-center justify-center group-hover:bg-[#FF7A59] transition-colors relative">
+                        <svg class="w-6 h-6 text-[#FF7A59] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        <div class="absolute inset-0 bg-[#FF7A59] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
+                    </div>
+                    <span class="text-slate-800 font-bold tracking-tight text-base">HubSpot CRM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- 05. How We Scale Your Revenue -->
     <section class="py-24 bg-slate-950 text-white relative overflow-hidden">
         <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-brand-orange/20 rounded-full mix-blend-screen filter blur-[120px] pointer-events-none"></div>
@@ -258,63 +509,7 @@ include __DIR__ . '/../header.php';
             </div>
         </div>
     </section>
-<!-- 05. Tech Stack & Integration Platforms -->
-    <section class="py-20 bg-white">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="text-3xl font-bold text-slate-900 mb-4 font-heading">Premium Advertising Platforms</h2>
-                <p class="text-slate-600 text-sm max-w-2xl mx-auto">We use the world's most powerful platforms to track every single rupee you spend and guarantee maximum ROI.</p>
-            </div>
-            
-            <!-- Interactive Platforms Grid -->
-            <div class="flex flex-wrap justify-center gap-4 lg:gap-6 mt-10">
-                <!-- Google Ads -->
-                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#4285F4]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(66,133,244,0.15)] hover:border-[#4285F4]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
-                    <div class="w-12 h-12 rounded-2xl bg-[#4285F4]/10 flex items-center justify-center group-hover:bg-[#4285F4] transition-colors relative">
-                        <svg class="w-6 h-6 text-[#4285F4] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line></svg>
-                        <div class="absolute inset-0 bg-[#4285F4] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
-                    </div>
-                    <span class="text-slate-800 font-bold tracking-tight text-base">Google Ads</span>
-                </div>
 
-                <!-- Meta Ads Manager -->
-                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#0668E1]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(6,104,225,0.15)] hover:border-[#0668E1]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
-                    <div class="w-12 h-12 rounded-2xl bg-[#0668E1]/10 flex items-center justify-center group-hover:bg-[#0668E1] transition-colors relative">
-                        <svg class="w-6 h-6 text-[#0668E1] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>
-                        <div class="absolute inset-0 bg-[#0668E1] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
-                    </div>
-                    <span class="text-slate-800 font-bold tracking-tight text-base">Meta Ads</span>
-                </div>
-
-                <!-- LinkedIn Campaign Manager -->
-                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#0A66C2]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(10,102,194,0.15)] hover:border-[#0A66C2]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
-                    <div class="w-12 h-12 rounded-2xl bg-[#0A66C2]/10 flex items-center justify-center group-hover:bg-[#0A66C2] transition-colors relative">
-                        <svg class="w-6 h-6 text-[#0A66C2] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                        <div class="absolute inset-0 bg-[#0A66C2] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
-                    </div>
-                    <span class="text-slate-800 font-bold tracking-tight text-base">LinkedIn Ads</span>
-                </div>
-
-                <!-- Google Analytics 4 -->
-                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#F4B400]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(244,180,0,0.15)] hover:border-[#F4B400]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
-                    <div class="w-12 h-12 rounded-2xl bg-[#F4B400]/10 flex items-center justify-center group-hover:bg-[#F4B400] transition-colors relative">
-                        <svg class="w-6 h-6 text-[#F4B400] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
-                        <div class="absolute inset-0 bg-[#F4B400] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
-                    </div>
-                    <span class="text-slate-800 font-bold tracking-tight text-base">GA4</span>
-                </div>
-
-                <!-- HubSpot CRM -->
-                <div class="flex items-center gap-4 px-6 py-4 bg-white border-2 border-[#FF7A59]/15 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgba(255,122,89,0.15)] hover:border-[#FF7A59]/40 hover:-translate-y-1 transition-all duration-300 group cursor-default">
-                    <div class="w-12 h-12 rounded-2xl bg-[#FF7A59]/10 flex items-center justify-center group-hover:bg-[#FF7A59] transition-colors relative">
-                        <svg class="w-6 h-6 text-[#FF7A59] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-                        <div class="absolute inset-0 bg-[#FF7A59] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 rounded-full"></div>
-                    </div>
-                    <span class="text-slate-800 font-bold tracking-tight text-base">HubSpot CRM</span>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- 06. Social Proof & Benefits (Bubble Chart Layout) -->
     <section class="py-24 bg-gray-50 border-t border-gray-200 overflow-hidden">
