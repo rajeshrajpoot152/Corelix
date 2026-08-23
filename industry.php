@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "Industries We Serve | Enterprise IT & Marketing - Corelix";
-$metaDesc = "Corelix delivers tailored digital transformation, custom software, and marketing strategies across 20+ industries including Healthcare, Finance, Retail, Logistics, and Real Estate.";
-$metaKeywords = "Healthcare IT Solutions, Legal Tech, FinTech Software, Retail eCommerce, Manufacturing Automation, Enterprise IT Industries, Corelix Industries";
+$pageTitle = "Industries We Serve | Enterprise IT & Marketing - GrowAutoAi";
+$metaDesc = "GrowAutoAi delivers tailored digital transformation, custom software, and marketing strategies across 20+ industries including Healthcare, Finance, Retail, Logistics, and Real Estate.";
+$metaKeywords = "Healthcare IT Solutions, Legal Tech, FinTech Software, Retail eCommerce, Manufacturing Automation, Enterprise IT Industries, GrowAutoAi Industries";
 include 'header.php'; 
 ?>
 

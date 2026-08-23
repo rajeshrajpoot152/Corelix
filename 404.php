@@ -15,7 +15,7 @@ include 'header.php';
             Even the best algorithms hit a snag sometimes. The page you're looking for doesn't exist, but we can still help you build something extraordinary.
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="/" class="inline-flex items-center justify-center px-8 py-3.5 bg-brand-blue text-white rounded-full font-bold hover:bg-brand-blue/90 hover:shadow-lg hover:shadow-brand-blue/30 transition-all duration-300" title="Corelix Home">
+            <a href="/" class="inline-flex items-center justify-center px-8 py-3.5 bg-brand-blue text-white rounded-full font-bold hover:bg-brand-blue/90 hover:shadow-lg hover:shadow-brand-blue/30 transition-all duration-300" title="GrowAutoAi Home">
                 Back to Home
                 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             </a>

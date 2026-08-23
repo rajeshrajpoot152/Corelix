@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "Sitemap | Corelix Navigation Overview";
-$metaDesc = "Browse the complete sitemap of Corelix to quickly find our company information, legal documents, and digital services.";
-$metaKeywords = "Corelix Sitemap, Site Navigation, All Pages, Corelix Directory, Digital Ecosystem";
+$pageTitle = "Sitemap | GrowAutoAi Navigation Overview";
+$metaDesc = "Browse the complete sitemap of GrowAutoAi to quickly find our company information, legal documents, and digital services.";
+$metaKeywords = "GrowAutoAi Sitemap, Site Navigation, All Pages, GrowAutoAi Directory, Digital Ecosystem";
 include 'header.php'; 
 ?>
 <!-- Inner Page Hero Banner -->
@@ -18,7 +18,7 @@ include 'header.php';
         
         <!-- Main Visual Heading -->
         <h2 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white mb-4 tracking-tight leading-tight md:leading-none">
-            Corelix <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Sitemap</span>
+            GrowAutoAi <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Sitemap</span>
         </h2>
         
         <!-- Subtitle -->
@@ -52,10 +52,10 @@ include 'header.php';
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Home Card -->
-                <a href="/" class="group p-6 rounded-2xl bg-gray-50/80 hover:bg-white border border-gray-100 hover:border-brand-orange hover:shadow-lg transition-all duration-300 flex items-start justify-between" title="Corelix Home">
+                <a href="/" class="group p-6 rounded-2xl bg-gray-50/80 hover:bg-white border border-gray-100 hover:border-brand-orange hover:shadow-lg transition-all duration-300 flex items-start justify-between" title="GrowAutoAi Home">
                     <div>
                         <h3 class="font-bold text-gray-900 group-hover:text-brand-orange transition-colors text-lg mb-1">Home</h3>
-                        <p class="text-sm text-gray-500 leading-relaxed">Return to Corelix homepage & main overview</p>
+                        <p class="text-sm text-gray-500 leading-relaxed">Return to GrowAutoAi homepage & main overview</p>
                     </div>
                     <svg class="w-5 h-5 text-gray-400 group-hover:text-brand-orange group-hover:translate-x-1 transition-all flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                 </a>
@@ -133,7 +133,7 @@ include 'header.php';
                 <a href="/services" class="group p-6 rounded-2xl bg-gray-50/80 hover:bg-white border border-gray-100 hover:border-brand-green hover:shadow-lg transition-all duration-300 flex items-start justify-between" title="Services Overview">
                     <div>
                         <h3 class="font-bold text-gray-900 group-hover:text-brand-green transition-colors text-lg mb-1">Services Overview</h3>
-                        <p class="text-sm text-gray-500 leading-relaxed">Complete portfolio of Corelix digital capabilities</p>
+                        <p class="text-sm text-gray-500 leading-relaxed">Complete portfolio of GrowAutoAi digital capabilities</p>
                     </div>
                     <svg class="w-5 h-5 text-gray-400 group-hover:text-brand-green group-hover:translate-x-1 transition-all flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                 </a>

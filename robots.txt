@@ -5,4 +5,4 @@ Allow: /
 Allow: /assets/videos/
 Allow: /vendor/
 
-Sitemap: https://www.corelix.com/sitemap.xml
+Sitemap: https://www.growautoai.com/sitemap.xml

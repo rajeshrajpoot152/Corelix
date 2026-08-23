@@ -1,7 +1,7 @@
-﻿<?php 
-$pageTitle = "Thank You | Corelix";
-$metaDesc = "Thank you for reaching out to Corelix. We have received your inquiry and will get back to you shortly.";
-$metaKeywords = "Thank you, Corelix";
+<?php 
+$pageTitle = "Thank You | GrowAutoAi";
+$metaDesc = "Thank you for reaching out to GrowAutoAi. We have received your inquiry and will get back to you shortly.";
+$metaKeywords = "Thank you, GrowAutoAi";
 include 'header.php'; 
 ?>
 <!-- Premium Inner Page Hero Template - Thank You Page -->

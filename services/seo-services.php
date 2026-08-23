@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "SEO Services | Technical, Global & AI SEO - Corelix";
+$pageTitle = "SEO Services | Technical, Global & AI SEO - GrowAutoAi";
 $metaDesc = "Data-driven SEO strategies, technical SEO audits, global authority, local search rankings, and AI-powered SEO solutions to scale organic growth.";
-$metaKeywords = "Technical SEO, Global SEO, Local SEO Services, eCommerce SEO, AI SEO, Search Engine Optimization, Organic Traffic Growth, Corelix SEO Agency";
+$metaKeywords = "Technical SEO, Global SEO, Local SEO Services, eCommerce SEO, AI SEO, Search Engine Optimization, Organic Traffic Growth, GrowAutoAi SEO Agency";
 include __DIR__ . '/../header.php'; 
 ?>
 

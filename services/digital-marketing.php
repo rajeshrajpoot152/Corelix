@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "Digital Marketing Services | PPC, CRO & Email - Corelix";
+$pageTitle = "Digital Marketing Services | PPC, CRO & Email - GrowAutoAi";
 $metaDesc = "High-ROI performance marketing, conversion rate optimization (CRO), social media advertising, and automated email marketing campaigns.";
-$metaKeywords = "PPC Marketing, Conversion Rate Optimization, CRO, Social Media Marketing, Email Marketing, Paid Advertising, Digital Marketing Agency, Corelix";
+$metaKeywords = "PPC Marketing, Conversion Rate Optimization, CRO, Social Media Marketing, Email Marketing, Paid Advertising, Digital Marketing Agency, GrowAutoAi";
 include __DIR__ . '/../header.php'; 
 ?>
 

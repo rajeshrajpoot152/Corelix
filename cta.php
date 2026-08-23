@@ -26,7 +26,7 @@
                 Let’s find out what's holding your website back. Get a complete check of your SEO ranking, website speed, and technical health today.
             </p>
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
-                <a class="w-full sm:w-auto bg-gradient-to-br from-brand-blue to-brand-green hover:from-blue-700 hover:to-green-500 text-white px-5 py-2.5 rounded-full font-bold text-xs sm:text-sm transition-all duration-300 shadow-[0_8px_20px_rgba(30,58,138,0.3)] hover:shadow-[0_12px_25px_rgba(30,58,138,0.4)] hover:-translate-y-1 flex items-center justify-center group" href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" title="Corelix Action">
+                <a class="w-full sm:w-auto bg-gradient-to-br from-brand-blue to-brand-green hover:from-blue-700 hover:to-green-500 text-white px-5 py-2.5 rounded-full font-bold text-xs sm:text-sm transition-all duration-300 shadow-[0_8px_20px_rgba(30,58,138,0.3)] hover:shadow-[0_12px_25px_rgba(30,58,138,0.4)] hover:-translate-y-1 flex items-center justify-center group" href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" title="GrowAutoAi Action">
                     Get My Free SEO & Tech Audit
                     <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                 </a>

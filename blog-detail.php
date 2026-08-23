@@ -28,7 +28,7 @@ if (file_exists($jsonFile)) {
 // If blog not found, redirect or show 404
 if (!$currentBlog) {
     header("HTTP/1.0 404 Not Found");
-    $pageTitle = "404 Not Found - Corelix";
+    $pageTitle = "404 Not Found - GrowAutoAi";
     include 'header.php';
     echo '<div class="pt-40 pb-20 text-center"><h1 class="text-4xl text-white">Blog Post Not Found</h1><a href="/blog" class="text-brand-blue mt-4 block" title="Blog">Return to Blog</a></div>';
     include 'footer.php';
@@ -36,10 +36,10 @@ if (!$currentBlog) {
 }
 
 // Set dynamic SEO variables before including header
-$pageTitle = $currentBlog['title'] . " | Corelix Blog";
+$pageTitle = $currentBlog['title'] . " | GrowAutoAi Blog";
 $metaDesc = $currentBlog['excerpt'];
-$metaKeywords = $currentBlog['title'] . ", " . $currentBlog['category'] . ", Corelix Blog, Tech News, IT Insights";
-$ogImage = "https://www.corelix.com" . $currentBlog['image'];
+$metaKeywords = $currentBlog['title'] . ", " . $currentBlog['category'] . ", GrowAutoAi Blog, Tech News, IT Insights";
+$ogImage = "https://www.growautoai.com" . $currentBlog['image'];
 
 // Schema configuration
 $schemaJson = '{
@@ -47,21 +47,21 @@ $schemaJson = '{
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.corelix.com/blog/' . $slug . '"
+    "@id": "https://www.growautoai.com/blog/' . $slug . '"
   },
   "headline": "' . addslashes($currentBlog['title']) . '",
   "description": "' . addslashes($currentBlog['excerpt']) . '",
-  "image": "https://www.corelix.com' . $currentBlog['image'] . '",
+  "image": "https://www.growautoai.com' . $currentBlog['image'] . '",
   "author": {
     "@type": "Person",
     "name": "' . addslashes($currentBlog['author']) . '"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Corelix",
+    "name": "GrowAutoAi",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.corelix.com/assets/images/favicon.png"
+      "url": "https://www.growautoai.com/assets/images/favicon.png"
     }
   },
   "datePublished": "' . date("Y-m-d", strtotime($currentBlog['date'])) . '",
@@ -114,7 +114,7 @@ include 'header.php';
                 <div class="w-12 h-12 rounded-full bg-brand-gray/20 flex items-center justify-center font-bold text-white text-lg"><?php echo substr($currentBlog['author'], 0, 1); ?></div>
                 <div class="text-left">
                     <span class="block text-white font-bold"><?php echo $currentBlog['author']; ?></span>
-                    <span class="block text-brand-gray text-xs">Corelix Expert</span>
+                    <span class="block text-brand-gray text-xs">GrowAutoAi Expert</span>
                 </div>
             </div>
             <div class="h-8 w-px bg-white/10"></div>
@@ -145,10 +145,10 @@ include 'header.php';
         <div class="mt-16 pt-8 border-t border-gray-200 flex items-center justify-between">
             <span class="text-brand-black font-bold text-lg">Share this article:</span>
             <div class="flex gap-4">
-                <a href="https://twitter.com/intent/tweet?url=https://www.corelix.com/blog/<?php echo $slug; ?>&text=<?php echo urlencode($currentBlog['title']); ?>" target="_blank" class="w-10 h-10 rounded-full bg-gray-100 hover:bg-brand-blue flex items-center justify-center text-gray-700 hover:text-white transition-colors" title="Share on Twitter">
+                <a href="https://twitter.com/intent/tweet?url=https://www.growautoai.com/blog/<?php echo $slug; ?>&text=<?php echo urlencode($currentBlog['title']); ?>" target="_blank" class="w-10 h-10 rounded-full bg-gray-100 hover:bg-brand-blue flex items-center justify-center text-gray-700 hover:text-white transition-colors" title="Share on Twitter">
                     <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
                 </a>
-                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.corelix.com/blog/<?php echo $slug; ?>&title=<?php echo urlencode($currentBlog['title']); ?>" target="_blank" class="w-10 h-10 rounded-full bg-gray-100 hover:bg-brand-blue flex items-center justify-center text-gray-700 hover:text-white transition-colors" title="Share on LinkedIn">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.growautoai.com/blog/<?php echo $slug; ?>&title=<?php echo urlencode($currentBlog['title']); ?>" target="_blank" class="w-10 h-10 rounded-full bg-gray-100 hover:bg-brand-blue flex items-center justify-center text-gray-700 hover:text-white transition-colors" title="Share on LinkedIn">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                 </a>
             </div>

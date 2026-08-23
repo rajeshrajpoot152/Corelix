@@ -1,24 +1,24 @@
 <?php
 // --- DYNAMIC SEO CONFIGURATION ---
 // Set defaults if variables are not defined in the parent page
-$pageTitle = isset($pageTitle) ? $pageTitle : "Corelix - Creative Marketing & Tech Solutions";
-$metaDesc = isset($metaDesc) ? $metaDesc : "Corelix is a premium IT Agency offering Web & Mobile Development, UI/UX Design, Digital Marketing, and AI Business Automation.";
-$metaKeywords = isset($metaKeywords) ? $metaKeywords : "IT Agency, Web Development, Mobile App Development, UI/UX Design, Digital Marketing, AI Automation, Corelix, Software Solutions";
-$metaAuthor = isset($metaAuthor) ? $metaAuthor : "Corelix Team";
-$metaPublisher = isset($metaPublisher) ? $metaPublisher : "Corelix";
+$pageTitle = isset($pageTitle) ? $pageTitle : "GrowAutoAi - Creative Marketing & Tech Solutions";
+$metaDesc = isset($metaDesc) ? $metaDesc : "GrowAutoAi is a premium IT Agency offering Web & Mobile Development, UI/UX Design, Digital Marketing, and AI Business Automation.";
+$metaKeywords = isset($metaKeywords) ? $metaKeywords : "IT Agency, Web Development, Mobile App Development, UI/UX Design, Digital Marketing, AI Automation, GrowAutoAi, Software Solutions";
+$metaAuthor = isset($metaAuthor) ? $metaAuthor : "GrowAutoAi Team";
+$metaPublisher = isset($metaPublisher) ? $metaPublisher : "GrowAutoAi";
 // Staging mode: prevent search engines from indexing/crawling
 $metaRobots = isset($metaRobots) ? $metaRobots : "index, follow";
 
 // Construct canonical URL dynamically
 if (!isset($canonicalUrl)) {
     $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-    $host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'www.corelix.com';
+    $host = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'www.growautoai.com';
     $uri = isset($_SERVER['REQUEST_URI']) ? parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) : '';
     $canonicalUrl = $protocol . $host . $uri;
 }
 
 // Open Graph / Social Media Image
-$ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $protocol . $host . "/assets/images/og-image.jpg" : "https://www.corelix.com/assets/images/og-image.jpg");
+$ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $protocol . $host . "/assets/images/og-image.jpg" : "https://www.growautoai.com/assets/images/og-image.jpg");
 ?>
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
@@ -53,16 +53,16 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
     <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($metaDesc, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:image" content="<?php echo htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8'); ?>">
-    <meta property="og:site_name" content="Corelix">
+    <meta property="og:site_name" content="GrowAutoAi">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@corelix">
+    <meta name="twitter:site" content="@growautoai">
     <meta name="twitter:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="twitter:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="twitter:description" content="<?php echo htmlspecialchars($metaDesc, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="twitter:image" content="<?php echo htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8'); ?>">
-    <meta name="twitter:creator" content="@corelix">
+    <meta name="twitter:creator" content="@growautoai">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -213,7 +213,7 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
         {
           "@type": "Organization",
           "@id": "<?php echo $protocol . $host; ?>/#organization",
-          "name": "Corelix",
+          "name": "GrowAutoAi",
           "url": "<?php echo $protocol . $host; ?>",
           "logo": "<?php echo htmlspecialchars($ogImage, ENT_QUOTES, 'UTF-8'); ?>",
           "description": "Premium IT Agency offering Web & Mobile Development, UI/UX Design, Digital Marketing, and AI Business Automation.",
@@ -254,14 +254,14 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
             <div class="flex items-center h-20 transition-all duration-300 w-full" id="nav-inner">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
-                    <!-- <a href="/" class="font-heading font-black text-3xl tracking-tight flex items-center gap-2" title="Corelix Home">
-                        <img id="header-logo" src="/assets/images/lgoo-white.png" alt="Corelix Logo" title="Corelix" class="h-6 md:h-8 w-auto object-contain transition-all duration-300">
+                    <!-- <a href="/" class="font-heading font-black text-3xl tracking-tight flex items-center gap-2" title="GrowAutoAi Home">
+                        <img id="header-logo" src="/assets/images/lgoo-white.png" alt="GrowAutoAi Logo" title="GrowAutoAi" class="h-6 md:h-8 w-auto object-contain transition-all duration-300">
                     </a> -->
                 </div>
                 
                 <!-- Desktop Menu -->
                 <nav class="hidden md:flex space-x-8 items-center ml-10 lg:ml-16">
-                    <a href="/" class="text-brand-gray hover:text-white transition-colors text-sm font-bold tracking-wide" title="Corelix Home">Home</a>
+                    <a href="/" class="text-brand-gray hover:text-white transition-colors text-sm font-bold tracking-wide" title="GrowAutoAi Home">Home</a>
                     <a href="/about" class="text-brand-gray hover:text-white transition-colors text-sm font-bold tracking-wide" title="About">About</a>
                     
                     <div class="relative group">
@@ -358,7 +358,7 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden peer-checked:block md:peer-checked:hidden bg-black/95 backdrop-blur-xl border-b border-white/10 absolute w-full top-full left-0 z-50">
             <div class="px-4 pt-2 pb-6 space-y-1 shadow-lg max-h-[80vh] overflow-y-auto">
-                <a href="/" class="block px-3 py-3 text-base font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="Corelix Home">Home</a>
+                <a href="/" class="block px-3 py-3 text-base font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="GrowAutoAi Home">Home</a>
                 <a href="/about" class="block px-3 py-3 text-base font-medium text-brand-gray hover:text-white hover:bg-white/5 rounded-md" title="About">About</a>
                 
                 <!-- Services Dropdown (Mobile) -->

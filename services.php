@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "Our Services | Digital Marketing, Web Dev & AI Automation - Corelix";
-$metaDesc = "Explore Corelix's comprehensive suite of digital services: Web & Mobile App Development, SEO Services, Digital Marketing, AI & Business Automation, and UI/UX Branding.";
-$metaKeywords = "Corelix Services, Web & Mobile App Development, SEO Services, Digital Marketing, AI & Business Automation, UI/UX & Branding, IT Solutions, Custom Software";
+$pageTitle = "Our Services | Digital Marketing, Web Dev & AI Automation - GrowAutoAi";
+$metaDesc = "Explore GrowAutoAi's comprehensive suite of digital services: Web & Mobile App Development, SEO Services, Digital Marketing, AI & Business Automation, and UI/UX Branding.";
+$metaKeywords = "GrowAutoAi Services, Web & Mobile App Development, SEO Services, Digital Marketing, AI & Business Automation, UI/UX & Branding, IT Solutions, Custom Software";
 include 'header.php'; 
 ?>
 <!-- Inner Page Hero Banner -->
@@ -13,7 +13,7 @@ include 'header.php';
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center" data-aos="zoom-out-up">
         <!-- Badge -->
         <h1 class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-4 md:mb-6 text-white text-xs font-bold tracking-widest uppercase shadow-sm">
-            Corelix Ecosystem
+            GrowAutoAi Ecosystem
         </h1>
         
         <!-- Main Visual Heading -->

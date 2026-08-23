@@ -1,8 +1,8 @@
-﻿<?php
+<?php
 session_start();
 
 // Authentication
-$password = 'rajeshrshiv@gmail.com';
+$password = 'growautoai';
 $error = '';
 
 if (isset($_POST['login'])) {
@@ -72,6 +72,26 @@ $dataFile = __DIR__ . '/PHPMailerData/inquiries.json';
 $inquiries = [];
 if (file_exists($dataFile)) {
     $inquiries = json_decode(file_get_contents($dataFile), true) ?? [];
+}
+
+// Handle Deletion
+if (isset($_GET['delete_id'])) {
+    $delete_id = $_GET['delete_id'];
+    $inquiries = array_filter($inquiries, function($inq) use ($delete_id) {
+        return isset($inq['id']) && $inq['id'] !== $delete_id;
+    });
+    $inquiries = array_values($inquiries);
+    file_put_contents($dataFile, json_encode($inquiries, JSON_PRETTY_PRINT));
+    
+    // Redirect to remove delete_id from URL
+    $params = $_GET;
+    unset($params['delete_id']);
+    $url = 'allinquiry.php';
+    if (!empty($params)) {
+        $url .= '?' . http_build_query($params);
+    }
+    header("Location: $url");
+    exit;
 }
 
 // Handle basic PHP filtering
@@ -196,6 +216,7 @@ if (isset($_GET['export']) && $_GET['export'] == 'csv') {
                         <th class="p-4 font-semibold">Service / Position</th>
                         <th class="p-4 font-semibold">Message</th>
                         <th class="p-4 font-semibold">Attachment</th>
+                        <th class="p-4 font-semibold text-center">Action</th>
                     </tr>
                 </thead>
                 <tbody class="divide-y divide-gray-100 text-sm">
@@ -236,11 +257,18 @@ if (isset($_GET['export']) && $_GET['export'] == 'csv') {
                                     <span class="text-gray-400 text-xs">N/A</span>
                                 <?php endif; ?>
                             </td>
+                            <td class="p-4 text-center">
+                                <?php if(isset($inq['id'])): ?>
+                                <a href="?delete_id=<?= urlencode($inq['id']) ?>&<?= http_build_query(array_diff_key($_GET, ['delete_id'=>''])) ?>" class="text-red-500 hover:text-red-700 transition" onclick="return confirm('Are you sure you want to delete this entry?');" title="Delete">
+                                    <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                                </a>
+                                <?php endif; ?>
+                            </td>
                         </tr>
                         <?php endforeach; ?>
                     <?php else: ?>
                         <tr>
-                            <td colspan="6" class="p-8 text-center text-gray-500">
+                            <td colspan="7" class="p-8 text-center text-gray-500">
                                 No inquiries found for the selected filter.
                             </td>
                         </tr>

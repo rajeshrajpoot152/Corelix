@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "UI/UX Design & Corporate Branding Services | Corelix";
-$metaDesc = "Human-centric UI/UX design, brand identity systems, corporate branding, and professional video production services by Corelix.";
-$metaKeywords = "UI/UX Design Services, Corporate Branding, Video Production, Brand Identity, Product Design, Web Design Agency, Corelix Creative Studio";
+$pageTitle = "UI/UX Design & Corporate Branding Services | GrowAutoAi";
+$metaDesc = "Human-centric UI/UX design, brand identity systems, corporate branding, and professional video production services by GrowAutoAi.";
+$metaKeywords = "UI/UX Design Services, Corporate Branding, Video Production, Brand Identity, Product Design, Web Design Agency, GrowAutoAi Creative Studio";
 include __DIR__ . '/../header.php'; 
 ?>
 

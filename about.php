@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "About Us | Who We Are, Leadership & Mission - Corelix";
-$metaDesc = "Learn about Corelix, our mission, vision, leadership team, and our commitment to innovating high-growth IT and marketing solutions for global enterprises.";
-$metaKeywords = "About Corelix, IT Agency Leadership, Software Development Team, Digital Agency History, Our Mission, Tech Innovators, Corelix Team";
+$pageTitle = "About Us | Who We Are, Leadership & Mission - GrowAutoAi";
+$metaDesc = "Learn about GrowAutoAi, our mission, vision, leadership team, and our commitment to innovating high-growth IT and marketing solutions for global enterprises.";
+$metaKeywords = "About GrowAutoAi, IT Agency Leadership, Software Development Team, Digital Agency History, Our Mission, Tech Innovators, GrowAutoAi Team";
 include 'header.php'; 
 ?>
 
@@ -22,7 +22,7 @@ include 'header.php';
         
         <!-- Main Visual Heading -->
         <h2 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white mb-4 tracking-tight leading-tight md:leading-none">
-            About <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Corelix</span>
+            About <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">GrowAutoAi</span>
         </h2>
         
         <!-- Page Subtitle -->
@@ -122,7 +122,7 @@ include 'header.php';
                             Founder & Chief Executive Officer
                         </p>
                         <blockquote class="text-slate-600 text-base md:text-lg leading-relaxed mb-8 italic border-l-0 lg:border-l-4 lg:border-brand-blue/30 lg:pl-5">
-                            "At Corelix, we believe technology should be a direct growth engine for businesses. Our mission is to engineer high-velocity digital solutions, smart automation, and profitable marketing that deliver measurable impact."
+                            "At GrowAutoAi, we believe technology should be a direct growth engine for businesses. Our mission is to engineer high-velocity digital solutions, smart automation, and profitable marketing that deliver measurable impact."
                         </blockquote>
                         
                         <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4">
@@ -153,7 +153,7 @@ include 'header.php';
         </div>
         <?php
         $teamMembers = [
-             ['name' => 'Rajesh Rajpoot', 'role' => 'Frontend Tech Lead', 'image' => 'Rajesh-Rajpoot.jpg', 'linkedin' => 'https://www.linkedin.com/in/rajesh-rajpoot/'],
+            //  ['name' => 'Rajesh Rajpoot', 'role' => 'Frontend Tech Lead', 'image' => 'Rajesh-Rajpoot.jpg', 'linkedin' => 'https://www.linkedin.com/in/rajesh-rajpoot/'],
              ['name' => 'Vinod Prajapati', 'role' => 'Frontend Developer', 'image' => 'Vinod-Prajapati.jpg', 'linkedin' => 'https://www.linkedin.com/in/vinod-prajapati12/'],
              ['name' => 'Bhargav Panchal', 'role' => 'Sr. Web Developer', 'image' => 'bhargav-panchal.jpg', 'linkedin' => 'https://www.linkedin.com/in/panchal-bhargav-831614155/'],
              ['name' => 'Gajendra Kushwah', 'role' => 'Web Developer', 'image' => 'Gajendra-kushwah.jpg', 'linkedin' => 'https://www.linkedin.com/in/gajendra-kushwah-5297361a0/'],

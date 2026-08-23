@@ -1,7 +1,7 @@
-﻿<?php 
-$pageTitle = "Careers at Corelix | IT, Design & Marketing Job Openings";
-$metaDesc = "Join Corelix! Explore remote and on-site job openings in Software Engineering, UI/UX Design, SEO, AI Engineering, and Digital Marketing. Build the future with us.";
-$metaKeywords = "Corelix Careers, IT Jobs, Remote Tech Jobs, Software Engineering Careers, UI UX Design Jobs, Digital Marketing Jobs, Hiring IT Professionals";
+<?php 
+$pageTitle = "Careers at GrowAutoAi | IT, Design & Marketing Job Openings";
+$metaDesc = "Join GrowAutoAi! Explore remote and on-site job openings in Software Engineering, UI/UX Design, SEO, AI Engineering, and Digital Marketing. Build the future with us.";
+$metaKeywords = "GrowAutoAi Careers, IT Jobs, Remote Tech Jobs, Software Engineering Careers, UI UX Design Jobs, Digital Marketing Jobs, Hiring IT Professionals";
 include 'header.php'; 
 ?>
 <!-- Premium Inner Page Hero Template -->
@@ -19,7 +19,7 @@ include 'header.php';
         
         <!-- Main SEO Heading (H1) -->
         <h1 class="text-3xl md:text-5xl lg:text-6xl font-black font-heading text-white mb-4 tracking-tight leading-tight md:leading-none">
-            Build the Future with <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">Corelix</span>
+            Build the Future with <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-green">GrowAutoAi</span>
         </h1>
         
         <!-- Page Subtitle -->
@@ -125,14 +125,15 @@ include 'header.php';
             
             <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 font-heading relative z-10 text-center">Current Openings</h2>
             <p class="text-gray-600 text-lg mb-12 max-w-2xl mx-auto relative z-10 text-center">
-                Explore our open roles below. Click on any position to apply directly via our contact form. We review applications daily.
+                Explore our open roles below. Click on any position to apply directly via our contact form. We review applications daily.<br>
+                You can also email your resume directly to <a href="mailto:hr@growautoai.com" class="text-brand-blue font-semibold hover:underline">hr@growautoai.com</a>
             </p>
             
             <div class="flex flex-col gap-4 relative z-10 text-left">
                 
                 <!-- Job 1 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Business Development Executive</h3>
         <p class="text-sm text-gray-500 truncate">2+ Years Experience • B2B Sales, Lead Generation, Client Relations.</p>
@@ -155,7 +156,7 @@ include 'header.php';
 
                 <!-- Job 2 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Graphic Designer</h3>
         <p class="text-sm text-gray-500 truncate">1-3 Years Exp • UI/UX, Branding, Adobe Creative Suite, Figma.</p>
@@ -178,7 +179,7 @@ include 'header.php';
 
                 <!-- Job 3 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Full Stack Developer</h3>
         <p class="text-sm text-gray-500 truncate">2-4 Years Exp • React, Node.js, MongoDB, scalable architecture.</p>
@@ -201,7 +202,7 @@ include 'header.php';
 
                 <!-- Job 4 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Front End Developer</h3>
         <p class="text-sm text-gray-500 truncate">1-3 Years Exp • ReactJS, VueJS, TailwindCSS, pixel-perfect UI.</p>
@@ -224,7 +225,7 @@ include 'header.php';
 
                 <!-- Job 5 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Junior SEO Executive</h3>
         <p class="text-sm text-gray-500 truncate">Fresher • Off-page/On-page SEO, link building, keyword tracking.</p>
@@ -247,7 +248,7 @@ include 'header.php';
 
                 <!-- Job 6 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Freelance Job For Freshers</h3>
         <p class="text-sm text-gray-500 truncate">Students & Freshers • Flexible tasks, data entry, social media tasks.</p>
@@ -270,7 +271,7 @@ include 'header.php';
 
                 <!-- Job 7 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Int. Business Development</h3>
         <p class="text-sm text-gray-500 truncate">3+ Years Exp • IT Sales, Upwork/Fiverr/LinkedIn, Global Markets.</p>
@@ -293,7 +294,7 @@ include 'header.php';
 
                 <!-- Job 8 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Video Editor</h3>
         <p class="text-sm text-gray-500 truncate">1-4 Years Exp • Premiere Pro, After Effects, Motion Graphics.</p>
@@ -316,7 +317,7 @@ include 'header.php';
 
                 <!-- Job 9 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">HTML Developer</h3>
         <p class="text-sm text-gray-500 truncate">1–2 Years Exp • Proficient in HTML5, CSS3, JS & UI frameworks.</p>
@@ -339,7 +340,7 @@ include 'header.php';
 
                 <!-- Job 10 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Intern Video & Reels Editor</h3>
         <p class="text-sm text-gray-500 truncate">Grasp of TikTok/Reels trends, transitions & fast-paced cuts.</p>
@@ -362,7 +363,7 @@ include 'header.php';
 
                 <!-- Job 11 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Intern Social Media Marketing</h3>
         <p class="text-sm text-gray-500 truncate">Brainstorm campaign ideas and engage with online communities.</p>
@@ -385,7 +386,7 @@ include 'header.php';
 
                 <!-- Job 12 -->
                 
-<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="Corelix Link">
+<a href="#apply-form" class="bg-white p-5 sm:p-6 md:px-8 rounded-2xl border border-gray-100 shadow-[0_2px_10px_rgb(0,0,0,0.02)] hover:shadow-xl hover:border-brand-blue/30 transition-all duration-300 group flex flex-col lg:flex-row lg:items-center justify-between gap-5 lg:gap-8" title="GrowAutoAi Link">
     <div class="flex-1 min-w-0">
         <h3 class="text-lg md:text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors leading-tight mb-1 md:mb-1.5 truncate">Intern Content Writer</h3>
         <p class="text-sm text-gray-500 truncate">Draft engaging blogs, website copy. Strong English is a must.</p>

@@ -1,4 +1,4 @@
-﻿</main>
+</main>
 
 
 
@@ -30,7 +30,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-16">
                 <!-- Brand -->
                 <div class="col-span-1 lg:col-span-3">
-                    <h3 class="text-gray-900 font-semibold mb-2 font-heading text-xl">Contact Corelix</h3>
+                    <h3 class="text-gray-900 font-semibold mb-2 font-heading text-xl">Contact GrowAutoAi</h3>
                     <p class="text-gray-600 text-sm mb-4 leading-relaxed">Transforming businesses with AI-powered solutions.</p>
                     
                     <a href="/contact" class="inline-flex items-center gap-1.5 text-gray-900 font-bold hover:text-brand-blue transition-colors text-base mb-5">
@@ -43,14 +43,14 @@
                             <span class="text-brand-blue">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                             </span>
-                            <a href="mailto:info@corelix.com" class="text-gray-600 hover:text-brand-blue transition-colors text-[17px] font-medium">info@corelix.com</a>
+                            <a href="mailto:hello@growautoai.com" class="text-gray-600 hover:text-brand-blue transition-colors text-[17px] font-medium">hello@growautoai.com</a>
                         </div>
                         
                         <div class="flex items-center gap-2">
                             <span class="text-brand-green">
                                 <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.47 11.47 0 00.57 3.58 1 1 0 01-.25 1.02l-2.2 2.19z"></path></svg>
                             </span>
-                            <a href="tel:+918488075196" class="text-gray-600 hover:text-brand-blue transition-colors text-[17px] font-medium">+91-8488075196</a>
+                            <a href="tel:+917692885502" class="text-gray-600 hover:text-brand-blue transition-colors text-[17px] font-medium">+91 7692885502</a>
                         </div>
                     </div>
 
@@ -125,15 +125,15 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 shrink-0 text-brand-blue"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                                     Corporate Office (Head Office)
                                 </div>
-                                <p class="text-[0.68rem] text-gray-500 leading-relaxed mb-2">Chandlodia, Ahmedabad Gujarat, India - 382481</p>
+                                <p class="text-[0.68rem] text-gray-500 leading-relaxed mb-2">Chandlodia, Ahmedabad, Gujarat – India, 382481</p>
                                 <div class="flex flex-wrap gap-x-3 gap-y-1">
-                                    <a href="tel:+918488075196" class="flex items-center gap-1 text-[0.68rem] font-semibold text-gray-500 hover:text-brand-blue transition-colors">
+                                    <a href="tel:+917692885502" class="flex items-center gap-1 text-[0.68rem] font-semibold text-gray-500 hover:text-brand-blue transition-colors">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-2.5 h-2.5 shrink-0 text-brand-blue"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                                        +91 8488075196
+                                        +91 7692885502
                                     </a>
-                                    <a href="mailto:rajeshrshiv@gmail.com" class="flex items-center gap-1 text-[0.68rem] font-semibold text-gray-500 hover:text-brand-blue transition-colors truncate">
+                                    <a href="mailto:hr@growautoai.com" class="flex items-center gap-1 text-[0.68rem] font-semibold text-gray-500 hover:text-brand-blue transition-colors truncate">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-2.5 h-2.5 shrink-0 text-brand-blue"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
-                                        rajeshrshiv@gmail.com
+                                        hr@growautoai.com
                                     </a>
                                 </div>
                             </div>
@@ -154,15 +154,11 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 shrink-0 text-brand-green"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                                     Registered Office
                                 </div>
-                                <p class="text-[0.68rem] text-gray-500 leading-relaxed mb-2">P.O. Manpura, Tehsil - Pichhore, Dist - Shivpuri, M.P. - 473670</p>
+                                <p class="text-[0.68rem] text-gray-500 leading-relaxed mb-2">Manpura, Shivpuri, Gwalior, M.P. – India, 473670</p>
                                 <div class="flex flex-wrap gap-x-3 gap-y-1">
-                                    <a href="tel:+919479878487" class="flex items-center gap-1 text-[0.68rem] font-semibold text-gray-500 hover:text-brand-green transition-colors">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-2.5 h-2.5 shrink-0 text-brand-green"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                                        +91 9479878487
-                                    </a>
-                                    <a href="mailto:info@corelix.com" class="flex items-center gap-1 text-[0.68rem] font-semibold text-gray-500 hover:text-brand-green transition-colors">
+                                    <a href="mailto:hello@growautoai.com" class="flex items-center gap-1 text-[0.68rem] font-semibold text-gray-500 hover:text-brand-green transition-colors">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="w-2.5 h-2.5 shrink-0 text-brand-green"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
-                                        info@corelix.com
+                                        hello@growautoai.com
                                     </a>
                                 </div>
                             </div>
@@ -174,7 +170,7 @@
             
             <div class="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-gray-500 text-xs">
-                    &copy; <?php echo date('Y'); ?> Corelix. All rights reserved.
+                    &copy; <?php echo date('Y'); ?> GrowAutoAi. All rights reserved.
                 </p>
                 <div class="flex space-x-6 text-xs">
                     <a href="/terms-of-service" class="text-gray-500 hover:text-brand-blue transition-colors" title="Terms Of Service">Terms of Use</a>
@@ -200,7 +196,7 @@
             <!-- Left Content (Offer & Features) -->
             <div class="w-full lg:w-1/2 p-8 lg:p-12 bg-white relative z-10 flex flex-col justify-center">
                 <div class="flex items-center gap-2 mb-6">
-                    <img title="Lgoo" src="/assets/images/lgoo.png" alt="Corelix Logo" class="h-8 md:h-10 w-auto object-contain filter">
+                    <img title="Lgoo" src="/assets/images/lgoo.png" alt="GrowAutoAi Logo" class="h-8 md:h-10 w-auto object-contain filter">
                 </div>
                 
                 <div class="inline-flex px-3 py-1 bg-brand-blue/10 text-brand-blue font-bold text-sm tracking-wider uppercase rounded-full mb-4 w-fit">Special Offer</div>
@@ -392,13 +388,13 @@
         <div class="flex items-center gap-3 pointer-events-auto">
             <div class="relative">
                 <span class="absolute inset-0 rounded-full bg-[#C89B3C] opacity-75 animate-ping"></span>
-                <a href="tel:+918488075196" class="relative z-10 w-11 h-11 flex items-center justify-center rounded-full bg-[#C89B3C] text-white shadow-lg shadow-black/20" aria-label="Call us" title="Call Corelix">
+                <a href="tel:+917692885502" class="relative z-10 w-11 h-11 flex items-center justify-center rounded-full bg-[#C89B3C] text-white shadow-lg shadow-black/20" aria-label="Call us" title="Call GrowAutoAi">
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.47 11.47 0 00.57 3.58 1 1 0 01-.25 1.02l-2.2 2.19z"></path></svg>
                 </a>
             </div>
             <div class="relative">
                 <span class="absolute inset-0 rounded-full bg-[#25D366] opacity-75 animate-ping" style="animation-delay: 0.5s;"></span>
-                <a href="https://wa.me/+918488075196?text=Hi!%20I'm%20interested%20in%20your%20digital%20marketing%20services." target="_blank" rel="noopener noreferrer" class="relative z-10 w-11 h-11 flex items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-black/20" aria-label="Chat on WhatsApp" title="+918488075196">
+                <a href="https://wa.me/+917692885502?text=Hi!%20I'm%20interested%20in%20your%20services.%20Could%20you%20please%20share%20more%20details?" target="_blank" rel="noopener noreferrer" class="relative z-10 w-11 h-11 flex items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-black/20" aria-label="Chat on WhatsApp" title="+917692885502">
                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.532 5.855L.057 23.7a.5.5 0 00.614.637l5.996-1.572A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a10 10 0 01-5.197-1.452l-.372-.22-3.853 1.011 1.029-3.757-.242-.387A10 10 0 0112 2c5.514 0 10 4.486 10 10s-4.486 10-10 10z"></path></svg>
                 </a>
             </div>
@@ -413,10 +409,10 @@
     <div class="hidden sm:flex fixed bottom-8 left-8 z-50 items-center group">
         <div class="relative flex items-center">
             <span class="absolute inset-0 rounded-full bg-[#4F46E5] opacity-75 animate-ping pointer-events-none"></span>
-            <a href="tel:+918488075196" class="relative z-10 w-14 h-14 flex items-center justify-center rounded-full bg-[#4F46E5] text-white shadow-lg shadow-[#4F46E5]/30 transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-indigo-300" aria-label="Call us" title="Call us">
+            <a href="tel:+917692885502" class="relative z-10 w-14 h-14 flex items-center justify-center rounded-full bg-[#4F46E5] text-white shadow-lg shadow-[#4F46E5]/30 transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-indigo-300" aria-label="Call us" title="Call us">
                 <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.47 11.47 0 00.57 3.58 1 1 0 01-.25 1.02l-2.2 2.19z"></path></svg>
             </a>
-            <span class="absolute left-full ml-4 whitespace-nowrap px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-lg opacity-0 pointer-events-none transition-opacity group-hover:opacity-100 shadow-xl">📞 Call Us: +91 84880 75196</span>
+            <span class="absolute left-full ml-4 whitespace-nowrap px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-lg opacity-0 pointer-events-none transition-opacity group-hover:opacity-100 shadow-xl">📞 Call Us: +91 7692885502</span>
         </div>
     </div>
 
@@ -424,7 +420,7 @@
     <div class="hidden sm:flex fixed bottom-8 right-8 z-50 items-center group">
         <div class="relative flex items-center justify-end">
             <span class="absolute inset-0 rounded-full bg-[#25D366] opacity-75 animate-ping pointer-events-none" style="animation-delay: 0.5s;"></span>
-                <a href="https://wa.me/+918488075196?text=Hi!%20I'm%20interested%20in%20your%20digital%20marketing%20services." target="_blank" rel="noopener noreferrer" class="relative z-10 w-14 h-14 flex items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-[#25D366]/30 transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-300" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+                <a href="https://wa.me/+917692885502?text=Hi!%20I'm%20interested%20in%20your%20services.%20Could%20you%20please%20share%20more%20details?" target="_blank" rel="noopener noreferrer" class="relative z-10 w-14 h-14 flex items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-[#25D366]/30 transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-300" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
                 <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.532 5.855L.057 23.7a.5.5 0 00.614.637l5.996-1.572A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a10 10 0 01-5.197-1.452l-.372-.22-3.853 1.011 1.029-3.757-.242-.387A10 10 0 0112 2c5.514 0 10 4.486 10 10s-4.486 10-10 10z"></path></svg>
             </a>
         </div>
@@ -469,7 +465,7 @@
     </script>
 
     <!-- Fixed Enquire Now Button -->
-    <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="fixed right-0 top-1/2 -translate-y-1/2 z-[9999] bg-gradient-to-r from-brand-blue to-brand-green text-white py-3 px-1.5 md:py-4 md:px-2 rounded-l-xl shadow-xl transition-all duration-300 border-l border-t border-b border-white/10 group flex items-center justify-center shadow-[0_0_10px_rgba(30,58,138,0.2)] hover:shadow-[0_0_15px_rgba(30,58,138,0.4)]" title="Corelix Action">
+    <a href="javascript:void(0)" onclick="openGlobalInquiryModal(event)" class="fixed right-0 top-1/2 -translate-y-1/2 z-[9999] bg-gradient-to-r from-brand-blue to-brand-green text-white py-3 px-1.5 md:py-4 md:px-2 rounded-l-xl shadow-xl transition-all duration-300 border-l border-t border-b border-white/10 group flex items-center justify-center shadow-[0_0_10px_rgba(30,58,138,0.2)] hover:shadow-[0_0_15px_rgba(30,58,138,0.4)]" title="GrowAutoAi Action">
         <span class="[writing-mode:vertical-rl] rotate-180 font-bold text-xs md:text-[13px] tracking-wider group-hover:-translate-y-1 transition-transform">
             Enquire Now
         </span>
@@ -595,13 +591,13 @@
         <div class="flex items-center gap-3 pointer-events-auto">
             <div class="relative">
                 <span class="absolute inset-0 rounded-full bg-[#C89B3C] opacity-75 animate-ping"></span>
-                <a href="tel:+918488075196" class="relative z-10 w-11 h-11 flex items-center justify-center rounded-full bg-[#C89B3C] text-white shadow-lg shadow-black/20" aria-label="Call us" title="Call Corelix">
+                <a href="tel:+917692885502" class="relative z-10 w-11 h-11 flex items-center justify-center rounded-full bg-[#C89B3C] text-white shadow-lg shadow-black/20" aria-label="Call us" title="Call GrowAutoAi">
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.47 11.47 0 00.57 3.58 1 1 0 01-.25 1.02l-2.2 2.19z"></path></svg>
                 </a>
             </div>
             <div class="relative">
                 <span class="absolute inset-0 rounded-full bg-[#25D366] opacity-75 animate-ping" style="animation-delay: 0.5s;"></span>
-                <a href="https://wa.me/+918488075196?text=Hi!%20I'm%20interested%20in%20your%20digital%20marketing%20services." target="_blank" rel="noopener noreferrer" class="relative z-10 w-11 h-11 flex items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-black/20" aria-label="Chat on WhatsApp" title="+918488075196">
+                <a href="https://wa.me/+917692885502?text=Hi!%20I'm%20interested%20in%20your%20services.%20Could%20you%20please%20share%20more%20details?" target="_blank" rel="noopener noreferrer" class="relative z-10 w-11 h-11 flex items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-black/20" aria-label="Chat on WhatsApp" title="+917692885502">
                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.532 5.855L.057 23.7a.5.5 0 00.614.637l5.996-1.572A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a10 10 0 01-5.197-1.452l-.372-.22-3.853 1.011 1.029-3.757-.242-.387A10 10 0 0112 2c5.514 0 10 4.486 10 10s-4.486 10-10 10z"></path></svg>
                 </a>
             </div>
@@ -616,10 +612,10 @@
     <div class="hidden sm:flex fixed bottom-8 left-8 z-50 items-center group">
         <div class="relative flex items-center">
             <span class="absolute inset-0 rounded-full bg-[#4F46E5] opacity-75 animate-ping pointer-events-none"></span>
-            <a href="tel:+918488075196" class="relative z-10 w-14 h-14 flex items-center justify-center rounded-full bg-[#4F46E5] text-white shadow-lg shadow-[#4F46E5]/30 transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-indigo-300" aria-label="Call us" title="Call us">
+            <a href="tel:+917692885502" class="relative z-10 w-14 h-14 flex items-center justify-center rounded-full bg-[#4F46E5] text-white shadow-lg shadow-[#4F46E5]/30 transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-indigo-300" aria-label="Call us" title="Call us">
                 <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.47 11.47 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.47 11.47 0 00.57 3.58 1 1 0 01-.25 1.02l-2.2 2.19z"></path></svg>
             </a>
-            <span class="absolute left-full ml-4 whitespace-nowrap px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-lg opacity-0 pointer-events-none transition-opacity group-hover:opacity-100 shadow-xl">📞 Call Us: +91 84880 75196</span>
+            <span class="absolute left-full ml-4 whitespace-nowrap px-3 py-1.5 bg-gray-900 text-white text-sm font-medium rounded-lg opacity-0 pointer-events-none transition-opacity group-hover:opacity-100 shadow-xl">📞 Call Us: +91 7692885502</span>
         </div>
     </div>
 
@@ -627,7 +623,7 @@
     <div class="hidden sm:flex fixed bottom-8 right-8 z-50 items-center group">
         <div class="relative flex items-center justify-end">
             <span class="absolute inset-0 rounded-full bg-[#25D366] opacity-75 animate-ping pointer-events-none" style="animation-delay: 0.5s;"></span>
-                <a href="https://wa.me/+918488075196?text=Hi!%20I'm%20interested%20in%20your%20digital%20marketing%20services." target="_blank" rel="noopener noreferrer" class="relative z-10 w-14 h-14 flex items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-[#25D366]/30 transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-300" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+                <a href="https://wa.me/+917692885502?text=Hi!%20I'm%20interested%20in%20your%20services.%20Could%20you%20please%20share%20more%20details?" target="_blank" rel="noopener noreferrer" class="relative z-10 w-14 h-14 flex items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-[#25D366]/30 transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-green-300" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
                 <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.532 5.855L.057 23.7a.5.5 0 00.614.637l5.996-1.572A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a10 10 0 01-5.197-1.452l-.372-.22-3.853 1.011 1.029-3.757-.242-.387A10 10 0 0112 2c5.514 0 10 4.486 10 10s-4.486 10-10 10z"></path></svg>
             </a>
         </div>

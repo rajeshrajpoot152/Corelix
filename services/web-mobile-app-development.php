@@ -1,6 +1,6 @@
 <?php 
-$pageTitle = "Web & Mobile App Custom Development Services | Corelix";
-$metaDesc = "Custom web applications, native & cross-platform mobile apps, enterprise portals, API architectures, and WordPress development by Corelix.";
+$pageTitle = "Web & Mobile App Custom Development Services | GrowAutoAi";
+$metaDesc = "Custom web applications, native & cross-platform mobile apps, enterprise portals, API architectures, and WordPress development by GrowAutoAi.";
 $metaKeywords = "Custom Web Custom Development, Mobile App Custom Development, eCommerce Custom Development, API Custom Development, WordPress Support, React, Node.js, Cloud Software, IT Agency";
 include __DIR__ . '/../header.php'; 
 ?>

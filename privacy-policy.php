@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "Privacy Policy | Data Security & Protection - Corelix";
-$metaDesc = "Corelix's Privacy Policy explains how we collect, safeguard, and use client and user data in compliance with global data protection standards (GDPR, CCPA).";
-$metaKeywords = "Corelix Privacy Policy, GDPR Compliance, Data Security, Personal Data Protection, Privacy Practices, Cookie Policy";
+$pageTitle = "Privacy Policy | Data Security & Protection - GrowAutoAi";
+$metaDesc = "GrowAutoAi's Privacy Policy explains how we collect, safeguard, and use client and user data in compliance with global data protection standards (GDPR, CCPA).";
+$metaKeywords = "GrowAutoAi Privacy Policy, GDPR Compliance, Data Security, Personal Data Protection, Privacy Practices, Cookie Policy";
 include 'header.php'; 
 ?>
 <!-- Inner Page Hero Banner -->
@@ -23,7 +23,7 @@ include 'header.php';
         
         <!-- Subtitle -->
         <p class="text-sm md:text-base text-gray-400 max-w-2xl mx-auto font-medium">
-            Learn how Corelix collects, protects, and handles your personal data across our digital ecosystem.
+            Learn how GrowAutoAi collects, protects, and handles your personal data across our digital ecosystem.
         </p>
         <!-- CTA Button -->
         <div class="mt-8">
@@ -58,7 +58,7 @@ include 'header.php';
                     <h3 class="text-xl md:text-2xl font-bold font-heading text-gray-900">Introduction & Commitment</h3>
                 </div>
                 <p class="text-gray-600 leading-relaxed text-base">
-                    At Corelix, we respect your privacy and are committed to protecting your personal data. This privacy policy informs you as to how we safeguard your personal data when you visit our website, communicate with our team, or utilize our digital solutions, while outlining your privacy rights under applicable data protection laws.
+                    At GrowAutoAi, we respect your privacy and are committed to protecting your personal data. This privacy policy informs you as to how we safeguard your personal data when you visit our website, communicate with our team, or utilize our digital solutions, while outlining your privacy rights under applicable data protection laws.
                 </p>
             </div>
 
@@ -155,7 +155,7 @@ include 'header.php';
                         <p class="text-sm text-gray-600">Our Data Protection Officer is ready to assist you.</p>
                     </div>
                 </div>
-                <a href="mailto:info@corelix.com" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-brand-black text-white hover:bg-brand-green transition-colors font-bold text-sm shadow-md" title="Email Corelix Privacy">
+                <a href="mailto:hello@growautoai.com" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-brand-black text-white hover:bg-brand-green transition-colors font-bold text-sm shadow-md" title="Email GrowAutoAi Privacy">
                     <span>Contact Privacy Officer</span>
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </a>

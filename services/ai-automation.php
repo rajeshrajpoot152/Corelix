@@ -1,5 +1,5 @@
-﻿<?php 
-$pageTitle = "AI & Business Automation Services | Corelix";
+<?php 
+$pageTitle = "AI & Business Automation Services | GrowAutoAi";
 $metaDesc = "Intelligent WhatsApp chatbots, custom GPT & Claude agents, CRM development, and workflow automation to streamline enterprise operations.";
 $metaKeywords = "AI Business Automation, Custom CRM Development, WhatsApp Chatbots, Workflow Automation, AI Consulting, ChatGPT Integration, Business Process Automation";
 include __DIR__ . '/../header.php'; 

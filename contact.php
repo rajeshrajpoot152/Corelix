@@ -1,7 +1,7 @@
-﻿<?php 
-$pageTitle = "Contact Us | Get a Free Consultation - Corelix";
-$metaDesc = "Contact the Corelix team for project inquiries, RFP submissions, or IT & marketing consultations. Reach out via email, phone, or WhatsApp.";
-$metaKeywords = "Contact Corelix, IT Consultation, Hire Web Developers, Digital Agency Inquiry, Support Channels, Global IT Agency Contact";
+<?php 
+$pageTitle = "Contact Us | Get a Free Consultation - GrowAutoAi";
+$metaDesc = "Contact the GrowAutoAi team for project inquiries, RFP submissions, or IT & marketing consultations. Reach out via email, phone, or WhatsApp.";
+$metaKeywords = "Contact GrowAutoAi, IT Consultation, Hire Web Developers, Digital Agency Inquiry, Support Channels, Global IT Agency Contact";
 include 'header.php'; 
 ?>
 
@@ -60,8 +60,10 @@ include 'header.php';
                         </div>
                         <div>
                             <h4 class="text-brand-black text-lg md:text-xl font-bold mb-1">Email Us</h4>
-                            <p class="text-gray-500 text-xs md:text-sm mb-2">For general inquiries & project discussions</p>
-                            <a href="mailto:info@corelix.com" class="text-brand-blue font-bold text-base md:text-lg hover:text-blue-800 transition-colors">info@corelix.com</a>
+                            <p class="text-gray-500 text-xs md:text-sm mb-1">For general inquiries & project discussions</p>
+                            <a href="mailto:hello@growautoai.com" class="text-brand-blue font-bold text-base md:text-lg hover:text-blue-800 transition-colors block mb-3">hello@growautoai.com</a>
+                            <p class="text-gray-500 text-xs md:text-sm mb-1">For jobs & careers</p>
+                            <a href="mailto:hr@growautoai.com" class="text-brand-blue font-bold text-base md:text-lg hover:text-blue-800 transition-colors block">hr@growautoai.com</a>
                         </div>
                     </div>
 
@@ -76,7 +78,7 @@ include 'header.php';
                         <div>
                             <h4 class="text-brand-black text-lg md:text-xl font-bold mb-1">Call Us</h4>
                             <p class="text-gray-500 text-xs md:text-sm mb-2">Mon-Sat from 10:00 AM to 7:00 PM</p>
-                            <a href="tel:+918488075196" class="text-brand-green font-bold text-base md:text-lg hover:text-green-700 transition-colors">+91-8488075196</a>
+                            <a href="tel:+917692885502" class="text-brand-green font-bold text-base md:text-lg hover:text-green-700 transition-colors">+91 7692885502</a>
                         </div>
                     </div>
 
@@ -91,7 +93,7 @@ include 'header.php';
                         <div>
                             <h4 class="text-brand-black text-lg md:text-xl font-bold mb-1">WhatsApp Support</h4>
                             <p class="text-gray-500 text-xs md:text-sm mb-3">Chat instantly with our AI bot or human representative.</p>
-                            <a href="https://wa.me/918488075196" target="_blank" class="inline-flex items-center gap-2 px-5 py-2 md:py-2.5 rounded-full bg-[#25D366] text-white font-bold text-xs md:text-sm hover:shadow-lg hover:-translate-y-0.5 transition-all group">
+                            <a href="https://wa.me/917692885502?text=Hi!%20I'm%20interested%20in%20your%20services.%20Could%20you%20please%20share%20more%20details?" target="_blank" class="inline-flex items-center gap-2 px-5 py-2 md:py-2.5 rounded-full bg-[#25D366] text-white font-bold text-xs md:text-sm hover:shadow-lg hover:-translate-y-0.5 transition-all group">
                                 Start Chatting
                                 <svg class="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M7 17L17 7M7 7h10v10"></path></svg>
                             </a>

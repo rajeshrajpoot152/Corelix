@@ -1,4 +1,4 @@
-﻿<section class="py-8 md:py-12 text-center overflow-hidden bg-slate-950 border-t border-white/10 relative" aria-label="Platforms and Technologies">
+<section class="py-8 md:py-12 text-center overflow-hidden bg-slate-950 border-t border-white/10 relative" aria-label="Platforms and Technologies">
     <!-- Background Glow -->
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-brand-blue/20 blur-[120px] rounded-full pointer-events-none"></div>
     <div class="mb-16 px-4 max-md:mb-10 relative z-10">

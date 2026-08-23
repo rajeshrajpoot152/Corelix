@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "Terms of Use | Legal Policies & Conditions - Corelix";
-$metaDesc = "Read the Official Terms of Use and service agreements governing your interaction with Corelix websites, software products, and consulting services.";
-$metaKeywords = "Corelix Terms of Use, Service Agreement, Legal Terms, IT Agency Policies, Copyright and Licensing, Website Terms";
+$pageTitle = "Terms of Use | Legal Policies & Conditions - GrowAutoAi";
+$metaDesc = "Read the Official Terms of Use and service agreements governing your interaction with GrowAutoAi websites, software products, and consulting services.";
+$metaKeywords = "GrowAutoAi Terms of Use, Service Agreement, Legal Terms, IT Agency Policies, Copyright and Licensing, Website Terms";
 include 'header.php'; 
 ?>
 <!-- Inner Page Hero Banner -->
@@ -69,7 +69,7 @@ include 'header.php';
                     <h3 class="text-xl md:text-2xl font-bold font-heading text-gray-900">Intellectual Property Rights</h3>
                 </div>
                 <p class="text-gray-600 leading-relaxed text-base">
-                    The Service and its original content, features, software architecture, and visual functionality are and will remain the exclusive property of Corelix and its licensors. The Service is protected by copyright, trademark, and international intellectual property laws.
+                    The Service and its original content, features, software architecture, and visual functionality are and will remain the exclusive property of GrowAutoAi and its licensors. The Service is protected by copyright, trademark, and international intellectual property laws.
                 </p>
             </div>
 
@@ -80,10 +80,10 @@ include 'header.php';
                     <h3 class="text-xl md:text-2xl font-bold font-heading text-gray-900">Links To Other Web Sites</h3>
                 </div>
                 <p class="text-gray-600 leading-relaxed text-base mb-4">
-                    Our Service may contain links to third-party web sites or services that are not owned or controlled by Corelix.
+                    Our Service may contain links to third-party web sites or services that are not owned or controlled by GrowAutoAi.
                 </p>
                 <p class="text-gray-600 leading-relaxed text-base">
-                    Corelix has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Corelix shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
+                    GrowAutoAi has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that GrowAutoAi shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
                 </p>
             </div>
 
@@ -120,7 +120,7 @@ include 'header.php';
                         <p class="text-sm text-gray-600">Our compliance & legal team is available to assist you.</p>
                     </div>
                 </div>
-                <a href="mailto:info@corelix.com" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-brand-black text-white hover:bg-brand-blue transition-colors font-bold text-sm shadow-md" title="Email Corelix Legal">
+                <a href="mailto:hello@growautoai.com" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-brand-black text-white hover:bg-brand-blue transition-colors font-bold text-sm shadow-md" title="Email GrowAutoAi Legal">
                     <span>Contact Legal Team</span>
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </a>

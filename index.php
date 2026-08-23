@@ -1,7 +1,7 @@
 <?php 
-$pageTitle = "Corelix | Creative Marketing & Tech Solutions Agency";
-$metaDesc = "Corelix is a leading global IT & Digital Marketing agency delivering Web Development, UI/UX Design, AI Business Automation, SEO, and Performance Marketing.";
-$metaKeywords = "Corelix, IT Agency, Web Development, Digital Marketing Agency, Mobile App Development, AI Business Automation, UI/UX Design, Technical SEO, Custom CRM Development";
+$pageTitle = "GrowAutoAi | Creative Marketing & Tech Solutions Agency";
+$metaDesc = "GrowAutoAi is a leading global IT & Digital Marketing agency delivering Web Development, UI/UX Design, AI Business Automation, SEO, and Performance Marketing.";
+$metaKeywords = "GrowAutoAi, IT Agency, Web Development, Digital Marketing Agency, Mobile App Development, AI Business Automation, UI/UX Design, Technical SEO, Custom CRM Development";
 include 'header.php'; 
 ?>
 
@@ -835,7 +835,7 @@ include 'header.php';
                                 <!-- Center Key Icon Background -->
                                 <div
                                         class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 md:w-14 md:h-14 bg-gradient-to-br from-brand-blue to-brand-green rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(30,58,138,0.4)] z-30">
-                                        <img title="Favicon White" src="/assets/images/favicon-white.png" alt="Corelix Icon" class="w-4 h-4 md:w-6 md:h-6 object-contain">
+                                        <img title="Favicon White" src="/assets/images/favicon-white.png" alt="GrowAutoAi Icon" class="w-4 h-4 md:w-6 md:h-6 object-contain">
                                 </div>
                         </div>
                         <!-- Grid Cards - ALWAYS 2 COLUMNS -->
@@ -979,7 +979,7 @@ include 'header.php';
                                 <span class="text-6xl md:text-8xl text-[#eef2ff] font-serif absolute -top-8 left-1/2 -translate-x-1/2 leading-none select-none lg:hidden">“</span>
                                 
                                 <p class="text-gray-700 text-base md:text-[20px] lg:text-[22px] leading-relaxed font-medium relative z-10 mb-8 pt-6 lg:pt-2">
-                                    Corelix completely transformed our operations with their custom AI integration and scalable software architecture. Their ability to deliver high-performance web development on a strict agile timeline was incredible. They don't just write code; they understand our core business goals.
+                                    GrowAutoAi completely transformed our operations with their custom AI integration and scalable software architecture. Their ability to deliver high-performance web development on a strict agile timeline was incredible. They don't just write code; they understand our core business goals.
                                 </p>
                                 
                                 <div class="border-t border-gray-100 pt-6 flex flex-col lg:flex-row items-center lg:items-center gap-4">
@@ -1022,7 +1022,7 @@ include 'header.php';
                                 <span class="text-6xl md:text-8xl text-[#eef2ff] font-serif absolute -top-8 left-1/2 -translate-x-1/2 leading-none select-none lg:hidden">“</span>
                                 
                                 <p class="text-gray-700 text-base md:text-[20px] lg:text-[22px] leading-relaxed font-medium relative z-10 mb-8 pt-6 lg:pt-2">
-                                    When we needed to modernize our legacy systems, the Corelix team provided exceptional UI/UX design and enterprise-level custom software development. Their engineers flawlessly handled complex API integrations, significantly boosting our digital ecosystem's efficiency.
+                                    When we needed to modernize our legacy systems, the GrowAutoAi team provided exceptional UI/UX design and enterprise-level custom software development. Their engineers flawlessly handled complex API integrations, significantly boosting our digital ecosystem's efficiency.
                                 </p>
                                 
                                 <div class="border-t border-gray-100 pt-6 flex flex-col lg:flex-row items-center lg:items-center gap-4">
@@ -1065,7 +1065,7 @@ include 'header.php';
                                 <span class="text-6xl md:text-8xl text-[#eef2ff] font-serif absolute -top-8 left-1/2 -translate-x-1/2 leading-none select-none lg:hidden">“</span>
                                 
                                 <p class="text-gray-700 text-base md:text-[20px] lg:text-[22px] leading-relaxed font-medium relative z-10 mb-8 pt-6 lg:pt-2">
-                                    Our conversion rates skyrocketed after Corelix revamped our web presence. From SEO-optimized web development to a flawless user interface, they delivered a digital experience that truly shapes the future. Their dedicated support has been an absolute game-changer.
+                                    Our conversion rates skyrocketed after GrowAutoAi revamped our web presence. From SEO-optimized web development to a flawless user interface, they delivered a digital experience that truly shapes the future. Their dedicated support has been an absolute game-changer.
                                 </p>
                                 
                                 <div class="border-t border-gray-100 pt-6 flex flex-col lg:flex-row items-center lg:items-center gap-4">
@@ -1108,7 +1108,7 @@ include 'header.php';
                                 <span class="text-6xl md:text-8xl text-[#eef2ff] font-serif absolute -top-8 left-1/2 -translate-x-1/2 leading-none select-none lg:hidden">“</span>
                                 
                                 <p class="text-gray-700 text-base md:text-[20px] lg:text-[22px] leading-relaxed font-medium relative z-10 mb-8 pt-6 lg:pt-2">
-                                    The automation tools built by the Corelix team completely streamlined our internal processes. Their focus on clean UI/UX and solid backend architecture saved us countless hours every week. It's rare to find a team that delivers exactly what they promise on time.
+                                    The automation tools built by the GrowAutoAi team completely streamlined our internal processes. Their focus on clean UI/UX and solid backend architecture saved us countless hours every week. It's rare to find a team that delivers exactly what they promise on time.
                                 </p>
                                 
                                 <div class="border-t border-gray-100 pt-6 flex flex-col lg:flex-row items-center lg:items-center gap-4">
@@ -1273,7 +1273,7 @@ include 'header.php';
 <section class="py-8 md:py-12 bg-gray-50 relative overflow-hidden" id="why-choose-us">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center max-w-3xl mx-auto mb-16">
-            <h2 class="text-4xl md:text-5xl lg:text-6xl font-black font-heading text-[#1a1a2e] tracking-tight mb-6">Why Choose Corelix?</h2>
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-black font-heading text-[#1a1a2e] tracking-tight mb-6">Why Choose GrowAutoAi?</h2>
             <p class="text-gray-500 text-lg md:text-xl leading-relaxed">We build fast, secure, and SEO-friendly digital solutions that help your business get more traffic, leads, and growth.</p>
         </div>
 

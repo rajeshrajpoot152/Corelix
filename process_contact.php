@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 session_start();
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -48,13 +48,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'rajeshrshiv@gmail.com';
-        $mail->Password   = 'lksidyfwppxditbu';
+        $mail->Username   = 'growautoai.admin@gmail.com';
+        $mail->Password   = 'pwndvkzlhcgusmep';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
-        $mail->setFrom('rajeshrshiv@gmail.com', 'Corelix Website');
-        $mail->addAddress('rajeshrshiv@gmail.com', 'Rajesh');
+        $mail->setFrom('growautoai.admin@gmail.com', 'GrowAutoAI');
+        $mail->addAddress('growautoai.admin@gmail.com', 'Bharti Lodhi');
         
         $mail->addReplyTo($email, $firstName . ' ' . $lastName);
 
