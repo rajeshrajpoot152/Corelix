@@ -720,78 +720,7 @@ include 'header.php';
             }
         });
     </script>
-    <style>
-        .industry-slide {
-            width: 92%;
-        }
-        .industry-arrow-prev {
-            left: 2%;
-            transform: translate(-50%, -50%);
-        }
-        .industry-arrow-next {
-            right: 2%;
-            transform: translate(50%, -50%);
-        }
-        @media (min-width: 768px) {
-            .industry-slide { width: 85%; }
-            .industry-arrow-prev { left: 3.5%; transform: translate(-50%, -50%); }
-            .industry-arrow-next { right: 3.5%; transform: translate(50%, -50%); }
-        }
-        @media (min-width: 1024px) {
-            .industry-slide { width: 80%; }
-            .industry-arrow-prev { left: 5%; transform: translate(-50%, -50%); }
-            .industry-arrow-next { right: 5%; transform: translate(50%, -50%); }
-        }
-        @media (min-width: 1280px) {
-            .industry-slide { width: 78%; }
-            .industry-arrow-prev { left: 6%; transform: translate(-50%, -50%); }
-            .industry-arrow-next { right: 6%; transform: translate(50%, -50%); }
-        }
-        .industrySwiper {
-            overflow: visible !important; /* Allow slides to peek out if needed */
-            clip-path: inset(-100vw 0 -100vw 0); /* Prevent horizontal scrollbar but allow bleed */
-        }
-        .swiper-slide {
-            transition: all 0.6s ease-in-out;
-            opacity: 1 !important; /* Guarantee visibility */
-            visibility: visible !important;
-            transform: scale(0.85); /* Scale down inactive slides */
-        }
-        .swiper-slide-active,
-        .swiper-slide-duplicate-active {
-            transform: scale(1);
-            z-index: 10;
-        }
-        .swiper-slide .swiper-slide-overlay {
-            background-color: rgba(0, 0, 0, 0.85);
-            opacity: 1;
-            transition: opacity 0.6s ease-in-out;
-        }
-        .swiper-slide-active .swiper-slide-overlay,
-        .swiper-slide-duplicate-active .swiper-slide-overlay {
-            opacity: 0;
-        }
-        .swiper-slide .swiper-slide-content {
-            opacity: 0;
-            transform: translateX(-30px);
-            transition: all 0.6s ease-in-out;
-        }
-        .swiper-slide-active .swiper-slide-content,
-        .swiper-slide-duplicate-active .swiper-slide-content {
-            opacity: 1;
-            transform: translateX(0);
-        }
-        .swiper-pagination-custom .swiper-pagination-bullet {
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
-        }
-        .swiper-pagination-custom .swiper-pagination-bullet-active {
-            background-color: #ffffff !important;
-            width: 36px !important;
-            border-radius: 9999px !important;
-            transform: scale(1);
-        }
-    </style>
-</section>
+    </section>
 
 <!-- Process Section -->
  <section class="py-8 md:py-12 bg-white relative overflow-hidden" style="background-color: #ffffff;" id="our-process">
@@ -1160,50 +1089,6 @@ include 'header.php';
     <!-- Subtle blue top glow -->
     <div class="absolute top-0 left-1/4 w-1/2 h-64 bg-brand-blue/10 blur-[100px] rounded-full pointer-events-none"></div>
 
-    <style>
-        @keyframes marquee {
-            0% { transform: translateX(0%); }
-            100% { transform: translateX(-50%); }
-        }
-        @keyframes marquee-reverse {
-            0% { transform: translateX(-50%); }
-            100% { transform: translateX(0%); }
-        }
-        .animate-marquee {
-            animation: marquee 30s linear infinite;
-        }
-        .animate-marquee-reverse {
-            animation: marquee-reverse 30s linear infinite;
-        }
-        .animate-marquee:hover,
-        .animate-marquee-reverse:hover {
-            animation-play-state: paused;
-        }
-        .marquee-gradient::before,
-        .marquee-gradient::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            width: 80px;
-            height: 100%;
-            z-index: 2;
-            pointer-events: none;
-        }
-        .marquee-gradient::before {
-            left: 0;
-            background: linear-gradient(to right, white, transparent);
-        }
-        .marquee-gradient::after {
-            right: 0;
-            background: linear-gradient(to left, white, transparent);
-        }
-        @media (min-width: 768px) {
-            .marquee-gradient::before,
-            .marquee-gradient::after {
-                width: 150px;
-            }
-        }
-    </style>
     <div class="container mx-auto relative z-10 overflow-hidden">
         <div class="mb-12 md:mb-16 max-w-4xl px-4 sm:px-6 lg:px-8 text-center mx-auto" data-aos="fade-up">
             <h2 class="text-4xl md:text-5xl lg:text-6xl font-black font-heading text-[#1a1a2e] tracking-tight mb-5 md:mb-6 leading-[1.1]">Trusted by Growing Businesses</h2>

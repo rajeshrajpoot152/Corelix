@@ -1,0 +1,187 @@
+/* Extracted from header.php */
+.gradient-text {
+            background: linear-gradient(135deg, #683AF2 0%, #4CBB18 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-text-alt {
+            background: linear-gradient(135deg, #FD5812 0%, #683AF2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px -10px rgba(59, 130, 246, 0.15);
+            border-color: rgba(59, 130, 246, 0.3);
+        }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #000000;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #683AF2;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #683AF2;
+        }
+
+        /* Scrolled Header Light Theme */
+        #navbar.scrolled-light {
+            background-color: rgba(255, 255, 255, 0.51);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 67px 19px #0000, 0 43px 17px #00000003, 0 24px 14px #0000000a, 0 11px 11px #00000012, 0 3px 6px #00000014;
+        }
+        #navbar.scrolled-light nav > a,
+        #navbar.scrolled-light nav > div > a,
+        #navbar.scrolled-light .font-heading > span,
+        #navbar.scrolled-light #mobile-menu-btn {
+            color: #111111 !important;
+        }
+        #navbar.scrolled-light nav > a:hover,
+        #navbar.scrolled-light nav > div > a:hover {
+            color: #683AF2 !important;
+        }
+        #navbar.scrolled-light #header-cta-btn {
+            border-color: #683AF2 !important;
+            color: #683AF2 !important;
+        }
+        #navbar.scrolled-light #header-cta-btn:hover {
+            background-color: #683AF2 !important;
+            color: #ffffff !important;
+        }
+
+        /* Custom Override for Hero Overlays */
+        .bg-black\/50 {
+            background-color: rgb(0 10 54 / 45%) !important;
+        }
+
+ 
+/* Extracted from index.php */
+.industry-slide {
+            width: 92%;
+        }
+        .industry-arrow-prev {
+            left: 2%;
+            transform: translate(-50%, -50%);
+        }
+        .industry-arrow-next {
+            right: 2%;
+            transform: translate(50%, -50%);
+        }
+        @media (min-width: 768px) {
+            .industry-slide { width: 85%; }
+            .industry-arrow-prev { left: 3.5%; transform: translate(-50%, -50%); }
+            .industry-arrow-next { right: 3.5%; transform: translate(50%, -50%); }
+        }
+        @media (min-width: 1024px) {
+            .industry-slide { width: 80%; }
+            .industry-arrow-prev { left: 5%; transform: translate(-50%, -50%); }
+            .industry-arrow-next { right: 5%; transform: translate(50%, -50%); }
+        }
+        @media (min-width: 1280px) {
+            .industry-slide { width: 78%; }
+            .industry-arrow-prev { left: 6%; transform: translate(-50%, -50%); }
+            .industry-arrow-next { right: 6%; transform: translate(50%, -50%); }
+        }
+        .industrySwiper {
+            overflow: visible !important; /* Allow slides to peek out if needed */
+            clip-path: inset(-100vw 0 -100vw 0); /* Prevent horizontal scrollbar but allow bleed */
+        }
+        .swiper-slide {
+            transition: all 0.6s ease-in-out;
+            opacity: 1 !important; /* Guarantee visibility */
+            visibility: visible !important;
+            transform: scale(0.85); /* Scale down inactive slides */
+        }
+        .swiper-slide-active,
+        .swiper-slide-duplicate-active {
+            transform: scale(1);
+            z-index: 10;
+        }
+        .swiper-slide .swiper-slide-overlay {
+            background-color: rgba(0, 0, 0, 0.85);
+            opacity: 1;
+            transition: opacity 0.6s ease-in-out;
+        }
+        .swiper-slide-active .swiper-slide-overlay,
+        .swiper-slide-duplicate-active .swiper-slide-overlay {
+            opacity: 0;
+        }
+        .swiper-slide .swiper-slide-content {
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: all 0.6s ease-in-out;
+        }
+        .swiper-slide-active .swiper-slide-content,
+        .swiper-slide-duplicate-active .swiper-slide-content {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        .swiper-pagination-custom .swiper-pagination-bullet {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        }
+        .swiper-pagination-custom .swiper-pagination-bullet-active {
+            background-color: #ffffff !important;
+            width: 36px !important;
+            border-radius: 9999px !important;
+            transform: scale(1);
+        }
+
+/* Extracted from index.php */
+@keyframes marquee {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-50%); }
+        }
+        @keyframes marquee-reverse {
+            0% { transform: translateX(-50%); }
+            100% { transform: translateX(0%); }
+        }
+        .animate-marquee {
+            animation: marquee 30s linear infinite;
+        }
+        .animate-marquee-reverse {
+            animation: marquee-reverse 30s linear infinite;
+        }
+        .animate-marquee:hover,
+        .animate-marquee-reverse:hover {
+            animation-play-state: paused;
+        }
+        .marquee-gradient::before,
+        .marquee-gradient::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 80px;
+            height: 100%;
+            z-index: 2;
+            pointer-events: none;
+        }
+        .marquee-gradient::before {
+            left: 0;
+            background: linear-gradient(to right, white, transparent);
+        }
+        .marquee-gradient::after {
+            right: 0;
+            background: linear-gradient(to left, white, transparent);
+        }
+        @media (min-width: 768px) {
+            .marquee-gradient::before,
+            .marquee-gradient::after {
+                width: 150px;
+            }
+        }
+

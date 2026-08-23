@@ -47,6 +47,11 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
     <link rel="icon" type="image/png" href="/assets/images/favicon.png">
     <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
 
+    <!-- Global CSS -->
+    <?php if (basename($_SERVER['PHP_SELF']) !== 'industry.php'): ?>
+    <link rel="stylesheet" href="/assets/main.css">
+    <?php endif; ?>
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
@@ -131,80 +136,8 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
     </script>
     
     <!-- AOS Animation Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="/assets/aos.css" rel="stylesheet">
     
-    <style>
-        .gradient-text {
-            background: linear-gradient(135deg, #683AF2 0%, #4CBB18 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        .gradient-text-alt {
-            background: linear-gradient(135deg, #FD5812 0%, #683AF2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .card-hover {
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .card-hover:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px -10px rgba(59, 130, 246, 0.15);
-            border-color: rgba(59, 130, 246, 0.3);
-        }
-        
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #000000;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #683AF2;
-            border-radius: 4px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #683AF2;
-        }
-
-        /* Scrolled Header Light Theme */
-        #navbar.scrolled-light {
-            background-color: rgba(255, 255, 255, 0.51);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 67px 19px #0000, 0 43px 17px #00000003, 0 24px 14px #0000000a, 0 11px 11px #00000012, 0 3px 6px #00000014;
-        }
-        #navbar.scrolled-light nav > a,
-        #navbar.scrolled-light nav > div > a,
-        #navbar.scrolled-light .font-heading > span,
-        #navbar.scrolled-light #mobile-menu-btn {
-            color: #111111 !important;
-        }
-        #navbar.scrolled-light nav > a:hover,
-        #navbar.scrolled-light nav > div > a:hover {
-            color: #683AF2 !important;
-        }
-        #navbar.scrolled-light #header-cta-btn {
-            border-color: #683AF2 !important;
-            color: #683AF2 !important;
-        }
-        #navbar.scrolled-light #header-cta-btn:hover {
-            background-color: #683AF2 !important;
-            color: #ffffff !important;
-        }
-
-        /* Custom Override for Hero Overlays */
-        .bg-black\/50 {
-            background-color: rgb(0 10 54 / 45%) !important;
-        }
-    </style>
-
     <!-- Schema.org JSON-LD for SEO -->
     <script type="application/ld+json">
     {

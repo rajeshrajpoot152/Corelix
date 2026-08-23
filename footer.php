@@ -3,26 +3,8 @@
 
 
     <!-- Footer Texture Background -->
-    <style>
-        #reveal-footer::after {
-            content: "";
-            background-image: url(/assets/images/footer-icon-bg.png);
-            background-position: center center;
-            background-size: 400px 400px;
-            background-repeat: repeat;
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            z-index: -1;
-            top: 0;
-            left: 0;
-            opacity: 0.099;
-            pointer-events: none;
-        }
-    </style>
-
     <!-- Footer -->
-    <footer id="reveal-footer" class="bg-white pt-16 pb-0 relative z-30 overflow-hidden w-full">
+    <footer class="bg-white pt-16 pb-0 relative z-30 overflow-hidden w-full">
         <!-- Background decoration -->
         <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-blue/5 rounded-full mix-blend-multiply filter blur-[80px] pointer-events-none"></div>
         
@@ -273,14 +255,16 @@
     </div>
 
     <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/assets/aos.js"></script>
     <script>
-        // Initialize AOS animations
-        AOS.init({
-            duration: 800,
-            once: true,
-            offset: 100,
-        });
+        // Initialize AOS animations if loaded
+        if (typeof AOS !== 'undefined') {
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 100,
+            });
+        }
 
         // Mobile menu toggle
         const btn = document.getElementById('mobile-menu-btn');
