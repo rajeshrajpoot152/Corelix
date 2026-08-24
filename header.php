@@ -35,6 +35,20 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
     <meta name="publisher" content="<?php echo htmlspecialchars($metaPublisher, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="robots" content="<?php echo htmlspecialchars($metaRobots, ENT_QUOTES, 'UTF-8'); ?>">
     <!-- Googlebot dynamically inherits meta robots -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9JS95PFG2V"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9JS95PFG2V');
+    </script>
+
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="aNhtONlstDkZdfb5ql7AsF8hciYFTTINiRxZ3-cr9Ic" />
+
     
     <!-- Canonical URL -->
     <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
