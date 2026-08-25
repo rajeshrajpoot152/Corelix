@@ -171,7 +171,7 @@
         </div>
         <!-- Large Background Logo -->
         <div aria-hidden="true" class="relative w-full flex justify-center pointer-events-none mt-10">
-            <img title="Lgoo" src="/assets/images/lgoo.png" alt="Lgoo" class="w-[80vw] max-w-none h-auto object-contain" style="padding-bottom: 2vw; margin-bottom: -2vw;">
+            <img title="logo" src="/assets/images/logo.png" alt="logo" class="w-[80vw] max-w-none h-auto object-contain" style="padding-bottom: 2vw; margin-bottom: -2vw;">
         </div>
     </footer>
 
@@ -186,7 +186,7 @@
             <!-- Left Content (Offer & Features) -->
             <div class="w-full lg:w-1/2 p-8 lg:p-12 bg-white relative z-10 flex flex-col justify-center">
                 <div class="flex items-center gap-2 mb-6">
-                    <img title="Lgoo" src="/assets/images/lgoo.png" alt="GrowAutoAi Logo" class="h-8 md:h-10 w-auto object-contain filter">
+                    <img title="logo" src="/assets/images/logo.png" alt="GrowAutoAi Logo" class="h-8 md:h-10 w-auto object-contain filter">
                 </div>
                 
                 <div class="inline-flex px-3 py-1 bg-brand-blue/10 text-brand-blue font-bold text-sm tracking-wider uppercase rounded-full mb-4 w-fit">Special Offer</div>

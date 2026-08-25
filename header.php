@@ -201,9 +201,9 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
             <div class="flex items-center h-20 transition-all duration-300 w-full" id="nav-inner">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
-                    <!-- <a href="/" class="font-heading font-black text-3xl tracking-tight flex items-center gap-2" title="GrowAutoAi Home">
-                        <img id="header-logo" src="/assets/images/lgoo-white.png" alt="GrowAutoAi Logo" title="GrowAutoAi" class="h-6 md:h-8 w-auto object-contain transition-all duration-300">
-                    </a> -->
+                    <a href="/" class="font-heading font-black text-3xl tracking-tight flex items-center gap-2" title="GrowAutoAi Home">
+                        <img id="header-logo" src="/assets/images/logo-white.png" alt="GrowAutoAi Logo" title="GrowAutoAi" class="h-6 md:h-8 w-auto object-contain transition-all duration-300">
+                    </a>
                 </div>
                 
                 <!-- Desktop Menu -->
@@ -345,14 +345,14 @@ $ogImage = isset($ogImage) ? $ogImage : (isset($protocol) && isset($host) ? $pro
                     navbar.classList.remove('w-full', 'bg-transparent', 'border-transparent');
                     navInner.classList.remove('h-20');
                     navInner.classList.add('h-16');
-                    if (headerLogo) headerLogo.src = '/assets/images/lgoo.png';
+                    if (headerLogo) headerLogo.src = '/assets/images/logo.png';
                 } else {
                     // Top state: full width, transparent, original height
                     navbar.classList.remove('mt-4', 'w-[calc(100%-2rem)]', 'max-w-[1968px]', 'rounded-full', 'scrolled-light');
                     navbar.classList.add('w-full', 'bg-transparent', 'border-transparent');
                     navInner.classList.remove('h-16');
                     navInner.classList.add('h-20');
-                    if (headerLogo) headerLogo.src = '/assets/images/lgoo-white.png';
+                    if (headerLogo) headerLogo.src = '/assets/images/logo-white.png';
                 }
             };
             
