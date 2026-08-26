@@ -490,7 +490,7 @@
                         Oops! Something went wrong. Please try again.
                     </div>
                 <?php endif; ?>
-                <form action="process_contact.php" method="POST" class="space-y-4">
+                <form action="/process_contact" method="POST" class="space-y-4">
                     <input type="hidden" name="form_source" value="Footer">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>

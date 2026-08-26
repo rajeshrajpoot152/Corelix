@@ -122,7 +122,7 @@ include 'header.php';
                             Oops! Something went wrong. Please try again.
                         </div>
                     <?php endif; ?>
-                    <form action="process_contact.php" method="POST" class="space-y-4 md:space-y-5 relative z-10">
+                    <form action="process_contact" method="POST" class="space-y-4 md:space-y-5 relative z-10">
                         <input type="hidden" name="form_source" value="Contact Page">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
                             <div>

@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ];
     
     array_unshift($inquiries, $newInquiry); // Add to beginning
-    file_put_contents($dataFile, json_encode($inquiries, JSON_PRETTY_PRINT));
+    @file_put_contents($dataFile, json_encode($inquiries, JSON_PRETTY_PRINT));
 
     $mail = new PHPMailer(true);
     try {

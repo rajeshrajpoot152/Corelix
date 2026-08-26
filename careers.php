@@ -454,7 +454,7 @@ include 'header.php';
                             ?>
                         </div>
                     <?php endif; ?>
-                    <form action="process_career.php" method="POST" enctype="multipart/form-data" class="space-y-4 sm:space-y-5 relative z-10">
+                    <form action="process_career" method="POST" enctype="multipart/form-data" class="space-y-4 sm:space-y-5 relative z-10">
                         <input type="hidden" name="form_source" value="Careers Page">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
                         <div>
